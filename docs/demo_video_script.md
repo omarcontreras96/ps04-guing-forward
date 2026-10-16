@@ -46,9 +46,9 @@ bash reporting/trace_claim.sh $P 03-c4
 ```
 
 > "Here's a published claim: The Verge's smart-home reviewer calls setting up Alexa Plus routines by voice
-> 'the game changer', but says agentic errands only occasionally work. Footnote 4 in the article is
-> claim 03-c4 in the brief. It's typed as a *source claim*, because it's the reviewer's opinion and not
-> our fact. Its evidence points to a specific version of a Vergecast episode and to two transcript
+> 'the game changer', but says agentic errands only occasionally work. That's source 5 in the published
+> article. In the pipeline it's claim 03-c4 in the brief; published sources are simply renumbered in
+> reading order. It's typed as a *source claim*, because it's the reviewer's opinion and not our fact. Its evidence points to a specific version of a Vergecast episode and to two transcript
 > segments: seg-0017, at 08:51, and seg-0022, at 11:39. Those are whisper.cpp transcript segments
 > stored in data/assets, and you can read the exact words here. The editorial decision record shows the
 > AI accepted this episode as 'the strongest first-hand voice evidence', and it noted the Ring

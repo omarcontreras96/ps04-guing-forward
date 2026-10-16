@@ -40,6 +40,19 @@
 
 
 
+**Note: these v2 briefs are not the published series.** The replay above changes *only* the policy,
+holding run 1's 51 items fixed, so that the policy's effect can be isolated. The published series came
+one step later, from `runs/live-20261015T045321Z`. That run used the same policy v2, plus the corrected
+project brief (my question and three themes), plus theme-aware collection
+(`review_notes/option_b_changes.md`). The extra collection added smart-glasses and voice sources and
+raised the eligible items from 51 to 83. Its briefs became the published articles:
+
+| Piece | Published title (live-20261015T045321Z) |
+| --- | --- |
+| 01 | The agent became the front door; the hardware is still auditioning |
+| 02 | A confirmation step is not verification |
+| 03 | Talk to delegate, look to check: what the '2001' question looks like in practice |
+
 ## Interpretation
 
 - **Revision 1 (relayed statements): it worked as intended.** On two pieces of identical evidence, v2 deferred the Vergecast "$8 million AI music scam" episode, and its reason cites both new clauses: a 90-second news recap in an off-topic episode, and a relayed remark with no primary source. The cost is that piece 03 loses the "JPMorgan is blocking agents" signal. I think that trade is ok. A CEO's statement heard second-hand on a podcast is a kind of claim a reader cannot verify. If it matters, it will reach a primary source, and "defer" keeps it in view for a later edition.

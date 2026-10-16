@@ -49,7 +49,7 @@ timestamped sources and an AI disclosure.
 - **Links:** recorded in `package/publication_links.json`. The articles are free on Substack; the
 videos are unlisted.
 
-**Separate technical demonstration video:** TODO
+**Separate technical demonstration video:** [https://youtu.be/xeZybB2vKSE](https://youtu.be/xeZybB2vKSE)
 
 ## Setup and Execution
 
@@ -314,7 +314,7 @@ labelled as simulated.
 
 **Trace of one published claim** (run `bash reporting/trace_claim.sh runs/live-20261015T045321Z 03-c4`)
 
-1. **Published sentence** (piece 03, source [4]): *The Verge's smart home reviewer, after a year with
+1. **Published sentence** (piece 03, source [5]; draft marker `[03-c4]`, renumbered in reading order at packaging): *The Verge's smart home reviewer, after a year with
   Alexa Plus, called setting up routines by voice "the game changer"… the errands Amazon promotes,
    such as Uber Eats orders and booking tickets, are hit and miss: "occasionally it works and
    occasionally it doesn't" (The Vergecast, 11:39).*

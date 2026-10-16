@@ -18,7 +18,13 @@ claim = next((c for c in (brief or {}).get("claims", []) if c["claim_id"] == cid
 if not claim:
     sys.exit(f"claim {cid} not found in {run}/briefs.jsonl")
 def h(t): print(f"\n=== {t}")
+draft = open(f"{run}/articles/{pid}.md", encoding="utf-8").read()
+body = re.split(r"\n##\s+References", draft, maxsplit=1)[0]
+order = list(dict.fromkeys(re.findall(r"\[(\d{2}-c\d+)\]", body)))
+num = order.index(cid) + 1 if cid in order else None
 h(f"1. PUBLISHED / DRAFT TEXT ({run}/articles/{pid}.md)")
+print(f"  draft marker [{cid}] -> published as source [{num}] in package/articles/{pid}.md "
+      f"(sources are numbered by first appearance in the article)")
 for line in open(f"{run}/articles/{pid}.md", encoding="utf-8"):
     if f"[{cid}]" in line and not line.startswith("- **["):
         for sent in re.split(r"(?<=[.!?\]])\s+", line.strip()):
