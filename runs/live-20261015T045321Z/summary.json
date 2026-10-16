@@ -8,7 +8,7 @@
   "started_at": "2026-10-15T04:53:21Z",
   "pipeline_finished_at": "2026-10-15T05:04:09Z",
   "elapsed_seconds": 648.0,
-  "last_activity_at": "2026-10-16T00:54:42Z",
+  "last_activity_at": "2026-10-16T19:25:15Z",
   "counts": {
     "discovered": 71,
     "discovered_distinct_items": 71,
@@ -409,6 +409,54 @@
       "cost_usd": 0.0,
       "note": "package at runs/live-20261015T045321Z/package",
       "receipt": "runs/live-20261015T045321Z/logs/prepare_package-20261016T005442-118122.json"
+    },
+    {
+      "stage": "summarize_run",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": null,
+      "output_count": 1,
+      "started_at": "2026-10-16T00:54:42Z",
+      "finished_at": "2026-10-16T00:54:43Z",
+      "cost_usd": 0.0,
+      "note": "status=ready_for_production",
+      "receipt": "runs/live-20261015T045321Z/logs/summarize_run-20261016T005443-a37eef.json"
+    },
+    {
+      "stage": "check_content",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 1,
+      "started_at": "2026-10-16T19:25:11Z",
+      "finished_at": "2026-10-16T19:25:13Z",
+      "cost_usd": 0.0,
+      "note": "passed=true errors=0 warnings=6 review_id=7404781cfb15",
+      "receipt": "runs/live-20261015T045321Z/logs/check_content-20261016T192513-5b4fe0.json"
+    },
+    {
+      "stage": "check_content",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 1,
+      "started_at": "2026-10-16T19:25:13Z",
+      "finished_at": "2026-10-16T19:25:14Z",
+      "cost_usd": 0.0,
+      "note": "passed=true errors=0 warnings=6 review_id=7404781cfb15",
+      "receipt": "runs/live-20261015T045321Z/logs/check_content-20261016T192514-2baa31.json"
+    },
+    {
+      "stage": "prepare_package",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 3,
+      "started_at": "2026-10-16T19:25:13Z",
+      "finished_at": "2026-10-16T19:25:15Z",
+      "cost_usd": 0.0,
+      "note": "package at runs/live-20261015T045321Z/package",
+      "receipt": "runs/live-20261015T045321Z/logs/prepare_package-20261016T192515-dc754e.json"
     }
   ],
   "failed_or_incomplete_stages": [
@@ -498,26 +546,26 @@
   },
   "package": {
     "path": "runs/live-20261015T045321Z/package",
-    "packaged_at": "2026-10-16T00:54:42Z"
+    "packaged_at": "2026-10-16T19:25:15Z"
   },
   "publication_links": [
     {
       "piece_id": "01",
       "substack_url": "https://guingforward.substack.com/p/the-agent-became-the-front-door-the",
-      "youtube_url": null
+      "youtube_url": "https://youtu.be/6WbYMjLE_EA"
     },
     {
       "piece_id": "02",
       "substack_url": "https://guingforward.substack.com/p/a-confirmation-step-is-not-verification",
-      "youtube_url": null
+      "youtube_url": "https://youtu.be/lDymNL8g0Xc"
     },
     {
       "piece_id": "03",
       "substack_url": "https://guingforward.substack.com/p/talk-to-delegate-look-to-check",
-      "youtube_url": null
+      "youtube_url": "https://youtu.be/SKc7C__BY10"
     }
   ],
-  "published": false,
+  "published": true,
   "remaining_manual_actions": [
     "Produce three videos in Google Vids from package/video_scripts/ (manual)",
     "Upload videos to YouTube with package/youtube/NN_description.txt (manual)",

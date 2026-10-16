@@ -4,7 +4,7 @@
   "review_id": "7404781cfb15766805f9eb44a548e39bddd66f8c795fcc59529ad22aeddc4b31",
   "approved_by": "Omar Contreras",
   "approved_at": "2026-10-16T00:25:47Z",
-  "packaged_at": "2026-10-16T00:54:42Z",
+  "packaged_at": "2026-10-16T19:25:15Z",
   "pieces": [
     {
       "piece_id": "01",
@@ -34,8 +34,8 @@
   "publication_links": "runs/live-20261015T045321Z/package/publication_links.json",
   "manual_steps": "runs/live-20261015T045321Z/package/MANUAL_STEPS.md",
   "published": {
-    "01": false,
-    "02": false,
-    "03": false
+    "01": true,
+    "02": true,
+    "03": true
   }
 }
