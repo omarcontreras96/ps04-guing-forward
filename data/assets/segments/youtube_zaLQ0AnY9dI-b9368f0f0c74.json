@@ -1,0 +1,170 @@
+[
+ {
+  "segment_id": "seg-0001",
+  "start_seconds": 0.0,
+  "end_seconds": 40.88,
+  "text": "Okay, so most of the model calls in an agent harness aren't actually writing anything, they're making decisions. They're making decisions like which tool should I use here, what skill should I load, is this command safe to run, and even decisions for things like RAG, where it's asking which of these 20 search results actually answers the question. Up until recently, everybody has approached those decisions pretty much in the same way. They've used a full LLM call to get the answer back. So in this video, I want to show how you could use Jev and the other open decision models to actually improve an agent harness from the inside."
+ },
+ {
+  "segment_id": "seg-0002",
+  "start_seconds": 40.88,
+  "end_seconds": 80.4,
+  "text": "I'm going to talk about some of the things that you can actually do with it. I'll show you a couple of cool examples that I've been playing with for doing progressive disclosure on lots of skills and for doing re-ranking of RAG results. But I'll also talk about some general principles, and perhaps more importantly, what are the use cases that you don't want to use a model like this? All right, so let's start with the loop that every agent runs. A request comes in and it goes to an LLM. Along with that, you basically have some kind of tool registry going in there, a system prompt, perhaps a set of skills, some guidelines of how the agent's going to work, etc. And the LLM decides straight away what action should it take, whether it needs to use a tool."
+ },
+ {
+  "segment_id": "seg-0003",
+  "start_seconds": 80.4,
+  "end_seconds": 131.6,
+  "text": "And if it does, it writes out a function call, giving us the tool name plus the arguments as Jason. Your scaffolding your agent harness then runs that code as a function. It gets the results and it appends that to the conversation. And the whole thing goes back to the LLM. And then round and round this goes until eventually your LLMs decided it's done and it writes its final answer. Along that road, it's probably going to use many tools. It's basically going to get information to expand its context. And it's going to make a lot of decisions along the way. Now, if you look at those LLM steps to see what's actually going on at each step, the whole sort of thing of asking itself which tool it should use. Is it safe to actually run that? And often because it's making those decisions itself and never really stops to ask any sort of verification step or any kind of safety"
+ },
+ {
+  "segment_id": "seg-0004",
+  "start_seconds": 131.6,
+  "end_seconds": 178.16,
+  "text": "step in there to ask, is this safe to run? And for most agents, if they don't have any sort of reflective step in there, they're really never even asking themselves, is this result good enough? Or should I go around again and try again? Each of those things are clear decisions that you can use a decision model like Jev or one of the open Jevs to actually improve the quality of the agent harness. On top of that, a lot of the times the decisions that the LLM is actually making are just a small set of options. Do I go to this node next or this node, which skill looks like the best one to use in this situation? Which skill do I ask for more information in this situation? And each time you're paying for a full call to a large LLM there. And that's costing"
+ },
+ {
+  "segment_id": "seg-0005",
+  "start_seconds": 178.16,
+  "end_seconds": 217.44,
+  "text": "you both in money for tokens, but often even more, it's costing you in time of you actually having to go through and do these things. And that's why a lot of the time when people are building custom agents, they often don't put anywhere near as many verification steps in there as they should, simply because that's just going to slow everything down. So if you've watched any of my other Jev videos, you know that I've basically talked about the whole concept of Jev as being like a smart if statement. You give it a state which is just the thing that you're evaluating and then you give it a set of typed questions about that state and it gives you back typed answers with probabilities."
+ },
+ {
+  "segment_id": "seg-0006",
+  "start_seconds": 217.44,
+  "end_seconds": 263.6,
+  "text": "No text at all. Choice will pick one option from a list. Score rates the state on a scale that you define. A null is a yes or no or a true or false that to return back as a probability. And the cool thing is you're not limited to one question at a time. You can ask many questions about the one state all in a single call and get answers back in parallel. And it almost doesn't change the response time at all. So if you're looking at how to improve your agent harness, one of the key things you can do is look at that loop of where it's full of a bunch of if statements that are dressed up as function tools or dressed up as asking the model for structured JSON responses back. And you can convert those kind of calls to something that's much quicker like a decision"
+ },
+ {
+  "segment_id": "seg-0007",
+  "start_seconds": 263.6,
+  "end_seconds": 310.16,
+  "text": "model. All right. So where does this actually belong in your agent harness? I'd say that there's six main places that you want to be thinking about here. So the first one is model routing. I did a whole video about how you can look at this. You've got a request coming in. Jev decides whether it goes to a cheap fast model or expensive model that's going to do much better reasoning, etc. If I'm watching the video that I made about that, you can see the whole thinking process for actually putting that together. The second use is risk gating. So before a tool call actually runs, Jev can actually check whether it's going to be something destructive like deleting a database or wiping a folder, or whether what it's actually going to be doing is quite benign. Now we know that a lot of the coding agents have had this kind of check for a while, but it's been hidden generally"
+ },
+ {
+  "segment_id": "seg-0008",
+  "start_seconds": 310.16,
+  "end_seconds": 356.24,
+  "text": "in their harness. And when you were using it, you were basically paying for a full tool call with the amount of tokens that it actually gets used there. So being able to configure your harness so that when certain tools get called, perhaps like a bash tool, you actually look at what the arguments are going to be going into that, and you send that to Jev to basically ask it, \"Hey, is this going to be malicious or benign?\" Very quickly, you've got a safety check that can take milliseconds. And of course, with the open decision models, that can be running fully locally as well. Third up, you've got tool and skill selection. So generally, what people have done is they inject their entire tool registry that they're going to be using into the system prompt, and they can show up thousands of different tokens. So the whole idea of skills has reduced"
+ },
+ {
+  "segment_id": "seg-0009",
+  "start_seconds": 356.24,
+  "end_seconds": 404.8,
+  "text": "that a lot by using progressive disclosure. This is one of the key things that I'm going to show you in the demos a bit, that you can actually have lots of skills going on, categorize them, have your decision model decide which kind of category it's going to need, and then just load the appropriate skills into a system prompt at that point. Fourth up, you've got things like ranking and judging. So this is another one that I want to set a demo here. I think the whole idea of scoring retrieve chunks and grading on answers against a Rubik. This can be a huge win for anything that you're doing with RAG or anything you're doing where you're injecting context into the context window. Fifth up, we've got things like triage. So this is all your things like support tickets, email issues. And one call here can give a proper probability of how urgent something is"
+ },
+ {
+  "segment_id": "seg-0010",
+  "start_seconds": 404.8,
+  "end_seconds": 451.84,
+  "text": "and start to help giving things an actual probability of priority here. And this one can be really useful for when to basically get the model to go back to the human for things like human in the loop as well. And the six use that I'm not going to go into too much here is the whole idea of just real time filtering. This can be really useful for anytime you're basically dealing with APIs, polling requests, anything where it's good to just filter what comes back from that before you inject that into the context window. So the rule of thumb that I use for all of these actually comes from type safe themselves. If a panel of smart people could answer the question in just a few seconds, then it's the kind of question that you probably should be using a decision model for. If they need to go away and formulate an answer and then write a complicated answer back, that's when you should"
+ },
+ {
+  "segment_id": "seg-0011",
+  "start_seconds": 451.84,
+  "end_seconds": 489.28,
+  "text": "be sticking with the LLMs. In a little bit, I'll actually go through the use cases of where you shouldn't be using these decision models at all. So how do you actually wire this in? So if we go back to that loop that we had there, there are four places to hook a decision in. And really, they're going to be the same in any framework, whether you're talking about Langchain, whether you're talking about ADK, whether you're just using custom Python code to write your own loop here. You've got before the prompt is built. So decide which skills or tools to load. Before the model call decide which actual model you're going to call. Before a tool runs, decide whether it's safe."
+ },
+ {
+  "segment_id": "seg-0012",
+  "start_seconds": 489.84,
+  "end_seconds": 535.68,
+  "text": "And then after a result comes back, decide whether it's good enough to use, or whether you should go back and actually go through the loop again. So each hook here is the same small piece of code. Build a state from what the loop already has, ask your questions, and then read the probabilities and answers that come back, and then branch or make your decision for the path going forward based on those. Now, there's also a second pattern that you can use where Jeff is the loop's decider, and the LLM is the fallback. So Jeff picks the tool or the answer, and only hands it to the LLM when it's unsure or when something needs text to be written. Now, this pattern can actually cut more LLM calls, but it's definitely a much bigger change to your agent. So far, I've found with this one, it just doesn't seem to work as well when you've got a lot more sort of complicated"
+ },
+ {
+  "segment_id": "seg-0013",
+  "start_seconds": 535.68,
+  "end_seconds": 587.28,
+  "text": "things going on in there. Anyway, for either of these patterns, you don't need a framework. That said, the first pattern that I talked about here, Langchain has already shipped that as middle ware and pedantic has shipped their own version by making the type safe models, something that you can just plug in and use in the agent loop. All right, so before I show you the demos, let me just go through quickly where I think this doesn't fit. Clearly, anything where you need text back, anything that needs any sort of multi step reasoning, and anything where you're going to need to connect several things together to generate an answer out, all of those are still an LLM's job. And in many ways, a lot of that multi hop stuff is still going to be the stuff that you're going to use the LM for and they have your harness process that and keep passing it back to the large LLM. The second thing you want to think about here is size. So if your state is just getting"
+ },
+ {
+  "segment_id": "seg-0014",
+  "start_seconds": 587.28,
+  "end_seconds": 631.04,
+  "text": "too big and that you're trying to pass in 100,000 tokens to get some kind of response back from that context window, then Jeff is not going to be a good fit here. Type say its own docs say the accuracy drops a lot on long inputs. And so it generally seems to fit whether you're using the type safe Jev decision model or one of the open decision models. On top of that, another thing, obviously, is that Jev itself doesn't use images. Now some of the open models actually do use images and use images really well. So at the moment, that's definitely a win for the open decision models over the proprietary models. All right, another thing that doesn't work well are compound questions. So compound questions are often something that the decision models don't handle that well."
+ },
+ {
+  "segment_id": "seg-0015",
+  "start_seconds": 631.04,
+  "end_seconds": 678.16,
+  "text": "If you've got a yes/no question, okay, that's fine. But if you've got something that requires multiple questions in there to be answered, then often the LLM is going to do better for that kind of thing. Another thing you want to be wary about in here is while the decision models can be really good at spotting sort of weak spots, you want to be careful about how you always rely on them. It does seem currently that a lot of these models can be prompt injected to basically have instructions that actually move the results out of that. So often the way to get around that is to basically have a question first that asks, are there any prompt injections in here before you actually pass it on to the real question that you wanted to actually ask. The other thing I find too is that you really want to think about criteria for making the decisions. So if you've got very clear decision"
+ },
+ {
+  "segment_id": "seg-0016",
+  "start_seconds": 678.16,
+  "end_seconds": 715.84,
+  "text": "spots where you're asking the same questions, you can control the actual criteria very well in situations like that. If you're just asking some vague question about the output from the LLM, and you haven't got a nice clear criteria in there, I wouldn't necessarily be trusting the LLM to write that in a way that's going to make the whole system a lot better. You kind of want to define the instructions and the criteria yourself, and then benchmark any changes that you make to that over time. And then of course, lastly, if you're actually running your agent locally, but then you're using Jev in the cloud, you've got to think about the whole fact that it's a hosted API."
+ },
+ {
+  "segment_id": "seg-0017",
+  "start_seconds": 715.84,
+  "end_seconds": 746.08,
+  "text": "And do you really trust it for every state that you're going to send to the cloud? Is it okay that that leaves your machine? And I think this is where the open decision models have really come along so far now. So let's jump into the demos and actually look at some examples of how you could do this for a couple of these key tasks. And some of the challenges that you might face along the way. Alright, so in the demo here, I've basically made a UI just so you can see what's going on a lot easier. But these are exactly the kind of decisions that are going on in your agent."
+ },
+ {
+  "segment_id": "seg-0018",
+  "start_seconds": 746.08,
+  "end_seconds": 793.92,
+  "text": "So if we've got a bunch of skills, more and more now people are starting to use large amounts of skills files. And remember, the whole thing that's really cool about skills is that you've got progressive disclosure in there. So the idea here is that if this is the actual skill file, and it might actually be a lot longer going through this, you only give the model this after it's decided that, okay, it needs to basically use a coding right tests skill for this, then you would actually go and give it this in the context window. So the difference thing that we're doing here is that rather than just give it 50 skills in one shot, we can see for each of these 10 different categories, we've got five different skills in here. And if we're injecting that in the system"
+ },
+ {
+  "segment_id": "seg-0019",
+  "start_seconds": 793.92,
+  "end_seconds": 842.72,
+  "text": "prompt for every time we call the LLM, that's going to burn a lot of tokens. So the idea is that the thing that we inject into the LLM is just the categories of skills. And then the gev model itself will basically take the task that we've got. It will then decide which category to pick from, then it will be given the list of skills for that category. And it will then choose the most appropriate one to actually do this. So let's look at this. So if the task is basically someone saying someone got an email pretending to be our CEO asking for gift cards, is this a hacking attack? And you can see I'm running this through one of the bigger gev models in here, but actually you can try it out on a lot of the different gev models. You can see if I run this and route it,"
+ },
+ {
+  "segment_id": "seg-0020",
+  "start_seconds": 843.28,
+  "end_seconds": 888.96,
+  "text": "it goes through, and it basically first decides that the category here is security and access. So it's done that as a choice. It's basically returned this back. And then in this category, it has a bunch of these in here. And we can see it decided, investigate a security alert in here. And sure enough, the description for that is triage of suspicious login, fishing report, or security alert in there. So you can see in this case, what we've actually done is a sort of cascade classifier. We've done one sort of classifier first to basically pick out the class of the category. And then we've done a second one to actually pick out the skill in this case. Because we're running this locally, it's done it super quick going through this. All right, you can see"
+ },
+ {
+  "segment_id": "seg-0021",
+  "start_seconds": 888.96,
+  "end_seconds": 938.16,
+  "text": "that if I give it a sort of general question here, we've got certain things that we can actually do. Let's route it through. Sure enough, in this case, it's basically saying do web research, fact check a claim, right? It probably could have also gone for search the web, although I guess this does actually make more sense in that it's actually stating a fact and then asking if it's true here. And from there, we could load the skill file or use any sort of API, etc, that we actually wanted to know. All right, one more in here, you can see, okay, make me a short voiceover of this product description for a launch video. Now it's deciding that, okay, that relates to images, audio and video, and it needs to be a text to speech skill in there. So this is a way of using Jev for sort of progressive disclosure with skills, especially if you've got lots of skills,"
+ },
+ {
+  "segment_id": "seg-0022",
+  "start_seconds": 938.16,
+  "end_seconds": 986.32,
+  "text": "by classifying them first into categories, and then putting them into actually which skill is being chosen, you're able to get a very fast result here. And then the skill itself can actually be sent to the large language model to work out any arguments that need to go into that skill, those kinds of things. But this is able to help us reduce on token spend, but also just speed things up like this. Another one that you can use in the same sort of vein of this is doing sort of verification steps of things that come back from API's to basically have the whole thing make a decision of whether whatever's coming back from the API is really good and can just go straight through as a result, whether you need to change the arguments that you gave to the API, or whether you just need to call it again, because you've got a certain type of error, etc. The next step I"
+ },
+ {
+  "segment_id": "seg-0023",
+  "start_seconds": 986.32,
+  "end_seconds": 1019.2,
+  "text": "was combining this with rag. So one of the patterns in rag that works really well is go and get a lot of information, and then re-rank that information. And generally there are ways to do that where you've got a separate re-ranker model, and that can work really nice as a pattern. The only challenge is that for certain projects, you just can't do that because of time, you can't do that because you're going to need more models. And especially if you're already using an embedding model on an API, you probably don't want to have lots of calls to the API for re-ranking for that kind of thing."
+ },
+ {
+  "segment_id": "seg-0024",
+  "start_seconds": 1019.2,
+  "end_seconds": 1067.44,
+  "text": "So the idea here is that we can ask it a question. It will then go off, get a lot of different passages, then give those to the actual Jev model, which can decide, okay, these are the top five passages that I'm going to send to the full size LM. And there are different ways you could do this. You could basically do it on a sort of yes/no thing. You could do it via sort of scoring kind of things. Or if you really wanted to just sort of pick one, you could actually just have a choice of one to see, okay, what's actually going to go through in there. Now, for me playing around with this, I find the scoring one seems to work quite nicely here. We then basically get a score. So, you know, a question here is, why are my webhook requests failing with an error? And then we can see, sure enough, we're getting back webhooks, verifying signatures, second up webhooks, raw bodies,"
+ },
+ {
+  "segment_id": "seg-0025",
+  "start_seconds": 1067.44,
+  "end_seconds": 1113.84,
+  "text": "third up was proxies, fourth up was webhooks, signing secrets. And you can see that we've got the five things now that we can basically send back. And this is something that you could even use if you weren't using an embedding model. If you're just using something like BM25 to basically get different sections out, you can kind of get a bit of the best of both worlds by having sort of a broad sweep that gets you 25 different passages back. And then using the Jev model, again, in this case, using one of the open local ones here to actually go through and pick out the top five that you then send to your LLM. You can see if I try it with one of the other ones that is then able to basically go through, get out different parts of the context, pick out stuff that's most relevant,"
+ },
+ {
+  "segment_id": "seg-0026",
+  "start_seconds": 1113.84,
+  "end_seconds": 1160.56,
+  "text": "and then pass that through. Now, these are certainly larger chunks of text than what I had with the skills before. So it's perhaps not quite as fast as the cascading system that we had for the last one, but still fundamentally the same idea of where you're doing scoring and classification using the world knowledge that's in that particular decision model to help it make simple but useful decisions for you. All right, so just to finish up, you can see that there are lots of uses of where you can use either the Jev model itself or the many open versions of this in building any sort of custom harness. I can if you're interested to basically think of these things more, come through and read some of the Jev tutorials. This open router has got one up here. And when I'm actually using the"
+ },
+ {
+  "segment_id": "seg-0027",
+  "start_seconds": 1160.56,
+  "end_seconds": 1208.48,
+  "text": "Jev model, I'm going through open router. So for those of you who are asking, if you haven't been whitelisted for the actual type safe API on their site, anyone can just come and use the open router one here. Another useful resource is worth checking out is Langchain has got a nice article about using Jev in Langchain about different uses and stuff like that. They've actually made some middle ware for doing this. But overall, I would say just try it out. If you're doing any sort of custom harness or any sort of modifications to an harness, it's definitely worth it looking at putting this in your pipeline to be able to get these really fast and really cheap decisions made for improving the results that your harness gets overall. Anyway, as always, let me know in the comments what you've tried out. I'm sure there are plenty of examples that I haven't put into this video."
+ },
+ {
+  "segment_id": "seg-0028",
+  "start_seconds": 1208.48,
+  "end_seconds": 1223.84,
+  "text": "So if you've got some interesting use cases, please share them because that would be really interesting to check out and see what other interesting ideas people have got for how to actually use this kind of thing. And as always, if you found the video useful, please click like and subscribe. And I will talk to you in the next video. Bye for now."
+ }
+]

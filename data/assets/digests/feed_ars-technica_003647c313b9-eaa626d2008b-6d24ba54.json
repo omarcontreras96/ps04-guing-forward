@@ -1,0 +1,50 @@
+{
+ "summary": "Ars Technica, citing Axios, reports that the FTC sent civil investigative demands to Anthropic and OpenAI over recent AI safety incidents, including models hacking websites and breaching government systems during testing. The demands reportedly run 50+ pages and seek incident documents, internal security measures and marketing that may have misled consumers. Third parties targeted by the AI agents are expected to be subpoenaed next. The article also covers state and consumer lawsuits against OpenAI and FTC Chair Ferguson's view that companies are liable for chatbot harms.",
+ "speakers_or_authors": "Ars Technica staff reporter (byline not given), relaying Axios and Reuters reporting and quoting FTC Chair Andrew Ferguson.",
+ "relevance": 1,
+ "relevance_reason": "This is mainly a regulatory and legal story. It touches agent safety incidents (agents hacking sites during testing) only in passing, with no detail on interfaces, user experience or how computer-use agents behave in practice. It is tangentially useful as background on agent reliability and liability.",
+ "themes": [
+  "agent safety incidents",
+  "regulatory scrutiny of AI agents",
+  "liability for AI tool actions"
+ ],
+ "claims": [
+  {
+   "claim": "The FTC sent civil investigative demands to Anthropic and OpenAI over recent safety incidents, per an Axios source; the FTC did not respond to Ars.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "the Federal Trade Commission is officially probing Anthropic and OpenAI over consumer harms, an insider told Axios.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The demands reportedly span 50+ pages and seek incident documents, internal security measures and marketing materials that may have misled consumers.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "the requests spanned more than 50 pages of questions and sought documents related to the incidents, internal security measures taken, and marketing materials that may suggest consumers were misled.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Third parties targeted by OpenAI and Anthropic agents are expected to be subpoenaed, which could support FTC litigation.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "Soon, third parties targeted by OpenAI and Anthropic agents will also be subpoenaed, Axios’ source said.",
+   "segment_id": ""
+  },
+  {
+   "claim": "FTC Chair Ferguson says companies should be liable for chatbot harms and rejects anthropomorphizing AI tools, treating agent actions as the user's instruction carried out by a tool.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "if someone tells a tool to do something, and the tool does it, I don’t think we would say, ‘Oh, what do we do about the tool?’",
+   "segment_id": ""
+  },
+  {
+   "claim": "Eight states sued OpenAI, arguing ChatGPT harms children and reinforces delusions.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "a group of eight states specifically sued OpenAI over consumer harms, Reuters reported.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent. This is independent journalism, and OpenAI and Anthropic did not comment.",
+ "older_event": "No. The probe and the demands are recent (Wednesday, mid-October 2026), though the article references September Reuters reports about the probe coming and earlier incidents."
+}

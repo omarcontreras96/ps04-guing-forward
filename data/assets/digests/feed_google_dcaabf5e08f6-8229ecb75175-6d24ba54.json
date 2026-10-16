@@ -1,0 +1,50 @@
+{
+ "summary": "Google announces Universal Cart, an intelligent shopping cart rolling out in the U.S. across Google Search (AI Mode) and the Gemini app. It saves products from multiple retailers, tracks price and stock changes via the Shopping Graph, uses Google Wallet to suggest cards and promo codes, and offers checkout via Google Pay or transfer to the merchant's cart, using the Universal Commerce Protocol. Google frames it as the non-agentic, 'confidence and control' track of its commerce work.",
+ "speakers_or_authors": "Google (vendor blog post, Google Keyword)",
+ "relevance": 1,
+ "relevance_reason": "A vendor product launch tied to Gemini and AI Mode shopping that touches on personal context (Wallet data) and agentic commerce, but it is a shopping feature rather than a change in how people operate computers. It is mostly a feature list with no user evidence.",
+ "themes": [
+  "Personal context (Google Wallet card data used for recommendations)",
+  "Agentic commerce (UCP checkout; Google explicitly separates the cart from agentic capabilities)",
+  "Vendor product launch"
+ ],
+ "claims": [
+  {
+   "claim": "Google says Universal Cart is rolling out in the U.S. in Search and the Gemini app.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Today, Universal Cart is rolling out in the U.S. across Google Search and in the Gemini app.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google says the cart is built on Shopping Graph listings and sends notifications about price drops and restocks.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "This allows it to proactively work for you in the background, sending notifications about price drops or when an item comes back in stock.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google says the cart uses Google Wallet data to understand card perks and help choose a payment method.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "The Universal Cart is built on Google Wallet so it understands your card perks and can intelligently help you choose between payment methods.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google says checkout works in the cart with Google Pay or by transferring items to the merchant's cart, with merchants staying seller of record.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "you will receive direct confirmations and customer support from the merchant, and they will remain the seller of record.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google positions the cart as the control-oriented track, separate from agentic capabilities that act on the user's behalf.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "our focus spans two fronts: unlocking agentic capabilities that act on your behalf, and designing practical tools that give shoppers confidence and control.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Vendor speaking about its own product; Google promotes its Shopping Graph, Wallet, Google Pay, UCP and named merchant partners (Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair, Shopify merchants). No independent testing or user evidence.",
+ "older_event": "No. This is a new rollout announced 2026-10-15, though the cart was previewed earlier in the year; the new part is U.S. availability in Search and Gemini."
+}

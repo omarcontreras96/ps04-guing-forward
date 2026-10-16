@@ -1,0 +1,11 @@
+As privacy complaints continue to dominate the conversation around Meta’s Ray-Ban smart glasses, the company is now fixing an issue that was letting the glasses record on their own without the user prompting the recording.
+A number of Ray-Ban Meta users on Reddit note that, recently, their glasses have been invoking Meta AI and, in turn, voice recording, without prompts. The “Hey Meta” wake word was not used and, for some, not even enabled. One user says this happened across three separate pairs of glasses.
+The glasses still alert users to the recordings by lighting up the LED on the inner frame of the glasses, but it’s obviously a bit concerning to randomly have the glasses start recording on their own, even if it is audio only.
+Speaking to Android Authority, Meta confirmed that the issue has been “resolved.”
+This issue has been resolved. People can manage, review and delete voice logs of their interactions with Meta AI via settings at any time.
+The cause isn’t mentioned, but it comes at a time where Meta’s smart glasses are under continual scrutiny for privacy. Meta, in trying to correct its course, has made adjustments to its glasses including rolling out a mandatory update that disables the camera on its glasses if someone tampers with the LED privacy light.
+More on Smart Glasses:
+- Meta rolling out audio upgrades, turn-by-turn navigation for Ray-Ban smart glasses
+- Samsung’s first Android XR glasses leak in 25 styles alongside 9-hour battery, specs [Gallery]
+- Meta Ray-Ban update will block the most obvious loophole for disabling the privacy LED
+Follow Ben: Twitter/X, Threads, Bluesky, and Instagram

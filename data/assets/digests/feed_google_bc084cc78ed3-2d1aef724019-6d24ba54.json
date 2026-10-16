@@ -1,0 +1,51 @@
+{
+ "summary": "Short Google vendor post announcing Gemini 4 Argon in the Gemini app. It describes more direct answers and better progress updates on long tasks. It also adds Google Antigravity's agentic coding interface to the Gemini macOS app, a chat-to-tasks toggle in the main window so Gemini can work when the user is away from the computer, and connections to more than 40 apps (Instacart, OpenTable, Adobe, Shopify). Available to Google AI Pro and Ultra subscribers.",
+ "speakers_or_authors": "Google (Gemini app team), vendor blog post on Google Keyword",
+ "relevance": 2,
+ "relevance_reason": "The post announces a shipped product change relevant to computer-use agents: a tasks mode that acts across Google apps and 40+ third-party apps, working while the user is away. It is vendor-only, with no hands-on evidence, reliability data or user reports, and it gives no detail on how the agent operates software.",
+ "themes": [
+  "Computer-use agents",
+  "Task delegation across apps",
+  "Agentic coding in desktop app",
+  "Vendor announcement"
+ ],
+ "claims": [
+  {
+   "claim": "Gemini now has a chat-to-tasks toggle in the main window, and in tasks mode it can work for the user even when they are away from their computer, across Google apps.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "When you choose tasks, Gemini can work for you even when you’re not at your computer, helping you get more done across your Google apps and more.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Gemini connects to more than 40 apps, including Instacart, OpenTable, Adobe and Shopify, for tasks like ordering groceries and booking tables.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Gemini now connects you to more than 40 apps — like Instacart, OpenTable, Adobe, and Shopify — to help you tackle tasks from ordering groceries and booking tables",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google Antigravity's agentic coding interface is now available directly in the Gemini macOS app, making it easier to switch between chatting and coding.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "we’re making it easier to switch between chatting and coding with Google Antigravity's agentic coding interface now available directly in the Gemini macOS app.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google says Argon gives more direct answers with less hedging and shares progress more often on longer tasks. This is an unverified vendor description.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "Argon answers questions more directly with less hedging, doesn’t repeat itself more than necessary, and skips clichés throughout the responses.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Access to Gemini 4 Argon and tasks is limited to Google AI Pro and Ultra subscribers, starting the day of the post.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Google AI Pro and Ultra subscribers can now access Gemini 4 Argon and give Gemini tasks to get more done.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Vendor (Google) promoting its own product and paid subscription tiers (AI Pro and Ultra). No independent testing or user evidence is included.",
+ "older_event": "No. This is a same-day launch announcement (published 2026-10-13). The new items are Argon in the Gemini app, the tasks toggle, Antigravity in the macOS app, and 40+ app connections."
+}

@@ -1,0 +1,9 @@
+{
+  "run_id": "live-20261015T045321Z",
+  "started_at": "2026-10-15T04:53:21Z",
+  "as_of_date": "2026-10-15",
+  "mode": "live",
+  "previous_run_id": "live-20261015T043607Z",
+  "note": "Option B, after fixing the fetch_feeds crash of live-20261015T043607Z: corrected project brief, theme-aware collection, policy v2",
+  "simulated_failures": []
+}

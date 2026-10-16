@@ -1,0 +1,81 @@
+{
+ "summary": "Sam Witteveen, an AI developer, explains how to use small 'decision models' (Jev from Typesafe and open equivalents) inside an agent harness. They replace full LLM calls for quick choices such as model routing, risk gating of tool calls, skill selection, RAG re-ranking, triage and filtering. He demos cascading skill selection and RAG re-ranking, and lists where these models fit poorly (long inputs, compound questions, prompt injection, cloud privacy).",
+ "speakers_or_authors": "Sam Witteveen (AI developer, YouTube)",
+ "relevance": 1,
+ "relevance_reason": "Developer-focused tooling for building agent harnesses; it touches agent safety checks and local/privacy trade-offs only in passing, with no end-user computer-use, personal-context or voice interface content.",
+ "themes": [
+  "agent harness internals",
+  "decision models",
+  "risk gating for tool calls",
+  "skills and progressive disclosure",
+  "RAG re-ranking",
+  "local vs cloud privacy"
+ ],
+ "claims": [
+  {
+   "claim": "Most model calls in an agent harness are decisions rather than text generation, yet they are typically handled with full LLM calls.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "most of the model calls in an agent harness aren't actually writing anything, they're making decisions",
+   "segment_id": "seg-0001"
+  },
+  {
+   "claim": "Builders of custom agents often skip verification steps because full LLM calls cost too much time and money.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "people are building custom agents, they often don't put anywhere near as many verification steps in there as they should",
+   "segment_id": "seg-0005"
+  },
+  {
+   "claim": "A decision model can check bash tool arguments for malicious or benign intent in milliseconds, and the open versions can run fully locally.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "you've got a safety check that can take milliseconds. And of course, with the open decision models, that can be running fully locally as well.",
+   "segment_id": "seg-0008"
+  },
+  {
+   "claim": "In the demo, a cascade of two classifiers (category, then skill) routed a suspected CEO gift-card email scam to a security-alert skill quickly while running locally.",
+   "basis": "observation",
+   "locator_type": "segment",
+   "quote": "decided that the category here is security and access",
+   "segment_id": "seg-0020"
+  },
+  {
+   "claim": "Decision models degrade on long inputs, can't handle compound questions well, and can be prompt injected.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "a lot of these models can be prompt injected to basically have instructions that actually move the results",
+   "segment_id": "seg-0015"
+  },
+  {
+   "claim": "Typesafe's own docs say accuracy drops a lot on long inputs.",
+   "basis": "secondhand",
+   "locator_type": "segment",
+   "quote": "Type say its own docs say the accuracy drops a lot on long inputs.",
+   "segment_id": "seg-0014"
+  },
+  {
+   "claim": "Using the decision model as the loop's primary decider with the LLM as fallback could cut more LLM calls but did not work well for complicated agents in his tests.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "it just doesn't seem to work as well when you've got a lot more sort of complicated",
+   "segment_id": "seg-0012"
+  },
+  {
+   "claim": "Using Jev for RAG re-ranking via scoring worked nicely: it picked the top five of a broad retrieval sweep to send to the LLM.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "for me playing around with this, I find the scoring one seems to work quite nicely here.",
+   "segment_id": "seg-0024"
+  },
+  {
+   "claim": "LangChain has shipped middleware for this pattern, and Pydantic has shipped its own version.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "Langchain has already shipped that as middle ware and pedantic has shipped their own version",
+   "segment_id": "seg-0013"
+  }
+ ],
+ "commercial_interest": "No sponsorship disclosed. He promotes OpenRouter access for people not whitelisted on Typesafe's API, and the standard like-and-subscribe ask.",
+ "older_event": "Not mainly about an older event; it builds on his earlier Jev videos and covers current tooling, including LangChain middleware."
+}

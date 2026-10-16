@@ -1,0 +1,42 @@
+[04:36:07] run: run live-20261015T043607Z (as-of 2026-10-15, previous: live-20261015T011645Z)
+[04:36:07] run: collection workflow
+Traceback (most recent call last):
+  File "/Users/occ/Library/Mobile Documents/com~apple~CloudDocs/MIT/1.Courses/Fall 26/1.125 Arch & Eng Software Systems/PS04C/ps04/collectors/feeds.py", line 94, in <module>
+    sys.exit(main(sys.argv[1], sys.argv[2]))
+             ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/occ/Library/Mobile Documents/com~apple~CloudDocs/MIT/1.Courses/Fall 26/1.125 Arch & Eng Software Systems/PS04C/ps04/collectors/feeds.py", line 77, in main
+    "title": html.unescape((e.get("title") or "").strip()),
+             ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'unescape'
+fetch_podcasts: pod-vergecast: 412 matching episodes with audio, emitted 6
+fetch_podcasts: pod-how-i-ai: 118 matching episodes with audio, emitted 3
+fetch_podcasts: pod-big-technology: 572 matching episodes with audio, emitted 2
+fetch_youtube: yt-mkbhd: emitted 3
+fetch_youtube: yt-nate-b-jones: emitted 3
+fetch_youtube: yt-sam-witteveen: emitted 3
+[04:36:33] collect_sources: candidates: 20 (feeds rc=1 youtube rc=0 podcasts rc=0)
+extract: youtube:3iRUwVzRDZQ: reused_stored_version (youtube_captions:en, 2120 words)
+extract: youtube:_0G4OG39XjI: reused_stored_version (youtube_captions:en, 2737 words)
+extract: youtube:QVv3mQzlrN0: reused_stored_version (youtube_captions:en, 2376 words)
+extract: youtube:vKjnZAcimss: reused_stored_version (whisper.cpp, 3568 words)
+extract: youtube:lnB4Zckx_34: extracted (whisper.cpp, 7693 words)
+extract: youtube:0j8wy4jUlsw: extracted (whisper.cpp, 7006 words)
+extract: podcast:the-verge:f1ce6b3ada73: reused_stored_version (whisper.cpp, 7551 words)
+extract: podcast:the-verge:fe7f0906ff40: reused_stored_version (whisper.cpp, 16550 words)
+extract: podcast:the-verge:257ba1539fe4: reused_stored_version (whisper.cpp, 17096 words)
+extract: youtube:avN5R3OhxYs: extracted (whisper.cpp, 4979 words)
+extract: youtube:zaLQ0AnY9dI: extracted (whisper.cpp, 4092 words)
+extract: youtube:U236OfO-spI: extracted (whisper.cpp, 2012 words)
+extract: podcast:claire-vo:0c6cf0f6cbb1: reused_stored_version (whisper.cpp, 4298 words)
+extract: podcast:claire-vo:000e02a39dfc: reused_stored_version (whisper.cpp, 7609 words)
+extract: podcast:claire-vo:1f54bcc07c79: reused_stored_version (whisper.cpp, 6749 words)
+extract: podcast:the-verge:9042d61e611e: extracted (whisper.cpp, 7480 words)
+extract: podcast:big-technology:edf85b3d6585: reused_stored_version (whisper.cpp, 9750 words)
+extract: podcast:the-verge:9f010e07aa2a: extracted (whisper.cpp, 8494 words)
+extract: podcast:the-verge:dfb0c614f439: extracted (whisper.cpp, 10902 words)
+extract: podcast:big-technology:59d694e6df2c: extracted (whisper.cpp, 11779 words)
+filter: window 2026-09-16..2026-10-15: 59 eligible, 1 excluded
+[04:43:32] run: collection incomplete (see collection_status.json); continuing with usable evidence
+[04:43:32] run: series workflow
+select: digests ready (0 reused from cache, 59 new)
+exit=0

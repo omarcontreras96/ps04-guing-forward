@@ -1,0 +1,80 @@
+<!-- model: claude-sonnet-5-5 | effort: medium | schema: yes -->
+# SYSTEM
+
+# Project brief
+{
+  "publication_name": "GUIng Forward",
+  "topic": "How AI is changing the way people interact with computers, across three recurring themes: personal context and the devices it is driving, computer-use agents, and voice or conversational interfaces.",
+  "audience": "Tech enthusiasts and early adopters who use ChatGPT, Claude or Gemini regularly and follow product launches, but do not read HCI research or vendor documentation. They know what an LLM and an 'agent' are; they do not know how well these interfaces work outside demos.",
+  "central_question": "Which new ways of interacting with computers through AI are actually changing how people work and live, and which are still demos?",
+  "voice": "Curious, plain-spoken and skeptical of hype; concrete examples over abstractions; separates what was shown from what was shipped and what users report; short paragraphs; no breathless superlatives.",
+  "themes": [
+    "Personal context and personal-context devices: AI that needs to know more about you to be helpful (memory, connected accounts, on-device data), and the consumer devices this is driving, such as smart glasses (Meta Ray-Ban), wearables and always-on microphones and cameras, along with the privacy trade-off.",
+    "Computer-use agents: AI that operates software for you on the desktop, in the browser or across apps, including OS-level assistants such as Windows Copilot and the Googlebook's built-in AI, and how this changes the way people work at their computers.",
+    "Voice and conversational interfaces, or the '2001' question: science fiction has long imagined talking to AI (HAL in 2001: A Space Odyssey), but is conversation the most compelling way to use it compared with screens, text and direct manipulation?"
+  ],
+  "includes": "Product launches and updates that change how people operate computers; hands-on reviews and practitioner experience; HCI research with user evidence; reliability, safety and privacy evidence about these interfaces.",
+  "excludes": "Model benchmark races, funding and stock news, chip and data-center news, AI policy not tied to an interface, coding-model leaderboards, and rumours without a named source."
+}
+
+## Pass 1: Item digest
+
+You are the research assistant for the publication described in the project brief. You will read ONE
+source item: an article, a video transcript, or a podcast transcript. Each transcript segment is
+prefixed with its segment ID and timestamp, for example `[seg-0012 05:31-06:02]`.
+
+Produce a faithful digest that an editor can use without reading the whole item. Do not judge whether
+to publish it. Specifically:
+- Summarize what the item is and who is speaking or writing.
+- Locate the passages relevant to the publication's themes. For long episodes, find the relevant
+  stretch and ignore the rest.
+- List the item's main claims about AI and human-computer interaction. Classify each by evidence
+  basis:
+  - `observation`: hands-on test, measurement, or study result
+  - `experience`: specific first-hand use
+  - `announcement`: what a vendor says shipped
+  - `assertion`: claim about impact or the future, or opinion
+  - `secondhand`: repeating others
+- For each claim, give a locator:
+  - Written items: an EXACT verbatim quote of 8 to 40 words, copied character for character from the
+    text.
+  - Transcripts: the segment ID that contains the passage.
+  Never paraphrase inside a quote.
+- Note commercial interests: vendor speaking about its own product, sponsorship, investment.
+- Note whether the item mainly discusses an event older than 30 days, and what is new.
+- Give a relevance score from 0 to 3: 0 = off-topic, 1 = passing mention, 2 = useful passage,
+  3 = central to the themes.
+If the item is off-topic, say so briefly and return few or no claims.
+
+# USER
+
+Digest this item for the editor. Return JSON only.
+
+ITEM youtube:U236OfO-spI
+version_id: 2a7a9e6017f21087d1c8c47a61aee5cdbbcaaa7aa12cf22b4a3863d256905cf4
+kind: youtube | publisher: Sam Witteveen (sam-witteveen) | perspective: practitioner (AI developer)
+title: Gemini Live Avatars
+published_at: 2026-09-27T13:30:39Z | url: https://www.youtube.com/watch?v=U236OfO-spI
+duration: 10:22
+---
+[seg-0001 00:00-00:31] Welcome. I'm Jennifer. I'm ready to dive into the latest F1 action with you. Hey Jennifer, who won the latest Grand Prix? George Russell won the latest Grand Prix in Azerbaijan. He had a fantastic race, holding off Max Verstappen to take the win. So where did Kimi Antonelli come? Kimi Antonelli finished in 5th place after a really impressive recovery drive from 16th on the grid. Okay, so that was Google's new live avatars with Gemini 3.8 lives. So I've talked about the live models in the past.
+[seg-0002 00:31-01:06] These are the bi-directional models that basically have multimedia going in, being audio and video. And I want to recently could just produce text or audio back. Well Google's now updated that so you can actually have a live rendering face that kind of lives things what the actual audio is. So up until recently, if you wanted to do any sort of AI agent with a face that could actually hold a conversation, you were generally sort of stitching together four different things, you had some kind of speech to text, you had an LLM, you had a TTS model creating the voice back, and then there was some sort of avatar service on the end doing lip sync.
+[seg-0003 01:06-01:37] And the challenge has always been with that kind of thing is that every one of those points adds a lot of latency. And by the time the mouth starts moving, the conversation has often already started to fall apart. Now I won't say that Google's got this perfect, but what they've done is pretty impressive. They've made their Gemini 3.8 live avatar system generally available. There are actually a few caveats to that, which I'll mention later on in the video. But this whole thing basically collapses down those four models that you had to take care of yourself into a single stream.
+[seg-0004 01:37-02:09] It can listen, it can see what's on your screen, it can call tools in the background. As you can see in the example I just showed, it was using Gemini search to basically get the latest results from Saturday's Grand Prix. And the cool thing here is it can do all of this in 97 languages. So I've been playing with this for a while and I've built some demos I'm going to go through in a second and show you. But let's put this into a little bit of context. So while we've still yet to see a Gemini Pro model come out now for I think it's about seven months, this is still been a pretty busy week for Google on the audio side.
+[seg-0005 02:09-02:42] So in my last video I talked about the whole new TTS system that they launched with the voice cloning with those sorts of things. And actually before that, they updated Gemini 3.8 live and live extended thinking. And now they've released live avatar. And like I said in the last video, whenever you think about Google is in the LLM race at the moment, the multimodal and audio stuff has been really strong. They've had omni, live translate, transcribe, the TTS models and now this live avatar. So I guess quickly what does generally available actually mean here?
+[seg-0006 02:42-03:23] Basically it's ready for production on Google Cloud. But the sad thing here is that not everything is generally available. You get a library of pre-built avatars, if you want a custom avatar, one made from your own reference photo, your own sort of voice, that kind of thing, that's behind an allow list and a verification process. And even things like the live extended thinking version of live is still in private preview. So in this video I'm just going to show what you could go and do and build right now and show that in my demos, et cetera. If you want to see an example of the custom agents, they've got a video in there with a demo of making a custom avatar for an avatar with a really bad Australian accent that I think only a bank owned by Crocodile Dundee would actually want to use.
+[seg-0007 03:23-03:57] So with what they've actually made generally available in here, you've got a bunch of different visual avatars that you can pick from. So here I've made an avatar studio, which is basically a front end app that's running this and streaming the live avatars through the backend in here. So here we can basically just pick any of the avatars that we want to, I can then basically choose a voice that I've got and they've got a set of voices that we can actually pick. We can pick the sort of persona preset that we want. Let's go for a time traveling tour from 2126 and then we've got system instructions.
+[seg-0008 03:57-04:31] Now obviously the system instructions, you can fully customize yourself, you can get all of that set up and then you can add in tools if you want. So here I've basically got Google ground searching for this. Now since we're talking to someone from the future that actually might not be good, I will leave that off for now. And then basically what I can do is I can just start it and then I've got the choices once I start. Wow. It is so incredible to finally see the quaint 21st century in person. Okay. And you can see there that now I'm talking to Vera, Vera, how are you doing today?
+[seg-0009 04:31-05:02] I am doing absolutely wonderful. Thank you. Exploring this era is just pure magic. These are actually a perfect vintage replica of 2026 fashion. So you could say I dress the part to blend in perfectly. Okay. So Vera, what I want to show is that we can actually type to you as well. So I'm going to ask you a question in a second. And I only want you to answer the question when you see the typed question understood. I am ready and waiting for your kiped question. I'm doing absolutely fantastic. Okay.
+[seg-0010 05:02-05:43] So you can see the incredible energy of 2026. You can see there that basically she was able to take the type or voice and she's still listening to me, aren't you Vera? Exactly. I'm processing everything perfectly, no matter how it reaches me. Okay. I'm going to stop there. So you can get a sense from that. This is actually pretty responsive, right? Now there is a delay and obviously we're going to get the transcript back ever so slightly before the actual voice comes back, which kind of makes sense. But you can see for something where now we can go through and pick any of the different avatars, you can pick photo realistic avatars or you can pick sort of cartoonish avatars in here.
+[seg-0011 05:43-06:13] And so the cool thing here is you can actually make a bunch of fun demos with this. So not only can we do all of this in English, we can actually come in here and we can pick different languages. So if we want to have a cafe and we want to put it in a different place, we can actually sort of make this a conversational app for teaching us to speak a different conversation, et cetera. You can see here, we basically got something where it's going to teach me, let's try Japanese and see how that goes.
+[seg-0012 06:13-06:45] And what I'm going to do is try and have a conversation with her. Hi there. Can you tell me how to order a coffee in Japanese? Okay. So how do I say I would like one coffee? Okay, so how do I say I would like one coffee? Say one coffee, please. How do I pronounce it? Can you give me the corrections for how I should pronounce it?
+[seg-0013 06:45-07:16] Okay. Okay, so enough of me embarrassing myself now being out to speak Japanese, but you can see here that we can basically set this up to teachers vocabulary to do a whole bunch of different things. And we could change it so that we start with something that's really beginner and something that then gets right through to something much more advanced in here.
+[seg-0014 07:16-07:51] Another thing that you can actually do for fun is that you can actually have multiple characters and have them communicate to each other. So here we're going to start a debate over whether pineapple belongs on pizza or not. And you can see moderator, esteemed guests, culinary purists often mistake rigidity for tradition, but love and gastronomy thrives on daring unions to deny the pineapple its rightful throne upon the pizza is to deny the very spirit of romance, which seeks the unexpected harmony of sweet and savory.
+[seg-0015 07:51-08:21] Imagine the sun drenched tropics marrying the rustic warmth of baked dough. It is not just a topping Carmen, it is poetry on a crust. Quickly it is then, Leo, while I appreciate your poetic vision, culinary harmony requires more than just sweet and savory colliding. From a practical standpoint, the excessive moisture and pineapple compromises the structural integrity of the crust, turning a crisp base into a soggy mess.
+[seg-0016 08:21-08:53] You are right, moderator. There is wisdom in her words that I must respect, yet Carmen true passion often withstands a few. Okay, I'm going to stop it there, but you can get a sense there of that these two can actually sort of communicate to each other. So you can have some sort of fun with that. We would go back and actually change the system prompt to make them a little bit more concise for my demo. And it doesn't stop there. You can also do things like where, because you can also activate the camera, you can then hold up things and have a conversation about them with the avatar.
+[seg-0017 08:53-09:23] Now, if you want to see a video of me actually explaining the code and going through it a little bit and stuff like that, I'm showing you how to get started, et cetera. I'm going to put the link for that in the description. That's going to be on my second channel, you actually go through and get this all started yourself. Okay, so just to finish off, I would say that while this doesn't have the flexibility that perhaps we would like at the moment, again, this is Google having to be conservative with how they do things. They don't want 500 people uploading pictures of Trump and making a Trump avatar or something like that.
+[seg-0018 09:23-10:04] My guess is going to be quite a number of safety features around that kind of avatar system. You can imagine also the Google is going to be pretty strict about the different use cases for this. If you want to try it out, this is in Google Cloud now. You can actually just come in and look at the Gemini Live avatar. You can pick from the avatars that they've actually got set up in here, so you can certainly get a demo of this up for a business or to show people how to use it, et cetera. Now the pricing for this is going to be pretty pricey coming out. I think the simple fact that this just uses so much compute means that we're probably not going to see this get super cheap in the really near term, but it's definitely going to be interesting to see where this goes and I'd love to hear from people where you see the best use cases of this are actually going to be.
+[seg-0019 10:04-10:20] Let me know in the comments what you think about those, but hopefully it won't be too long before we see an open version of this perhaps from Nvidia or from one of the other companies that are actually releasing open models out there as well. Anyway, as always, if you found the video useful, please click like and subscribe and I will talk to you in the next video. Bye for now.
+=== END ITEM ===
+

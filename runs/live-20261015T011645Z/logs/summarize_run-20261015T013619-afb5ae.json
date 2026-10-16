@@ -1,0 +1,22 @@
+{
+  "stage": "summarize_run",
+  "status": "completed",
+  "exit_code": 0,
+  "started_at": "2026-10-15T01:36:18Z",
+  "finished_at": "2026-10-15T01:36:19Z",
+  "input_count": null,
+  "output_count": 1,
+  "tools": [
+    "python"
+  ],
+  "models": [],
+  "model_calls": 0,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "cost_usd": 0.0,
+  "cost_basis": "no_paid_api_calls",
+  "errors": [],
+  "note": "status=awaiting_review"
+}

@@ -1,0 +1,10 @@
+.env
+.venv/
+.venv.nosync/
+__pycache__/
+*.pyc
+.DS_Store
+# Large original downloads stay out of Git (see SUBMISSION.md for retrieval); retained text/transcripts are committed.
+data/media/podcasts/
+data/media/youtube/*.m4a
+runs/*/logs/.work-*

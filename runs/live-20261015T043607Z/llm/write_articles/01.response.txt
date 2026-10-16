@@ -1,0 +1,64 @@
+# The agent that reads your inbox arrived before the AI operating system did
+
+*This month's most important interface change is an app that messages you first. The smarter operating system is still mostly on the way.*
+
+*As of 2026-10-15 · Edition evidence window: 2026-09-16 to 2026-10-15*
+
+## An airline credit and a weekend meeting
+
+Ethan Mollick did not ask his agent to watch his airline credits. He writes that Meta's Muse noticed an American Airlines credit of his was about to expire and, when he asked, contacted American to request an extension [01-c1].
+
+Nate B Jones tells a similar story about OpenAI's dots. In his video (Nate B Jones, 00:35), he says the agent caught a recurring "zombie meeting" that kept landing on weekends, offered to take care of it, and rebuilt the invite [01-c3].
+
+These are small errands, and that is the point. Between mid-September and mid-October, the change that mattered most for how people use computers was not a smarter model or a new gadget. It was proactive agents that hold your accounts and come to you first. They reached people while the operating-system assistants from Apple, Google and Microsoft were still in beta, in preview or only promised. Here is the ranking, and why.
+
+## 1. Agents that hold your accounts
+
+These agents act, not just answer. On The Vergecast (13:34), reviewer Allison Johnson described Muse's purchasing flow: you enter your card once, and then "you don't even have to click a button. You just type the words, go ahead." [01-c2] She called that problematic for her own bank account, and also "the product working as intended" [01-c2].
+
+Later in the same episode (The Vergecast, 37:22), David Pierce said Muse has "sort of escaped containment," and that people he would never talk tech with are asking him about it [01-c2].
+
+Access is uneven. Jones reports that dots comes only with ChatGPT Pro plans starting at $100 a month, and that it is not yet available in the UK, Switzerland or the European Economic Area (Nate B Jones, 02:35 and 28:04) [01-c3]. That is a meaningful barrier for many readers.
+
+## 2. The operating systems are still catching up
+
+Microsoft's October 7 Windows post shows the gap most clearly. Microsoft Execution Containers (MXC), which let organizations define which files and networks agents can access, are now generally available on Windows 11 [01-c5]. But Copilot's local context, actions and models are only "expected to begin rolling out on Copilot+ PCs in the coming months" [01-c5]. The containment has shipped. The Copilot agent features it is meant to contain on your PC have not [01-c5].
+
+Google says paying Google AI Pro and Ultra subscribers can now hand Gemini tasks that keep running while they are away from the computer [01-c4]. That documents what Google has shipped. Nothing in this month's evidence tests how well it works.
+
+Apple's assistant is the only one here with an independent test. In a hands-on Nielsen Norman Group review of the Siri AI beta, the assistant "quickly found the three breakfast spots" the author's brother had texted him, a request that depended on personal context stored on the phone [01-c6]. The personal context works, but in a beta.
+
+Putting this together is our inference, not something any single source says. Mollick's agent messaged him first because a permit email he sent his town had the wrong project number. Pierce hears about Muse from people outside tech. Microsoft's local actions remain "coming months." Taken together, the evidence suggests that the account-holding agent ranks first because it is the only new interaction pattern with first-hand use behind it [01-c8]. For now, the layer people are adopting is an app on top of the OS, not the OS itself.
+
+## 3. Voice, mostly for routines
+
+Voice ranks third. The strongest first-hand evidence comes from a year-long verdict. On The Vergecast (08:51), The Verge's smart home reviewer said that setting up Alexa Plus routines by voice "is like the game changer," because fiddling in an app is not something people have patience for [01-c7]. The agentic tasks Amazon promised were another matter. Ordering from Uber Eats, booking trips and booking tickets "often just hit a roadblock," working only occasionally (The Vergecast, 11:39) [01-c7]. Voice is earning its place in narrow, repeatable jobs.
+
+## What this ranking can't see
+
+The personal-context devices this publication tracks, such as smart glasses and always-on wearables, had no usable evidence this month. This piece cannot rank them, and it does not treat home speakers as a stand-in.
+
+The first-hand reports come from heavy tech users: Mollick, the Verge hosts and Jones. Mollick is also promoting a book. The claim that these agents reached ordinary people rests on Pierce's anecdote, not on usage data. Google's and Microsoft's posts show what exists, not how well it works. And Alexa Plus is not new; what is new is the year-long test result.
+
+**What to watch:**
+
+- Whether Microsoft's local Copilot actions ship, and whether anyone outside Microsoft tests them.
+- Whether dots reaches the UK and Europe.
+- Whether an independent reviewer puts Gemini's background tasks through real errands.
+- Whether any usage figures for Muse appear beyond anecdotes.
+
+If the OS assistants start producing stories like Mollick's airline credit, this ranking flips.
+
+## References
+
+- **[01-c1]** One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01. https://www.oneusefulthing.org/p/the-dot-and-the-swarm
+- **[01-c2]** The Vergecast, "How much should you tell your AI agent?," 2026-10-06, at 13:34–14:12 and 37:22–38:03. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP4220452170.mp3
+- **[01-c3]** Nate B Jones (AI News & Strategy Daily), "Should You Pay $100 A Month For OpenAI's Dots When Meta's Muse Has A Free Version?," YouTube, 2026-10-03, at 00:35–01:07, 02:35–03:22 and 28:04–28:49. https://www.youtube.com/watch?v=lnB4Zckx_34
+- **[01-c4]** Google Keyword: Gemini, "Gemini 4 Argon comes to the Gemini app.," 2026-10-13. https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/
+- **[01-c5]** Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07. https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+- **[01-c6]** Nielsen Norman Group, "The New Siri's Biggest Strength Is Not Intelligence," 2026-10-09. https://www.nngroup.com/articles/ai-assistant-context/
+- **[01-c7]** The Vergecast, "The many pluses and minuses of Alexa Plus," 2026-10-08, at 08:51–09:27 and 11:39–12:14. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8056613997.mp3
+- **[01-c8]** Inference drawing on:
+  - One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01. https://www.oneusefulthing.org/p/the-dot-and-the-swarm
+  - The Vergecast, "How much should you tell your AI agent?," 2026-10-06, at 37:22–38:03. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP4220452170.mp3
+  - Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07. https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/

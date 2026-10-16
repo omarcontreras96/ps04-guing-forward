@@ -1,0 +1,86 @@
+{
+ "summary": "Nielsen Norman Group article reporting a qualitative study of non-engineer 'vibe architects' who build personal agentic systems out of context libraries (markdown files, connected apps, automations) with Claude and similar tools. It maps five 'big ball of mud' patterns (throwaway code, piecemeal growth, keep it working, sweeping under the rug, reconstruction) onto what participants did, and advises keeping global, local and ambient context separate so rebuilds stay a choice. The study's sample size and method are not stated.",
+ "speakers_or_authors": "Nielsen Norman Group (UX research practitioners); quotes study participants",
+ "relevance": 2,
+ "relevance_reason": "Gives practitioner evidence from user sessions on how people build and maintain personal-context agent setups and where they become fragile. It is not about computer-use agents, voice or OS integration, and it covers a niche group of advanced users rather than mainstream use.",
+ "themes": [
+  "Personal context and memory: user-built context libraries for agents",
+  "Agent reliability and maintainability in everyday use",
+  "Dependence on AI to navigate the user's own system",
+  "Non-engineers building agentic workflows"
+ ],
+ "claims": [
+  {
+   "claim": "Non-technical users building agent systems from large context libraries repeat the old software pattern of fragile, unmaintainable systems, because AI makes building feel unlimited and nothing forces prioritisation.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "with nothing forcing them to prioritize, these vibe architects were building big balls of mud.",
+   "segment_id": ""
+  },
+  {
+   "claim": "These systems work well until accumulated complexity makes them hard to direct, diagnose or reconstruct.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "In the AI era, a big ball of mud works surprisingly well — until accumulated complexity makes the system difficult to direct, diagnose, or reconstruct.",
+   "segment_id": ""
+  },
+  {
+   "claim": "One participant with no coding ability grew a throwaway Asana widget into a cross-functional dashboard with predictive algorithms through successive AI additions.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "This participant could not write code. Yet, with AI removing the brakes, a small throwaway widget grew into a crossfunctional dashboard.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Some participants could not locate files their systems depended on and had to ask the AI to find and explain them; they likely could not recreate the system.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Other participants could not locate, in front of us, important files their systems relied on; they had to ask the AI to find them and explain what they contained.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Participants mostly patched failing systems instead of fixing them properly, for example reconnecting a failing Todoist link by hand each time, or running sessions out of a Downloads folder after the app deleted chat history.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "The connection failed regularly. Rather than switching to-do apps or reconfiguring the system, he reconnected it by hand each time.",
+   "segment_id": ""
+  },
+  {
+   "claim": "A disorganised 'to be synthesized' folder led the AI to retrieve the wrong articles, costing one participant 45 minutes of instruction fixing; the article says the AI's ability to keep compensating as the pile grows is an open question.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "it retrieved the wrong articles, and he spent 45 minutes fixing the instructions instead of doing real work.",
+   "segment_id": ""
+  },
+  {
+   "claim": "A startup founder said she might be dependent on the tool and would be frustrated if it were taken away.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "I might even be dependent on it […] If I experience even a slight amount of challenge […] I ask it to help me instead of actively thinking about it myself",
+   "segment_id": ""
+  },
+  {
+   "claim": "A product lead had to rebuild his team's context library, and was rebuilding it again, because it outgrew what he could keep in his head.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "this had grown to something that was beyond what I was still able to keep in my head. And so, I had to rework this all to make it manageable again.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The authors recommend keeping global, local and ambient context separate, naming the context type when directing changes, and periodically auditing the global context, so that reconstruction stays a choice rather than an emergency.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "The key to maintaining the integrity of an agentic system is keeping tabs on each context type.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Over-building feels productive: an advanced participant said that people who call themselves advanced in AI often build over-engineered systems that add little value for the time spent.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "Because AI makes it so easy for you to build something, people actually start overbuilding because it feels productive.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent. NN/g is a UX research and training firm, and the article is not promoting a specific AI product.",
+ "older_event": "No. The article reports a recent NN/g study. The 'big ball of mud' concept comes from a 1997 paper (cited in the references as 1999), which is background and not the news."
+}

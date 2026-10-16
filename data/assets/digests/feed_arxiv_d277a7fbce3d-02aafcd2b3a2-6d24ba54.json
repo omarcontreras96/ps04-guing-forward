@@ -1,0 +1,79 @@
+{
+ "summary": "An arXiv cs.HC preprint (not peer reviewed) that defines 'softness' as the diversity of valid interpretations a vague description allows, and presents AttriFy, a mixed-initiative chat-plus-dashboard system that turns soft descriptions (e.g. essay 'originality') into executable Python scoring functions over text corpora. A formative study (62 participants) supports the softness measure, and an exploratory within-subjects study (32 participants) compares AttriFy with an unstructured LLM chat baseline on essay datasets. The study found no significant differences in perceived clarity, control or workload, fewer generated attributes with AttriFy, and weaknesses in both conditions: many generated functions were crude and returned zeros, and users tended to accept proposals without checking them.",
+ "speakers_or_authors": "Anonymous authors (submitted for anonymous review); arXiv cs.HC preprint",
+ "relevance": 1,
+ "relevance_reason": "It is an HCI study of a chat-based interface with user evidence, but it concerns constructing soft attributes for text-corpus ranking. It has no link to personal-context devices, computer-use agents or voice interfaces. It is only loosely relevant to the conversational-interface theme, through findings that clarifying dialogue did not clearly beat a plain LLM chat and that users over-accept AI output.",
+ "themes": [
+  "conversational interfaces vs. visual/structured interfaces",
+  "clarifying questions in chat",
+  "user over-reliance on AI outputs",
+  "human-AI collaboration research"
+ ],
+ "claims": [
+  {
+   "claim": "Perceived softness of a description correlates with how many distinct interpretations people give it.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Across the 50 descriptions, the mean rarefied interpretation count correlated with the mean softness rating at \\(\\rho=0.73\\).",
+   "segment_id": ""
+  },
+  {
+   "claim": "The softness estimate from the LLM-based algorithm tracks human ratings, with a moderate correlation.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Across the 50 descriptions, mean estimated softness correlated with mean human ratings at \\(\\rho=0.742\\) (Figure 5a).",
+   "segment_id": ""
+  },
+  {
+   "claim": "In the 32-person within-subjects study, AttriFy showed no significant advantage over a plain LLM chat baseline on perceived clarification of intent.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "No statistically significant differences were found between AttriFy and Baseline on the questionnaire items for expression of intent and development of ideas after Holm correction",
+   "segment_id": ""
+  },
+  {
+   "claim": "Workload was essentially identical across the two conditions.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "NASA-TLX subscale ratings were similar across conditions, including perceived effort, with no subscale differing by more than 6.1 points on the 0–100 scale",
+   "segment_id": ""
+  },
+  {
+   "claim": "Continued clarifying dialogue did not reliably reduce ambiguity: measured softness rose about as often as it fell.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "recorded softness increased in 85 cases (46.2%), decreased in 89 (48.4%), and remained unchanged in 10 (5.4%)",
+   "segment_id": ""
+  },
+  {
+   "claim": "Many of the AI-generated attribute functions were crude: 63% used hardcoded word lists and 38% returned zero for more than half of the essays, yet participants accepted them at about 90%.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Most functions used hardcoded word lists (63%) or surface statistics (26%), with fewer using syntactic features (9%) or named entities (2%).",
+   "segment_id": ""
+  },
+  {
+   "claim": "Participant preference between the two systems was driven by order of use rather than by the system.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Order explains the response better than system, as 20 of the 28 with a preference chose whichever system they used second (\\(p=.036\\)).",
+   "segment_id": ""
+  },
+  {
+   "claim": "The authors suggest users over-rely on AI suggestions, so acceptance alone cannot show that an attribute measures what was intended.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "acceptance alone probably cannot establish whether it reflects the intended behavior. This may stem from reduced user attention during the evaluation of AI-generated content.",
+   "segment_id": ""
+  },
+  {
+   "claim": "A participant reported that the clarification questions could feel restrictive or miss the point of what they valued.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "AttriFy kept asking me to clarify, essentially, how to tell that an essay is actually good. I felt like I was coming up against its fundamental absence of taste.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent; academic preprint. Authors used Google Gemini models and Claude for the system and for generating study stimuli, with no vendor affiliation stated.",
+ "older_event": "Not an event; a new preprint published 2026-10-15. Findings are new, but the study uses a narrow essay-grading domain and Prolific crowd participants."
+}

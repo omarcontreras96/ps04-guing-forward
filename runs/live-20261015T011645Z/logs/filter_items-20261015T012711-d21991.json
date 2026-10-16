@@ -1,0 +1,22 @@
+{
+  "stage": "filter_items",
+  "status": "completed",
+  "exit_code": 0,
+  "started_at": "2026-10-15T01:27:11Z",
+  "finished_at": "2026-10-15T01:27:11Z",
+  "input_count": 52,
+  "output_count": 51,
+  "tools": [
+    "python"
+  ],
+  "models": [],
+  "model_calls": 0,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "cost_usd": 0.0,
+  "cost_basis": "no_paid_api_calls",
+  "errors": [],
+  "note": "excluded: outside_window=1"
+}

@@ -1,0 +1,29 @@
+{
+ "summary": "A short blog post by Simon Willison describing a game experiment: a two-player Pong-like game running as static HTML on two phones, with networking done by sending audio chirps through the microphone. He says it seems to work. The prompt he gave Claude Opus 5.5 Extra in Claude Code is quoted. The post has no test data, user evidence, or discussion of interaction design.",
+ "speakers_or_authors": "Simon Willison (practitioner, developer)",
+ "relevance": 1,
+ "relevance_reason": "Passing mention at most. It is a developer's hobby experiment using the microphone as a data channel (audio networking), not voice or conversational interaction with AI. The AI is used only as a coding tool. Nothing here on personal context, computer-use agents, or conversational interfaces.",
+ "themes": [
+  "audio data transmission via microphone",
+  "AI-assisted coding experiment",
+  "browser microphone API"
+ ],
+ "claims": [
+  {
+   "claim": "Willison built a two-player game on two phones in static HTML that uses microphone-detected audio chirps for networking, and reports that it appears to work.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML",
+   "segment_id": ""
+  },
+  {
+   "claim": "The game was produced by prompting Claude Opus 5.5 Extra in Claude Code, with a prompt asking for game state sent via audio the web microphone API can interpret.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "the game state is sent via audio noises which the web microphone API can interpret",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent. The author uses Anthropic's Claude Code but there is no sponsorship or vendor relationship stated in the item.",
+ "older_event": "No. The post is a new, small personal experiment published 15 October 2026, not a report on an older event."
+}

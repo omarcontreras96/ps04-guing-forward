@@ -1,0 +1,73 @@
+# The month agents started messaging you first
+
+*As of 2026-10-15*
+
+## Scene 1: The expiring credit
+**Visual:** Phone mockup with a generic chat bubble from "Muse": "Your airline credit expires soon. Want me to ask for an extension?" A calendar icon with a countdown sits beside it. No people shown.
+**On-screen text:** Your agent noticed before you did
+**Source on screen:** One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01
+**Narration:** An airline credit is about to expire, and you haven't noticed. Your agent has. Writer Ethan Mollick says Meta's personal agent, Muse, spotted exactly that. When he asked, it contacted American Airlines to request an extension. [01-c2] So this month's question is simple. Of everything launched or tested from mid-September to mid-October, which changes to how people use computers matter most, and in what order?
+
+## Scene 2: The ranking
+**Visual:** Three-step podium slide. Spot 1 reads "Proactive personal agents (Muse)", spot 2 reads "On-device personal context (Siri AI beta)", spot 3 reads "AI in the OS (Microsoft, Google)".
+**On-screen text:** 1. Agents 2. Personal context 3. The OS
+**Source on screen:** none
+**Narration:** Here is our ranking. First come personal agents that act on your own accounts and message you first, like Muse. Second are assistants grounded in personal context already on your phone, led by Apple's Siri AI beta. Third is AI built into the operating system and desktop apps from Microsoft and Google. That order is our read. [01-c8] We built it by setting what each company has actually shipped against evidence of people really using it. No single source makes that comparison.
+
+## Scene 3: Why agents come first
+**Visual:** App Store-style list mockup with a generic "Muse" tile at the top, labelled "as reported by Mollick". Below it, a speech-bubble graphic: "an agent can message you proactively".
+**On-screen text:** Reported #1 app. Agents that speak first.
+**Source on screen:** One Useful Thing, "The Dot and the Swarm," 2026-10-01; How I AI (Claire Vo), "How Meta designed Muse…," 2026-10-12, 03:08–04:00
+**Narration:** Why put agents first? According to Mollick, Muse is the number one app in the App Store right now. [01-c1] That is his own report, and he gives no data source for it. Alex Cornell, Meta's design director for Muse, told the How I AI podcast that the simple fact that an agent can message you proactively changed how the team approached the design. [01-c3] Mollick also writes that agents are increasingly finding his mistakes, rather than him finding theirs. [01-c8] One caution. His airline example happened when he asked, so it is less autonomous than the framing suggests. [01-c2]
+
+## Scene 4: Alexa, by comparison
+**Visual:** Split slide. On the left, a smart speaker icon labelled "Alexa Plus: smart home ✓". On the right, a phone icon labelled "Muse". A pull quote runs across the middle.
+**On-screen text:** "Nowhere near as good as Muse at Muse things"
+**Source on screen:** The Vergecast, "The AI is in the computer," 2026-10-09, 22:12–22:58
+**Narration:** The comparison with older assistants is blunt. On The Vergecast, the hosts discussed a year-long review of Alexa Plus. Their read is that it has gotten very good at smart home tasks, but it is nowhere near as good as Muse at Muse things. [01-c8] That is an opinion relayed on a podcast, not a test. But it points the same way.
+
+## Scene 5: Siri ranks second
+**Visual:** Two phone mockups side by side. The left shows the Siri AI beta returning "3 breakfast spots" from a Messages thread. The right shows a ChatGPT window with work-account connectors and "No results".
+**On-screen text:** Context beat intelligence
+**Source on screen:** Nielsen Norman Group, "The New Siri's Biggest Strength Is Not Intelligence," 2026-10-09
+**Narration:** Second place goes to Apple. Nielsen Norman Group tested the Siri AI beta hands-on. It quickly found three breakfast spots a relative had texted. ChatGPT, connected to work accounts, searched and found nothing. [01-c4] Their point is that Siri's edge came from reading data already on the phone, not from a smarter model. That working, testable edge is why we rank it second. The beta is English-only, though.
+
+## Scene 6: The OS is still mostly "coming"
+**Visual:** Timeline graphic. "Oct 7: MXC generally available, Windows 11" appears in solid color. "Copilot local context and actions: coming months" appears as a dotted outline. A separate tag reads "Gemini tasks: AI Pro and Ultra only."
+**On-screen text:** Sandbox shipped. Copilot actions: "coming months."
+**Source on screen:** Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07; Google Keyword, "Gemini 4 Argon comes to the Gemini app.," 2026-10-13
+**Narration:** Third is the operating system itself. On October seventh, Microsoft made its agent sandbox, called Microsoft Execution Containers, generally available on Windows eleven. It lets organizations define which files and networks agents can reach. But by Microsoft's own account, the Copilot features that would use your local context and act on your PC are only expected to begin rolling out on Copilot Plus PCs in the coming months. [01-c5] Google says the Gemini app's new tasks mode can keep working while you're away from your computer. It is limited to paying AI Pro and Ultra subscribers. [01-c6]
+
+## Scene 7: The Googlebook surprise
+**Visual:** Screenshot-style mockup of a Files app search bar with the query "the doc about the kitchen quote" returning a match. A small toggle labelled "Magic Pointer: Off" sits in the corner.
+**On-screen text:** Headline feature off. File search wins.
+**Source on screen:** Marques Brownlee (MKBHD), "WTF is a Googlebook?," 2026-10-08, 03:25–04:29
+**Narration:** The Googlebook shows the gap between a headline feature and a habit. After a week with one, Marques Brownlee found that Magic Pointer, the headline feature, is off by default. His personal favourite was semantic file search. You describe what you remember is in a file, and the Files app finds it. He called it very useful AI. [01-c7]
+
+## Scene 8: What we can't tell you
+**Visual:** Checklist slide titled "Missing from the evidence". Items: independent long-term reviews, accessibility users, non-English users, everyday users. A balance scale icon is labelled "privacy vs convenience".
+**On-screen text:** Thin evidence, mostly US tech insiders
+**Source on screen:** none
+**Narration:** Now the limits. This ranking leans on vendor statements and a few hands-on accounts. Our evidence has no independent long-term review of Muse, Gemini tasks or Windows Copilot actions. The voices are almost all US tech insiders. We have no reports from accessibility users or non-English users, and only anecdotes from everyday users. If you value privacy, you could reasonably rank on-device features above a cloud agent reading your Gmail. The evidence can't settle that trade-off.
+
+## Scene 9: Takeaway and what to watch
+**Visual:** A simple layered diagram. The "App layer" glows with a message icon. The "Operating system" layer below it is greyed out with a clock. Three watch items appear beneath.
+**On-screen text:** Apps first, OS later. Watch these three signals.
+**Source on screen:** none
+**Narration:** Here's the takeaway. Our read is that this month, how people use computers is changing first in the app layer, where a third-party agent with access to your accounts messages you. The operating system comes later. [01-c8] Watch three things. Do Microsoft's Copilot actions actually arrive on PCs? Do independent long-term reviews of Muse appear? Does the Siri beta reach beyond English? Those signals could confirm this order or reshuffle it. The full article and every source are in the description.
+
+## YouTube description
+This month, the biggest change in how people use computers came from consumer agents like Meta's Muse, which act on your accounts and message you first. Assistants grounded in on-device personal context, led by the Siri AI beta, rank second. AI built into Windows and Google's OS ranks third, because much of it is still beta, paid-tier or "coming months." We separate what shipped from what practitioners and testers report, and flag where the evidence is thin.
+
+Full article: {ARTICLE_URL}
+
+As of 2026-10-15
+
+**Sources**
+- One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01: https://www.oneusefulthing.org/p/the-dot-and-the-swarm
+- How I AI (Claire Vo), "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)," 2026-10-12, at 03:08–04:00: https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Meta-designed-Muse-an-AI-agent-people-actually-want-to-talk-to--Alex-Cornell-Design-Director-e3q4g9k
+- The Vergecast, "The AI is in the computer," 2026-10-09, at 22:12–22:58: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8833126862.mp3
+- Nielsen Norman Group, "The New Siri's Biggest Strength Is Not Intelligence," 2026-10-09: https://www.nngroup.com/articles/ai-assistant-context/
+- Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07: https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+- Google Keyword: Gemini, "Gemini 4 Argon comes to the Gemini app.," 2026-10-13: https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/
+- Marques Brownlee (MKBHD), "WTF is a Googlebook?," 2026-10-08, at 03:25–04:29: https://www.youtube.com/watch?v=_0G4OG39XjI&t=205s

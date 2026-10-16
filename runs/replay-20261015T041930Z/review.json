@@ -1,0 +1,52 @@
+{
+  "review_id": "d2b27350c50c53b88e33f7bf0dece84159ddcff621293acbf2a5874dcbba80d7",
+  "run_id": "replay-20261015T041930Z",
+  "as_of_date": "2026-10-15",
+  "passed": true,
+  "error_count": 0,
+  "warning_count": 7,
+  "issues": [
+    {
+      "piece_id": "01",
+      "artifact": "articles/01.md",
+      "severity": "warning",
+      "message": "Human judgment required: check that inference claims 01-c8 follow from the cited passages, and that the counterargument is fairly represented."
+    },
+    {
+      "piece_id": "02",
+      "artifact": "articles/02.md",
+      "severity": "warning",
+      "message": "Human judgment required: check that inference claims 02-c8 follow from the cited passages, and that the counterargument is fairly represented."
+    },
+    {
+      "piece_id": "03",
+      "artifact": "articles/03.md",
+      "severity": "warning",
+      "message": "Human judgment required: check that inference claims 03-c7, 03-c8 follow from the cited passages, and that the counterargument is fairly represented."
+    },
+    {
+      "piece_id": "01",
+      "artifact": "articles/01.md",
+      "severity": "warning",
+      "message": "article body is 927 words (target 600-900)"
+    },
+    {
+      "piece_id": "01",
+      "artifact": "video_scripts/01.md",
+      "severity": "warning",
+      "message": "narration is 722 words, about 4.8 min at 150 wpm (target 430-720 words for 3-5 min)"
+    },
+    {
+      "piece_id": "02",
+      "artifact": "articles/02.md",
+      "severity": "warning",
+      "message": "article body is 905 words (target 600-900)"
+    },
+    {
+      "piece_id": "03",
+      "artifact": "video_scripts/03.md",
+      "severity": "warning",
+      "message": "narration is 731 words, about 4.9 min at 150 wpm (target 430-720 words for 3-5 min)"
+    }
+  ]
+}

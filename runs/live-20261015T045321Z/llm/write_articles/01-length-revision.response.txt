@@ -1,0 +1,55 @@
+# The agent became the front door; the hardware is still auditioning
+
+*This month's biggest change sits inside the apps you already use, not in a new gadget.*
+
+*As of 2026-10-15 · Edition evidence window: 2026-09-16 to 2026-10-15*
+
+Ethan Mollick's airline credit was about to expire, and he hadn't noticed. Muse, Meta's personal agent, did. When he asked, it contacted American Airlines to request an extension [01-c2]. Another of his agents messaged him because a permit email he had sent to his town had the wrong project number [01-c2].
+
+That is one user's account in his own newsletter, not a measurement. It still captures the month's most consequential shift. Agents that hold personal context and act on it are moving from side experiments to the default entry point of mainstream apps. The new OS agents and devices matter mostly as places for those agents to run, and most of them are still promises.
+
+## The agent moved into the main app
+
+Google has merged Spark, its personal agent, into the main Gemini chat, so ordinary chats and Spark tasks now share one history [01-c1]. The agent is no longer a separate place you have to remember to visit [01-c1]. There are limits. The redesign is rolling out on Android only, and Spark requires an AI Pro or AI Ultra subscription [01-c1].
+
+Mollick's examples show what this kind of agent is for. It notices something in your life and raises it without being prompted. One detail matters: Muse spotted the expiring credit on its own but contacted the airline only after Mollick asked [01-c2]. The noticing was proactive. The acting waited for permission.
+
+## The OS agents are mostly on the calendar
+
+On Windows, what shipped is the fence. Microsoft Execution Containers (MXC) are now generally available on Windows 11. They let organizations define which files and networks agents can access, and Windows enforces those rules at runtime [01-c3]. The agent the fence is built for has not arrived. In Microsoft's words, Copilot features that use local context and take actions "are expected to begin rolling out on Copilot+ PCs in the coming months" [01-c3].
+
+The Googlebook has AI built in, but its headline feature isn't the one that earned its keep. After a week with the laptop, Marques Brownlee found that Magic Pointer is "actually off by default" (MKBHD, 03:25) [01-c4]. Magic Pointer lets you wiggle the cursor and ask Gemini about whatever you select. His favorite feature was semantic file search: you describe what you remember is in a file, and the Files app finds it [01-c4]. The most useful AI on the machine was the plainest.
+
+## Devices are auditioning as hosts
+
+Apple's HomeView is built around knowing who is in front of it. Brownlee reports that it switches to your account, including your messages and calendar, under two conditions (MKBHD, 05:15). Its single 12-megapixel camera has to recognize your face, and your iPhone or Watch has to have been unlocked nearby recently [01-c5]. It has no infrared and no voice recognition, so it gives personal answers only if it sees you, "not if you're around the corner or on the couch." He also wondered how well it will work in the dark [01-c5].
+
+Three pieces of evidence point the same way. On The Vergecast (57:22), the hosts argued that "everyone's hardware idea boils down to we need to give you surface on which to let your AI agent do things on your behalf." UploadVR reports that Muse on Meta's glasses will take a spoken request, then "work in the background and check back when the task is finished." And Copilot's local actions are still months out. Put together, this suggests that this month's new hardware mostly serves as a host for agents rather than as a new way to interact in its own right [01-c7].
+
+Google's Guided Vision is a narrower pairing of camera and agent. It is a voice-and-camera assistant in Gemini Live for blind and low-vision users. Google says it is now available on Android 9 and above and that it "can make mistakes." No independent user reports exist yet [01-c8].
+
+The backlash has focused on the camera. Norway plans to propose a temporary ban on smart glasses in public places such as parks, beaches, museums, malls and public events, though the ban still needs parliamentary approval [01-c6]. The Dutch eyewear chain Hans Anders halted sales of Meta smart glasses over privacy concerns. Meta, meanwhile, opened preorders for camera-free Ray-Ban Meta Audio glasses at $349, shipping from October 13 [01-c6]. Our reading is that none of these responses touch what the agents actually run on, which is access to your accounts.
+
+## What we can't tell yet, and what to watch
+
+Muse dominates this story because it dominated the news. The number of articles reflects news volume, not independent confirmation. No source offers adoption or retention numbers for Muse, Spark or the OS assistants. Nobody has independently tested Copilot's local actions, Muse on glasses or Guided Vision, and only Google documents Guided Vision. Non-US perspectives are limited to Norway and the Netherlands. The ranking above is our judgment of consequence, not a measured result.
+
+Signals to watch:
+
+- Whether Spark's merged chat spreads beyond Android and paid tiers.
+- Whether Copilot's local actions ship and hold up in independent testing.
+- How Norway's parliament votes.
+- Whether blind and low-vision users find Guided Vision reliable enough to depend on.
+
+If agents stay the front door while the devices keep trading features, this ranking will hold.
+
+## References
+
+- **[01-c1]** 9to5Google, "Gemini 'Task' redesign integrates Spark into the main chat app," 2026-10-13. https://9to5google.com/2026/10/12/gemini-spark-task-redesign/
+- **[01-c2]** One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01. https://www.oneusefulthing.org/p/the-dot-and-the-swarm
+- **[01-c3]** Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07. https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+- **[01-c4]** Marques Brownlee (MKBHD), "WTF is a Googlebook?," YouTube, 2026-10-08, 03:25–03:56. https://www.youtube.com/watch?v=_0G4OG39XjI&t=205s
+- **[01-c5]** Marques Brownlee (MKBHD), "Apple Homeview Impressions: Not Convinced!," YouTube, 2026-10-13, 05:15–05:55 and 05:55–06:27. https://www.youtube.com/watch?v=QVv3mQzlrN0&t=315s
+- **[01-c6]** Road to VR, "Norway Proposes Temporary Ban on Smart Glasses in Public Places," 2026-10-07. https://roadtovr.com/norway-proposes-temporary-ban-on-smart-glasses-in-public-places/ ; UploadVR, "Ray-Ban Meta Audio Drops The Camera For A Lighter, Socially Acceptable Design," 2026-09-28. https://www.uploadvr.com/ray-ban-meta-audio-glasses-no-camera/
+- **[01-c7]** The Vergecast, "The AI is in the computer," podcast, 2026-10-09, 57:22–58:11. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8833126862.mp3 ; UploadVR, "Meta's Smart Glasses Are Getting Its 'Muse' AI Agent," 2026-09-29. https://www.uploadvr.com/meta-smart-glasses-getting-muse-ai-agent/ ; Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07. https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+- **[01-c8]** Google Keyword: Gemini, "Guided Vision in Gemini Live: built for accessibility," 2026-10-01. https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/

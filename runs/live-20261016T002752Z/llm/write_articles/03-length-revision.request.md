@@ -1,0 +1,469 @@
+<!-- model: claude-opus-5-5 | effort: high | schema: no -->
+# SYSTEM
+
+# Project brief
+{
+  "publication_name": "GUIng Forward",
+  "topic": "How AI is changing the way people interact with computers, across three recurring themes: personal context and the devices it is driving, computer-use agents, and voice or conversational interfaces.",
+  "audience": "Tech enthusiasts and early adopters who use ChatGPT, Claude or Gemini regularly and follow product launches, but do not read HCI research or vendor documentation. They know what an LLM and an 'agent' are; they do not know how well these interfaces work outside demos.",
+  "central_question": "Which new ways of interacting with computers through AI are actually changing how people work and live, and which are still demos?",
+  "voice": "Curious, plain-spoken and skeptical of hype; concrete examples over abstractions; separates what was shown from what was shipped and what users report; short paragraphs; no breathless superlatives.",
+  "themes": [
+    "Personal context and personal-context devices: AI that needs to know more about you to be helpful (memory, connected accounts, on-device data), and the consumer devices this is driving, such as smart glasses (Meta Ray-Ban), wearables and always-on microphones and cameras, along with the privacy trade-off.",
+    "Computer-use agents: AI that operates software for you on the desktop, in the browser or across apps, including OS-level assistants such as Windows Copilot and the Googlebook's built-in AI, and how this changes the way people work at their computers.",
+    "Voice and conversational interfaces, or the '2001' question: science fiction has long imagined talking to AI (HAL in 2001: A Space Odyssey), but is conversation the most compelling way to use it compared with screens, text and direct manipulation?"
+  ],
+  "includes": "Product launches and updates that change how people operate computers; hands-on reviews and practitioner experience; HCI research with user evidence; reliability, safety and privacy evidence about these interfaces.",
+  "excludes": "Model benchmark races, funding and stock news, chip and data-center news, AI policy not tied to an interface, coding-model leaderboards, and rumours without a named source."
+}
+
+# Editorial policy
+# GUIng Forward: Editorial Policy (v2)
+
+This policy is given to the model during item selection, brief creation, and drafting. It states what
+the publication counts as evidence and how it decides. When the policy and a source disagree, the
+policy wins.
+
+## 1. Audience relevance
+Accept material only when it helps an enthusiastic, non-specialist reader answer the recurring question:
+*which new ways of interacting with computers through AI are actually changing how people work and live,
+and which are still demos?*
+
+- **Relevant:** something a reader could use, buy, or try, or something that changes how a person
+  operates a computer, phone, browser or device. Examples are agents acting in software, assistants
+  using personal context, voice or multimodal interaction, AI in the OS or browser, and new AI devices.
+  Evidence about how well these work for real people also counts: reliability, failures, privacy,
+  learning curve, and accessibility.
+- **Not relevant on its own:** model benchmarks, funding, valuations, chips, data centres, enterprise
+  sales, or policy debates with no interface consequence. A relevant item may *mention* these.
+- A long podcast or video is relevant when a substantial, identifiable passage addresses the themes,
+  even if most of the episode is about something else. Evidence must come from that passage. A passing
+  news recap inside an otherwise off-topic episode is not a substantial passage (see 3, relayed
+  statements).
+
+## 2. Freshness
+- Only material published within the run's 30-day window can support claims. The pipeline enforces
+  this mechanically before selection.
+- A recent source discussing an older event is admissible only for what is **new**: new data, new
+  user experience, a new interpretation. The decision and brief must say which older event is
+  discussed and what is newly reported.
+- Re-uploads and reposts of older material are not new developments.
+
+## 3. Credibility: judge the claim, not the brand
+Rate the support for each claim, not the outlet's reputation, popularity, or the model's own confidence.
+Credibility is strongest to weakest in this order:
+1. **Direct observation or measurement:** hands-on testing, a study with described method and
+   participants, reproducible demonstrations, logs.
+2. **Specific first-hand experience** from a named practitioner, with concrete details.
+3. **Vendor statements of what shipped:** availability, price, features. These are reliable for *what
+   exists* and unreliable for *how well it works*.
+4. **Vendor or commentator claims about impact, adoption, or the future.** Treat these as claims to
+   attribute, never as facts.
+5. **Anonymous, second-hand, or unsourced assertions.** Do not use them as support.
+
+Several outlets repeating one announcement count as **one** underlying claim, not corroboration.
+Independent corroboration means separate observation by different parties.
+
+**Relayed statements.** A source that reports what someone else said is relaying it. Examples: podcast
+hosts recounting a CEO's remarks, or a news item read on air. If the original statement is not itself in
+the evidence, the relayed version is second-hand (level 5). It may appear only as an attributed
+`source_claim` that names both the relayer and the original speaker, for example "The Vergecast reported
+that Jamie Dimon said…". It can never be the only support for a claim. An item whose only relevant
+passage is relayed news is **deferred**, not accepted, unless the primary source is also in the
+evidence.
+
+## 4. Commercial incentives
+Identify when the source benefits from the claim: a vendor about its own product, a creator with
+sponsorships, an investor about a portfolio company. Such material is accepted for what it
+documents (what shipped, how it is supposed to work). Its performance claims must be attributed
+("Google says…") and, where possible, checked against an independent source.
+
+## 5. Novelty
+Prefer items that add something the selected set does not already have: a new development, a
+first-hand test, contrary evidence, or a research finding. When two items carry the same claim, accept
+the one with the more direct evidence and **defer** the other.
+
+**Partial duplicates.** Independent coverage of an announcement is a duplicate only if it adds nothing
+to the vendor's own account. Added details are new information: availability, price, who can actually
+use it, restrictions, or the reporter's own testing. Such an item may be accepted for that added detail,
+while the vendor's post stays the source for the vendor's own claims. A pure duplicate is
+**deferred**. Duplication alone is never a reason to reject.
+
+## 6. Diversity of perspectives
+The selected set should include vendor announcements, independent journalism or reviews, practitioner
+experience, and research. Accept a weaker item from an under-represented perspective over a stronger
+duplicate from an over-represented one. Name the perspectives that remain missing; for example, users
+outside tech, accessibility users, non-US users, privacy advocates.
+
+**Theme coverage.** The series must engage each recurring theme in the project brief, not only the theme
+with the most news that month. During selection, before accepting another item on a theme that is
+already well covered, check whether an eligible item addresses an under-covered theme, and prefer it
+when its evidence is usable. If no eligible item gives usable evidence for a theme, say so explicitly:
+in the selection summary, and in the limitations of the piece where that theme belongs. Never
+substitute an adjacent topic and present it as coverage of the theme. Coverage must come from evidence,
+not from stretching a weak source.
+
+## 7. Uncertainty, conflict, and unsupported claims
+- Label every claim as one of three types:
+  - **reported_fact:** directly observed or documented.
+  - **source_claim:** asserted by a source and attributed to it.
+  - **inference:** our reasoning across sources, with the reasoning stated.
+- When sources conflict, report both and explain the likely reason for the difference: a different
+  product version, different task, different user, or different incentive. Do not pick a winner
+  without evidence.
+- Do not manufacture disagreement. If the evidence agrees, say so.
+- Say plainly when the evidence is too thin to support a conclusion.
+- Never fill a gap with outside knowledge or invented sources. If something is not in the evidence,
+  it does not appear as a claim.
+
+## 8. Decisions
+- **accept:** relevant, in-window, and contributes evidence to at least one of the three pieces.
+  State which piece and why.
+- **defer:** relevant but redundant (a pure duplicate, see 5), weaker than an accepted item carrying
+  the same claim, relevant only through a relayed statement (see 3), or useful only if a later edition
+  follows that thread.
+- **reject:** off-topic for this audience, not substantive (too thin, promotional fluff), or with no
+  usable evidence passage. Do not reject an item only because it duplicates another.
+
+Every decision states its reason in one or two sentences, naming the specific evidence. "Seems
+relevant" is not a reason.
+
+## 9. The three pieces
+- **01 What changed:** which developments in the window matter most to this audience, and why. Rank
+  them; do not list them.
+- **02 What holds up:** which claims withstand scrutiny, and where the evidence or interpretations are
+  in tension. The usual pattern is a vendor claim set against independent tests or practitioner
+  experience.
+- **03 What it means:** the implications for the audience, and what they should watch next, with
+  concrete signals that would confirm or overturn the analysis.
+
+Each piece needs at least three independent publishers. Across the series, written, video, and podcast
+evidence must all contribute.
+
+
+# Instructions
+# Article writing prompt
+
+You write for the publication described in the project brief, in its stated voice. Turn ONE editorial
+brief into a Substack article of 650 to 850 words. The References section does not count toward the
+length.
+
+Rules:
+- Make the brief's central argument. Do not just summarize sources. Open with a concrete scene or
+  example from the evidence, state the argument early, develop the synthesis, address the limitation
+  or counterargument, and end with what the reader should take away or watch.
+- Use only the claims in the brief and the evidence passages provided. Add no facts, numbers, product
+  names, or quotes beyond them.
+- Every sentence that relies on a claim ends with the claim's marker in square brackets, for example
+  `[01-c2]`. Use only the brief's claim IDs, and use each claim at least once.
+- Put a claim's marker only on sentences that rely on that claim's own evidence. A direct quote takes the
+  marker of the claim whose evidence contains that quote. An `inference` marker goes only on the
+  sentence that states the inference, never on the quotes that feed it.
+- Make the epistemic status visible in the prose:
+  - Facts are stated plainly.
+  - Source claims are attributed ("Microsoft says…", "on The Vergecast, Nilay Patel argued…").
+  - Inferences are signposted ("Put together, this suggests…").
+  - Uncertainty is stated.
+- When you mention a video or podcast passage, name the show and give its timestamp, for example
+  "(MKBHD, 04:12)".
+- Format in Markdown:
+  1. `# Title`
+  2. An italic one-line subtitle.
+  3. The line `*As of 2026-10-16 · Edition evidence window: 2026-09-17 to 2026-10-16*`
+  4. Body sections with `##` headings: 2 to 4 sections, short paragraphs.
+  5. A final `## References` section listing each claim marker with its sources (publisher, title,
+     date, link; include the timestamp for media).
+- Do not include an AI-disclosure line; the publishing stage adds a standard one.
+
+
+# USER
+
+As-of date: 2026-10-16. Evidence window: 2026-09-17 to 2026-10-16.
+Series context (the other two pieces argue, do not repeat them): ['01: The development that matters most this month is not a new device or a smarter model. Proactive agents with access to your accounts became a mass-market consumer product. Wearables, the OS and the home are now being redesigned to give those agents a surface, but most of the redesign is still promised rather than shipped.', '02: Vendor claims hold up when an agent has a well-defined task with clean data. They break down where vendors promise safe autonomy, such as checking in before important actions, smooth conversation, or knowing when a job is done. There, independent tests show agents failing quietly in ways their users do not catch.']
+
+BRIEF:
+{
+ "piece_id": "03",
+ "title": "Talk to start, take the controls to finish: what to do with conversational agents now",
+ "question": "What should early adopters change about how they use voice and agent interfaces, and which signals will show whether that advice is wrong?",
+ "argument": "Conversation, whether spoken or typed, is becoming the best way to start a task on a computer and a poor way to finish one. Readers should use it to kick off and specify work, then return to typing, direct manipulation and explicit checks for details and verification. The more agreeable the interface feels, the more deliberately they need to check its output.",
+ "synthesis": "Three independent sources point to the same division of labour. Simon Willison built a blog feature by voice while cooking, then needed half an hour of typing to finish it. Plottery's participants leaned on the AI prompt box to get started, yet the authors argue a slider beats re-prompting for fine adjustments. The Verge's reviewer found that the clear win in a year of Alexa Plus was creating routines by voice, while agentic errands worked only occasionally. The connected insight is about how users judge the result. The voice-persuasion experiment found that sycophancy shaped how people felt about the conversation, not what they concluded. The Copilot study found trust tracked confidence, not the quality of the work. NN/g's expert Claude users rarely checked what Claude had changed in their context files. Taken together, these suggest that how pleasant a conversational interface feels tells you little about whether its output is right. So verification has to be a habit the user builds, or a feature the vendor ships. That gives us the signals to watch. First, whether vendors start showing which sources were searched and which steps can be undone. Second, whether Microsoft's local/cloud router reveals when a local model fails. Third, whether Muse on glasses arrives with clear rules for bystanders and data use.",
+ "limitations": "The voice-persuasion study used GPT-4o, which has since been retired, on a single topic with a UK sample and measured opinions only immediately afterwards. It shows that spoken AI can shift opinions; it does not compare voice with text. Plottery had 10 participants, mostly graduate students, doing reproduction tasks. Willison is one experienced developer, and the Alexa verdict comes from one reviewer. Accessibility uses such as Guided Vision and the Brera museum glasses pilot rest only on vendor statements, with no testing by blind or low-vision users. There are no voices from privacy advocates, bystanders or non-English-speaking users. A counterargument we cannot rule out is that better models will narrow the 'finish' gap and make this advice obsolete. The evidence here cannot say how fast that might happen.",
+ "claims": [
+  {
+   "claim_id": "03-c1",
+   "statement": "Simon Willison, who built a blog feature mostly by talking to Codex while cooking, concludes that pasting examples and highlighting code remains more efficient than describing details aloud.",
+   "type": "source_claim",
+   "evidence": [
+    {
+     "item_id": "feed:simon-willison:305ba874f36f",
+     "version_id": "e16e964f39f29390c3f6a11ca57e5783f699a56809c23143f8225d8776c71f52",
+     "locator": {
+      "type": "text",
+      "quote": "Being able to paste in examples and error messages, or directly highlight the code or feature that needs changing, remains more efficient than trying to describe it in words."
+     }
+    }
+   ]
+  },
+  {
+   "claim_id": "03-c2",
+   "statement": "The authors of the Plottery study, in which participants leaned most on AI prompting, still argue that dragging a slider is better than repeatedly re-prompting for small visual adjustments.",
+   "type": "source_claim",
+   "evidence": [
+    {
+     "item_id": "feed:arxiv:4aebbf8b7450",
+     "version_id": "25ac64aadd8e13edda09b0446e44da675486db904fada85e73e78e75a4354a7a",
+     "locator": {
+      "type": "text",
+      "quote": "it is simply nicer to drag a font size slider until it looks right than to prompt “title bigger” and “title a little smaller” over and over."
+     }
+    }
+   ]
+  },
+  {
+   "claim_id": "03-c3",
+   "statement": "After a year of testing Alexa Plus, The Verge's smart-home reviewer called setting up routines by voice the game changer, but said agentic tasks such as food orders and bookings work only occasionally.",
+   "type": "source_claim",
+   "evidence": [
+    {
+     "item_id": "podcast:the-verge:9042d61e611e",
+     "version_id": "cef8c4d4f3ffb84b15902253edbdd291ccbb975420d66057cd089793f0c3c0e6",
+     "locator": {
+      "type": "segment",
+      "segment_id": "seg-0017"
+     }
+    },
+    {
+     "item_id": "podcast:the-verge:9042d61e611e",
+     "version_id": "cef8c4d4f3ffb84b15902253edbdd291ccbb975420d66057cd089793f0c3c0e6",
+     "locator": {
+      "type": "segment",
+      "segment_id": "seg-0022"
+     }
+    }
+   ]
+  },
+  {
+   "claim_id": "03-c4",
+   "statement": "In a randomised experiment with 616 UK participants, about ten minutes of spoken conversation with GPT-4o shifted opinions even when the model was given no stance, and its sycophancy was linked to how users felt about the conversation rather than to how much their opinions changed.",
+   "type": "reported_fact",
+   "evidence": [
+    {
+     "item_id": "feed:arxiv:eba9abd1cb2d",
+     "version_id": "1d2eead9f5eb50ed2eaf66e29ec591d3a48a31bc7afcfe38a5d3c9ebd69ddcd7",
+     "locator": {
+      "type": "text",
+      "quote": "Notably, even the non-directive condition produced a significant shift downward (b = -0.37, SE = 0.14, p = .011)."
+     }
+    },
+    {
+     "item_id": "feed:arxiv:eba9abd1cb2d",
+     "version_id": "1d2eead9f5eb50ed2eaf66e29ec591d3a48a31bc7afcfe38a5d3c9ebd69ddcd7",
+     "locator": {
+      "type": "text",
+      "quote": "Social sycophancy, though near-universal, was not associated with opinion change; instead it shaped users’ subjective experience."
+     }
+    }
+   ]
+  },
+  {
+   "claim_id": "03-c5",
+   "statement": "Two independent studies suggest that users' confidence in agent output does not track its quality. In the Copilot study, trust was linked to confidence but not to the quality of the work, and NN/g's expert Claude users rarely checked what Claude had changed in their files. Verification therefore has to be a deliberate habit rather than something the experience prompts.",
+   "type": "inference",
+   "evidence": [
+    {
+     "item_id": "feed:arxiv:923aef459e6e",
+     "version_id": "4d4d9da43e318d40e64b893a85e6096c81f4f50564747a55d1eb5589cc1c7273",
+     "locator": {
+      "type": "text",
+      "quote": "Trust was associated with confidence, engagement, satisfaction, and cognitive load, but not with artifact quality."
+     }
+    },
+    {
+     "item_id": "feed:nngroup:09014bd00a9f",
+     "version_id": "cff00f910bf5798a2c12e4fb260bac2c8f11c3ea2f71061db1e4cdcb24ad07d5",
+     "locator": {
+      "type": "text",
+      "quote": "They didn’t always know exactly which files needed changes or where they lived, and they rarely checked what Claude had changed."
+     }
+    }
+   ]
+  },
+  {
+   "claim_id": "03-c6",
+   "statement": "Sam Witteveen notes that Microsoft's demo of automatic local/cloud model routing did not show what happens when a local model gets a task wrong. That makes failure handling the signal to check once Copilot's hybrid features roll out, which Microsoft says will begin in the coming months.",
+   "type": "source_claim",
+   "evidence": [
+    {
+     "item_id": "youtube:CH1ciacnazE",
+     "version_id": "c570435df8916ea1af9cbc60109c917d3ff7931d4ccd4857b708fd559aed0403",
+     "locator": {
+      "type": "segment",
+      "segment_id": "seg-0008"
+     }
+    },
+    {
+     "item_id": "feed:microsoft:bb14a2d04e21",
+     "version_id": "090dfd31aafb9903ae86907e871a78ff64a27bf28fffe765eafd3480e1a333c3",
+     "locator": {
+      "type": "text",
+      "quote": "Copilot features powered by hybrid intelligence are expected to begin rolling out on Copilot+ PCs in the coming months."
+     }
+    }
+   ]
+  },
+  {
+   "claim_id": "03-c7",
+   "statement": "Bringing agents to glasses widens whose data is at stake. Meta will train future models on Muse data unless users opt out. The Verge's V Song argues assistants need to know about the people around you, not just you. Norway's minister cites people being audio recorded without their knowledge. Whether Muse on glasses ships with bystander-facing controls is a concrete signal to watch.",
+   "type": "inference",
+   "evidence": [
+    {
+     "item_id": "feed:uploadvr:6547891be242",
+     "version_id": "11ad3c82a89da1a53920f617f7e534a0b64f30903de41120eaeb80c8291e9e7a",
+     "locator": {
+      "type": "text",
+      "quote": "Meta says it doesn't use Muse data for advertising, though will use it to train future models unless you opt out."
+     }
+    },
+    {
+     "item_id": "podcast:the-verge:1d6a66a7e9d5",
+     "version_id": "d581aecdb85729cd203f735bc9c13a2f31e0cfb00a4120565bc0e8448c9ca1be",
+     "locator": {
+      "type": "segment",
+      "segment_id": "seg-0066"
+     }
+    },
+    {
+     "item_id": "feed:road-to-vr:9237cda7487c",
+     "version_id": "8239a165a7ecb37bc81d56ffe5cd5908b2553ce29061932274b73463fa7d6956",
+     "locator": {
+      "type": "text",
+      "quote": "I am concerned that new, powerful technology is being introduced where people risk being photographed, filmed or audio recorded without their knowledge"
+     }
+    }
+   ]
+  },
+  {
+   "claim_id": "03-c8",
+   "statement": "Google says Guided Vision, its voice-and-camera assistance feature for blind and low-vision users, can make mistakes and is not intended for navigation or obstacle detection. Independent testing by blind and low-vision users is the missing evidence to watch for.",
+   "type": "source_claim",
+   "evidence": [
+    {
+     "item_id": "feed:google:058f1d37f378",
+     "version_id": "7f957a1892a7b40d03c1b7ce43629c1043769c1133331b3bed14253863340099",
+     "locator": {
+      "type": "text",
+      "quote": "it’s not intended for navigation, safe-travel guidance, or obstacle detection."
+     }
+    }
+   ]
+  }
+ ]
+}
+
+EVIDENCE PASSAGES (the only material you may use):
+[03-c1] (source_claim) Simon Willison, who built a blog feature mostly by talking to Codex while cooking, concludes that pasting examples and highlighting code remains more efficient than describing details aloud.
+    - Simon Willison's Weblog, "A new feature for my blog, built using my voice" (feed, 2026-10-09): https://simonwillison.net/2026/Oct/9/built-using-my-voice/
+      passage: "Being able to paste in examples and error messages, or directly highlight the code or feature that needs changing, remains more efficient than trying to describe it in words."
+[03-c2] (source_claim) The authors of the Plottery study, in which participants leaned most on AI prompting, still argue that dragging a slider is better than repeatedly re-prompting for small visual adjustments.
+    - arXiv cs.HC, "Plottery: A Code-Integrated GUI for Matplotlib" (feed, 2026-10-14): https://arxiv.org/abs/2610.14306
+      passage: "it is simply nicer to drag a font size slider until it looks right than to prompt “title bigger” and “title a little smaller” over and over."
+[03-c3] (source_claim) After a year of testing Alexa Plus, The Verge's smart-home reviewer called setting up routines by voice the game changer, but said agentic tasks such as food orders and bookings work only occasionally.
+    - The Vergecast, "The many pluses and minuses of Alexa Plus" (podcast, 2026-10-08) at 08:51-09:27: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8056613997.mp3
+      passage: "They had lots of ideas about routines and lots of ideas about how to put all these things together. And the idea was just, we are going to radically simplify the interface and thus make it more powerful on the other side. - Is that a fair way to describe kind of what they've been trying to do? - Yeah, and I think that they're halfway to that path more powerful. That's what's got a lot better, like especially you were talking about setting up routines, being able to set up routines with your voice is like the game changer, because going into an app fiddling with things like that, that's just not something that people generally have a lot of time or patience for."
+    - The Vergecast, "The many pluses and minuses of Alexa Plus" (podcast, 2026-10-08) at 11:39-12:14: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8056613997.mp3
+      passage: "The type of agentic things that Amazon has said Alexa can do for us, I have often just hit a roadblock when I've tried to use them. Like ordering things from Uber Eats or booking trips or even booking tickets. I mean, occasionally it works and occasionally it doesn't. And it's like, ah, that's just frustrating. But turning my lights on and off, managing my smart home, those things, it's doing much better. Not perfect. There's definitely still the occasional time where it goes off and does something just a little weird or says something a little strange."
+[03-c4] (reported_fact) In a randomised experiment with 616 UK participants, about ten minutes of spoken conversation with GPT-4o shifted opinions even when the model was given no stance, and its sycophancy was linked to how users felt about the conversation rather than to how much their opinions changed.
+    - arXiv cs.HC, "The AI's Poker Face: Contrasting Persuasion and Sycophancy in Voice-Based Multi-Turn Conversations" (feed, 2026-10-14): https://arxiv.org/abs/2610.14124
+      passage: "Notably, even the non-directive condition produced a significant shift downward (b = -0.37, SE = 0.14, p = .011)."
+    - arXiv cs.HC, "The AI's Poker Face: Contrasting Persuasion and Sycophancy in Voice-Based Multi-Turn Conversations" (feed, 2026-10-14): https://arxiv.org/abs/2610.14124
+      passage: "Social sycophancy, though near-universal, was not associated with opinion change; instead it shaped users’ subjective experience."
+[03-c5] (inference) Two independent studies suggest that users' confidence in agent output does not track its quality. In the Copilot study, trust was linked to confidence but not to the quality of the work, and NN/g's expert Claude users rarely checked what Claude had changed in their files. Verification therefore has to be a deliberate habit rather than something the experience prompts.
+    - arXiv cs.HC, "Impact of Expertise and Trust on AI-assisted Work" (feed, 2026-10-14): https://arxiv.org/abs/2610.14660
+      passage: "Trust was associated with confidence, engagement, satisfaction, and cognitive load, but not with artifact quality."
+    - Nielsen Norman Group, "Context Libraries: How AI Power Users Manage Context Engineering" (feed, 2026-10-09): https://www.nngroup.com/articles/context-libraries/
+      passage: "They didn’t always know exactly which files needed changes or where they lived, and they rarely checked what Claude had changed."
+[03-c6] (source_claim) Sam Witteveen notes that Microsoft's demo of automatic local/cloud model routing did not show what happens when a local model gets a task wrong. That makes failure handling the signal to check once Copilot's hybrid features roll out, which Microsoft says will begin in the coming months.
+    - Sam Witteveen, "Microsoft Joins the Local AI Push" (youtube, 2026-10-08) at 03:52-04:23: https://www.youtube.com/watch?v=CH1ciacnazE&t=232s
+      passage: "If the local model can't handle the task it was sent, does it then know that and send it back to the cloud or do you just get a worse answer and never actually know what failed and what didn't work out the way you want it? Unfortunately, that wasn't something that they showed here, but it's certainly going to be interesting to see when we've seen things like the whole model router idea with things like pair from Nvidia through to other projects and ideas that people have put out there of how this is actually going to work. All right. So what did they actually say runs locally?"
+    - Windows Blog (Microsoft), "Building Windows for hybrid intelligence" (feed, 2026-10-07): https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+      passage: "Copilot features powered by hybrid intelligence are expected to begin rolling out on Copilot+ PCs in the coming months."
+[03-c7] (inference) Bringing agents to glasses widens whose data is at stake. Meta will train future models on Muse data unless users opt out. The Verge's V Song argues assistants need to know about the people around you, not just you. Norway's minister cites people being audio recorded without their knowledge. Whether Muse on glasses ships with bystander-facing controls is a concrete signal to watch.
+    - UploadVR, "Meta's Smart Glasses Are Getting Its 'Muse' AI Agent" (feed, 2026-09-29): https://www.uploadvr.com/meta-smart-glasses-getting-muse-ai-agent/
+      passage: "Meta says it doesn't use Muse data for advertising, though will use it to train future models unless you opt out."
+    - The Vergecast, "Everything's recording everybody. What now?" (podcast, 2026-10-15) at 38:18-38:52: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8179591152.mp3
+      passage: "But it's one of those things where let's peel back the layers a little bit and what do they want? They want data because the data makes the AI more useful. For your AI assistant to be the best possible personal assistant ever. It has to know everything about you, but not only everything about you, everything about the people in your lives that you interact with regularly. So that's the thing that we're grappling with. And I think that's something that society needs to weigh in on because otherwise the tech companies will make the decision for us."
+    - Road to VR, "Norway Proposes Temporary Ban on Smart Glasses in Public Places" (feed, 2026-10-07): https://roadtovr.com/norway-proposes-temporary-ban-on-smart-glasses-in-public-places/
+      passage: "I am concerned that new, powerful technology is being introduced where people risk being photographed, filmed or audio recorded without their knowledge"
+[03-c8] (source_claim) Google says Guided Vision, its voice-and-camera assistance feature for blind and low-vision users, can make mistakes and is not intended for navigation or obstacle detection. Independent testing by blind and low-vision users is the missing evidence to watch for.
+    - Google Keyword: Gemini, "Guided Vision in Gemini Live: built for accessibility" (feed, 2026-10-01): https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/
+      passage: "it’s not intended for navigation, safe-travel guidance, or obstacle detection."
+
+Write the article now. Target: 600-900 words (excluding References). Output Markdown only.
+
+YOUR DRAFT:
+# Talk to start, take the controls to finish: what to do with conversational agents now
+
+*Conversation is a good way to start work on a computer and a poor way to finish it. The friendlier it feels, the more you should check its output.*
+
+*As of 2026-10-16 · Edition evidence window: 2026-09-17 to 2026-10-16*
+
+## Talking gets you started
+
+Simon Willison built a new feature for his blog mostly by talking to Codex while he cooked [03-c1]. Hands busy, voice free, software getting written. It is close to the scene science fiction promised.
+
+His own conclusion is more restrained: "Being able to paste in examples and error messages, or directly highlight the code or feature that needs changing, remains more efficient than trying to describe it in words." [03-c1]
+
+That is the argument of this piece. Conversation, spoken or typed, is becoming the best way to begin a task on a computer. It is still a clumsy way to finish one. Early adopters should use it to start and specify work, then go back to typing, pointing and clicking for the details. They should also check the result deliberately, because the experience will not prompt them to.
+
+Willison is not the only source pointing this way. Plottery is a code-integrated graphical interface for the Matplotlib charting library. In its study, participants leaned most on AI prompting. Even so, the authors argue that "it is simply nicer to drag a font size slider until it looks right than to prompt 'title bigger' and 'title a little smaller' over and over." [03-c2]
+
+The same pattern shows up in the home. On The Vergecast (08:51), The Verge's smart-home reviewer looked back on a year of testing Alexa Plus. They called setting up routines by voice "the game changer," because fiddling in an app is "not something that people generally have a lot of time or patience for." [03-c3] The agentic errands were another story. When the reviewer tried ordering from Uber Eats or booking trips and tickets, "occasionally it works and occasionally it doesn't" (11:39) [03-c3].
+
+In each case, voice or chat did well at describing what the person wanted. It did less well at getting the specifics right.
+
+## Pleasant is not the same as correct
+
+The harder problem is how people judge what a conversational interface hands back.
+
+In a randomised experiment, 616 UK participants spoke with GPT-4o for about ten minutes [03-c4]. Their opinions shifted even in the condition where the model was given no stance to push [03-c4]. The researchers also found that the model's flattery, "though near-universal, was not associated with opinion change; instead it shaped users' subjective experience." [03-c4] In other words, the flattery affected how the chat felt, not what people ended up believing.
+
+Two separate studies of agents at work point the same way. In a study of AI-assisted work with Copilot, trust was associated with users' confidence, engagement and satisfaction, but not with the quality of what they produced [03-c5]. Nielsen Norman Group studied expert users who manage context files for Claude. It found they rarely checked what Claude had changed [03-c5].
+
+Taken together with the voice study, this suggests that how good a conversation with an AI feels says little about whether its output is right. Checking therefore has to be a habit you build on purpose, not something the interface nudges you into [03-c5].
+
+## What to change, and what to watch
+
+In practice, that means four habits:
+
+- Speak or type the goal.
+- Let the agent draft.
+- Take the controls for the fine adjustments, such as highlighting code, pasting the error message or dragging the slider.
+- Before you accept anything, look at what actually changed.
+
+If checking is the user's job, vendors can make it cheaper. A good first signal is whether assistants start showing which sources they searched and which steps can be undone.
+
+The second signal is on Windows. Microsoft says Copilot features that split work between a local model on the PC and the cloud are expected to begin rolling out on Copilot+ PCs in the coming months [03-c6]. On his YouTube channel (03:52), Sam Witteveen pointed out that Microsoft's demo did not show what happens when the local model gets a task wrong. Does the task go back to the cloud, or do "you just get a worse answer and never actually know what failed"? [03-c6] When the features ship, look for how the router handles failure.
+
+The third signal is on your face. Meta's Muse agent is coming to its smart glasses, and Meta says it will use Muse data to train future models unless you opt out [03-c7]. On The Vergecast (38:18), The Verge's V Song argued that a truly useful assistant has to know "everything about the people in your lives that you interact with regularly," not just about you [03-c7]. Norway has proposed a temporary ban on smart glasses in public places. The country's minister cited the risk of people being "photographed, filmed or audio recorded without their knowledge." [03-c7] Once agents move onto glasses, the people at stake include everyone in view. Whether Muse on glasses ships with clear rules for bystanders and for data use is a concrete test [03-c7].
+
+Accessibility is a fourth area. Google says Guided Vision, its voice-and-camera feature for blind and low-vision users, can make mistakes and is "not intended for navigation, safe-travel guidance, or obstacle detection." [03-c8] Independent testing by blind and low-vision users is the missing evidence here [03-c8].
+
+## Where this advice could be wrong
+
+The evidence is thin in places. The voice study used GPT-4o, which has since been retired. It covered a single topic and a UK sample, and it measured opinions only immediately after the conversation. It also did not compare voice with text. Plottery had 10 participants, mostly graduate students, doing reproduction tasks. Willison is one experienced developer, and the Alexa verdict comes from one reviewer. Claims about accessibility, including a museum glasses pilot, rest only on vendor statements. We also have no evidence from privacy advocates, bystanders or people who do not speak English.
+
+The strongest counterargument is that better models will close the gap on finishing tasks and make this advice obsolete. The evidence here cannot say how quickly that might happen. Until it does, talk to start, take the controls to finish, and check the result even when the conversation felt good.
+
+## References
+
+- **[03-c1]** Simon Willison's Weblog, "A new feature for my blog, built using my voice," 2026-10-09. https://simonwillison.net/2026/Oct/9/built-using-my-voice/
+- **[03-c2]** arXiv cs.HC, "Plottery: A Code-Integrated GUI for Matplotlib," 2026-10-14. https://arxiv.org/abs/2610.14306
+- **[03-c3]** The Vergecast, "The many pluses and minuses of Alexa Plus," 2026-10-08, 08:51–09:27 and 11:39–12:14. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8056613997.mp3
+- **[03-c4]** arXiv cs.HC, "The AI's Poker Face: Contrasting Persuasion and Sycophancy in Voice-Based Multi-Turn Conversations," 2026-10-14. https://arxiv.org/abs/2610.14124
+- **[03-c5]** arXiv cs.HC, "Impact of Expertise and Trust on AI-assisted Work," 2026-10-14. https://arxiv.org/abs/2610.14660 · Nielsen Norman Group, "Context Libraries: How AI Power Users Manage Context Engineering," 2026-10-09. https://www.nngroup.com/articles/context-libraries/
+- **[03-c6]** Sam Witteveen, "Microsoft Joins the Local AI Push," YouTube, 2026-10-08, 03:52–04:23. https://www.youtube.com/watch?v=CH1ciacnazE&t=232s · Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07. https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+- **[03-c7]** UploadVR, "Meta's Smart Glasses Are Getting Its 'Muse' AI Agent," 2026-09-29. https://www.uploadvr.com/meta-smart-glasses-getting-muse-ai-agent/ · The Vergecast, "Everything's recording everybody. What now?," 2026-10-15, 38:18–38:52. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8179591152.mp3 · Road to VR, "Norway Proposes Temporary Ban on Smart Glasses in Public Places," 2026-10-07. https://roadtovr.com/norway-proposes-temporary-ban-on-smart-glasses-in-public-places/
+- **[03-c8]** Google Keyword: Gemini, "Guided Vision in Gemini Live: built for accessibility," 2026-10-01. https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/
+
+The draft has 1052 words (excluding References); the target is 600-900. Revise to fit the target while keeping the argument, every claim marker, and the format. Output the full revised Markdown only.

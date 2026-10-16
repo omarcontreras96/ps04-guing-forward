@@ -1,0 +1,33 @@
+Liminal, known for its VR app offering short experiences designed around emotional states like calm, focus, and energy, is now applying some of that experience to smartglasses.
+Liminal: Walking Meditation is a new experience for Meta AI glasses which uses the camera to capture images as you walk and provides a spoken meditation experience based on what you see, in close to real time. The required smartphone app is slated for release in October on both iOS and Android.
+The app is an example of what developers can build using Meta's Device Access Toolkit, which was just demonstrated during the Developer State of the Union at Meta Connect 2026.
+I have been trying a prerelease version with my Ray-Ban Meta glasses ahead of Connect. After taking it for a walk around my neighborhood, I found that it feels quite different from simply listening to a meditation recording.
+Your Surroundings Become Part Of The Meditation
+To begin a Walking Meditation you launch the smartphone app which needs to be paired to your Meta AI glasses during the setup process, and select the theme, voice, and pacing that you would like. Once the walk begins you can pocket your phone and continue hands-free, listening through your glasses while the app uses images to describe what is around you and contextualize it for the meditation session.
+On my first walk, I deliberately went outside at night to see how well it could make sense of a darker environment. At one point, it referred to my car sitting nearby and described it in the context of the scenery around me. Even though its vision was limited, it managed to call out details like the "amber streetlights" shining against the darkness.
+Liminal co-founder and CEO Damian Moratti told me the company approached smartglasses by asking what they could actually add to the experience.
+Moratti said Liminal has always used VR to create strong emotional responses through immersion. Smartglasses gave the team a chance to apply some of that thinking while keeping people engaged with the real world as well.
+At launch the app will include twelve meditation themes. In my testing I utilized Presence, Wonder, and Gratitude. Each is guided differently to focus your thoughts in different ways. There are also eight voice and three pacing options.
+Pacing does more than change the amount of silence between spoken sections. Liminal CTO Tin Nguyen told me the team is using the setting to shape how much narration you hear and the overall length of the experience. The shortest walks are expected to last around 10 to 13 minutes.
+Deciding What Is Worth Talking About
+It sounds simple enough, until you start thinking about everything a pair of glasses can see, even during a short walk.
+A tree or a statue might be interesting. The garbage cans you have passed every Tuesday for the last ten years probably are not.
+Moratti says figuring out that logic has become a major part of Liminal's testing.
+During testing, an early version mentioned the garbage cans around eight times. Another noticed a glowing sign inside the window of an adult store and built an unintentionally enthusiastic narrative around it.
+As funny as those examples are, they also show how difficult the problem is.
+Nguyen says the app isn't constantly shooting and analyzing images. Instead, it periodically takes a look at the current scene as the walk progresses. In his description, it is more like single moments in time rather than a continuous photo stream.
+In my testing the narration was very close to real time, with the app focusing on an object such as a particular tree as I would come up to it and pass by. It also would comment on the way the grass met the pavement or the bright sun against the blue sky. Somewhat general in certain ways, but also correctly observed.
+The narration was separated by generous moments of silence, so I wasn't overwhelmed by a constant string of prompts. That also made the impact hit harder when a narration did arrive.
+What Happens To The Images?
+The obvious question with an app that repeatedly looks at your surroundings is where those images go.
+Liminal says images captured for Walking Meditation use zero data retention. According to Nguyen, when the app needs context from the environment, an image from the glasses is sent through the phone for AI processing. Liminal is currently using Google Gemini for that processing with zero data retention enabled. Once the response is generated, the image is discarded.
+The app also does not request access to the microphone, something Moratti said was a deliberate privacy decision. Users don't have to worry about their conversations being recorded or used a prompts for the meditation.
+What About Safety?
+Liminal says that the Walking Meditation app will not provide any navigation or route guidance, and that they purposely designed the experience to focus the user on what they see in their surroundings.
+Moratti said that they considered whether to develop the ability alert the user to potential hazards, but the difficulty in building that reliably convinced them that the correct choice is to avoid navigation altogether, at least for now.
+Liminal Is Moving Beyond The Headset
+Walking Meditation is separate from the existing Liminal VR app on Meta Quest, but Moratti sees the two products as complementary, with the VR app providing escape from the real world, while Walking Meditation is built to focus attention on the real world as you walk through it.
+I have listened to plenty of guided meditation through headphones, and this does feel different. The environment around you becomes part of the experience.
+Adding wellness and meditation capability goes a long way toward improving the practical usefulness of Meta AI glasses. In my brief time testing the experience, I've found it pleasant and effective enough that I plan on continuing with it once it is fully released.
+Launching in October
+Liminal: Walking Meditation is planned to launch on iOS and Android in October for compatible Meta AI glasses. It will cost $9.99 per month or $99.99 per year, which includes 30 contextual walks per month, and unlimited access to offline scripted versions of each theme.

@@ -1,0 +1,23 @@
+Between mid-September and mid-October, the biggest change in how people use their computers was not a new gadget. Personal agents that can act on your accounts became the default entry point of mainstream apps like Gemini. New OS agents and devices mostly serve as places for those agents to run, and many of their features are still announced rather than shipped.
+
+Full article: https://guingforward.substack.com/p/the-agent-became-the-front-door-the
+
+As of 2026-10-15
+
+Full article: https://guingforward.substack.com/p/the-agent-became-the-front-door-the
+As of 2026-10-15.
+
+Sources (timestamps link to the cited passage):
+- 9to5Google, “Gemini ‘Task’ redesign integrates Spark into the main chat app” (2026-10-13): https://9to5google.com/2026/10/12/gemini-spark-task-redesign/
+- One Useful Thing (Ethan Mollick), “The Dot and the Swarm” (2026-10-01): https://www.oneusefulthing.org/p/the-dot-and-the-swarm
+- Windows Blog (Microsoft), “Building Windows for hybrid intelligence” (2026-10-07): https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+- Marques Brownlee (MKBHD), “WTF is a Googlebook?” (2026-10-08, at 03:25): https://www.youtube.com/watch?v=_0G4OG39XjI&t=205s
+- Marques Brownlee (MKBHD), “Apple Homeview Impressions: Not Convinced!” (2026-10-13, at 05:15): https://www.youtube.com/watch?v=QVv3mQzlrN0&t=315s
+- Marques Brownlee (MKBHD), “Apple Homeview Impressions: Not Convinced!” (2026-10-13, at 05:55): https://www.youtube.com/watch?v=QVv3mQzlrN0&t=355s
+- Road to VR, “Norway Proposes Temporary Ban on Smart Glasses in Public Places” (2026-10-07): https://roadtovr.com/norway-proposes-temporary-ban-on-smart-glasses-in-public-places/
+- UploadVR, “Ray-Ban Meta Audio Drops The Camera For A Lighter, Socially Acceptable Design” (2026-09-28): https://www.uploadvr.com/ray-ban-meta-audio-glasses-no-camera/
+- The Vergecast, “The AI is in the computer” (2026-10-09, at 57:22): https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8833126862.mp3
+- UploadVR, “Meta's Smart Glasses Are Getting Its 'Muse' AI Agent” (2026-09-29): https://www.uploadvr.com/meta-smart-glasses-getting-muse-ai-agent/
+- Google Keyword: Gemini, “Guided Vision in Gemini Live: built for accessibility” (2026-10-01): https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/
+
+Made with an AI-assisted pipeline: script drafted with Anthropic Claude from human-reviewed evidence; voiceover and visuals produced in Google Vids. Claims and sources were checked by a human editor.

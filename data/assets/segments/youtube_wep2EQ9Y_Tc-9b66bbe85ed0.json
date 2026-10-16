@@ -1,0 +1,206 @@
+[
+ {
+  "segment_id": "seg-0001",
+  "start_seconds": 0.0,
+  "end_seconds": 46.96,
+  "text": "Google has more data than almost anyone on Earth, so why does Google need to bid 10 million dollars for Spirit Airlines old work emails because of what it thinks your job is made of? How much is the work that you do worth? If a deal like the Spirit Airlines deal goes through, the company selling the records gets paid, a broker definitely is going to earn a fee there. The buyer, Google, is hoping to build an agentic capability that can resell, and the person whose work helped create all of that. What do they get? They don't get a seat at the table. It turns out that companies are paying millions and millions and millions of dollars for records of work going back years and years and years and years. And the reason why is that there is a leading theory"
+ },
+ {
+  "segment_id": "seg-0002",
+  "start_seconds": 46.96,
+  "end_seconds": 79.28,
+  "text": "among AI labs that if they get these records of work, Slack messages, Zoom call transcripts, documents, that they will be able to teach AI to do what you and I do, to do knowledge work. That's the idea at least. I think there's some reason for skepticism, and I think if nothing else, it's worth you and I knowing about it so that we can understand the value of our work, the value we are putting in, and the value of the data that we're putting out. Why does this matter, by the way?"
+ },
+ {
+  "segment_id": "seg-0003",
+  "start_seconds": 79.28,
+  "end_seconds": 128.0,
+  "text": "Because when we started the year in 2026, what we mostly talked about was what I call verifiable work. If the code runs, it's good. If it runs and it works, that's great, and that's a verifiable domain and we're done. It's like a light switch. It's on or it's off. It works or it doesn't. Well, now we're talking about less verifiable domains. How do you know the document you wrote is good? Can you prove it? Is it a particular sentence that made it good? Is it something you changed in V5 versus V4 or V37 versus V36? I did get up into those numbers when I was writing PRDs in Amazon. They do get that high. How do you know it's good? What makes it good? What makes it true knowledge work? That's the kind of thing that we need to get a better read on because really,"
+ },
+ {
+  "segment_id": "seg-0004",
+  "start_seconds": 128.0,
+  "end_seconds": 173.04,
+  "text": "a lot of the value that we humans produce is not well captured by the kinds of data that these labs are purchasing. Now think about your own job. How much of the record explains where you created value? How much records the effort it took to find the right information, to get permission, to schedule the meeting, and then schedule the follow-up to the meeting. Someone buying that history has to decide which parts the machine ought to learn. And that decision is going to matter to your job and to my job, and you and I may not have a lot of say in it. What is the work that matters? That's the question that is underneath this whole market that matters for you and me for the next decade. If you spent the afternoon in Slack getting"
+ },
+ {
+  "segment_id": "seg-0005",
+  "start_seconds": 173.04,
+  "end_seconds": 220.8,
+  "text": "an invoice fixed, did the work consist of those messages? Was it finding the mistake? Was it getting somebody with the authority to correct it to actually do the thing? And what is the record worth to the buyer if the agent can't tell the difference? This is a fight over what we do and how what we do counts. The answer affects what a machine learns, what a buyer will pay, and whether your employer thinks it can replace you. Or whether it buys a convincing performance of your job and leaves you to deal with everything the agent misses, which I've also seen stories of. Imagine an invoice that doesn't match a purchase order and someone needs to resolve it before the month closes. The invoice is in system A over here. The purchase order is in system B over here. A supplier is emailing a credit somewhere, but the reviewer wasn't copied."
+ },
+ {
+  "segment_id": "seg-0006",
+  "start_seconds": 220.8,
+  "end_seconds": 270.32,
+  "text": "And somewhere in all of that mess, there's a disagreement about whether a partial delivery counts as complete. This is a very realistic scenario. If you've ever dealt with invoicing, it's a complete mess. If you know this company, you may remember that the supplier combines two shipments on one invoice or that an exception approved last month would be a mistake this month. Like if you are in the invoicing world and you know the customer, right, the business needs to get all of that squared away and depends on your tribal knowledge to understand that and depends on you to authorize any correction, etc. The messages you produce in the act of cleaning that up matter to the extent that they help make those things happen, but they're not the work, are they? They don't get money in the door. The record of this job would also maybe contain some of the effort"
+ },
+ {
+  "segment_id": "seg-0007",
+  "start_seconds": 270.32,
+  "end_seconds": 317.76,
+  "text": "that it would take into getting the organization to let the work happen. But again, they're not the work. Maybe someone needs a status update on the invoicing, but it's not the work. Maybe a meeting happened because two systems didn't agree, but that's not the work either. Now, some of that coordination was necessary. Some of it was the cost of working inside that particular company. And if you've never had beers after work and argued about your company, you probably haven't had the knowledge work experience. I'm just going to tell you, happy hour in complaining is how white collar workers talk about where work matters. And so what we're really talking about here is the difference between work and the performance of work. How do you demonstrate availability, show involvement, make sure your contribution is visible? Those are things we"
+ },
+ {
+  "segment_id": "seg-0008",
+  "start_seconds": 317.76,
+  "end_seconds": 364.0,
+  "text": "talk about in big companies for our careers, but they're not the same thing as work. And the archives that are for sale capture all of that a message that prevents a costly mistake and a message that says you're following up will sit right next to each other. And the agent is going to read both. So suppose the invoice took 30 messages and three meetings to resolve. That sounds very plausible. The valuable intervention was one person noticing that the credit hadn't been correctly applied somewhere in that mess. If a buyer treats the whole sequence of data as examples of competent accounting, what is the agent supposed to learn here? How does the agent know what matters? How does the agent learn anything except the performance of work? There's another problem. The thread might end with somebody saying the invoice is approved and the ticket might be closed and that"
+ },
+ {
+  "segment_id": "seg-0009",
+  "start_seconds": 364.0,
+  "end_seconds": 411.68,
+  "text": "looks like success to the agent, but perhaps a duplicate payment was discovered six weeks later. And if you think I'm being theoretical, you have not worked enough in companies that have real messes. Every single example I am giving you is something that is lightly anonymized that I have lived through. This is a case where we are underestimating the degree to which data is reflecting the real mess of the company. And I know that buyers are hoping to extract a lot from work archives that's valuable. In the August auction, Google made the winning $10 million bid over Mercor that beds seven and a half. There's going to be a hearing on the proposed sale, so it's not gone through yet. That's slated for the 14th of October. And then someone has to figure out what are we going to teach an agent from a failed airline? Now, Mercor is an interesting potential"
+ },
+ {
+  "segment_id": "seg-0010",
+  "start_seconds": 411.68,
+  "end_seconds": 460.24,
+  "text": "buyer because it's pursuing both the records and the places agents practice. Alongside the spirit bid, Mercor announced plans in July to acquire DeepTune, which builds training environments. Those combine the software and agent operates an assignment and then checks to determine whether it succeeded. Remember when I said at the start of this video, it's hard to prove that knowledge work worked? Mercor is trying to solve that. And that's a really hard problem. Mercor claims its experts create the assignments and success checks. And it has advertised paid roles that essentially help set up the agent so that we know if they succeeded in the work or not. And people are actually being paid to help define what counts as a job done. For our invoice example is closing the ticket enough. That's an example of something Mercor would have to sort through. Those choices"
+ },
+ {
+  "segment_id": "seg-0011",
+  "start_seconds": 460.24,
+  "end_seconds": 506.48,
+  "text": "end up turning one particular experts interpretation of the job into a target that an agent has to hit in training. And they also influence the evidence a vendor can later show your employer. When a vendor says an agent can handle your role, somebody somewhere in that supply chain has decided what had to be true before a task that you do counts as done. You have reason to care about that. It contains an answer to what work is for all of us. So back to spirit for a second. Their August inventory listed 100 million emails and believe it or not, a half a billion teams records alongside code, business documents. Now imagine how many working days are represented there. People figuring things out, people passing information, people covering for someone arguing about a"
+ },
+ {
+  "segment_id": "seg-0012",
+  "start_seconds": 506.48,
+  "end_seconds": 536.64,
+  "text": "problem, finally getting it handled, calling and sick when they're not. The employer holds the systems where those records all accumulated unless we forget spirit ended up going bankrupt. So it's not even clear that they successfully did the work long term. But that being said, the more we think about this problem, the more it's important to understand that the data space is full of a lot of claims about work that are not well validated. And there's a lot of data brokers out there."
+ },
+ {
+  "segment_id": "seg-0013",
+  "start_seconds": 536.64,
+  "end_seconds": 580.56,
+  "text": "There's one that's just getting started now called Grapd or Grapd.ai that basically offers to wrap up small business data for between $20,000 and $5 million and just resell it to the labs and write it wants messages, it wants code, it wants documents, business records, etc. These are systems that people spend their working lives inside and they're essentially becoming a product that can be pitched to another buyer. And when I think about that, I think if the labs think that that messy simulation of work, the messy record of how whatever got done, got done in this company is worth that much money. Isn't it worth more to the company to drive value in the future?"
+ },
+ {
+  "segment_id": "seg-0014",
+  "start_seconds": 580.56,
+  "end_seconds": 625.6,
+  "text": "Like think about it this way. Let's pretend you're a startup and you could sell your data for a million dollars tomorrow. You could or you could think, wow, the record of work I have is worth a million dollars. I should be able to take that and make more out of it because I know my market, I know my customers, I know my background, I have a product all figured out, I should be able to actually deliver more than a million. And that's what I keep coming back to. The people who are incentivized to sell are the business owners that are going to the wall and cannot find any other way to use this data. This is the data of last resort. See the spirit airlines case. In other words, the way this system is set up, what the agents are getting as data that shows how work is"
+ },
+ {
+  "segment_id": "seg-0015",
+  "start_seconds": 625.6,
+  "end_seconds": 676.56,
+  "text": "done is disproportionately likely to be from failing companies. Think about that. When we're trying to untangle all of this, I think about following the money. The people who are setting up to figure out how to get agents to do this work with this data are really incentivized to get clean results that they can then resell and say, you know what labs, we've got a post-training environment for agents that really works for product managers or engineers or whatever it is, and then they can allow the labs to resell that. But I think that we have to really press on that because ultimately what we're doing is figuring out how to take a generalizable complex work surface that we all navigate called knowledge work and reduce it to a set of optimization problems"
+ },
+ {
+  "segment_id": "seg-0016",
+  "start_seconds": 676.56,
+  "end_seconds": 728.24,
+  "text": "across particular points in the knowledge work world. So we're taking this mess that is all of the spirit airlines data and we're saying it's going to go into a digital environment. We're going to have agents work on it. We're going to give them different assignments and they're going to be optimizing for different aspects of that. Maybe one will be optimizing for invoice in our example. Another one's going to be optimizing for figuring out, I don't know, seed assignments. It's an airline. But when you point optimize like that, you forget a lot of the ambiguity that makes knowledge work work. And I think that that's one of the reasons why it's been so hard to find a sustained impact on jobs so far from AI. Jobs are really complicated things. And the more we dig into these data problems, the more we find that they're not easy. And workers, by the way,"
+ },
+ {
+  "segment_id": "seg-0017",
+  "start_seconds": 728.24,
+  "end_seconds": 772.56,
+  "text": "are not just sitting back. Like workers can contest the terms of the deal. The spirit flight attendant union raised concerns about confidential employee information and what could be inferred from the way these records are connected. And the union also challenged whether excluding whole systems adequately protected the sensitive information that may be copied into other places like email because remember, work is messy. You may be supposed to be putting something in a particular record, but it's the real world. And you never think that this is going to be resolved. So you put it in the wrong place. This is a concrete example of what I think we're going to see a lot more of. Workers are going to contest where this data goes and who gets to do it."
+ },
+ {
+  "segment_id": "seg-0018",
+  "start_seconds": 772.56,
+  "end_seconds": 810.48,
+  "text": "And I will tell you, anecdotally, it is not just famous examples like spirit airline and their union going public in this and that. A lot of what is going on is individuals who are skeptical of how their data is being used. They are going to be privately resisting this process one way or another. And that doesn't necessarily have to happen just because there's a sale of data. I have seen that happen when individuals privately resist the rollout of an AI tool because it is being framed as, and we go back to the meaning of work, this tool will do your work for you."
+ },
+ {
+  "segment_id": "seg-0019",
+  "start_seconds": 811.36,
+  "end_seconds": 850.56,
+  "text": "And they think, no, I don't want that. That's not what I want. That's not what I signed up for. I'm going to resist this. And I have seen in private conversations, there are leaders who estimate as many as a third of their teams are passively, quietly sabotaging and resisting these AI tools. I look at that as a failure of understanding of work. We've talked this whole time about how complicated work is, about how it's sort of silly to imagine that the real massive work, the half a billion teams records, that those are really enough to describe the value of work."
+ },
+ {
+  "segment_id": "seg-0020",
+  "start_seconds": 850.56,
+  "end_seconds": 893.12,
+  "text": "We need a better and more productive conversation about what work means. And it has to start with you and me. It has to start with us understanding that the value of what we produce is not a function of any given email. It's not a function of any given document. It's not a function of any given team's message. It's actually in our ability to accomplish something that is going to drive the business forward. And really, in business, it comes down to either driving revenue or cutting costs. Those are your two options. And you're on one of those. And if you can describe really clearly how you're doing that, you can use all the AI you want to help you get there faster."
+ },
+ {
+  "segment_id": "seg-0021",
+  "start_seconds": 893.12,
+  "end_seconds": 940.0,
+  "text": "And I see a lot of success stories in that area. But if you're in a situation where the only thing your leadership is telling you is we're going to roll out the AI and then we're going to cut you, you're not really motivated to do a lot there. It's not a great spot for you to be long-term. And by the way, if you have that situation, feel free to share this video with your leader. I would love to chat with them. I think they probably need to have a chat with me because I'm really honest with leaders. I tell them, look, this is not a situation where just leaning into cutting people is going to be productive long-term. Knowledge work is not easy to solve. Thinking that you can feed an agent a bunch of Slack messages, I believe you can. But I'm going to tell you right now, having worked with LLM's a long time, even before chat GPT, what you are going to get"
+ },
+ {
+  "segment_id": "seg-0022",
+  "start_seconds": 940.0,
+  "end_seconds": 986.8,
+  "text": "is a bunch of agents who are very good at sending stand-up messages that say nothing to report here. Like they're going to imitate what they see in Slack and in Teams and we are going to get a simulation of work that is immensely entertaining, fairly expensive, and not super valuable. And even if you believe in agents, and you know I do if you watch this channel, you should realize that the value for an agent is not in the performance of work, it is in figuring out where's their repeatable work in the business that is fairly hydrudgery that we can lift the load on and put in place a system that probably doesn't look like a lot of human automation and human hand-off and human meetings and this and that, but actually looks like the agent reading the data, the agent processing the data, and the agent outputting a particular format without any touch of Slack, without any"
+ },
+ {
+  "segment_id": "seg-0023",
+  "start_seconds": 986.8,
+  "end_seconds": 1038.64,
+  "text": "touch of email, none of the human conversational mediums because it just doesn't need it. And so, I feel like we're sort of barking up the wrong tree across multiple levels here. I think the buyers don't understand what work really means and they're just buying stuff because they need the agents to get better at this. I think the sellers are probably not realizing how valuable their data is and selling as a last resort. And I feel like the workers are being told, we are being told, that this means the end of work when we one, don't really understand what's going on and two, don't realize how hard a problem it is that we solve every day and how difficult it is to teach agents to do that. Yes, I'm a big believer in intelligence. I know that artificial intelligence is useful, it's becoming more useful all the time, but it isn't necessarily dealing with the kinds"
+ },
+ {
+  "segment_id": "seg-0024",
+  "start_seconds": 1038.64,
+  "end_seconds": 1079.44,
+  "text": "of high judgment work that knowledge work is made up of. I don't see scaling when it comes to deeply understanding a particular company's context and how to assess those problems against a particular customer and solve in a particular software environment what that looks like. The specificity is something you don't easily get in current scaling laws because the scaling laws are general, they're supposed to work across all of the different companies that you work at. And that's why people joke about the fact that you can tell a cloud PowerPoint from a mile away. Is it a good PowerPoint?"
+ },
+ {
+  "segment_id": "seg-0025",
+  "start_seconds": 1079.44,
+  "end_seconds": 1126.64,
+  "text": "I mean, it's laid out nicely, they've solved layout, that's great. But it's cloud designed, right? Like you have to actually go and work hard to move the design spectrum so that it matches your design and looks the way you want it to. And then you have to get the messaging right and then you have to get the thinking right. And then you have to recognize again, we're going to come back to this. The entire reason the PowerPoint exists is to align human beings in a conversation. And if you didn't put the thinking in, and if you didn't get the story right, none of the rest of it matters. It's just cloud performing PowerPoint and putting slot out there. And I'm concerned that we are letting agents think that is work when it's not work. The real work is an alignment. If we want to look at takeaways here, I think workers should"
+ },
+ {
+  "segment_id": "seg-0026",
+  "start_seconds": 1126.64,
+  "end_seconds": 1171.76,
+  "text": "have a meaningful way to explain what counts as success here, to explain what records to omit here. I think people should be able to ask how sensitive records are being used in these situations. And if an employer or a data buyer needs additional expertise to turn those records into training material, that expertise should be recognized and paid for as very high value work. And if I were working in a company considering one of these deals, I would want to understand the scope of the proposed use. I'd also pick a few representative tasks and I would explain what a correct result depends on and I would make sure that that actually came through because otherwise you're going to be in a situation where the data ends up being devalued over time. And the agent isn't actually doing anything useful. And the company sold something for nothing. And then"
+ },
+ {
+  "segment_id": "seg-0027",
+  "start_seconds": 1171.76,
+  "end_seconds": 1219.76,
+  "text": "the company's burned and can't sell anything again. So all of this to say, you should feel empowered to change how people view your work. How much human effort remains when you can't really prove what happened, then you know that the work happened anyway. So much of work is something that doesn't get cleanly recorded in a Slack message or an email thread, but it happened anyway. You should feel empowered to speak up about that and to say, the work I'm doing is way more valuable than something that an agent can train on in a bunch of my messages. And I can show you, because you can see how I'm driving revenue or see how I'm cutting costs or see how I'm addressing the real value of the business. And before you sell the knowledge traces to an outside buyer,"
+ },
+ {
+  "segment_id": "seg-0028",
+  "start_seconds": 1220.32,
+  "end_seconds": 1270.96,
+  "text": "think about whether that's actually going to improve our company's work and value in the world. Usually it doesn't. Think about whether there's individual employee PII in there. Often there is. And think about whether it's worth it. Think about whether it's worth it to teach an agent to do this in the first place. Because I don't know that it is. I don't know that we're actually helping agents get better, let alone helping like this whole thing seems to be a bit of a quest to make agents perform a simulation of work. And I'm all for agents being able to do PowerPoints. Well, we've certainly made progress on that. I'm all for them being able to do Excel spreadsheets. Well, we've certainly made progress on that. But that only matters if the worker using the agent is able to understand what is happening and produce real work with it. The fact that a"
+ },
+ {
+  "segment_id": "seg-0029",
+  "start_seconds": 1270.96,
+  "end_seconds": 1306.4,
+  "text": "PowerPoint was made is not actually real work. And I think a lot of folks think it is and think that they can just prompt something and that's the real work. And so if we want to make a claim to value as companies, if we want to make a claim to value as people, we need to do a better job of saying that's not the real work. Those are separate things. And that's why the price of a data archive isn't the whole story here. Yes, someone can make money today selling an account of your work before that account has been shown to explain your contribution. They can. They probably shouldn't."
+ },
+ {
+  "segment_id": "seg-0030",
+  "start_seconds": 1306.4,
+  "end_seconds": 1340.0,
+  "text": "And they can do it before it becomes the basis of a decision that you make. They can do it when like you may have grown since then when you would have made a very different decision now because you're a better employee than you were at the time. The people making all of these decisions on the buying and selling side need a credible answer to the question we started with. What is work? And your leaders need to have that too. They need to recognize that just because there's a particular set of data that show traces of work in the organization, that doesn't mean that's the work."
+ },
+ {
+  "segment_id": "seg-0031",
+  "start_seconds": 1340.0,
+  "end_seconds": 1385.76,
+  "text": "There are whole companies. Glean is a great example that advertised to CEOs. You will be able to know what is going on in your company because we glean are a sheet of glass across the whole company. You can see inside all of the projects at once and you can type a query and we'll just search Slack and search teams and search email and whatever else and you'll be able to see code bases too. On the one hand, that's probably more visibility than a lot of them had before. So great. And I'm not saying that those companies aren't solving real problems. But on the other hand, they're only as good as the data on the inside. And if the data on the inside of the organization is messy, if it's conflicting, if it's ambiguous, if it's partial as most data is, then you're only going to"
+ },
+ {
+  "segment_id": "seg-0032",
+  "start_seconds": 1385.76,
+  "end_seconds": 1438.0,
+  "text": "get the results of the querying of that data, the partial data, the messy data, the data that doesn't really tell the whole story. And therefore, you will form an impression of teams based on that. The best work that I have seen when you talk about what is work and how do we work with agents is work that enables agents to collaborate with humans by structuring data in a way that agents can consume and use. And I know that sounds super boring. And I guess it is. But I have seen phenomenal work done for teams who are working in product and engineering when people invest a ton in good markdown files that agents can read and that humans can use to query and build good thinking"
+ },
+ {
+  "segment_id": "seg-0033",
+  "start_seconds": 1438.0,
+  "end_seconds": 1469.6,
+  "text": "product documents and then pass to QA teams who are building e-vals. There's a lot of positives there. But it starts with really boring stuff. It starts with basically helping the agent understand the record of truth in the system and giving the humans more time to think and come back with really thoughtful product documents, really thoughtful evaluations that help the agents do a better job. That's work. That's value. That's not what's getting sold in these kinds of situations."
+ },
+ {
+  "segment_id": "seg-0034",
+  "start_seconds": 1470.24,
+  "end_seconds": 1490.72,
+  "text": "And so I want us to rethink this because I want agents to work better. I want them to work productively with humans. And I want us humans to have a better sense of the value of our work. We are not all participants in the famous sitcom, The Office, simulating work for laughs. We actually do this for a living and we deserve to have it taken seriously."
+ }
+]

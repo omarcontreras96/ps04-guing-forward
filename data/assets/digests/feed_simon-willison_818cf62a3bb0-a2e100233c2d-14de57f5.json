@@ -1,0 +1,36 @@
+{
+ "summary": "Short blog post by Simon Willison announcing web-edit 0.1a0, a small Python web app for viewing and editing files in a folder. He built it with Codex and 'GPT-6 Astra Extra High' after wanting to edit a credentials file from his phone, via Codex Remote, without passing the credentials through the LLM. It is meant to run over Tailscale, and editing uses CodeMirror 6 rather than Monaco because of Monaco's mobile experience.",
+ "speakers_or_authors": "Simon Willison (practitioner, developer)",
+ "relevance": 1,
+ "relevance_reason": "Passing relevance: a first-hand anecdote about steering a coding agent remotely from a phone and keeping secrets out of the LLM's context. It is a tiny developer tool, not a change in how most people use computers, and it contains no evidence about reliability or privacy.",
+ "themes": [
+  "Agents operating software remotely (Codex Remote from phone)",
+  "Privacy of credentials versus LLM context",
+  "Mobile interfaces for agent workflows"
+ ],
+ "claims": [
+  {
+   "claim": "Willison was working on a project from his phone using Codex Remote and wanted to edit a credentials file without sending the credentials through the LLM.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself.",
+   "segment_id": ""
+  },
+  {
+   "claim": "He had Codex and GPT-6 Astra Extra High build a Python web app with a web UI for viewing and editing files in a folder, intended to be run over Tailscale so an agent can start it and he can edit files from his phone.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The editor uses CodeMirror 6 because Monaco still lacks a great mobile experience.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "Editing uses CodeMirror 6 - I was going to use Monaco but that still doesn't have a great mobile experience yet.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent; the author is an independent developer, and the tool is his own open project. Mentions OpenAI's Codex and a model name as tools he used, with no sponsorship indicated.",
+ "older_event": "No. The post is dated 12 Oct 2026 and describes a new tool release. The sidebar lists other recent posts, including one about building a blog feature with his voice (9 Oct), which is not discussed in this item."
+}

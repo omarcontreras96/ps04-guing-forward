@@ -1,0 +1,36 @@
+{
+ "summary": "MKBHD video comparing the Xiaomi 18 Fold with Apple's newly unveiled foldable 'iPhone Duo'. He explains why the two phones have identical dimensions and near-simultaneous launches (supply-chain leaks, Xiaomi's speed), then compares weight, battery, cameras, crease and selfie camera. He closes with foldable software differences (cover-screen behavior, multi-window limits, back-screen disabling) and a plug for his own desk pad. This is hardware-focused, with no AI content.",
+ "speakers_or_authors": "Marques Brownlee (MKBHD)",
+ "relevance": 0,
+ "relevance_reason": "A foldable phone hardware comparison. It doesn't cover AI agents, personal context, voice interfaces or AI-driven OS features. The software notes (fold animations, multitasking, cover-screen behavior) are conventional UI, not AI interaction.",
+ "themes": [
+  "foldable phone hardware",
+  "Apple vs Xiaomi design overlap",
+  "foldable software multitasking"
+ ],
+ "claims": [
+  {
+   "claim": "The iPhone Duo allows only two apps side by side, while Android foldables offer richer multi-window and overlay multitasking.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "iPhone Duo famously only lets you do two apps side by side",
+   "segment_id": "seg-0016"
+  },
+  {
+   "claim": "Unlike other foldables, the iPhone Duo doesn't appear to disable the back screen during selfies with the main cameras.",
+   "basis": "observation",
+   "locator_type": "segment",
+   "quote": "The iPhone Duo actually doesn't seem to do this",
+   "segment_id": "seg-0017"
+  },
+  {
+   "claim": "The iPhone lights up the outside display as soon as the phone is half closed, whereas Android foldables assume you're done when closed.",
+   "basis": "observation",
+   "locator_type": "segment",
+   "quote": "As soon as you're halfway done closing it, it lights up the outside display",
+   "segment_id": "seg-0015"
+  }
+ ],
+ "commercial_interest": "The reviewer promotes his own MKBHD desk pad, made with Omnitype, at the end of the video. No sponsorship of the phone discussion is apparent.",
+ "older_event": "No. The video covers Apple's and Xiaomi's September 2026 unveilings, which are recent, but they are not relevant to the publication's themes."
+}

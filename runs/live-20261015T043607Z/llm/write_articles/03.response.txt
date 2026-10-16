@@ -1,0 +1,50 @@
+# HAL gets the first word, not the last
+
+*Conversation is becoming a good way to hand a task to an AI. It is still a poor way to check what the AI did.*
+
+*As of 2026-10-15 · Edition evidence window: 2026-09-16 to 2026-10-15*
+
+Allison Johnson had a website redesign in her head and didn't want to type it out. On The Vergecast (15:47), she described calling OpenAI's Dots and talking for about ten minutes, going section by section and checking in along the way: "so you're with me? You got all this." [03-c3]. Then she asked it to go do all of it. "It wasn't perfect," she said, but "that actually was better than sitting and typing, you know, paragraphs of thoughts about what I wanted" [03-c3].
+
+That is one reviewer's experience, not a study. Still, it shows where this month's evidence lands on the "2001" question. Talking to the computer is becoming a good way to start a task and hand it off. It is not yet a good way to finish a task or to check it. The interfaces worth adopting are the ones that show their sources and give you direct controls back. The most humanlike voice or face matters less.
+
+## Talk to start, switch to finish
+
+The clearest user evidence comes from Plottery, a research tool that pairs AI prompting with a conventional GUI for editing Matplotlib charts. When participants left the GUI, it was often because something had gone wrong. Thirteen of 27 switches away from the GUI were failure-driven (48%), compared with 4 of 32 switches away from AI prompting (13%) [03-c1]. Prompting had its own catch. The authors note that "successful prompting may sometimes depend on knowing Matplotlib vocabulary" [03-c1]. Natural language works best for people who already know the technical words.
+
+The study is small: 10 participants, mostly graduate students, reproducing existing charts. It cannot tell us how a casual user would fare.
+
+On the "face" side, Sam Witteveen tested Google's Gemini Live avatars. He found the pre-built ones "actually pretty responsive," with a delay in which the transcript arrives "ever so slightly before the actual voice" (Sam Witteveen, 05:02) [03-c4]. Custom avatars made from your own photo and voice remain behind an allow list and a verification process (02:42) [03-c4]. No evidence this month speaks to whether a face makes an agent's work easier to verify.
+
+## Warm is not the same as right
+
+A randomized study put 616 people into roughly ten-minute spoken conversations with GPT-4o. "Notably, even the non-directive condition produced a significant shift downward" [03-c2]. In plain terms, even the version of the model given no stance moved people's opinions. The researchers also found that "sycophancy per se was not associated with opinion change" [03-c2].
+
+The limits are real. The study covered one model (since retired), one topic, a UK sample, and a measurement taken immediately afterward. Put together with Johnson's call and Plottery's results, our reading is this: conversation is strong at turning loose intent into action and weak as a channel for verifying the result. The ease of the exchange is not evidence that the outcome is accurate [03-c2][03-c3].
+
+## The cost of knowing you
+
+Handing off works better when the agent knows more about you, and that knowledge has upkeep. Nielsen Norman Group studied expert Claude users who maintain personal context libraries. One participant's Todoist connection "kept expiring, cutting Claude off from his to-do list until he reconnected it by hand" [03-c5]. Participants also "rarely checked what Claude had changed" in their files [03-c5].
+
+The pull toward connecting everything is strong. On The Vergecast (34:34), David Pierce said Meta's Muse connectors page asks for your email, calendar, health data, financial data and medical records. He said every one he turned on made the product better "in a direct linear way" [03-c6]. He also acknowledged that his job pushes him to "over index on give it more information" [03-c6].
+
+Meta's answer to the checking problem is layered disclosure. On How I AI (08:01), Muse design director Alex Cornell said Muse shows a short status line such as "researching pumpkin patches." One tap opens a list of everything it has done, and further down sits the raw detail, which is "really important from like an auditing perspective but it's only there if you need it" [03-c7]. This is a design rationale, not evidence that people use it. Given that NN/g's power users rarely reviewed edits, it is fair to ask how many people will make that tap.
+
+The practical takeaway is simple. Talk to start. Look before you accept. Grant access one scoped source at a time.
+
+## What to watch
+
+Two signals would show whether checkability, not conversation, is becoming the product. The first is whether assistants start telling you which sources they searched and where the gaps are, as NN/g recommends. The second is whether the Copilot features Microsoft says are expected to begin rolling out on Copilot+ PCs "in the coming months" actually arrive with visible permission controls [03-c8]. If they arrive as chat with no audit trail, that would cut against this reading. Either way, these signals may not resolve within one edition.
+
+There are gaps in what we can say. No eligible evidence this run covers accessibility users, for whom voice may be the main interface, or users outside tech beyond anecdotes. Smart glasses and always-on wearables, where conversation and camera context matter most, had no usable evidence. So this privacy discussion rests on phone agents and home devices.
+
+## References
+
+- **[03-c1]** arXiv cs.HC, "Plottery: A Code-Integrated GUI for Matplotlib," 2026-10-14. https://arxiv.org/abs/2610.14306
+- **[03-c2]** arXiv cs.HC, "The AI's Poker Face: Contrasting Persuasion and Sycophancy in Voice-Based Multi-Turn Conversations," 2026-10-14. https://arxiv.org/abs/2610.14124
+- **[03-c3]** The Vergecast, "How much should you tell your AI agent?," 2026-10-06, 15:47–16:20. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP4220452170.mp3
+- **[03-c4]** Sam Witteveen (YouTube), "Gemini Live Avatars," 2026-09-27, 02:42–03:23 and 05:02–05:43. https://www.youtube.com/watch?v=U236OfO-spI&t=162s ; https://www.youtube.com/watch?v=U236OfO-spI&t=302s
+- **[03-c5]** Nielsen Norman Group, "Context Libraries: How AI Power Users Manage Context Engineering," 2026-10-09. https://www.nngroup.com/articles/context-libraries/
+- **[03-c6]** The Vergecast, "How much should you tell your AI agent?," 2026-10-06, 34:34–35:11. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP4220452170.mp3
+- **[03-c7]** How I AI (Claire Vo), "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)," 2026-10-12, 08:01–08:49. https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Meta-designed-Muse-an-AI-agent-people-actually-want-to-talk-to--Alex-Cornell-Design-Director-e3q4g9k
+- **[03-c8]** Nielsen Norman Group, "The New Siri's Biggest Strength Is Not Intelligence," 2026-10-09. https://www.nngroup.com/articles/ai-assistant-context/ ; Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07. https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/ ; How I AI (Claire Vo), "How Meta designed Muse…," 2026-10-12, 08:01–08:49. https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Meta-designed-Muse-an-AI-agent-people-actually-want-to-talk-to--Alex-Cornell-Design-Director-e3q4g9k

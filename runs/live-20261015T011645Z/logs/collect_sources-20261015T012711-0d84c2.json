@@ -1,0 +1,22 @@
+{
+  "stage": "collect_sources",
+  "status": "incomplete",
+  "exit_code": 1,
+  "started_at": "2026-10-15T01:16:45Z",
+  "finished_at": "2026-10-15T01:27:11Z",
+  "input_count": 55,
+  "output_count": 51,
+  "tools": [
+    "bash"
+  ],
+  "models": [],
+  "model_calls": 0,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "cost_usd": 0.0,
+  "cost_basis": "no_paid_api_calls",
+  "errors": [],
+  "note": "usable=true"
+}

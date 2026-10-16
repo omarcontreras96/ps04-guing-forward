@@ -1,0 +1,10 @@
+{
+  "run_id": "replay-20261015T041930Z",
+  "started_at": "2026-10-15T04:19:30Z",
+  "as_of_date": "2026-10-15",
+  "mode": "replay",
+  "previous_run_id": "live-20261015T011645Z",
+  "note": "Policy v2 comparison: run 1's identical evidence; policy v1->v2 (relayed statements, partial duplicates, theme coverage) and the claim-marker prompt fix",
+  "simulated_failures": [],
+  "evidence_reused_from": "live-20261015T011645Z"
+}

@@ -1,0 +1,92 @@
+[
+ {
+  "segment_id": "seg-0001",
+  "start_seconds": 0.0,
+  "end_seconds": 47.54,
+  "text": "Okay, so Gemini 4 Argon is now out and in this video, well, I'm going to show you a few demos I'm going to really talk about more about what this model means and how you should actually think about this model So I'm going to say this right up front. This is a really really really good model But is it the best model out there? I actually don't think it is but more importantly I don't think that that really matters that much and I'm going to talk about why in this video Because what you're looking at here are some of the demos that I basically put together for this showing where this model is genuinely strong it's not always going to be the stuff that tops leaderboards and in some ways I think it's actually more interesting to understand why Google built this model and that requires looking past leaderboards anyway So when Google first announced argon, I made a short video about it then"
+ },
+ {
+  "segment_id": "seg-0002",
+  "start_seconds": 47.54,
+  "end_seconds": 92.56,
+  "text": "I showed enough everyone was complaining that there weren't many examples the model wasn't available all that stuff Totally fair comments by the way. So full disclosure I've been nearly tester on this model and I had to sign quite a few more NDA's than normal But by the time you're watching this video Gemini now is part of the paid tier of the Gemini API It's going to be in anti-gravity. It's going to be in the Gemini app It's going to be in almost every Google surface where they're putting models now often It's only going to be available if you're paying for this model But for things like AI mode and stuff like that. It's not just available to ultra subscribers It's also going to be open to pro but basically the cool thing here is I can finally talk about what it's like to actually use this model"
+ },
+ {
+  "segment_id": "seg-0003",
+  "start_seconds": 92.56,
+  "end_seconds": 140.68,
+  "text": "All right, so where is this model actually strong for me? The standout things here is anything that combines sort of visuals code and media in one kind of task If you take a look at something like this, which I chose to do not in anti-gravity But just in the pure Gemini app you can see here I'm basically saying can you build me a music maker in the style of rebirth by propeller heads? Try to give it an 808 a 99 and a 303 and then put it together and make sure to include filters for FX and a Roland style Step sequencer. Okay, I deliberately made the prompt here very short right to see okay What can this actually come up with so I've got a reference to something like rebirth I've got a reference to some Roland synthesizers drum machines in there and sure enough"
+ },
+ {
+  "segment_id": "seg-0004",
+  "start_seconds": 140.68,
+  "end_seconds": 190.68,
+  "text": "It went away and produce something which is really pretty amazing in here if I come in and run this Straight away you can see that it's built not only a very sophisticated interface here But it's also then gone and actually made the sounds to this and built a little synthesizer Built something like an 808 drum machine a 909 etc And that's a single-shot prompt now before you jump down my throat about the real world is not about using just single-shot prompts I agree with you right I just felt that some of these are actually really good to look at and get a sense of what the model Can actually do with a limited set of resources and let me explain what I actually mean by that"
+ },
+ {
+  "segment_id": "seg-0005",
+  "start_seconds": 190.68,
+  "end_seconds": 237.32,
+  "text": "so the model is extremely good at doing things like blender and doing things like game generation those kinds of things and Clearly that's come from a lot of the reinforcement learning environments that they've trained this model on and done a lot of work Of post-training it on and it's not just one demo here If you look at the demos that Google put out with the launch themselves There's a pretty clear pattern one of them are gone basically scripts blender animations generates custom audio Pipes the whole thing through to an actual vintage CR TV in another one of them They built a multi-tiered Japanese temple in the grounds using blender And if you look at that that's pretty amazing to see what this thing can do when it's given an agentic loop and a proper"
+ },
+ {
+  "segment_id": "seg-0006",
+  "start_seconds": 237.32,
+  "end_seconds": 284.76,
+  "text": "Harness that can use those kinds of skills and all of this feels like it's had a lot of RL on these kind of pipelines being things like Blender 3js shaders etc. And those are the kind of tasks where the model writes the code renders something out looks at the result Then gradually fixes it. It's that loop of sort of code render look fix something up That continues seems to be doing well here now in this video I don't want to get into benchmarks too much But what I do want to say is that from everything I'm hearing this is the biggest model that they've done pre-training on You'll notice in the name being argon that it's not actually falling into the other tiers that they've had before Whether that was flash Pro even ultra which sort of got discontinued and we do know for a fact that this is just the first Gemini 4 model"
+ },
+ {
+  "segment_id": "seg-0007",
+  "start_seconds": 284.76,
+  "end_seconds": 332.56,
+  "text": "Now the big question people are going to ask is it as good as the anthropic models or the open AI models or even things Like the new muse wonder here So I got to say in my testing a lot of this now comes down to how you're actually using the model I still don't think for example anti-gravity is anywhere near as good as cloud code or codecs and as it was time recording this I haven't tried this in AI studio build for example I've basically been either using it from the raw API in Anti-gravity or in the Gemini app, but clearly the thing here is that it's definitely good at a lot of these multi-modal tasks now in the last video I did talk about some of the benchmarks from the artificial analysis intelligence index where this model scores are 53 Which ties it with GPT 6 Astra and fable 5.1"
+ },
+ {
+  "segment_id": "seg-0008",
+  "start_seconds": 332.68,
+  "end_seconds": 381.2,
+  "text": "But quite a bit behind opus 5.5 and even the new sonnet 5.5 added to that in the mix is now meta has released muse wonder Which also is quite a bit ahead of this model But one of the things I will say here is that the benchmarks don't always tell the full story, right? This model seems to be very good at generalization. I will say it's not the best coding model I think the other models are probably going to do better at different kinds of coding tasks and for the whole sort of coding agent game This model though really isn't aimed at taking those models out at their own game So I think if your main job is picking the strongest model for agentic coding You're probably gonna look elsewhere And I'm sure a lot of AI engineers are gonna complain about things like that and that's a fair call, but I don't think that's why Google built this model"
+ },
+ {
+  "segment_id": "seg-0009",
+  "start_seconds": 381.2,
+  "end_seconds": 428.04,
+  "text": "I don't think Google's actually trying to be in the game of being a standalone company that just sells tokens If you look at the Google for business event last week They basically announced that they had over 500 companies now that had done more than a trillion tokens with the Gemini models My bet is most of those are actually the flash models perhaps even the flashlight models what Google was lacking was a frontier model That they could basically put out there to their customers and say we also have a very good model And that's clearly what argon delivers here It allows their customers to basically have a credible option of using this model If they're already a Google shop or they're looking to use Google products Now Gemini thought argon gives those people a credible option without having to leave the Google stack"
+ },
+ {
+  "segment_id": "seg-0010",
+  "start_seconds": 428.04,
+  "end_seconds": 474.6,
+  "text": "And I think in many ways, that's the real customer here And then on the consumer product side Google's needed a frontier model underneath everything that it ships The Gemini app now has tasks that keep running when you're away from your computer It can connect to all these different apps. You've got notebook LM You've got things like anti-tric gravity and all those things are gonna benefit not only from this model But probably from distillations of this model to make other Gemini four models I think argon allows the product people at Google to really focus on building the products that are working things like notebook LM And probably improving the ones that perhaps haven't gotten as much traction as they would like for things like anti-gravity And putting this in the Gemini app the Google workspace apps, etc"
+ },
+ {
+  "segment_id": "seg-0011",
+  "start_seconds": 474.6,
+  "end_seconds": 522.08,
+  "text": "So I think in many ways basically Google here is focused on argon as being a foundation and in that sense, this is clearly a big win for them While this year they've lost a lot of the top talent that came up with a lot of the ideas for a lot of the early LM's Argon really shows that they've still got people there that know how to use the TPUs know how to spin up a lot of them Know how to do a lot of pre-training know how to do the RL environments and know how to put it together To actually make a frontier level model So I think the best thing is rather than me show you a lot of demos about what it can do what it can't do Really at this point you should be taking your use cases into either AI studio or the Gemini app or if you want to Anti-gravity and actually running those things yourself. We'll say that in the first video"
+ },
+ {
+  "segment_id": "seg-0012",
+  "start_seconds": 522.08,
+  "end_seconds": 572.2,
+  "text": "I talked a lot about the million tokens in a single response in practice It turns out it's a lot more nuanced than I originally had thought the key thing there is that's not gonna be in the Gemini app. I don't know if it's gonna be in Anti-gravity really it's more for the API and it's actually a flag that you need to pass in to the config Not to actually get it to keep going and really you're only gonna benefit properly from it If you've got a task that requires multiple hundreds of thousands of tokens for reasoning And while I think that's gonna be interesting to see how people prompt it to get it to just keep reasoning and reasoning and reasoning and Go into that sort of loop in its reasoning. I don't see that that's gonna get a lot of mainstream use So I'd still call this sort of early days if you're building your own vertical harnesses and stuff like that"
+ },
+ {
+  "segment_id": "seg-0013",
+  "start_seconds": 572.2,
+  "end_seconds": 618.36,
+  "text": "I probably wouldn't go out and redesign everything around the million tokens yet That said if you do have scientific use cases or things like that where you can actually get really long Reasoning out of it. This is certainly worth turning on for your long reasoning tasks and measuring it to see actually how it plays out for you Anyway to wrap up Argonne is a really good model It may not be the top of the leaderboards and I'm sure many people are going to criticize it for that But I think the real win for Google here is just what they themselves are able to build on it And also their customers are able to build on it for different use cases and the Google models Have always been very good at generalization for these kind of tasks They haven't gone out trying to make the best coding model or to win every single benchmark that they're going after"
+ },
+ {
+  "segment_id": "seg-0014",
+  "start_seconds": 618.8,
+  "end_seconds": 664.28,
+  "text": "What they've made is a very very strong Multimodal model that has a really good sense of a lot of intelligence that perhaps was more on the fringe in the previous models Anyway, don't forget that the price currently is two dollars in and ten dollars out That's gonna last till December 1 and honestly, I'm gonna say I don't think you're gonna see this model still around by December 1 We know that this is not the final checkpoint of this model still doing a lot of training doing a lot of tests to how to improve it Just like you saw with GPT six soul Getting a massive bump when it went from six to six point one My guess is that argon is also going to get that same kind of bump in the next month or two So anyway, I've put the links to the Google blog post and artificial analysis in the description"
+ },
+ {
+  "segment_id": "seg-0015",
+  "start_seconds": 664.28,
+  "end_seconds": 677.96,
+  "text": "If you missed my first video on argon check that out Let me know in the comments what you think and whether you think it really matters that this is not the number one model And as always if you found the video useful, please click like and subscribe and I will talk to you in the next video Bye for now."
+ }
+]

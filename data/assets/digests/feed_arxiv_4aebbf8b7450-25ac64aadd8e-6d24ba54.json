@@ -1,0 +1,72 @@
+{
+ "summary": "An arXiv cs.HC preprint (not peer reviewed) presenting Plottery, a Jupyter extension that adds a direct-manipulation GUI (layers and properties panels, drag-on-plot edits) to Matplotlib code, with an AI prompt box alongside. Every GUI action is written back into the user's code. A two-part exploratory study (10 participants in Part 1, 4 of them continuing to Part 2) examined when people use the GUI, code or AI. AI was used most and produced most of the code. Participants switched modality after about 3 interactions on average. The GUI suited simple visual tweaks but overwhelmed users, and AI prompts sometimes failed without Matplotlib vocabulary.",
+ "speakers_or_authors": "Authors not named in the provided text (academic HCI researchers; the item mentions a 'first author'). Published on arXiv cs.HC.",
+ "relevance": 1,
+ "relevance_reason": "The paper offers small-sample user evidence on mixing GUI, code and AI chat, which bears loosely on the 'is conversation the best interface' question. It is about plotting in Jupyter, not personal-context devices, computer-use agents or voice, so it is only a passing fit for the publication's themes.",
+ "themes": [
+  "GUI vs conversational/AI prompting: complementary roles",
+  "Direct manipulation alongside AI assistance",
+  "Multimodal interaction (GUI, code, AI) with live feedback",
+  "Limits of AI prompting without domain vocabulary"
+ ],
+ "claims": [
+  {
+   "claim": "In the user study, participants alternated among GUI, code and AI after about 3 interactions on average, and found switching easy.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "participants performed an average of 3.1 interactions in a single modality before switching, and 2.6 in Part 2.",
+   "segment_id": ""
+  },
+  {
+   "claim": "AI was the dominant modality: most time spent and most code produced, with usage preferences varying by person.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Fig. 15 shows that, by time, AI was the most common modality for 6/10 participants in Part 1 and 3/4 in Part 2.",
+   "segment_id": ""
+  },
+  {
+   "claim": "With the GUI and code but no AI, only 3 of 10 participants completed the task, whereas all completed it with AI and code but no GUI.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "only 3/10 Part 1 participants successfully completed their task in the GUI+Code condition with AI ablated (P2, P5, P9), while all participants completed their AI+Code task without the GUI.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Switches away from the GUI were far more often failure-driven than switches away from AI or code, suggesting the GUI often overwhelms users with options.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "13 of 27 switches from the GUI are failure-driven (48%), in contrast to 4 of 32 switches away from AI (13%) and 7 of 25 switches away from code (28%).",
+   "segment_id": ""
+  },
+  {
+   "claim": "Successful AI prompting can still depend on knowing Matplotlib vocabulary; some participants failed by describing the plot's appearance instead of using the library's terms.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "but P4 and P7 still failed to progress as they repeatedly prompted the AI with descriptions of the plot's appearance rather than Matplotlib-specific terminology.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Live feedback appears necessary for the feeling of fluid multimodal interaction; the first author lost that feeling when a bug removed it.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "With the clunkier interface, the feeling of fluidity was lost. These results suggest that liveness is a necessary piece for fluid interaction in Plottery.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The authors say multimodal interaction is not a silver bullet: users still floundered when the AI misread prompts, and reading documentation was sometimes still needed.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "multi-modality is not (yet) a silver bullet. The Matplotlib API is complicated and reading documentation is still sometimes necessary.",
+   "segment_id": ""
+  },
+  {
+   "claim": "AI prompting is not a full replacement for graphical interaction; dragging a slider beats repeatedly re-prompting for small visual changes.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "it is simply nicer to drag a font size slider until it looks right than to prompt “title bigger” and “title a little smaller” over and over.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent; academic research prototype with supplementary materials at plottery.org. It references Cursor and v0 visual editors only as related work.",
+ "older_event": "Not an event. The paper is new (published 2026-10-14) and presents a new prototype with a small exploratory study (10 participants in Part 1, 4 of whom also did Part 2), mostly graduate students. Findings are limited to well-defined reproduction tasks."
+}

@@ -1,0 +1,36 @@
+{
+ "summary": "Ars Technica reports that Epic Games released a public Preview of a rewritten Epic Games Launcher that it says was 'vibe coded' with AI. Epic claims it is faster and more responsive than the old launcher and than Steam. Epic's Martin Keely says AI was used to write and review code in a new tech stack, letting a small team rewrite the code base for Windows, Mac and later Linux. Ars's own testing found a cold start to the store page a few seconds faster than Steam, while the claimed 0.06-second tray-restore advantage was unnoticeable.",
+ "speakers_or_authors": "Ars Technica staff writer (byline not given); quotes Martin Keely (Epic Games Store GM/VP) from PC Gamer and IGN interviews, and Epic's announcement.",
+ "relevance": 0,
+ "relevance_reason": "This is about AI-assisted software development (vibe coding) and a game launcher's speed. It does not concern how people interact with computers through agents, personal context, voice or AI-built OS interfaces, and coding-tool news is outside the brief's focus.",
+ "themes": [
+  "vibe coding",
+  "AI-assisted software development",
+  "game launcher performance"
+ ],
+ "claims": [
+  {
+   "claim": "Epic says it vibe coded a new Launcher that is faster and more responsive than the current one, with a new look.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "we vibe coded a new Epic Games Launcher that’s way faster and more responsive than the current one, and has a new look.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Ars's testing found the new Launcher reaches the store page from a cold start a few seconds faster than Steam, while the tray-to-Library claim of 0.06 seconds was unnoticeable.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Ars’s own testing confirms that the new Launcher goes from a cold start to the store page a few seconds faster than Steam",
+   "segment_id": ""
+  },
+  {
+   "claim": "Keely says AI let a small team rewrite the code base and ship across platforms faster.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "made us more efficient and allowed a small team to rewrite the code base and be able to launch it faster across platforms",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Epic Games is promoting its own product against competitor Steam; the speed and AI-efficiency claims come from Epic, though Ars partly verified the startup speed in its own testing.",
+ "older_event": "No. The Preview build was announced on 2026-10-14, the same day as publication."
+}

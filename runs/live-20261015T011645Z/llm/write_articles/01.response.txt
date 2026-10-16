@@ -1,0 +1,63 @@
+# The month agents started messaging you first
+
+*This month the biggest change was agents acting on people's own accounts, not new operating-system features.*
+
+*As of 2026-10-15 · Edition evidence window: 2026-09-16 to 2026-10-15*
+
+Ethan Mollick had an airline credit that was about to expire. According to his newsletter, Meta's Muse noticed it first, and when he asked, the agent contacted American Airlines to request an extension [01-c2]. That is a small errand. It still marks a change in roles: software watched his accounts, raised the issue, then did the legwork.
+
+Of everything launched or tested between mid-September and mid-October, this is the change we would rank first. Consumer agents that work inside your own accounts and contact you first are ahead of the AI that Microsoft, Google and Apple are building into their operating systems. A lot of the OS-level work is real. Much of it is still in beta, behind a subscription, or promised for "the coming months."
+
+Our ranking: (1) proactive personal agents like Muse, (2) assistants grounded in personal context already on your device, led by the Siri AI beta, and (3) AI built into the OS and desktop apps from Microsoft and Google.
+
+## 1. Agents that reach out
+
+Mollick also reports that Muse is the number one app in the App Store, which he describes as "a personal agent that promises to do work for you" [01-c1]. He gives no data source for the ranking, so treat it as his observation rather than a measured figure.
+
+Proactivity is a deliberate design choice. On How I AI (03:08), Muse design director Alex Cornell told Claire Vo that "just simple things like the fact that an agent can message you proactively" changed how the team approached designing the app [01-c3]. Most chatbots wait for you to type. Muse is designed to start the conversation.
+
+The independent signals point the same way, though they are thin. On The Vergecast (22:12), the hosts relayed a long-term review of Alexa Plus: it has "gotten very good at smart home stuff" but is "nowhere near as good as Muse at Muse things" [01-c8]. In the same passage, a host joked that their Muse kept proactively reading their email. They had connected it only to a spam Gmail account and given it permission to read for specific updates [01-c8]. Mollick goes further: "Increasingly, I have discovered that they are finding my mistakes, rather than having me identify theirs" [01-c8].
+
+## 2. Context beats cleverness
+
+Apple's Siri AI beta comes second, for a reason Nielsen Norman Group's title states outright: "The New Siri's Biggest Strength Is Not Intelligence." In NN/g's hands-on test, Siri quickly found three breakfast spots a relative had texted. ChatGPT, connected to the tester's work accounts, searched them and found nothing [01-c4]. In NN/g's words, those accounts "gave it information, but not the context my question needed" [01-c4]. Siri won by reading data already on the phone.
+
+That ranks it above the OS features below. It ranks it below Muse because the evidence shows Siri answering a question, not starting a task.
+
+## 3. The OS is still mostly a roadmap
+
+Microsoft's October 7 post shows the gap between infrastructure and features. Microsoft Execution Containers (MXC), a layer that lets organizations define which files and networks agents can access, became generally available on Windows 11 that day. Microsoft says the Copilot features that would use local context and act on the PC are only "expected to begin rolling out" on Copilot+ PCs in the coming months [01-c5]. The safety layer shipped. The agent it is meant to contain has not.
+
+Google says the Gemini app's new tasks mode can work for you "even when you're not at your computer." It is limited to Google AI Pro and Ultra subscribers [01-c6], and nothing in our evidence shows how it performs in practice.
+
+The most concrete OS-level account comes from MKBHD's week with a Googlebook. Magic Pointer, the cursor-wiggle feature for asking Gemini about whatever is on screen, is off by default (MKBHD, 03:25) [01-c7]. His favourite was semantic file search, which finds a file from a description of its contents when you have forgotten its name. He called it "actually very useful AI" (MKBHD, 03:57) [01-c7]. The OS feature that won him over was a better search box.
+
+Put together, this suggests interaction is changing first in the app layer, where a third-party agent with access to your accounts messages you, and only later in the operating system, where Microsoft's own action features have not shipped yet [01-c8].
+
+## Where this ranking could be wrong
+
+The evidence behind this ranking is limited. It rests mostly on vendor statements about what shipped and a handful of hands-on accounts. Nobody in our evidence has published an independent long-term review of Muse, Gemini tasks or Windows Copilot actions. Mollick's App Store claim is his own report [01-c1]. His airline example also happened "when I asked" [01-c2], so it is less autonomous than "agents messaging you first" implies.
+
+The voices are almost all US tech insiders. We have no reports from accessibility users, non-English speakers, or everyday users beyond anecdotes.
+
+Privacy could reverse the order. A reader who weighs it heavily could reasonably put on-device, OS-level features above cloud agents with access to their Gmail. Our evidence cannot settle that trade-off.
+
+Four things would confirm or overturn this ranking:
+
+* Independent, weeks-long reviews of Muse that test errands, not just chat.
+* Windows Copilot's action features actually reaching Copilot+ PCs.
+* Gemini tasks being tested by people other than Google.
+* The first reports from users outside the tech bubble.
+
+If the OS features arrive and work, the order changes. For now, the agent that messages you first is ahead of them.
+
+## References
+
+- **[01-c1]** One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01. https://www.oneusefulthing.org/p/the-dot-and-the-swarm
+- **[01-c2]** One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01. https://www.oneusefulthing.org/p/the-dot-and-the-swarm
+- **[01-c3]** How I AI (Claire Vo), "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)," podcast, 2026-10-12, 03:08–04:00. https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Meta-designed-Muse-an-AI-agent-people-actually-want-to-talk-to--Alex-Cornell-Design-Director-e3q4g9k
+- **[01-c4]** Nielsen Norman Group, "The New Siri's Biggest Strength Is Not Intelligence," 2026-10-09. https://www.nngroup.com/articles/ai-assistant-context/
+- **[01-c5]** Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07. https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+- **[01-c6]** Google Keyword: Gemini, "Gemini 4 Argon comes to the Gemini app.," 2026-10-13. https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/
+- **[01-c7]** Marques Brownlee (MKBHD), "WTF is a Googlebook?," YouTube, 2026-10-08, 03:25–03:56 and 03:57–04:29. https://www.youtube.com/watch?v=_0G4OG39XjI&t=205s ; https://www.youtube.com/watch?v=_0G4OG39XjI&t=237s
+- **[01-c8]** One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01. https://www.oneusefulthing.org/p/the-dot-and-the-swarm · The Vergecast, "The AI is in the computer," podcast, 2026-10-09, 22:12–22:58. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8833126862.mp3 · Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07. https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/

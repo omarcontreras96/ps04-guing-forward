@@ -1,0 +1,101 @@
+{
+ "summary": "Live-at-DevDay interview where Claire Vo talks with Kath Korevec, OpenAI's product lead for ChatGPT Sites, about the product. Sites hosts apps built with Codex. Kath demos an internal incident-command dashboard that pulls in each viewer's own connected plugin data (Notion, Slack, calendar), a weekly Spotify playlist site that uses computer use, a dungeon-crawler game extended through a distributed skill, and a community gallery. Claire describes a 3D game on an unreleased ultra-fast model and speculates about generative UI. Both discuss their attitude toward AI acting in their name.",
+ "speakers_or_authors": "Claire Vo (host, How I AI); Kath Korevec (Product Lead for Sites at OpenAI)",
+ "relevance": 2,
+ "relevance_reason": "Useful passages on a just-launched feature (plugins in Sites, with per-user connected data), on personal software, on computer use inside an automation, and on user boundaries around AI acting for them. Much of the rest is demos and games, and the guest is the vendor's own product lead.",
+ "themes": [
+  "Personal context and connected apps via per-viewer plugin permissions",
+  "Computer-use agent running a recurring automation",
+  "Personal, throwaway software built by AI as an alternative interface",
+  "Generative UI and real-time AI-built 3D worlds",
+  "User control over AI acting or writing in their name"
+ ],
+ "claims": [
+  {
+   "claim": "OpenAI launched plugins in Sites at DevDay. Any visitor to a site can use their own connected plugins and sees only their own data. Availability is stated for enterprise workspaces.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0005"
+  },
+  {
+   "claim": "Sites asks each viewer to approve their connectors and infers context from the Slack channels they come from, so the same shared site shows different content to different teams and needs no API keys.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0015"
+  },
+  {
+   "claim": "Korevec uses a Sites incident-command dashboard (demo content shown) that pulls timelines, people and runbooks from Notion, Slack and calendar so she can follow incidents without interrupting the team.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0007"
+  },
+  {
+   "claim": "About 60 connectors are currently available in Sites, with more being added. Sites includes D1 data, an R2 bucket and co-editors, and MCP plugins can now be hosted through Sites.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0017"
+  },
+  {
+   "claim": "Korevec built a weekly playlist site that uses computer use to browse Reddit, runs every Monday at 8am, and requires her laptop to be open and running.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0028"
+  },
+  {
+   "claim": "Korevec says people use Sites for everything from small prototypes to full internal tools and personalized software, and she builds throwaway sites such as a custom calendar view for a business trip week.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0020"
+  },
+  {
+   "claim": "Korevec says OpenAI has used Sites internally for just over a year and launched it publicly two months ago. She says internal use has exploded and that the DevDay keynote slides were a Sites app.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0004"
+  },
+  {
+   "claim": "Vo built a 3D game on an unreleased ultra-fast model where typed requests (bunk beds, falling leaves, removed gravity) changed the world in real time. She also said it cost about $1,000 and that the model is about eight times faster.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0044"
+  },
+  {
+   "claim": "Sites is testing bringing inference into the site itself, with a chat widget so visitors can modify the app, and the speakers imagine kids spending an allowance on this. This is described as experimental and very simple at present.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0047"
+  },
+  {
+   "claim": "Vo predicts that generative UI will be more interesting as a game world than as dull enterprise forms and widgets.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0045"
+  },
+  {
+   "claim": "Korevec distributes her dungeon-crawler game through an installable Codex skill that lets users generate new rooms. As the developer she gets only lightweight analytics (visits and traffic) and cannot see who uses the skill.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0039"
+  },
+  {
+   "claim": "Korevec objects to AI emailing or messaging on her behalf and tells it not to. She says a bot recently posted Slack messages impersonating her in her community.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0059"
+  }
+ ],
+ "commercial_interest": "Korevec is OpenAI's product lead for Sites and is promoting her own product at OpenAI DevDay, and the episode is recorded as a live DevDay session. Vo's podcast carries sponsor reads for Merge and Vanta (seg-0010, seg-0042), and Merge's ad mentions OpenAI as a customer. Demos use mock content. No independent user evidence is offered.",
+ "older_event": "Mainly new: the plugins-in-Sites launch and the MCP hosting announcement at DevDay on the day of recording. Sites itself launched about two months earlier, and the ultra-fast model is only previewed."
+}

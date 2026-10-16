@@ -1,0 +1,528 @@
+{
+  "run_id": "live-20261015T045321Z",
+  "mode": "live",
+  "as_of_date": "2026-10-15",
+  "previous_run_id": "live-20261015T043607Z",
+  "note": "Option B, after fixing the fetch_feeds crash of live-20261015T043607Z: corrected project brief, theme-aware collection, policy v2",
+  "status": "ready_for_production",
+  "started_at": "2026-10-15T04:53:21Z",
+  "pipeline_finished_at": "2026-10-15T05:04:09Z",
+  "elapsed_seconds": 648.0,
+  "last_activity_at": "2026-10-16T00:54:42Z",
+  "counts": {
+    "discovered": 71,
+    "discovered_distinct_items": 71,
+    "duplicate_observations": 0,
+    "extracted": 68,
+    "new": 24,
+    "changed": 0,
+    "unchanged": 44,
+    "corpus_items_in_store": 84,
+    "eligible": 83,
+    "excluded": 1,
+    "excluded_by_reason": {
+      "outside_window": 1
+    },
+    "accepted": 35,
+    "rejected": 27,
+    "deferred": 21,
+    "briefs": 3,
+    "articles": 3,
+    "video_scripts": 3
+  },
+  "coverage": {
+    "eligible": {
+      "by_kind": {
+        "feed": 59,
+        "podcast": 11,
+        "youtube": 13
+      },
+      "independent_publishers": [
+        "9to5google",
+        "ars-technica",
+        "arxiv",
+        "big-technology",
+        "claire-vo",
+        "ethan-mollick",
+        "google",
+        "meta",
+        "microsoft",
+        "mkbhd",
+        "nate-b-jones",
+        "nngroup",
+        "road-to-vr",
+        "sam-witteveen",
+        "simon-willison",
+        "the-verge",
+        "uploadvr"
+      ],
+      "publisher_count": 17
+    },
+    "accepted": {
+      "by_kind": {
+        "feed": 22,
+        "podcast": 6,
+        "youtube": 7
+      },
+      "independent_publishers": [
+        "9to5google",
+        "arxiv",
+        "big-technology",
+        "claire-vo",
+        "ethan-mollick",
+        "google",
+        "meta",
+        "microsoft",
+        "mkbhd",
+        "nate-b-jones",
+        "nngroup",
+        "road-to-vr",
+        "sam-witteveen",
+        "simon-willison",
+        "the-verge",
+        "uploadvr"
+      ],
+      "publisher_count": 16
+    },
+    "cited_in_briefs": {
+      "by_kind": {
+        "feed": 15,
+        "podcast": 5,
+        "youtube": 3
+      },
+      "independent_publishers": [
+        "9to5google",
+        "arxiv",
+        "big-technology",
+        "claire-vo",
+        "ethan-mollick",
+        "google",
+        "meta",
+        "microsoft",
+        "mkbhd",
+        "nngroup",
+        "road-to-vr",
+        "sam-witteveen",
+        "simon-willison",
+        "the-verge",
+        "uploadvr"
+      ],
+      "publisher_count": 15
+    }
+  },
+  "coverage_limitations": {
+    "collection_complete": false,
+    "collectors": {
+      "feeds": {
+        "status": "completed",
+        "exit_code": 0
+      },
+      "youtube": {
+        "status": "completed",
+        "exit_code": 0
+      },
+      "podcasts": {
+        "status": "completed",
+        "exit_code": 0
+      }
+    },
+    "simulated_failures": [],
+    "items_failed_extraction": [
+      {
+        "message": "extraction failed: ExtractionError: no substantive text (feed 0 words; page error: None)",
+        "subject": "feed:google:bafc49bea8fb",
+        "at": "2026-10-15T04:53:50Z"
+      },
+      {
+        "message": "extraction failed: ExtractionError: no substantive text (feed 89 words; page error: None)",
+        "subject": "feed:simon-willison:7e80df2842c6",
+        "at": "2026-10-15T04:53:50Z"
+      },
+      {
+        "message": "extraction failed: ExtractionError: no substantive text (feed 79 words; page error: None)",
+        "subject": "feed:simon-willison:5af1a93eb20f",
+        "at": "2026-10-15T04:53:51Z"
+      }
+    ]
+  },
+  "stages": [
+    {
+      "stage": "fetch_podcasts",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 11,
+      "started_at": "2026-10-15T04:53:22Z",
+      "finished_at": "2026-10-15T04:53:26Z",
+      "cost_usd": 0.0,
+      "note": "input_count = configured podcast sources",
+      "receipt": "runs/live-20261015T045321Z/logs/fetch_podcasts-20261015T045326-7c72c5.json"
+    },
+    {
+      "stage": "fetch_feeds",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 11,
+      "output_count": 51,
+      "started_at": "2026-10-15T04:53:22Z",
+      "finished_at": "2026-10-15T04:53:28Z",
+      "cost_usd": 0.0,
+      "note": "input_count = configured feed sources",
+      "receipt": "runs/live-20261015T045321Z/logs/fetch_feeds-20261015T045328-9ccb5d.json"
+    },
+    {
+      "stage": "fetch_youtube",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 9,
+      "started_at": "2026-10-15T04:53:22Z",
+      "finished_at": "2026-10-15T04:53:48Z",
+      "cost_usd": 0.0,
+      "note": "input_count = configured youtube sources",
+      "receipt": "runs/live-20261015T045321Z/logs/fetch_youtube-20261015T045348-09cd7c.json"
+    },
+    {
+      "stage": "extract_content",
+      "status": "incomplete",
+      "exit_code": 1,
+      "input_count": 71,
+      "output_count": 68,
+      "started_at": "2026-10-15T04:53:48Z",
+      "finished_at": "2026-10-15T04:53:51Z",
+      "cost_usd": 0.0,
+      "note": "extracted=24 reused_stored_version=44",
+      "receipt": "runs/live-20261015T045321Z/logs/extract_content-20261015T045351-8c3c7c.json"
+    },
+    {
+      "stage": "filter_items",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 84,
+      "output_count": 83,
+      "started_at": "2026-10-15T04:53:51Z",
+      "finished_at": "2026-10-15T04:53:51Z",
+      "cost_usd": 0.0,
+      "note": "excluded: outside_window=1",
+      "receipt": "runs/live-20261015T045321Z/logs/filter_items-20261015T045351-9380a6.json"
+    },
+    {
+      "stage": "store_upsert",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 68,
+      "output_count": 68,
+      "started_at": "2026-10-15T04:53:51Z",
+      "finished_at": "2026-10-15T04:53:51Z",
+      "cost_usd": 0.0,
+      "note": "new=24 unchanged=44",
+      "receipt": "runs/live-20261015T045321Z/logs/store_upsert-20261015T045351-572f11.json"
+    },
+    {
+      "stage": "collect_sources",
+      "status": "incomplete",
+      "exit_code": 1,
+      "input_count": 71,
+      "output_count": 83,
+      "started_at": "2026-10-15T04:53:22Z",
+      "finished_at": "2026-10-15T04:53:52Z",
+      "cost_usd": 0.0,
+      "note": "usable=true",
+      "receipt": "runs/live-20261015T045321Z/logs/collect_sources-20261015T045352-9813b0.json"
+    },
+    {
+      "stage": "select_items",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 83,
+      "output_count": 83,
+      "started_at": "2026-10-15T04:53:52Z",
+      "finished_at": "2026-10-15T04:58:10Z",
+      "cost_usd": 1.8711,
+      "note": "accept=35 defer=21 reject=27",
+      "receipt": "runs/live-20261015T045321Z/logs/select_items-20261015T045810-cd7d3a.json"
+    },
+    {
+      "stage": "create_briefs",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 83,
+      "output_count": 3,
+      "started_at": "2026-10-15T04:58:10Z",
+      "finished_at": "2026-10-15T05:01:54Z",
+      "cost_usd": 1.5499,
+      "note": "validation=valid quote_corrections=0",
+      "receipt": "runs/live-20261015T045321Z/logs/create_briefs-20261015T050154-93e588.json"
+    },
+    {
+      "stage": "write_articles",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 3,
+      "started_at": "2026-10-15T05:01:54Z",
+      "finished_at": "2026-10-15T05:03:33Z",
+      "cost_usd": 0.6689,
+      "note": "01:910w 02:897w 03:938w",
+      "receipt": "runs/live-20261015T045321Z/logs/write_articles-20261015T050333-d9523b.json"
+    },
+    {
+      "stage": "write_video_scripts",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 3,
+      "started_at": "2026-10-15T05:01:54Z",
+      "finished_at": "2026-10-15T05:04:08Z",
+      "cost_usd": 0.8273,
+      "note": "01:743w 02:658w 03:676w",
+      "receipt": "runs/live-20261015T045321Z/logs/write_video_scripts-20261015T050408-b90577.json"
+    },
+    {
+      "stage": "check_content",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 1,
+      "started_at": "2026-10-15T05:04:08Z",
+      "finished_at": "2026-10-15T05:04:09Z",
+      "cost_usd": 0.0,
+      "note": "passed=true errors=0 warnings=6 review_id=7404781cfb15",
+      "receipt": "runs/live-20261015T045321Z/logs/check_content-20261015T050409-2a9eaa.json"
+    },
+    {
+      "stage": "create_series",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 83,
+      "output_count": 3,
+      "started_at": "2026-10-15T04:53:52Z",
+      "finished_at": "2026-10-15T05:04:09Z",
+      "cost_usd": 0.0,
+      "note": "awaiting human review: passed=true",
+      "receipt": "runs/live-20261015T045321Z/logs/create_series-20261015T050409-ecd070.json"
+    },
+    {
+      "stage": "summarize_run",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": null,
+      "output_count": 1,
+      "started_at": "2026-10-15T05:04:09Z",
+      "finished_at": "2026-10-15T05:04:09Z",
+      "cost_usd": 0.0,
+      "note": "status=awaiting_review",
+      "receipt": "runs/live-20261015T045321Z/logs/summarize_run-20261015T050409-3e3f81.json"
+    },
+    {
+      "stage": "check_content",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 1,
+      "started_at": "2026-10-16T00:26:07Z",
+      "finished_at": "2026-10-16T00:26:08Z",
+      "cost_usd": 0.0,
+      "note": "passed=true errors=0 warnings=6 review_id=7404781cfb15",
+      "receipt": "runs/live-20261015T045321Z/logs/check_content-20261016T002608-579ea4.json"
+    },
+    {
+      "stage": "check_content",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 1,
+      "started_at": "2026-10-16T00:26:09Z",
+      "finished_at": "2026-10-16T00:26:10Z",
+      "cost_usd": 0.0,
+      "note": "passed=true errors=0 warnings=6 review_id=7404781cfb15",
+      "receipt": "runs/live-20261015T045321Z/logs/check_content-20261016T002610-a56e8b.json"
+    },
+    {
+      "stage": "prepare_package",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 3,
+      "started_at": "2026-10-16T00:26:08Z",
+      "finished_at": "2026-10-16T00:26:11Z",
+      "cost_usd": 0.0,
+      "note": "package at runs/live-20261015T045321Z/package",
+      "receipt": "runs/live-20261015T045321Z/logs/prepare_package-20261016T002611-bd032f.json"
+    },
+    {
+      "stage": "summarize_run",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": null,
+      "output_count": 1,
+      "started_at": "2026-10-16T00:26:11Z",
+      "finished_at": "2026-10-16T00:26:11Z",
+      "cost_usd": 0.0,
+      "note": "status=ready_for_production",
+      "receipt": "runs/live-20261015T045321Z/logs/summarize_run-20261016T002611-62afdf.json"
+    },
+    {
+      "stage": "summarize_run",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": null,
+      "output_count": 1,
+      "started_at": "2026-10-16T00:27:46Z",
+      "finished_at": "2026-10-16T00:27:46Z",
+      "cost_usd": 0.0,
+      "note": "status=ready_for_production",
+      "receipt": "runs/live-20261015T045321Z/logs/summarize_run-20261016T002746-a49451.json"
+    },
+    {
+      "stage": "check_content",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 1,
+      "started_at": "2026-10-16T00:54:39Z",
+      "finished_at": "2026-10-16T00:54:40Z",
+      "cost_usd": 0.0,
+      "note": "passed=true errors=0 warnings=6 review_id=7404781cfb15",
+      "receipt": "runs/live-20261015T045321Z/logs/check_content-20261016T005440-f206cf.json"
+    },
+    {
+      "stage": "check_content",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 1,
+      "started_at": "2026-10-16T00:54:40Z",
+      "finished_at": "2026-10-16T00:54:41Z",
+      "cost_usd": 0.0,
+      "note": "passed=true errors=0 warnings=6 review_id=7404781cfb15",
+      "receipt": "runs/live-20261015T045321Z/logs/check_content-20261016T005441-4e2999.json"
+    },
+    {
+      "stage": "prepare_package",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 3,
+      "started_at": "2026-10-16T00:54:40Z",
+      "finished_at": "2026-10-16T00:54:42Z",
+      "cost_usd": 0.0,
+      "note": "package at runs/live-20261015T045321Z/package",
+      "receipt": "runs/live-20261015T045321Z/logs/prepare_package-20261016T005442-118122.json"
+    }
+  ],
+  "failed_or_incomplete_stages": [
+    {
+      "stage": "extract_content",
+      "status": "incomplete",
+      "exit_code": 1,
+      "errors": [
+        {
+          "message": "extraction failed: ExtractionError: no substantive text (feed 0 words; page error: None)",
+          "subject": "feed:google:bafc49bea8fb",
+          "at": "2026-10-15T04:53:50Z"
+        },
+        {
+          "message": "extraction failed: ExtractionError: no substantive text (feed 89 words; page error: None)",
+          "subject": "feed:simon-willison:7e80df2842c6",
+          "at": "2026-10-15T04:53:50Z"
+        },
+        {
+          "message": "extraction failed: ExtractionError: no substantive text (feed 79 words; page error: None)",
+          "subject": "feed:simon-willison:5af1a93eb20f",
+          "at": "2026-10-15T04:53:51Z"
+        }
+      ]
+    },
+    {
+      "stage": "collect_sources",
+      "status": "incomplete",
+      "exit_code": 1,
+      "errors": [
+        {
+          "message": "a collection step exited 1 (see collection_status.json and that step's receipt)",
+          "subject": null,
+          "at": "2026-10-15T04:53:51Z"
+        }
+      ]
+    }
+  ],
+  "models": [
+    "claude-opus-5-5",
+    "claude-sonnet-5-5"
+  ],
+  "tools": [
+    "anthropic-api",
+    "bash",
+    "feedparser",
+    "ffmpeg",
+    "python",
+    "sqlite3",
+    "trafilatura",
+    "urllib",
+    "whisper.cpp(ggml-base.en.bin)",
+    "yt-dlp"
+  ],
+  "cost": {
+    "known_usd": 4.9172,
+    "by_stage_usd": {
+      "fetch_podcasts": 0.0,
+      "fetch_feeds": 0.0,
+      "fetch_youtube": 0.0,
+      "extract_content": 0.0,
+      "filter_items": 0.0,
+      "store_upsert": 0.0,
+      "collect_sources": 0.0,
+      "select_items": 1.8711,
+      "create_briefs": 1.5499,
+      "write_articles": 0.6689,
+      "write_video_scripts": 0.8273,
+      "check_content": 0.0,
+      "create_series": 0.0,
+      "summarize_run": 0.0,
+      "prepare_package": 0.0
+    },
+    "stages_with_unknown_cost": [],
+    "basis": "Model costs computed from API token usage x snapshotted price table (estimate; excludes taxes/credits). Local tools (yt-dlp, whisper.cpp, ffmpeg) and public feeds are counted as $0 API cost."
+  },
+  "review": {
+    "review_id": "7404781cfb15766805f9eb44a548e39bddd66f8c795fcc59529ad22aeddc4b31",
+    "passed": true,
+    "errors": 0,
+    "warnings": 6
+  },
+  "approval": {
+    "decision": "approve",
+    "reviewer": "Omar Contreras",
+    "matches_current_review": true
+  },
+  "package": {
+    "path": "runs/live-20261015T045321Z/package",
+    "packaged_at": "2026-10-16T00:54:42Z"
+  },
+  "publication_links": [
+    {
+      "piece_id": "01",
+      "substack_url": "https://guingforward.substack.com/p/the-agent-became-the-front-door-the",
+      "youtube_url": null
+    },
+    {
+      "piece_id": "02",
+      "substack_url": "https://guingforward.substack.com/p/a-confirmation-step-is-not-verification",
+      "youtube_url": null
+    },
+    {
+      "piece_id": "03",
+      "substack_url": "https://guingforward.substack.com/p/talk-to-delegate-look-to-check",
+      "youtube_url": null
+    }
+  ],
+  "published": false,
+  "remaining_manual_actions": [
+    "Produce three videos in Google Vids from package/video_scripts/ (manual)",
+    "Upload videos to YouTube with package/youtube/NN_description.txt (manual)",
+    "Publish package/articles/ on Substack, free access (manual)",
+    "Record URLs in package/publication_links.json and repackage to fill placeholders",
+    "Collection was incomplete; see coverage_limitations and decide whether to rerun after fixing sources."
+  ]
+}

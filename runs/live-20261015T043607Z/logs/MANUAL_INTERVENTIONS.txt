@@ -1,0 +1,1 @@
+2026-10-15T04:53:07Z fetch_feeds crashed in this run (AttributeError: local variable 'html' shadowed the html module, a bug introduced while adding title unescaping). The pipeline recorded the collector as failed/incomplete and continued with retained evidence. Fixed in collectors/feeds.py; the next live run re-collects feeds.

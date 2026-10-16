@@ -1,0 +1,72 @@
+{
+ "summary": "Microsoft Windows Developer Blog post announcing general availability of Microsoft Execution Containers (MXC), a policy-driven containment layer for AI agents on Windows, macOS and Linux. It describes four containment backends (process, session, WSL, experimental MicroVM), a JSON policy schema covering files, network and UI, and learning/permissive modes that produce activity reports. Entra agent identity, Agent 365 controls and Intune policy for MXC are described as coming soon.",
+ "speakers_or_authors": "Microsoft Windows developer team (vendor blog post)",
+ "relevance": 2,
+ "relevance_reason": "Directly relevant to the computer-use/desktop agent theme and OS-level agent safety: a shipped OS-enforced boundary for agents, including a separate desktop/session for agents. However, it is a vendor announcement with no user evidence on how well it works, and the focus is developer and IT controls rather than end-user interaction.",
+ "themes": [
+  "Agent containment and OS-level safety",
+  "Desktop agents running in separate sessions",
+  "Enterprise management of local agents (Entra, Intune, Agent 365)",
+  "AI built into operating systems"
+ ],
+ "claims": [
+  {
+   "claim": "Microsoft says MXC is now generally available and provides the containment layer for agents on Windows.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Microsoft Execution Containers (MXC), now generally available, provides the containment layer.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Microsoft frames users as having only two bad options today: unrestricted agent access or blocking agents entirely.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "This can leave customers feeling like they only have two choices: give agents unrestricted access and hope nothing goes wrong or block them and lose the productivity benefits they provide.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Policy is enforced outside the agent, so the agent or its generated code cannot grant itself more access.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "The policy remains outside the agent workload’s control, so the agent or generated code cannot grant itself additional access.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Only Windows supports a session container that runs the agent in a separate OS-isolated session with its own identity, desktop, clipboard, UI and input boundaries.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Only Windows supports a session container, which runs an agent on the user’s device in a separate, OS-isolated session with its own local agent identity and isolated desktop, clipboard, UI, and input boundaries.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The MicroVM backend is experimental, while process containers work on Windows 11, macOS and Linux.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "MicroVM | Windows 11 and Linux, experimental",
+   "segment_id": ""
+  },
+  {
+   "claim": "Entra agent identity, Agent 365 controls for local agents, and Intune policy for MXC are not yet available; they are promised soon.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Intune policy will soon be available to manage MXC process containers used by MXC-integrated agents on Windows 11.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Learning and permissive modes (Windows only) record what resources an agent tries to use, so developers can write least-privilege policies.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Only on Windows, MXC process containers can produce an agent activity report showing which resources a workload attempted to use to help craft a least-privilege policy.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Microsoft says agents should explain when organizational policy blocks a task rather than fail silently.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "If organizational policy blocks a resource, the agent should explain that the task could not be completed within the available permissions",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Vendor speaking about its own product; Microsoft promotes MXC, Windows 365, Entra, Intune and Agent 365. No independent testing or user reports are included.",
+ "older_event": "No. This is a new announcement dated 2026-10-07 (GA of MXC). Several pieces (Entra, Intune, Agent 365 integration) are still forthcoming."
+}

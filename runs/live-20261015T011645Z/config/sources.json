@@ -1,0 +1,21 @@
+[
+  {"source_id": "nngroup-articles", "publisher_id": "nngroup", "kind": "feed", "url": "https://www.nngroup.com/feed/rss/", "name": "Nielsen Norman Group", "perspective": "practitioner (UX research)", "max_items": 6},
+  {"source_id": "one-useful-thing", "publisher_id": "ethan-mollick", "kind": "feed", "url": "https://www.oneusefulthing.org/feed", "name": "One Useful Thing (Ethan Mollick)", "perspective": "commentary (academic)", "max_items": 3},
+  {"source_id": "arxiv-cs-hc", "publisher_id": "arxiv", "kind": "feed", "url": "https://rss.arxiv.org/rss/cs.HC", "name": "arXiv cs.HC", "perspective": "research (preprints, not peer reviewed)", "max_items": 5,
+   "include_keywords": ["LLM", "large language model", "agent", "agents", "conversational", "voice", "assistant", "smart glasses", "wearable", "GUI", "computer use", "multimodal", "generative AI"]},
+  {"source_id": "google-gemini-blog", "publisher_id": "google", "kind": "feed", "url": "https://blog.google/products/gemini/rss/", "name": "Google Keyword: Gemini", "perspective": "vendor", "max_items": 5},
+  {"source_id": "windows-blog", "publisher_id": "microsoft", "kind": "feed", "url": "https://blogs.windows.com/feed/", "name": "Windows Blog (Microsoft)", "perspective": "vendor", "max_items": 5,
+   "include_keywords": ["AI", "Copilot", "agent", "agents", "voice", "intelligence", "assistant"]},
+  {"source_id": "ars-technica-ai", "publisher_id": "ars-technica", "kind": "feed", "url": "https://arstechnica.com/ai/feed/", "name": "Ars Technica AI", "perspective": "journalism", "max_items": 7,
+   "include_keywords": ["agent", "agents", "assistant", "voice", "glasses", "Windows", "browser", "Gemini", "Siri", "Alexa", "Copilot", "computer", "app", "apps", "interface", "device", "memory", "privacy"]},
+  {"source_id": "simon-willison", "publisher_id": "simon-willison", "kind": "feed", "url": "https://simonwillison.net/atom/everything/", "name": "Simon Willison's Weblog", "perspective": "practitioner (developer)", "max_items": 5,
+   "include_keywords": ["agent", "agents", "voice", "computer use", "browser", "interface", "UI", "assistant", "memory", "prompt injection", "glasses", "audio"]},
+  {"source_id": "road-to-vr", "publisher_id": "road-to-vr", "kind": "feed", "url": "https://www.roadtovr.com/feed/", "name": "Road to VR", "perspective": "journalism (XR/wearables trade press)", "max_items": 4,
+   "include_keywords": ["glasses", "AI", "assistant", "voice", "display"]},
+  {"source_id": "yt-mkbhd", "publisher_id": "mkbhd", "kind": "youtube", "url": "https://www.youtube.com/@mkbhd/videos", "name": "Marques Brownlee (MKBHD)", "perspective": "journalism (consumer tech reviews)", "max_items": 3, "min_seconds": 300},
+  {"source_id": "yt-nate-b-jones", "publisher_id": "nate-b-jones", "kind": "youtube", "url": "https://www.youtube.com/@NateBJones/videos", "name": "Nate B Jones (AI News & Strategy Daily)", "perspective": "commentary (AI strategy)", "max_items": 3, "min_seconds": 300},
+  {"source_id": "yt-sam-witteveen", "publisher_id": "sam-witteveen", "kind": "youtube", "url": "https://www.youtube.com/@samwitteveenai/videos", "name": "Sam Witteveen", "perspective": "practitioner (AI developer)", "max_items": 3, "min_seconds": 300},
+  {"source_id": "pod-vergecast", "publisher_id": "the-verge", "kind": "podcast", "url": "https://feeds.megaphone.fm/vergecast", "name": "The Vergecast", "perspective": "journalism", "max_items": 3},
+  {"source_id": "pod-how-i-ai", "publisher_id": "claire-vo", "kind": "podcast", "url": "https://anchor.fm/s/1035b1568/podcast/rss", "name": "How I AI (Claire Vo)", "perspective": "practitioner (product builders)", "max_items": 3},
+  {"source_id": "pod-big-technology", "publisher_id": "big-technology", "kind": "podcast", "url": "https://feeds.megaphone.fm/LI3617121267", "name": "Big Technology Podcast (Alex Kantrowitz)", "perspective": "journalism (industry interviews)", "max_items": 2}
+]

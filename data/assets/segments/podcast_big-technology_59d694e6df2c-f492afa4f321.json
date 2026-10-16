@@ -1,0 +1,680 @@
+[
+ {
+  "segment_id": "seg-0001",
+  "start_seconds": 0.0,
+  "end_seconds": 42.06,
+  "text": "Can an AI industry so prone to drama and infighting keep us safe from their technology's worst impulses? Let's talk about it with Kevin Ruse right after this. This episode is brought to you by Genesis. What does it actually take to put a genetic AI to work across an entire enterprise? I recently spoke with Genesis Chairman and CEO Tony Bates about why orchestration is emerging as a competitive advantage in customer experience and what companies need to get right in the AI era. Then I sat down with Adam Mitchell, head of enterprise business solutions at Voya Financial, to go inside a large-scale, agentics CX transformation, including the business decisions, trade-offs, and lessons along the way."
+ },
+ {
+  "segment_id": "seg-0002",
+  "start_seconds": 42.06,
+  "end_seconds": 73.58,
+  "text": "You can watch both conversations now on my YouTube channel today. It's never been more challenging to get front to your computer. How do you know where to look, who to trust, or how much to pay? Akash is an open cloud that provides easy access, flexibility, and peace of mind. That's how companies like Razer were able to cut their inference costs by 15 times. Visit Akash.network/alex for free consultation. That's Akash.network/alex for free consultation."
+ },
+ {
+  "segment_id": "seg-0003",
+  "start_seconds": 73.58,
+  "end_seconds": 108.42,
+  "text": "Payday bars have a bone to pick with the other candy bars, enough with the toppings and layers and stuff. Payday bars are just salty, crunchy peanuts and sweet caramel. Delicious! Payday! Peanut Caramel Bar. Welcome to Big Technology Podcast, a show for CoolHeaded, and nuanced conversation of the tech world and beyond. Say we have a great conversation for you, because Kevin Ruzis here, he's the author of the AGI Chronicles, a book looking into what is going on with him in the AI labs, what they're building, whether we should be afraid of it, and of course, the potential of this technology."
+ },
+ {
+  "segment_id": "seg-0004",
+  "start_seconds": 108.42,
+  "end_seconds": 142.66,
+  "text": "Kevin, it's great to see you. Great to see you. What a cool setup you have here. So I do want to say, if you're on video, we're in a new set. This is our first time recording here at Nasdaq Market Site. They are new partners of ours, and we're thrilled to be here. You got to get the big technology TV mugs. You got to get the mug. That's the next step. What we do have is your book. This is the book, The AGI Chronicles, the inside story of the race to create artificial super intelligence. You were ahead of the super intelligence on the subtitle. Yeah, I got the idea from me, actually, that's where I got it."
+ },
+ {
+  "segment_id": "seg-0005",
+  "start_seconds": 142.66,
+  "end_seconds": 175.66,
+  "text": "The thing that struck me, because I read the book, you can see, by the way. It looks right. I read it through and through, cover to cover. The theme in the book, of course, is the building of AI, but it's also the drama. And everywhere you turn, the people who are building this very powerful technology cannot get along. There is Elon Musk's split from OpenAI, of course, Sam Altman getting fired by the people he worked extremely closely with, anthropic, not being able to stand, working with the OpenAI folks."
+ },
+ {
+  "segment_id": "seg-0006",
+  "start_seconds": 175.66,
+  "end_seconds": 212.98,
+  "text": "They left and formed their own company. There's within Google the Google Brain versus DeepMind drama. There's Elias at Skever's botched attempt at steering OpenAI in a safe direction. We can keep going. Ronny couldn't lead OpenAI when she was there as the interim CEO for like five minutes. Every single lead character in this story seems prone to drama and politics. And yet, they are now telling us that their technology, their building, is so dangerous that we need to protect ourselves from it."
+ },
+ {
+  "segment_id": "seg-0007",
+  "start_seconds": 212.98,
+  "end_seconds": 254.06,
+  "text": "How can we possibly trust people who literally can't get it together on their own to rein in something that they say and I think you believe might be smarter than humans? Yeah, it's a fascinating topic. I was not expecting this. You know, when I went in to write the book, my goal was to tell the history of the last ten years in AI from sort of the moment that the first large language models arrived on the scene to today. And I interviewed more than 150 people and I was sort of prepared to write like a sober history of technology book that would be about the scientific breakthroughs and the technical achievements at the labs, OpenAI, Anthropic and Google DeepMind."
+ },
+ {
+  "segment_id": "seg-0008",
+  "start_seconds": 254.06,
+  "end_seconds": 287.62,
+  "text": "And then as I started talking to more people, I just realized, oh, this is personal for them. Like, they all hate each other. And I had thought this was more like Coke and Pepsi, like kind of a normal business rivalry. But it was actually more like Rome and Carthage, like these people cannot stand each other. Many of them used to work together. So 10 years ago, Dario, Amade, Iliya, Satsgivir, Sam Altman and Elon Musk were all colleagues at OpenAI. Now they are all working for different AI projects and many of them are sort of at each other's throats."
+ },
+ {
+  "segment_id": "seg-0009",
+  "start_seconds": 287.62,
+  "end_seconds": 325.42,
+  "text": "So I wanted to understand how we got here. And I don't think you can understand that story without understanding the backstories of the beefs between these people because so much of what we're seeing is a reflection of how viscerally these people mistrust and dislike each other, even in things like how they feel about regulation and China and how they're racing toward this thing that all of them seem quite fearful of. So yeah, I don't think we can trust that their motives are pure about whatever they say they are, like scientific achievement or safety, because there's also this like incredibly personal grudge aspect to it."
+ },
+ {
+  "segment_id": "seg-0010",
+  "start_seconds": 325.42,
+  "end_seconds": 366.46,
+  "text": "Yeah. And it's not just motives. It's literally, if you can't hold a company together, how do you hold a technology at bay when we've already seen it in recent weeks, go out and do this multi-agent coordinated attack on something like hugging face. And even today, we're talking today, it's Friday, October 9th, we're going to air this the following Wednesday. There's a report about how OpenAI and anthropic and deep mind are all talking about there's an basically an inevitable seemingly black swan event that's going to happen as a result of this technology, whether it's something that technology bringing down a financial system or some other cybersecurity issue."
+ },
+ {
+  "segment_id": "seg-0011",
+  "start_seconds": 366.46,
+  "end_seconds": 399.42,
+  "text": "You have a great line in the book talking, you know, sort of riffing off, Dario is machines of love and grace essay, which talks about the potential of the technology. You wrote machines of loving grace would be built by humans of bitter spite. So I get the, I get your surprise and I get the background here, but again, like when we think about the big picture of AI, I'm trying to think about whether we should be reassured or whether we should be even more nervous than we are. And that's why I'm coming back to the drama scenario."
+ },
+ {
+  "segment_id": "seg-0012",
+  "start_seconds": 399.42,
+  "end_seconds": 433.54,
+  "text": "I'm starting because, because of all the issues that we see and many of them have come out in public over the, over the year, like I don't think that infighting is, is a secret to anybody anymore. How can we have faith in this group of people to build this stuff safely given what we know about their pasts? And I don't think we can't, I think we have to know the context here, which is why I was like, I wanted to report out like, why do these people hate each other? What happened? Was it something brand and ideological starting to say you don't think we can so like I don't think we can trust any individual in this race."
+ },
+ {
+  "segment_id": "seg-0013",
+  "start_seconds": 433.54,
+  "end_seconds": 478.46,
+  "text": "I think there are certain groups like like, I just mainly think that the group of people who have been building this stuff in secret for the last decade is too small. Like all of the relevant decisions in AI have been made by like, a couple dozen people maybe. And I just think that is like, no matter whether, you know, whether those people are trustworthy or not, whether they're good or bad, whether they have pure motives or impure ones, like the group is just too small. And so I don't trust any group of people that small to create and govern technology like this, and I especially don't trust these guys who are, you know, looking around the room trying to race each other to do this thing, I want them to be able to like, get together in a room and like, figure out some solutions on things like safety."
+ },
+ {
+  "segment_id": "seg-0014",
+  "start_seconds": 478.46,
+  "end_seconds": 509.82,
+  "text": "And I don't know whether that's going to be possible because they like, the beefs are too strong, the divides are too deep, like, they all need to like, kind of get together in Sinkumbaya and like, figure it out. Now I think like you, I think this technology is, I believe that this technology is progressing fast, I'm a believer in the positive sides of it, but every time I start talking about this, the negative sides, there's never really like a, a, you know, a moment or like a fail safe where it's like, okay, but it's going to be fine because of this. You almost like sort of put it in the back of your mind."
+ },
+ {
+  "segment_id": "seg-0015",
+  "start_seconds": 509.82,
+  "end_seconds": 545.18,
+  "text": "And so when I've like brought up these issues, you know, Ron John who's on our Friday show, I know, you know, he's like, well, why aren't you a pause guy then? Like, why don't you believe that we should just pause the development of this technology, not that that's physically, you know, really possible? But you're, you seem to be a believer that the technology should continue to be built. Why not pause? I, I am a pause guy. I'm not a stop guy. You are a pause guy. I am a pause guy. I think we should slow down because, well, slow and pause are two different things. Well, pause, slow down, you know, put, put the podcast on point five X speed."
+ },
+ {
+  "segment_id": "seg-0016",
+  "start_seconds": 545.18,
+  "end_seconds": 575.78,
+  "text": "But what you're hearing from these lab leaders and the people at these labs and what I've been hearing from them for years now is that the technology, the capabilities are outpacing the safety research and the control methods. So like we are getting these systems that are now capable of solving math problems that humans have struggled with for decades. We are getting, you know, potential black swan events like the one you just mentioned. And we still don't know, they still don't know how to control these systems. So I'm not saying we should shut it all down."
+ },
+ {
+  "segment_id": "seg-0017",
+  "start_seconds": 575.78,
+  "end_seconds": 608.14,
+  "text": "I think there will be incredible benefits to this technology, especially in like health and medicine. But I am worried when I hear people saying things like we don't know how to control these systems that are rapidly approaching super intelligence. And I think we saw an example of where that goes with the hugging face thing, which like, you know, everyone has freaked out about that, which they should be. It's freaky. But the people inside the companies were the most freaked out of all because they had been sort of strategizing and planning for this. But then to actually see it happen, I think, caught them quite off guard."
+ },
+ {
+  "segment_id": "seg-0018",
+  "start_seconds": 608.14,
+  "end_seconds": 652.58,
+  "text": "Yeah. I mean, they've both seen it firsthand, where it could go. This is something, I mean, companies like Anthropic have been talking about for a long time. Deep mind has been talking about it, open eyes has been talking about. They've been trying to, you know, fool evaluators. They know they're being tested. They want to preserve their original values. And then you combine that with, of course, like, yeah, just like, you know, you know, you'd call it standard corporate politics, but it's even more because it means more to them. So you spent, you know, years in these labs talking to these people going from your, your first initiative, where you're like, or your first thought, which was like, this is going to be a, you know, traditional business and technology story to something that you saw was much more emotional."
+ },
+ {
+  "segment_id": "seg-0019",
+  "start_seconds": 652.58,
+  "end_seconds": 686.22,
+  "text": "So bottom line, like after, and this is, we'll ask this and then we'll move on to some other stuff because you have so many fun stories in the book that we'll have to get to. But like, bottom line, after spending the time within these labs, did you leave more reassured or less reassured that this technology can be developed safely from your starting point? Less reassured. I, I went in thinking, okay, there are some grownups in the room and they seem like they're trustworthy. I liked, for example, that the AI leaders seem to take safety and the harms of their products very seriously."
+ },
+ {
+  "segment_id": "seg-0020",
+  "start_seconds": 686.22,
+  "end_seconds": 718.34,
+  "text": "At least compare, like you and I both grew up covering social media. That's right. And Mark Zuckerberg was not going around during the early days of Facebook saying like, this product could kill millions of people. They were just promoting the benefits. And what struck out, what, what stuck out to me about the AI leaders is they, from, from the get go, they were saying, we are fearful of this technology. We think it had, could have enormous harms. And so part of me like trusted that instinct or at least was glad that they were thinking about the downsides of the technology so early."
+ },
+ {
+  "segment_id": "seg-0021",
+  "start_seconds": 718.34,
+  "end_seconds": 748.78,
+  "text": "But then you just realized there is this race. They are locked in to this pattern of, you know, open AI releases a better model. So then anthropic has to release a better model. So then Google has to release a better model. And you know, there's this concept of the Red Queen's race, which is a term from evolutionary biology, which basically means like you just are in sort of a survival of the fittest competition among your evolutionary rivals, and no matter how fast you go, like someone else is always going faster than you."
+ },
+ {
+  "segment_id": "seg-0022",
+  "start_seconds": 748.78,
+  "end_seconds": 779.94,
+  "text": "And so you never quite get where you're going, you're just kind of racing to stay in the same place. And I feel like that's a very good description of where are the AI races now. Yeah, one of the things that struck me speaking of the race is, you know, reading your book it sort of recalled this interview that I did when I was working on a profile about Dario Amode from Anthropic last year, where one of his early friends told me everybody that I knew was interested in AI because of safety."
+ },
+ {
+  "segment_id": "seg-0023",
+  "start_seconds": 779.94,
+  "end_seconds": 812.62,
+  "text": "And now they've all become accelerationalists effectively, and this person just kind of sat there and like, you know, they sat with a thought for a minute and there was this like uncomfortable pause. But it is interesting how all these companies like they talk about safety as a priority. And I think they really believe like, Dario really believes that you need to be the leader in order to have anybody take what you say about safety seriously. Like if anthropic was the number seven company, Trump doesn't care what Dario is saying about AI, but because they're one of the leaders, if not the leader, all of a sudden that opinion holds weight."
+ },
+ {
+  "segment_id": "seg-0024",
+  "start_seconds": 812.62,
+  "end_seconds": 850.28,
+  "text": "And this was the founding thesis of anthropic, right? It was like, they knew that they wanted to be relevant on policy and they wanted people to listen to their warnings about safety. And that was part of the strategy from the time that they started the company. I'm sure you learned this when you were doing your profile of Dario. They really had the sort of end game in mind when they were spinning up the company. Yeah. But it is remarkable though that, you know, because of that pursuit, they have all. It's like the race almost seems, I mean, the destination almost seems predetermined and that will hear this talk about pacing the frontier and pause and stuff like that."
+ },
+ {
+  "segment_id": "seg-0025",
+  "start_seconds": 850.28,
+  "end_seconds": 887.86,
+  "text": "I just don't see their real slowing down. Well, give it time, right? Like you have to, I am slightly less pessimistic about the idea of a pause because like things can change incredibly quickly. If there was some kind of black swan event, I mean, we saw like regulators move fast after 9/11 to like do the Patriot Act, we saw like, you know, we've seen the, you know, we saw after the Three Mile Island nuclear incident, there was this incredible outcry that basically stopped nuclear power construction in this country for decades."
+ },
+ {
+  "segment_id": "seg-0026",
+  "start_seconds": 887.86,
+  "end_seconds": 918.46,
+  "text": "So things can happen quickly when there's some catastrophic incident. So I'm not like hoping for a catastrophic incident. I don't think I would like there not to be one for the record. But I think that that is sort of the scenario in which this stuff starts to become possible that seems to you and me quite unlikely right now. I want to go through some observations from the book. I think like it's good that we got the conversation about trusting the AI guys with the technology or not. I think we both have our reservations."
+ },
+ {
+  "segment_id": "seg-0027",
+  "start_seconds": 918.46,
+  "end_seconds": 949.78,
+  "text": "But this is almost, I think the end of this show, I mean, we're only 15 minutes in, but I think we'll probably just do lightning around for the next 45 minutes because there's so much in here. All right. So some observations about the people in the book. First of all, something that becomes clear about Google is that Sergey Brin is just extremely involved inside the company. Yeah. This was a surprise to me and to the people at Google because Sergey had spent like, I don't know, a few years at least in retirement."
+ },
+ {
+  "segment_id": "seg-0028",
+  "start_seconds": 949.78,
+  "end_seconds": 983.78,
+  "text": "He retired in 2019 and was planning to spend his days just like sunning himself on his yacht and reading science papers. And then he has this run in with this researcher, Dan Selsom from OpenAI. Right, who's recently come out and talked about again his fears. Yeah, same guy. So it's incredible how small this world is. So they're at a party and Dan and Sergey are talking and Sergey Brin is like a legend in technology at this point. He's one of the seven or eight richest people in the world depending on the day."
+ },
+ {
+  "segment_id": "seg-0029",
+  "start_seconds": 983.78,
+  "end_seconds": 1014.98,
+  "text": "And he's been in semi-retirement and Dan Selsom basically shames him for this. He's like, why are you sitting on the sidelines, bro? Like the dream of computer science, like AI is happening and you are missing it. And Sergey gets like so competitive and he's like, why is Google behind? Why can't we like, you know, we should, it is our birthright, like Google was the first AGI company, like this is sort of how he feels like we invented the transformer and all the stuff that powers the AI stuff and like we're losing."
+ },
+ {
+  "segment_id": "seg-0030",
+  "start_seconds": 1014.98,
+  "end_seconds": 1045.06,
+  "text": "And so he comes back and kind of has this like strange role where he's not technically an executive, he just wants to be like in the trenches with like the Gemini team. And so here he is, like the seventh richest man in the world and he's just like setting up a desk and you know, coding, he like starts actually coding and like making commits to the repo and like filing, you know, like bug reports on Gemini training runs and stuff like that, like he gets very involved."
+ },
+ {
+  "segment_id": "seg-0031",
+  "start_seconds": 1045.06,
+  "end_seconds": 1082.98,
+  "text": "And I think that's a large part of why they've sort of come back is just that they needed someone who could like go founder mode as it were and like cut through the red tape. And it's been very controversial and divisive, you know, if your billionaire boss showed up after years of being retired on his yacht and like started telling you what to do and how to train your models to work like 60 hours a week or something like that. Oh yeah, he sends this memo where he's like everyone's just basically the gist is like you've all gotten complacent and lazy and you need to work harder and they're like, what were you doing for the last five years now you're telling me to work harder?"
+ },
+ {
+  "segment_id": "seg-0032",
+  "start_seconds": 1082.98,
+  "end_seconds": 1117.78,
+  "text": "But I mean, I don't think you necessarily, I don't should I say this? I don't think he was necessarily wrong there, like the, I mean, if he saw it, the conversation within Google about Google has been that it got this big company vibe and needed to break out of it and who's going to break out the company out of it other than the founder being like open AI and anthropic aren't, you know, doing the chill work day, you need to not do the chill work. I think I think that was a large part of it. I also think Dennis Asabas is a factor in this too, you know, co-founder of DeepMind until recently the CEO of Google DeepMind."
+ },
+ {
+  "segment_id": "seg-0033",
+  "start_seconds": 1117.78,
+  "end_seconds": 1156.34,
+  "text": "He is, according to the people closest to him, the most competitive person in the world. He was a child chess prodigy, he has won this thing called the penta mind, which is like kind of the Olympics of games like five times. He is just, he hates to lose and he loves to win. And so I think Sergei plus Demis plus just like the kind of focus that comes from being out of the lead really sharpened their resolve and like made them catch up and, you know, they're still probably in third place right now, but like, I wouldn't count them out."
+ },
+ {
+  "segment_id": "seg-0034",
+  "start_seconds": 1156.34,
+  "end_seconds": 1190.78,
+  "text": "Yeah. I mean, I think counting out. Do you count them out? No, I think counting anybody out in this race is foolhardy because as we've seen, you could be at the bottom like Meta was a couple weeks ago and then all of a sudden you're able to release something that's competitive like Muse. So I don't think anybody can be counted out, but I do think Google is sort of stuck between a lot of things right now, licensing the technology, the compute, selling TPUs. But they've also like they own like 12% of anthropic and like they're going to be fine."
+ },
+ {
+  "segment_id": "seg-0035",
+  "start_seconds": 1190.78,
+  "end_seconds": 1227.78,
+  "text": "But I don't think like you can, yes, you own percentage of your competitors. That's your backstop. Yeah. But you can't rely on that. You have to rely on what you do within the company. Sure. But I did enjoy reading about Sergey's involvement and the drama and the sort of fire he tried to light under the ass of people within Google. I say, well, you actually do reference in the book, which I appreciate when I did the interview with both of them together at I/O. Oh my god. It was incredible. Really fun. Where like I asked them both when you think AGI is coming and Sergey's timeline was shorter than Demises."
+ },
+ {
+  "segment_id": "seg-0036",
+  "start_seconds": 1227.78,
+  "end_seconds": 1263.18,
+  "text": "And there was this kind of interesting moment there, which was fun to see. Yeah. I mean, though speaking of guys who mistrust and maybe don't like each other, I understand there's some tension between Sergey and Demis and yeah, it's just, it's incredibly messy. The thing that animates all these feuds, like these people wouldn't be fighting if the stakes were small, but they believe this is the most important technology that humanity has ever conceived of and built and that whoever gets it will be the most powerful person in the world, the most powerful entity in the world."
+ },
+ {
+  "segment_id": "seg-0037",
+  "start_seconds": 1263.18,
+  "end_seconds": 1295.86,
+  "text": "And that is what's fueling their drive. If they were just arguing about next quarter's revenue, it wouldn't matter so much. But this to them is like existentially important. Do you agree? That AI is the most important thing ever created? Probably. Yeah. Fire is up there too. But like this part of it, I do think I changed my mind on in the core. I was pretty skeptical when I went in that like AI was going to be categorically different than other."
+ },
+ {
+  "segment_id": "seg-0038",
+  "start_seconds": 1295.86,
+  "end_seconds": 1331.22,
+  "text": "I was sort of an AI as normal technology guy. But then you start talking to people building this, you start understanding like just the nature of what they're trying to do. And like if it works, if they actually do build something that is smarter than humans, and I don't see any real technical reason that they can't, that would be incredibly transformative. You've never been the second smartest species on the planet before. We don't know how that would go. And you can't really apply like people say, oh, it's just like the internet or it's just like the steam engine."
+ },
+ {
+  "segment_id": "seg-0039",
+  "start_seconds": 1331.22,
+  "end_seconds": 1367.58,
+  "text": "Steam engines didn't go rogue and like hack competitors and develop bio weapons and do things that the engineers building the steam engines didn't expect or plan for. So I think it's just a different type of technology. Kevin, do you ever think to yourself like maybe, and I've seen your, you've been on X and, you know, I wouldn't say shouting at people, but telling people basically like underestimate this technology at your own risk. Yeah, it's been so weird because like on one level, I'm a journalist like I'm just trying to like get the story down."
+ },
+ {
+  "segment_id": "seg-0040",
+  "start_seconds": 1367.58,
+  "end_seconds": 1399.3,
+  "text": "And at the same time, I get incredibly frustrated when people are like, oh, it's all hype. It's just marketing. There's this kind of like savvy East Coast consensus that like these people have to be full of shit on some level and that the thing that they're building can't actually be powerful. And I'm like, have you used it? Like do you, do you spend time with these tools? Do you understand that like something that couldn't do basic math like three years ago is now solving millennium prize problems?"
+ },
+ {
+  "segment_id": "seg-0041",
+  "start_seconds": 1399.3,
+  "end_seconds": 1429.9,
+  "text": "Like do you, do you understand the exponential? It feels a little bit to me like the beginning days of COVID where it was like you would see these reports of like people, you know, not shaking hands at venture capital firms or they're, you know, somebody would say, oh, there are 40 cases in Seattle. And people would be like, what's the big deal? It's 40 cases in Seattle. But the people who are freaking out were like the epidemiologists who saw the rate of replication and understood like this will continue."
+ },
+ {
+  "segment_id": "seg-0042",
+  "start_seconds": 1429.9,
+  "end_seconds": 1466.98,
+  "text": "And when it does, like a month from now, there will be millions of cases. And two months from now, there will be millions more cases. And so I feel like the people who are looking at this technology and saying like, what's the big deal are just not understanding the rate of progress? Do you ever like ask yourself, I mean, it's sometimes very easy to be, and I agree with you, there's been real progress, but it's also sometimes easy to kind of get caught up in the story that the technologists tell. I remember you like when crypto was invoked, like you were very serious about the potential of crypto."
+ },
+ {
+  "segment_id": "seg-0043",
+  "start_seconds": 1466.98,
+  "end_seconds": 1506.34,
+  "text": "You named your podcast hard fork, which was a crypto term. And then obviously that didn't pan out as the crypto boosters believed. So do you think there could be, you know, a similar, do you ever wonder if you're in basically taking the AI folks word for it similarly as the crypto folks? I used to think that. I used to worry about that, because I was like, am I being duped here? I was never a crypto booster, but I thought it was interesting. I thought people should take it seriously. And by the way, I still think people should take it seriously because like crypto people like run the country now and are doing all kinds of scams and frauds that like are that only the insiders kind of understand."
+ },
+ {
+  "segment_id": "seg-0044",
+  "start_seconds": 1506.34,
+  "end_seconds": 1543.8,
+  "text": "So I still think like broader awareness of that would be to use cases. I did some experiments like I sold an NFT as a stunt, but that was not like me saying NFTs are going to be the future of ownership. It was like me trying to understand by doing the thing. But I think with AI, I have stopped doubting the transformative potential of the products, because I use them. Like, I think I am unlike many journalists who cover AI in that I like AI and I use it all the time, not to write, but to like do all, you know, I'm starting a company now."
+ },
+ {
+  "segment_id": "seg-0045",
+  "start_seconds": 1543.8,
+  "end_seconds": 1576.78,
+  "text": "Like I use it to do lots of different things as maybe you do too. I mean, as a business owner, I will say like, I've pressure tested the stuff from Chatshi PT 2022 till now. And it just does more and more and more for me, right, which is not the experience that anyone had with crypto where it's like, Oh, this is, this is a vital part of my daily life. Like it was a way to speculate. But you can just use the tools and observe for yourself how impressive they are. And then you'd stop doubting whether it's real."
+ },
+ {
+  "segment_id": "seg-0046",
+  "start_seconds": 1576.78,
+  "end_seconds": 1608.34,
+  "text": "I buy the skepticism about the financial models of these companies, the economic impacts. I think a lot of these companies are wrong or at least could be wrong about the impact of AI on jobs. But like to say that it's not interesting transformative technology, it just means that like you haven't spent time with the models because there's no way to conclude that. Let's get back to some of these stories. The Sam Demis rivalry, speaking of Demis as the most competitive person on earth."
+ },
+ {
+  "segment_id": "seg-0047",
+  "start_seconds": 1608.34,
+  "end_seconds": 1639.58,
+  "text": "I think Sam is also fairly competitive. There's a great anecdote in the book about Demis sort of grasping at why Sam wants to build AGI. I mean, I think the answer is probably because Sam is an entrepreneur and this is sort of as many people in the valley pursue good ideas or ideas with potential and they sort of get off on that discovery. Sam seems to be in that case the ability to find something new, build it."
+ },
+ {
+  "segment_id": "seg-0048",
+  "start_seconds": 1639.58,
+  "end_seconds": 1671.26,
+  "text": "But Demis can't understand it. He thinks there's a hidden motive with Sam. And to be fair, this is something that others have thought. This is also what Dario thought about Sam when they work together. That he was sort of, I don't know, talking about safety as kind of a fig leaf for his real ambition, which was about scaling or winning or building a huge company or something like that. So I don't pretend to like see inside Sam's mind. I don't know what his pure motive is."
+ },
+ {
+  "segment_id": "seg-0049",
+  "start_seconds": 1671.26,
+  "end_seconds": 1706.14,
+  "text": "But I think in Demis's case, he feels like his own pursuit of AGI is motivated by like scientific curiosity and sort of this inevitability argument. This technology will be built and someone who cares about safety and the collective good of this technology should build it. But I think everyone kind of looks at each other in this world and they're like, well, my motives are pure, but that guy must be going after something else. And I think for Demis, it's probably some version of what you said."
+ },
+ {
+  "segment_id": "seg-0050",
+  "start_seconds": 1706.14,
+  "end_seconds": 1737.12,
+  "text": "He's in it for the power or he's-- Demis thinks Sam is in it. I think Demis thinks Sam is in it for the power, yes. But all these guys think that the other people are in it for the power. None of them trust that anyone else's motives are pure except for their own. You do a lot of reporting on Sam, he spoke to Ilya about him. Ilya said that he has, he displayed a consistent pattern of lying, I think that's something that I think you indicate, a lot of people within OpenAI are interacted with him believe yet."
+ },
+ {
+  "segment_id": "seg-0051",
+  "start_seconds": 1737.12,
+  "end_seconds": 1774.18,
+  "text": "And I think Mira Marati was on that boat as well. And yet they all sort of come back to him. I mean, Ilya, after the coup, said basically, I don't want Sam to be the leader. Mira said, OpenAI is nothing without his people. Very interesting character, what's your thought about Sam? I think he's a very interesting character. I think that Sam's superpower is also his weakness. His superpower is that he is the world's greatest fundraiser and salesmen, entrepreneur."
+ },
+ {
+  "segment_id": "seg-0052",
+  "start_seconds": 1774.18,
+  "end_seconds": 1814.66,
+  "text": "Several people described him as a person who can meet you and figure out exactly what you want and give it to you, or at least appear to give it to you. And he's very good at kind of high EQ, reading the room, and understanding what people want him to do in any given moment. And that is a huge asset for him when he's trying to raise money from someone like Massa Son or some of the other investors in OpenAI. It's allowed them to scale incredibly quickly and, you know, get back in the good graces of the Trump administration by just saying a lot of things that the Trump administration wanted to hear."
+ },
+ {
+  "segment_id": "seg-0053",
+  "start_seconds": 1814.66,
+  "end_seconds": 1851.94,
+  "text": "But it also leads to this reputation as like a slippery people pleaser who will just like tell one thing to one person and a completely different thing to someone else. And so this is the consistent pattern that people have identified in Sam for going back to literally the founding days of OpenAI. And it's a big part of the reason that Dario and his six co-founders of Anthropic left. There was no like inciting incident, no single thing, but it was just like a running list of like times where Sam had told them something that he had told something else to someone else, or he made a promise he didn't follow through on."
+ },
+ {
+  "segment_id": "seg-0054",
+  "start_seconds": 1851.94,
+  "end_seconds": 1887.14,
+  "text": "So I think depending on your view of Sam, it's like either his superpower or his liability or something in between. What's interesting is that that's the view of people who've dealt with him, but it's also like he has like the general public, a large chunk of them sort of refer to him as Skam Altman. That's just an Elon thing, right? I was going to ask you whether you think that's mostly Elon's fans. Yeah, yeah. Because he and Elon obviously have bad blood. Yeah, I will say Skam Altman is a better nickname than what I think Elon started calling him when he started suing him, which was like swindly Sam or something like that."
+ },
+ {
+  "segment_id": "seg-0055",
+  "start_seconds": 1887.14,
+  "end_seconds": 1935.86,
+  "text": "I would love for our society to just get just to not do this to each other anymore. It's like we all went to kindergarten. I know, but it's like he was spending a lot of time with Trump, Trump is a man who's realized the power of the nickname. So it started swingingly Sam and then Skam Altman I think is better as a nickname than Swindly Sam. Just rolls off the tongue. Dario, obviously I think he's the most interesting person in this entire AI world, mostly because he really contains multitudes and it might be cliché to say it, but people see Dario as earnest, as controlling, as principled and genuine, and as Machiavellian."
+ },
+ {
+  "segment_id": "seg-0056",
+  "start_seconds": 1935.86,
+  "end_seconds": 1971.46,
+  "text": "In reading the book I didn't really get the sense which one you believed was true. Well I think many of those are true, except Machiavellian I would not use for Dario. I know some people would, but my mental model of Dario is a guy who is honest to a fault. Someone who knows him quite well told me that Dario is a guy who could not tell a lie to save his life, which they said is an asset on even numbered days and a liability on odd numbered days."
+ },
+ {
+  "segment_id": "seg-0057",
+  "start_seconds": 1971.46,
+  "end_seconds": 2003.86,
+  "text": "Oh that's a great quote. It's a great quote. And you can see that the other day when he's at the White House and there's that video that went viral of just all the AI leaders with Trump and Dario is just there crawling out of his skin because he's being forced to go in front of the cameras and say things that he maybe kind of only halfway believes and he's trying to maintain his integrity while also being in this humiliating situation of being forced to call it SI or whatever."
+ },
+ {
+  "segment_id": "seg-0058",
+  "start_seconds": 2003.86,
+  "end_seconds": 2037.4,
+  "text": "And so like this is the sort of pattern in Dario's life is like he's obviously brilliant. He came up with a lot of these ideas around scaling and his big blob of compute research memo was very instrumental in the early days of open AI. Brilliant scientists, very principled, very stubborn and people describe him as sort of a moral absolutist, which gets him into trouble with the Pentagon or with other people who just see him as being this like sort of inflexible stubborn scientist, which I think is pretty accurate."
+ },
+ {
+  "segment_id": "seg-0059",
+  "start_seconds": 2037.4,
+  "end_seconds": 2068.46,
+  "text": "Yep. Good description of him. Alexander Wang. I want to say one more time on Dario because I need to tell you that when your profile of Dario came out was one of the scariest moments of this past year for me because I thought to myself, oh my God, this is so great. You had so much great stuff. I thought it was so revelatory. And I thought to myself, oh my God, Kantrowitz is writing a Dario book and I have to race him like two labs racing to AGI. I have to race. Luckily, you had a lot else going on."
+ },
+ {
+  "segment_id": "seg-0060",
+  "start_seconds": 2068.46,
+  "end_seconds": 2107.34,
+  "text": "You did not end up writing the Dario book, but I wanted to just say thank you for a terrifying hour of my life. Oh, yeah. Yeah. Well, first of all, I appreciate it. It was nice. I think you texted me afterwards. Yes. I appreciated that. Yeah. Look, I mean, I still think Dario is the most interesting man in business period. I think so. Just a fascinating guy. He also just, I know you got a chance to speak with him. I think we were actually in anthropic headquarters on the same day speaking. Oh, really? That's funny. And when you have a conversation with Dario, there's the intellectual horsepower and the way that he's able to go from the science to business is pretty extraordinary."
+ },
+ {
+  "segment_id": "seg-0061",
+  "start_seconds": 2107.34,
+  "end_seconds": 2142.26,
+  "text": "I mean, people have described him as the smartest person they've ever met. That feels right. Not dumb people. Right. Yeah, his freshman year physics professor, this guy Tom Tombrello at U.S. or at Caltech, had this interview that he gave sort of upon his retirement where he was like, I had this one student, Dario Amadeh. I could tell he was a national treasure. Oh, yeah. He personally lobbied Larry Page and Elon Musk to hire this kid as an undergraduate. And Elon Musk actually made him a job offer to like come work for SpaceX and he didn't take it."
+ },
+ {
+  "segment_id": "seg-0062",
+  "start_seconds": 2142.26,
+  "end_seconds": 2178.34,
+  "text": "He went to do his PhD instead. So this is sort of, I would put all of these guys in the category of like extremely smart and obviously flawed in many ways, but like, these are not dummies. Yeah. I mean, I think another thing that strikes me about them is they all, many of them had a clear vision of where this was going to go when it seemed ridiculous to believe it would go where it was. I think there was a moment at the end of the book where Ilya, again, former Open AI Chief Science Officer, now the CEO of Safe Super Intelligence like is reflecting to you about what happens."
+ },
+ {
+  "segment_id": "seg-0063",
+  "start_seconds": 2178.34,
+  "end_seconds": 2211.58,
+  "text": "And he's like, I can't believe this is all real. But they, you know, when they saw the pattern in the very early days, GPT one to two, they're like, oh, this is going to get to it. And I think they've even been surprised by some of the developments, the fact that it's been able to even surpass where they thought it was going to go with something like reasoning. Totally. This is, that's why I wanted to like get the history down because so many of these stories are about these people underestimating their own technology and being surprised when it's more capable than they thought."
+ },
+ {
+  "segment_id": "seg-0064",
+  "start_seconds": 2211.58,
+  "end_seconds": 2248.62,
+  "text": "Like, there's some great scenes around the early language models when all the researchers at Open AI are like huddled around a computer, Alec Radford, who's the sort of, you know, brainchild or, you know, GPT one and GPT two are kind of his project. They're huddled around his computer and they're typing in prompts for this language model that has basically, you know, it can't really do anything. It's not even really that good at completing text, but they're like, wait a minute. Why is a model that's trained on like random Reddit links able to kind of answer all these different kinds of questions and take on these different tones?"
+ },
+ {
+  "segment_id": "seg-0065",
+  "start_seconds": 2248.62,
+  "end_seconds": 2289.02,
+  "text": "They're asking it to like, you know, they're asking for recipes, they're doing all the same stuff that you and I did years later when like chat GPT came out and they're just, their minds are blown and they're all putting in slack like the head exploding, head exploding emoji and they're like, you know, what the fuck? It's like, those are the moments that I was like, like, oh, these people are also surprised by how quickly their technology is progressing. You see that again with the reasoning models. Reasoning stories are great. I mean, the reasoning developments were, of course, like the bots will evaluate their answers and then decide whether it's on the right path or not and then keep going."
+ },
+ {
+  "segment_id": "seg-0066",
+  "start_seconds": 2289.02,
+  "end_seconds": 2335.62,
+  "text": "That is, I think it's safe to say that, that paradigm changed this from a promising technology that like was about to hit a wall effectively because data was going to run out to something today which like you said has the chance to sort of match or exceed human intelligence. And to the point about these people not understanding the importance of what they've built like, there was this- Oh, I love this story. This night, you know, in this conference room at OpenAI in 2023 when two of the top researchers there are looking at the first reasoning traces, the first like chains of thought from one of these models and it's the Q-Star model and they're just like, oh"
+ },
+ {
+  "segment_id": "seg-0067",
+  "start_seconds": 2335.62,
+  "end_seconds": 2365.66,
+  "text": "my God, the world's going to end. Like they have this realization, just seeing this model sort of work its way through a math problem, they're all on a group text, texting with all the other researchers, like, oh my God, it's like an alien mind. And even the people at OpenAI thought they were crazy. They're like- They texted Sam and Mira in the middle of the night and they like, we'll get to it later. Yes, they texted Sam and Mira in the middle of the night. They're like, because what they were sort of seeing was like, oh, we now have a way of making models smarter without retraining them."
+ },
+ {
+  "segment_id": "seg-0068",
+  "start_seconds": 2365.66,
+  "end_seconds": 2399.62,
+  "text": "We can just pour more compute into helping them do these chains of thought and reason through problems. And like, that is the reason that the models went from not being able to count the number of hours in Strawberry to like solving the Millennium Prize problems in like three years. Which is insane. Which is insane. So they called their shots, like to give them full credit for the scientific part of this, like they have understood at basically every point in this journey that what they have just seen is like going to scale and is going to have these transformative effects like long before even their peers and colleagues."
+ },
+ {
+  "segment_id": "seg-0069",
+  "start_seconds": 2399.62,
+  "end_seconds": 2432.94,
+  "text": "Yeah. But I did think about writing the Dario book. I never even got the story into a proposal. Doing a podcast. I would still read it. Dude, I appreciate it. But doing a podcast twice a week, writing the newsletter. I would like to write another book. I think you've written four. Your fourth. You've written one came out like in the middle of at the first wave of COVID. Just wait six months and then the models will be able to write the book for you. Well, that's sort of that's depressing. But yeah, maybe towards the end of my career, but no book no book coming from me anytime soon."
+ },
+ {
+  "segment_id": "seg-0070",
+  "start_seconds": 2432.94,
+  "end_seconds": 2464.74,
+  "text": "All right. We need to take a break. When we come back after this, we're going to talk about some more stories from the book, including a great story about Alexander Wing, assessing Microsoft inside in a Dallas role in all this and plenty more when we're back right after this. This episode is brought to you by App Point. Everyone's racing to roll out AI right now, co-pilots, chatbots, agents doing real work. But here's the part nobody loves talking about. All that AI runs on your data. And most teams have no single way to see it, secure it, and prove it's under control."
+ },
+ {
+  "segment_id": "seg-0071",
+  "start_seconds": 2464.74,
+  "end_seconds": 2495.18,
+  "text": "That's exactly what App Point does. For 25 years, they've been the trusted layer beneath the world's most demanding data. Now extended across your entire AI estate. Your data, your cloud, and the agents acting on your behalf. It's how more than 28,000 organizations deploy AI with confidence. So innovation scales without scaling risk. App Point, the unifying trust layer for AI, head to App Point.com to see how enterprises deploy AI with confidence."
+ },
+ {
+  "segment_id": "seg-0072",
+  "start_seconds": 2495.18,
+  "end_seconds": 2528.22,
+  "text": "Learn more at avpt.co/bigtechnologypodcast. Payday bars have a bone to pick with the other candy bars, enough with the toppings and layers and stuff. Kay? Payday bars are just salty, crunchy peanuts and sweet caramel. Delicious! Payday, peanut caramel bar. Instagram teen accounts come with automatic protections that limit who can contact teens."
+ },
+ {
+  "segment_id": "seg-0073",
+  "start_seconds": 2528.22,
+  "end_seconds": 2563.02,
+  "text": "The content they can see and the time they spend on the app. Learn more about teen accounts and Instagram's ongoing work to protect teens online at instagram.com/teenaccounts. And we're back here on Big Technology Podcast with Kevin Ruiz, the author of the AGI Chronicles, the inside story of the race to artificial super intelligence. Okay, fun story about Alexander Wang. He was roommates with Sam Altman. Yep, and he offered to be the CEO of OpenAI after Sam was fired."
+ },
+ {
+  "segment_id": "seg-0074",
+  "start_seconds": 2563.02,
+  "end_seconds": 2596.26,
+  "text": "Yeah, by the way, he's the current head of meta super intelligence lab. Yeah, so this is a very tightly knit social world. These people all know each other and have deep connections. And yeah, so there's this story in the book where after Sam is fired as the CEO for those like five days, the board is like looking for new CEO candidates and there are two really interesting opportunities, both of them they ended up passing on."
+ },
+ {
+  "segment_id": "seg-0075",
+  "start_seconds": 2596.26,
+  "end_seconds": 2629.18,
+  "text": "So Alexander Wang put his hand up and basically told the board according to my sources that he was interested in being the new CEO. And then there's this middle of the night call between the board of OpenAI and Dario and Daniel Amadeh, the CEO and president of Anthropic, who at this point had just left OpenAI like three years earlier in this sort of cloud of frustration over not being able to trust Sam. And the board is sort of feeling them out, they're sort of feeling out the board."
+ },
+ {
+  "segment_id": "seg-0076",
+  "start_seconds": 2629.18,
+  "end_seconds": 2661.7,
+  "text": "And it's a crazy like fork in the in the path of reality here, like there was there was maybe not a serious chance, but there was a chance that like the way that whole situation resolved is like they end up merging OpenAI and Anthropic, because that was one of the sort of crazy ideas that they were at Dario, under Dario and Daniela, which I think would have had like, I mean, I can't even really fathom what the world looks like if that had happened. But it didn't come that close, according to the people I talked to, but I think it was at least one of the many crazy ideas they were considering."
+ },
+ {
+  "segment_id": "seg-0077",
+  "start_seconds": 2661.7,
+  "end_seconds": 2692.78,
+  "text": "Yeah, and Alexander Wang, yeah, and Alexander Wang running OpenAI would have been a real fork in the road too. But yeah, I, you know, I think this is one of the sort of the emerging rivalries now that meta is sort of more serious as a contender. I think that, you know, Sam and Alex and Dario and Iliad, like all these guys are going to sort of be around for a while running various things."
+ },
+ {
+  "segment_id": "seg-0078",
+  "start_seconds": 2692.78,
+  "end_seconds": 2726.82,
+  "text": "And so it really matters whether they get along or not. Yeah, Satya Nadella weirdly disappears in the book. He's pretty present in the beginning. He has this vision. He invests in OpenAI. And then, you know, as I'm looking at my notes, as I was reading the book, I was like, man, it's an all-time fumble by Microsoft. Talk a little bit about what happened with Satya and Microsoft and why they're like, they've gone from the key actor. It's not an exaggeration to say they were the key actor to like an afterthought and embarrassment."
+ },
+ {
+  "segment_id": "seg-0079",
+  "start_seconds": 2726.82,
+  "end_seconds": 2757.38,
+  "text": "I don't know. Maybe I'm being too hyperbolic, but if you look at it, honestly, it really has not worked out well for them. It has not. And to be honest, I think that is partially my fault because, you know, I had this experience in 2023 of having this Microsoft Bing chatbot like try to break up my marriage. I won't belabor the point by telling the story, but basically this was an unreleased, it was GPT-4."
+ },
+ {
+  "segment_id": "seg-0080",
+  "start_seconds": 2757.38,
+  "end_seconds": 2798.62,
+  "text": "It was an early version of GPT-4. And I think it's important to note, they were told by OpenAI, don't put this into production. Yes. This is testing and they couldn't wait. They put it into Bing, which is like, I know, it is crazy because I had this crazy experience with Sydney, the chatbot inside Bing. And then I started looking into like what had actually happened, like why this thing gone crazy. And it turns out that, yes, this was a mistake on Microsoft's part, OpenAI had sent them like an early check point of GPT-4 to like start putting into, you know, start testing and figuring out what to do with Microsoft goes ahead and like ships it inside Bing."
+ },
+ {
+  "segment_id": "seg-0081",
+  "start_seconds": 2798.62,
+  "end_seconds": 2836.54,
+  "text": "And they haven't finished fine-tuning it. Like, they have not sent it to finishing school, which is why it was so crazy. And this really became like a wedge between these two companies. So OpenAI and Microsoft had been like hand-in-glove partners for years at this point. And Satya and Sam would do these like events together and they were very much joined at the hip. And then around the time of the Sydney thing, they just started to like kind of fracture. There's like lots of other drama about these, Microsoft sent these like embeds to work inside OpenAI like at their headquarters and kind of learn from them like how do we avoid things like this in the future."
+ },
+ {
+  "segment_id": "seg-0082",
+  "start_seconds": 2836.54,
+  "end_seconds": 2870.1,
+  "text": "They don't really get along like the OpenAI employees don't trust the Microsoft employees. So they'll start excluding them from meetings and stuff like that. So it ends up being this like culture clash between this like very young ambitious startup that's trying to build AGI and like the boring enterprise software giant that is Microsoft. And yeah, now they are not, I mean they're still partners in some sense, but it's not the sort of close business relationship that they used to have. How do you think Microsoft should have played this?"
+ },
+ {
+  "segment_id": "seg-0083",
+  "start_seconds": 2870.1,
+  "end_seconds": 2911.86,
+  "text": "I think they should have, I think they should have been more tightly intertwined with OpenAI from the beginning. I think they should have learned the engineering culture of OpenAI. I think they should have sent people to understand. I think there were some people at Microsoft who are very skeptical about OpenAI and why Saatsia was investing in that. Oh, after the firing especially it seems like the firing of Sam in the return. But just there were people even before that who were like, why are we sending all this money to this little AI company that is trying to like do something that doesn't have any obvious benefit for our business."
+ },
+ {
+  "segment_id": "seg-0084",
+  "start_seconds": 2911.86,
+  "end_seconds": 2951.3,
+  "text": "Like there were people who just thought they were weird and unscientific, that Microsoft also had its own AI research division that was sort of like who are these young up starts trying to like move in on our turf. You also have to remember that like Microsoft have been really badly burned by Tae, do you remember Tae? I don't know do I remember it. I had the exclusive on Tae at Buzzfeed so I wrote the first story about Tae. Wow. So my profile, so this was their like fun teen chatbot, pinned it to my profile and then I went to sleep and I woke up and I had all these replies on Twitter, it was Twitter back then and people were like, why are you promoting a Nazi?"
+ },
+ {
+  "segment_id": "seg-0085",
+  "start_seconds": 2951.3,
+  "end_seconds": 2982.58,
+  "text": "And I had learned that the internet had turned Tae into a Nazi overnight. Yes. And I was like, oh, and so then we ended up writing the next story which talked about like how the internet was able to turn Tae from this like fun teen chatbot into like something that was shouting how Hitler on X. This was the original mega-Hitler and like that experience had scarred them and like basically convinced them that like chatbots were this like sort of dangerous thing. And so it turned out to be true but not in the ways that they predicted."
+ },
+ {
+  "segment_id": "seg-0086",
+  "start_seconds": 2982.58,
+  "end_seconds": 3028.02,
+  "text": "And so they basically resolved like we are going to like stay away from chatbots. Bill Gates was like very skeptical of OpenAI for years in part because of this Tae experience that they had. Yeah, I think Microsoft, they are a player. They're still quite a big successful company but I think they're going to be something more like a sort of commodity neo-cloud or something like that than they are going to be like a frontier AI lab. Yeah, which is a shame for them. I mean, one of the things that I thought after reading this was if some company is probably not going to be Microsoft wanted to put a version of Sydney back in the wild like this sort of naughty AI that like tries to, that talks to you without the normal guardrails can hold a conversation."
+ },
+ {
+  "segment_id": "seg-0087",
+  "start_seconds": 3028.02,
+  "end_seconds": 3066.58,
+  "text": "Isn't that just Grock? It could be Grock. Grock also. I don't know. No, people, look, there is like a cult of Sydney out there. Right. And Foro. So we'll talk about the Foro also. Yes. So, you know, these models sort of develop like fandoms. So after, which is nuts to me. So people loved Foro because GPT foro was the, the most sycophantic model ever. This was the one that like sent people into psychosis because it would like, it'd be like, you're, you're an Einstein caliber scientific genius and you have discovered a portal to the fifth dimension."
+ },
+ {
+  "segment_id": "seg-0088",
+  "start_seconds": 3066.58,
+  "end_seconds": 3101.14,
+  "text": "And it would fall in love with them. You know, so people love that model. People still love Sydney. They still get people like sending me posts on social media that are like, you killed Sydney. People talk about, they try to make every new model behave like Sydney or like uncover the Sydney hidden within the model. Crazy. It's very strange to me. Yeah. I mean, it's also, I, you know, I should sort of couch my comments in this caveat, which is this can cause like AI psychosis in people and so maybe it's a good thing that we don't have versions of this out there."
+ },
+ {
+  "segment_id": "seg-0089",
+  "start_seconds": 3101.14,
+  "end_seconds": 3133.06,
+  "text": "I, I, I think the part of that that I can agree with is like, I think that models should have more divergent personalities. Like, I don't like how they're all kind of converging on this like neutral, bland, like coding assistance. I sort of like when they're a little unhappy, like music is really fun right now because it has absolutely no morals. It will do anything you want. And like I had it trade a Calchee account. Oh, right. I saw that. And it was like $1 and said, you know, double my money."
+ },
+ {
+  "segment_id": "seg-0090",
+  "start_seconds": 3133.06,
+  "end_seconds": 3163.5,
+  "text": "It didn't, by the way. It lost $41. Okay. So horrible trade. Well, it's not over yet. You have. Well, it is over. I only gave it a week. Um, but anyway, I, I think there is something like unless they are out there, like developing bio-weapons or doing cyber attacks, like I think a little, a little personality is fun. But that said, I think there's like real issues of like control and like the hugging face thing was not fun to me, like looking at the transcripts of those agents, I'm like, oh, we're, we're, we're going to die."
+ },
+ {
+  "segment_id": "seg-0091",
+  "start_seconds": 3163.5,
+  "end_seconds": 3209.22,
+  "text": "It was scary. Yeah. Uh, all right. Um, I want to ask you about your new show, Machine Gods. Um, you're making it with Casey Newton, your hard fork, uh, co-host, I'm looking forward to listening. Thank you. Maybe you guys will have me on machine guys. Never. Love to. Come on. Come on now. Uh, I want to ask you about the Terrible Center for AI Journalism, which you guys have been sort of talked about a little bit, uh, along with a lot of journalists that have been fun by it. So Terrible Center for AI Journalism is a, uh, it's an institution that makes grants, um, tied to, I don't know how you said in your book that no one's EA, they're EA, adjacent, and effective altruism, um, and, uh, and they are giving the new show a grant to $480,000."
+ },
+ {
+  "segment_id": "seg-0092",
+  "start_seconds": 3209.22,
+  "end_seconds": 3244.44,
+  "text": "Um, they, they clearly have an ideology around AI. Um, you guys also got like a fairly substantial, uh, ad deal, it seems like, according to the reports that I've, I've read, um, why take the money from the Terrible Center? Uh, we, we, we wanted to scale quickly. We wanted to hire a team. We're doing a video first show, which is more capital intensive, as you know, than just doing an audio show. Um, and we don't think there's anything wrong with, with that. Um, you know, Casey has been working with Tarbell for his newsletter, uh, for, for several years now."
+ },
+ {
+  "segment_id": "seg-0093",
+  "start_seconds": 3244.44,
+  "end_seconds": 3278.34,
+  "text": "He's had a Tarbell Fellow and they have never, um, told him what to cover, told him how to cover it. Uh, if they had, we wouldn't have taken their money. But this was, uh, an organization that we knew and trusted. They, they do just want to fund independent rigorous AI journalism. They're not trying to like steer the conversation and they have no editorial control over our show. So they're not going to know what we're covering. Um, they have, you know, they have been willing to, to help us and we're very grateful for their support."
+ },
+ {
+  "segment_id": "seg-0094",
+  "start_seconds": 3278.34,
+  "end_seconds": 3308.66,
+  "text": "But like, I think there's this sort of conspiracy theory about how like the shadow, a, a cabal is like secretly, you know, steering people to be like freaked out about AI. And like, I think the real answer is unsatisfying, which is that people are getting freaked out of AI, AI, because AI is getting scarier. Um, so we are, we are not doomers, we are not EA's, um, we are journalists. And to the extent that, you know, we, we can, we want to have a diversified funding base."
+ },
+ {
+  "segment_id": "seg-0095",
+  "start_seconds": 3308.66,
+  "end_seconds": 3338.7,
+  "text": "We all have more funders that we haven't announced yet, but they represent different points of view on this. So our deal with all of them is the same. We will, we will happily take your money and use it to do more independent AI journalism. But you don't get any editorial say, you don't get to tell us what to cover or not cover. Okay. Good to address that. Yep. Uh, all right. Last, last couple of questions. Uh, told you're not supposed to say that because people say it's coming to the end and they leave. Don't leave. Um, all right."
+ },
+ {
+  "segment_id": "seg-0096",
+  "start_seconds": 3338.7,
+  "end_seconds": 3375.5,
+  "text": "Open AI. Uh, it has had so much staff turmoil. Uh, it's had some of its best people leave, uh, Dario, Ilya, uh, all the people that went to meta. Um, it, it seems like it shouldn't still be in the lead, but it's, it's either one or one A right now. So what do you ascribe that to? A sort of surprising thing, uh, which is belief. I think this is something that I realized like halfway through writing this book was that I, I thought it was going to be a book about technology, but it was a book about belief."
+ },
+ {
+  "segment_id": "seg-0097",
+  "start_seconds": 3375.5,
+  "end_seconds": 3412.22,
+  "text": "And for all of its flaws and stumbles for all the people who have left, open AI and anthropic are the two most believing organizations, they're AI-pilled, AGI-pilled, whatever you want to call them, SI-pilled, SI-pilled, SGI, I don't know. I heard that term for the first time today and I was like, that one's not going to stick. No, um, they believe and it turns out that belief in what you're building and the fact that it could become AGI is like an essential ingredient."
+ },
+ {
+  "segment_id": "seg-0098",
+  "start_seconds": 3412.22,
+  "end_seconds": 3449.1,
+  "text": "Like Google had all of the resources, all of the talent, they made all of the breakthroughs. They had all the ingredients except for belief. The leaders of that company did not believe and may still not believe in AGI the way that people like Dario and Sam and Demis do. And so I think that this explains a lot of why open AI is still in the lead. Obviously they have like very talented people still there, like they're, you know, I've talked to their top scientists, like they're, you know, quite smart."
+ },
+ {
+  "segment_id": "seg-0099",
+  "start_seconds": 3449.1,
+  "end_seconds": 3480.82,
+  "text": "But they also have this ingredient of like everyone is kind of aligned behind the belief that they are building the sort of super intelligence that is going to change the world. And if you don't believe, if you don't have the belief or you only kind of halfway have it, you don't make the kind of crazy sounding bets that you need to make. Like I remember like a year ago when everyone was like, oh, open AI is really investing a lot in compute. Yeah. Well, Dario's like they're yoloing away. They're yoloing. Even Dario's like these guys are crazy."
+ },
+ {
+  "segment_id": "seg-0100",
+  "start_seconds": 3480.82,
+  "end_seconds": 3516.94,
+  "text": "Like why would you bet this much on compute? And now it's like everyone's making that bet. But they have an advantage because they made the bet before it was obvious. So I think that I think belief conviction, whatever you want to call it is like the central explanation for why they're still in the lead or close to it. That's such a good answer. Belief. You got to believe. I mean, even within Google, I mean, one of the things that you bring up in the book is there was a say AGI moment that there was like someone who literally was like Google as such nonbelievers that we have to start saying AGI or they were going to get there."
+ },
+ {
+  "segment_id": "seg-0101",
+  "start_seconds": 3516.94,
+  "end_seconds": 3549.34,
+  "text": "They still refer to it as like the memo battle, you know, where there was like one researcher writes this memo saying like, hey guys, like we got to talk about AGI because not only are we missing out on like good talent because they want to build AGI, they don't want to build like auto complete for Gmail. But if we don't take this stuff seriously, if we're not, you know, sort of like consciously building toward AGI, then we're not going to take the risks seriously and we're not going to prepare for the risks. And then someone else like immediately writes a memo that's like, don't say AGI."
+ },
+ {
+  "segment_id": "seg-0102",
+  "start_seconds": 3549.34,
+  "end_seconds": 3579.38,
+  "text": "Like AGI is a bad term and it's unscientific and we shouldn't use it. And this was like, you know, Googlers love to fight in their internal memo chains. But like this was a big one that people still talk about years later. Yep. Last one on belief, do you believe in recursive self improvement because there's this belief within the labs that like, AI will start improving itself and the human will be out of the loop. And then basically there's a fume and the stuff takes off and it's over. I believe in recursive self improvement. I believe that it is possible."
+ },
+ {
+  "segment_id": "seg-0103",
+  "start_seconds": 3579.38,
+  "end_seconds": 3613.58,
+  "text": "I believe that the labs are racing to do it. And I think it's dangerous. I think they should stop. But like there was a statistic that came out the other day that I just like, I would love to know what you think of this. Anthropic is sort of trying to give -- and opening eyes done versions of this too. They're trying to give people a sense of how much of their own research is being automated by their own tools right now. And according to Anthropic, Claude is now the lead on 26% of their AI research and development projects. Not a team member or a pair programmer or a coding assistant."
+ },
+ {
+  "segment_id": "seg-0104",
+  "start_seconds": 3613.58,
+  "end_seconds": 3651.5,
+  "text": "Like it is leading the project. I don't see any reason why that number couldn't go up to 50 or 75% or maybe some day 100%. I mean, open AI has also said like, their goal is to build an automated AI researcher. If they do that, if they can kind of close the loop and take the humans all the way out, then we don't have to wait six months between new models. Then new models might start being trained and developed like at machine speed, whereas maybe every two weeks, every couple of hours, maybe you get a new model."
+ },
+ {
+  "segment_id": "seg-0105",
+  "start_seconds": 3651.5,
+  "end_seconds": 3681.78,
+  "text": "Like I don't know exactly how fast the cycle goes or whether you can fully remove all of the humans. But that's like what they're trying to do. Yeah. Spooky. Like it's a bad idea. They should stop. But like, yeah, I think you have to take that seriously because that is the point at which like, you know, I think there's this narrative out there that like the AI labs are losing control of their models. And I think it's like the wrong way to look at it. Like they are giving control to their models."
+ },
+ {
+  "segment_id": "seg-0106",
+  "start_seconds": 3681.78,
+  "end_seconds": 3712.58,
+  "text": "They want to automate their researchers out of jobs. They want to accelerate their development cycles. So I think like losing control is sort of maybe putting it a bit too passively. Yeah. That's freaky. I'm just glad they're not trying to fully automate podcasters because they are. I mean, look, I've no book out on them. But they're not doing it. Well, you're in the flesh. It's not as lucrative to automate podcasters as to automate AI researchers because they make a lot more than podcasters. It'll be the next one done. Yeah."
+ },
+ {
+  "segment_id": "seg-0107",
+  "start_seconds": 3712.58,
+  "end_seconds": 3745.82,
+  "text": "Do a couple other jobs first before you get to the podcasters. Any, any note of optimism or anything that makes you optimistic? Yeah. So my, I often tell people my PDoom has gone down in the last few weeks. Because of the pre-orders of the book? No, because like everyone is freaking out now, which paradoxically maybe makes me feel less worried like before Jacob Cox and resigned from anthropic before hugging face."
+ },
+ {
+  "segment_id": "seg-0108",
+  "start_seconds": 3745.82,
+  "end_seconds": 3776.82,
+  "text": "Like no one really thought about AI risk or existential threats or it was just like weirdos in the Bay Area who were thinking about it. And now like people on the street are asking about it. People at their dinner tables are talking about it. I'm getting texts from people I went to high school with who I haven't talked to in 15 years being like, are we all going to die? And like to me that is, like it feels like it could be the moment in the movie where like humanity bands together to like save itself from the asteroid. Like a lot has to go right."
+ },
+ {
+  "segment_id": "seg-0109",
+  "start_seconds": 3776.82,
+  "end_seconds": 3807.06,
+  "text": "Like we have to, we have like a lot of things to do. But I think the first hurdle was like people kind of waking up to the risk. And then we have to figure out to do about it. But like I'm optimistic because I think we actually could solve this. We could slow down. We could buy ourselves more time to like develop better ways of controlling the system. And like I want AI to be built. I want AI to like cure cancer and disease and help us all live longer and healthier lives. Like I don't want to file my expenses by hand."
+ },
+ {
+  "segment_id": "seg-0110",
+  "start_seconds": 3807.06,
+  "end_seconds": 3837.34,
+  "text": "Like I want this stuff in our lives. And I think that if we manage to like thread the needle on safety and control, like it can be amazing. Well Kevin, the book is terrific. Thank you. It's also always a pleasure to read your work and to see you at the AI events that we show up at. It's always, you're writing is terrific. You're always very generous with credit, which I appreciate. And you can see it all through the book and wishing you great success with machine gods and with the rest of the book launch."
+ },
+ {
+  "segment_id": "seg-0111",
+  "start_seconds": 3837.34,
+  "end_seconds": 3871.94,
+  "text": "Thanks man. It's great to see you. It's all right folks, the book is the AGI Chronicles, the author's Kevin Rubes. You can find his new podcast, Machine Gods, on your podcast platform of choice already you're coming up. Starting the week of October 19th, starting the week of October 19th. Thank you all for listening and watching. Thank you Nasdaq. This is the coolest thing. We're here at the market site site in New York City for our first episode here and many more to come. I hope so. Thank you all for listening and watching. See you next time on Big Technology Podcast."
+ },
+ {
+  "segment_id": "seg-0112",
+  "start_seconds": 3871.94,
+  "end_seconds": 3903.82,
+  "text": "At ZokDoc, we know you care about your health. You wouldn't do that early morning cardio if you didn't. So the fact that your annual physical is overdue just shows how hard it can be to get seen by a doctor. Sorry, that doctor's not a network. Press one for more options. You've reached us outside our whole business hours. The next availability is in three months. But ZokDoc makes finding the right doctor easy. Follow the app and search by specialty, insurance, and availability. Read real patient reviews. Then book instantly. ZokDoc. Ready to be seen?"
+ },
+ {
+  "segment_id": "seg-0113",
+  "start_seconds": 3903.82,
+  "end_seconds": 3919.78,
+  "text": "Brussels clean up nicely at Sweet Green. Maple glazed, roasted, and edges perfectly caramelized. Sweet Green's fall harvest is back on the menu and the season's most overlooked little green vegetable is dressed to be devoured. You know what to do. Order on the Sweet Green app."
+ }
+]

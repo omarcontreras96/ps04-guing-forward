@@ -1,0 +1,36 @@
+{
+ "summary": "Vergecast episode hosted by David Pierce, mostly an interview with Wired's Kate Knibbs about Mike Smith, who pleaded guilty to AI-assisted music streaming fraud (about $8.09M ordered repaid, 18 months in prison). It covers AI slop on streaming platforms, bot streams and platform incentives. A short 90-second news segment at the top has brief items on Apple's $299 Home View smart display and AI agents being blocked by websites and banks. The rest is ads.",
+ "speakers_or_authors": "David Pierce (host, The Verge); Kate Knibbs (Wired)",
+ "relevance": 1,
+ "relevance_reason": "The main interview is about AI music streaming fraud and slop, which is off-theme for interfaces. Only two short news items in the opening segment touch on the brief: the Apple Home View always-listening smart display and agents being blocked by websites and JPMorgan.",
+ "themes": [
+  "Personal-context devices (Apple Home View smart display reaction)",
+  "Computer-use agents being blocked by websites and banks",
+  "AI slop (off-theme main topic)"
+ ],
+ "claims": [
+  {
+   "claim": "Apple's $299 Home View smart display is up for pre-order, positioned as a family's central control system for the smart home and communications.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "Apple's $299 smart display is up for pre-order now and it's designed to be kind of your family's central control system.",
+   "segment_id": "seg-0004"
+  },
+  {
+   "claim": "Much of the public reaction to Home View is that people do not want another screen or device that is listening all the time. This is the host's impression of reactions, not measured data.",
+   "basis": "observation",
+   "locator_type": "segment",
+   "quote": "decided they just simply do not want another screen, another device, another thing to manage and worry about and have listening all the time.",
+   "segment_id": "seg-0005"
+  },
+  {
+   "claim": "JPMorgan Chase CEO Jamie Dimon said the bank is blocking AI agents from doing banking tasks on customers' behalf, which the host frames as part of a wider fight between agents and the websites and apps they want to access.",
+   "basis": "secondhand",
+   "locator_type": "segment",
+   "quote": "JP Morgan Chase CEO Jamie Dimon just said that the company is blocking agents from doing banking things on customers behalf.",
+   "segment_id": "seg-0006"
+  }
+ ],
+ "commercial_interest": "Episode includes multiple sponsor reads (AWS AI, Schwab, Jira/Atlassian, Outshift by Cisco, Rippling, Apple Watch, Odoo, blinds.com). Sponsors are unrelated to the on-topic items, though Jira and Outshift ads promote agent tooling.",
+ "older_event": "The main interview covers the Mike Smith fraud case, which is older news about his arrest, plea and sentencing and is off-theme. The only new, relevant items are the Apple Home View pre-orders and the JPMorgan agent-blocking comment, both dated Oct 14, 2026."
+}

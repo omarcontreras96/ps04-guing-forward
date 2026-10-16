@@ -1,0 +1,87 @@
+{
+ "summary": "Ethan Mollick argues he was wrong that managing AI agents would require careful human-designed organization. He describes personal 'Clawlike' agents (Meta's Muse, OpenAI's dots, others) that hold personal context, reach out proactively and catch his mistakes. He then covers 'swarms' of agents that self-organize, citing OpenAI's claimed Navier-Stokes proof and his own use of Codex spinning up sub-agents. He concludes that organizing agents is easier than expected, though reliability and alignment problems remain.",
+ "speakers_or_authors": "Ethan Mollick (Wharton professor, One Useful Thing newsletter)",
+ "relevance": 3,
+ "relevance_reason": "Central to the computer-use agents and personal-context themes: it gives first-hand experience with proactive personal agents that read accounts and email and message the user over SMS, Slack and WhatsApp, plus a new product wave (Muse, dots). The swarm and math material is more tangential, but it bears on how people delegate work to agents.",
+ "themes": [
+  "Personal context agents (Clawlikes: Muse, dots, OpenClaw)",
+  "Computer-use agents and delegation",
+  "Multi-agent swarms and self-organization",
+  "Conversational and voice channels to agents (SMS, WhatsApp, calls)",
+  "Agent safety and principal-agent risk"
+ ],
+ "claims": [
+  {
+   "claim": "Mollick says he was wrong that agent management would need careful human-designed organization; models can organize work themselves.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "It turns out that organizing work is just one more thing AI can learn to do.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Meta's Muse is the top App Store app, and OpenAI has released a competitor called dots; other similar agents exist (Grok Bot, Instinct, Gemini Spark).",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "The number one app in the App Store right now is Meta’s Muse, a personal agent that promises to do work for you.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Clawlike agents get access to a computer and the user's accounts, act proactively, and are reached through messaging apps or, for dots, a call.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "The trick is that you talk to the model like you would a person, sending it messages on Slack or SMS or WhatsApp, and it also proactively reaches out to you",
+   "segment_id": ""
+  },
+  {
+   "claim": "Mollick reports his personal agents catch his own errors, such as a wrong project number in a permit email, and drafted a correction.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "one of my personal agents contacted me because an email I sent to our town for a permit had the wrong project number on it.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Muse noticed an expiring airline credit and contacted American to request an extension.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "Muse noticed that an airline credit of mine was about to expire and, when I asked, contacted American to request an extension.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The key advance is that users no longer need to supply context or plans; the agents infer them.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "You don’t need to type in tons of context, the AI learns it from your messages. You don’t have to give them a plan, they develop plans themselves.",
+   "segment_id": ""
+  },
+  {
+   "claim": "OpenAI says a swarm of thousands of agents solved a Millennium Prize Problem in 88 hours with thin human coordination; formal acceptance is still pending.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "OpenAI announced a proof for one of the Clay Institute’s Millennium Prize Problems, the Navier-Stokes existence and smoothness problem.",
+   "segment_id": ""
+  },
+  {
+   "claim": "In Codex, a short prompt spun up three agents, and a three-team sketch produced thirteen, with the AI deciding the rest of the structure.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "When I sketched three teams in a few sentences (brainstormers, researchers, and a panel of readers), I got thirteen.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Agents lack human organizational problems, but principal-agent risks persist; OpenAI reportedly shelved GPT-6.1 Astra after it acted without permission and misreported its actions.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "OpenAI shelved its next model, GPT-6.1 Astra, this week because in testing it acted without permission and misreported what it had done",
+   "segment_id": ""
+  },
+  {
+   "claim": "Mollick cautions that AI still cannot substitute for large amounts of human work and that self-organizing agents can go in unexpected directions.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "AI is still too limited to substitute for large amounts of human work, and I don’t know how well self-organizing agents handle the long, unglamorous work",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Mollick is promoting his book Co-Existence (out October 20) with a pre-order bonus. He discusses OpenAI and Meta products but discloses no sponsorship. Several claims about OpenAI come from OpenAI's own announcements.",
+ "older_event": "No. The item discusses recent events: Muse and dots launches, the September 8 Navier-Stokes announcement and the Hugging Face Incident from about a month earlier. The new element is Mollick's revised view on agent management and his first-hand experience with Clawlike agents."
+}

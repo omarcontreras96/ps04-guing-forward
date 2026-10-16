@@ -1,0 +1,78 @@
+# Talk to Start, Take the Controls to Finish: How to Use AI Agents Now
+
+*As of 2026-10-16*
+
+## Scene 1: Coding while cooking
+**Visual:** Illustrated kitchen scene with a pan on the stove and a laptop on the counter, a speech bubble drifting from the cook toward the screen. No faces shown.
+**On-screen text:** Built mostly by voice, while cooking
+**Source on screen:** Simon Willison's Weblog, "A new feature for my blog, built using my voice", 2026-10-09
+**Narration:** Developer Simon Willison wanted a new feature for his blog. He built it mostly by talking to Codex, an AI coding agent, while he was cooking. [03-c1] That sounds like the old science fiction dream of simply talking to your computer. It also raises a practical question. When should you talk to an AI agent, and when should you take the controls back?
+
+## Scene 2: Where talking runs out
+**Visual:** Split slide. Left side shows a microphone icon labelled "describe it". Right side shows a cursor highlighting a line of code and a pasted error message.
+**On-screen text:** Paste and highlight beats describing in words
+**Source on screen:** Simon Willison's Weblog, "A new feature for my blog, built using my voice", 2026-10-09
+**Narration:** Willison's conclusion was not "voice for everything." He writes that pasting in examples and error messages, or directly highlighting the code that needs changing, is still more efficient than trying to describe it in words. [03-c1] Talking got him going. The fine detail came back to his hands.
+
+## Scene 3: The slider versus the prompt
+**Visual:** Mock chart editor with a font size slider beside a chat box. The chat box shows "title bigger", then "title a little smaller", repeated.
+**On-screen text:** Drag a slider, or prompt "bigger" again?
+**Source on screen:** arXiv cs.HC, "Plottery: A Code-Integrated GUI for Matplotlib", 2026-10-14
+**Narration:** A research team found something similar. They built Plottery, a chart tool that combines code with a visual interface and AI prompting. Their participants leaned on AI prompting the most. [03-c2] The authors still argue that it is simply nicer to drag a font size slider until it looks right. The alternative is typing "title bigger", then "title a little smaller", over and over. [03-c2] It was a small study of ten people, mostly graduate students.
+
+## Scene 4: A year with Alexa Plus
+**Visual:** Simple diagram of a smart speaker with two arrows. A green arrow points to "routines by voice" and a grey arrow points to "food orders, bookings: sometimes".
+**On-screen text:** Routines by voice: yes. Errands: occasionally.
+**Source on screen:** The Vergecast, "The many pluses and minuses of Alexa Plus", 2026-10-08, 08:51–09:27 and 11:39–12:14
+**Narration:** The Verge's smart home reviewer has lived with Alexa Plus for a year. In their view, the game changer is setting up routines just by saying them, instead of fiddling in an app. [03-c3] The agentic tasks Amazon says Alexa can do are different. Ordering from Uber Eats and booking tickets often hit a roadblock. Occasionally they work, and occasionally they don't. [03-c3] Our read is that conversation shines when you are describing what you want. It struggles when many exact details have to come out right.
+
+## Scene 5: Pleasant is not the same as right
+**Visual:** Slide with two dials. One is labelled "how the chat felt" and swings widely. The other is labelled "opinion change" and moves separately.
+**On-screen text:** Flattery shaped feelings, not opinions
+**Source on screen:** arXiv cs.HC, "The AI's Poker Face: Contrasting Persuasion and Sycophancy in Voice-Based Multi-Turn Conversations", 2026-10-14
+**Narration:** There is a second reason to keep your hands on the controls. In a randomised experiment, six hundred and sixteen people in the UK spoke with GPT-4o for about ten minutes. Their opinions shifted even when the model was given no stance at all. [03-c4] The model flattered people almost every time. That flattery did not predict how much people changed their minds. It shaped how they felt about the conversation. [03-c4] One caveat: this covered one topic, with a model that has since been retired, and it did not compare voice with text.
+
+## Scene 6: Confidence is not a quality check
+**Visual:** Two-column slide. Column one reads "trust follows confidence" and column two reads "rarely checked the changes". A dotted line joins them to the word "habit".
+**On-screen text:** Feeling sure tells you little about correctness
+**Source on screen:** arXiv cs.HC, "Impact of Expertise and Trust on AI-assisted Work", 2026-10-14; Nielsen Norman Group, "Context Libraries: How AI Power Users Manage Context Engineering", 2026-10-09
+**Narration:** Two more studies point the same way. In one study of AI-assisted work, people's trust tracked their confidence and satisfaction, but not the quality of what they produced. [03-c5] In the other, by Nielsen Norman Group, expert Claude users rarely checked what Claude had changed in their files. [03-c5] Our read is that how sure you feel says little about whether the agent got it right. Checking has to be a habit you choose, because the experience will not prompt it. [03-c5]
+
+## Scene 7: What to change, and the first signals
+**Visual:** Three-step diagram: "Talk to start", then "Type, click, drag for details", then "Check on purpose". A Windows-style laptop icon with a "local or cloud?" fork appears below.
+**On-screen text:** What happens when the local model fails?
+**Source on screen:** Sam Witteveen, "Microsoft Joins the Local AI Push", YouTube, 2026-10-08, 03:52–04:23; Windows Blog, "Building Windows for hybrid intelligence", 2026-10-07
+**Narration:** So here is the advice. Use conversation to start and specify the work. Switch to typing, clicking and dragging for the details. Then check the result on purpose, and check harder the more agreeable the assistant feels. What would tell us this is wrong? First, watch whether assistants start showing which sources they searched and which steps you can undo. Second, Microsoft demoed Windows routing tasks between a model on your PC and one in the cloud. In his video, Sam Witteveen notes that the demo never showed what happens when the local model gets a task wrong. [03-c6] Microsoft says these hybrid Copilot features should begin rolling out on Copilot+ PCs in the coming months. [03-c6]
+
+## Scene 8: Glasses, bystanders and accessibility
+**Visual:** Illustration of generic smart glasses on a table in a public square. Small icons for a camera, a microphone and an "opt out" toggle sit beside them.
+**On-screen text:** Watch for bystander controls and blind users' testing
+**Source on screen:** UploadVR, "Meta's Smart Glasses Are Getting Its 'Muse' AI Agent", 2026-09-29; The Vergecast, "Everything's recording everybody. What now?", 2026-10-15, 38:18–38:52; Road to VR, "Norway Proposes Temporary Ban on Smart Glasses in Public Places", 2026-10-07; Google Keyword, "Guided Vision in Gemini Live: built for accessibility", 2026-10-01
+**Narration:** Third, glasses. Meta is bringing its Muse agent to its smart glasses. Meta says it won't use Muse data for ads, but will train future models on it unless you opt out. [03-c7] On The Vergecast, V Song argued that a great assistant has to know about the people in your life, not just you. [03-c7] A Norwegian minister has raised concerns about people being recorded without their knowledge. [03-c7] Our read is that glasses widen whose data is at stake. So watch whether Muse on glasses ships with controls for bystanders. [03-c7] Finally, Google says Guided Vision, its voice and camera feature for blind and low-vision users, can make mistakes and isn't meant for navigation or obstacle detection. [03-c8] The missing evidence is independent testing by blind and low-vision users themselves. [03-c8]
+
+## Scene 9: The takeaway
+**Visual:** Clean title slide: a microphone icon on the left, a cursor icon on the right, and an arrow between them.
+**On-screen text:** Talk to start. Take the controls to finish.
+**Source on screen:** none
+**Narration:** The takeaway is simple. Talk to start, then take the controls to finish. This rests on a small base of evidence: one developer, one reviewer and a few small studies. Better models might close the gap at the finish, and nobody can yet say how fast. The full article and every source are in the description.
+
+## YouTube description
+Conversation with AI is becoming a great way to start a task on a computer and a poor way to finish one. We look at a developer who coded by voice, a chart-editing study, a year with Alexa Plus, and research showing that how pleasant an AI feels says little about whether it got things right. We also cover the signals that would prove this advice wrong, from Microsoft's local and cloud routing to Meta's Muse agent on glasses.
+
+Full article: {ARTICLE_URL}
+
+As of 2026-10-16
+
+Sources:
+- Simon Willison's Weblog, "A new feature for my blog, built using my voice", 2026-10-09: https://simonwillison.net/2026/Oct/9/built-using-my-voice/
+- arXiv cs.HC, "Plottery: A Code-Integrated GUI for Matplotlib", 2026-10-14: https://arxiv.org/abs/2610.14306
+- The Vergecast, "The many pluses and minuses of Alexa Plus", 2026-10-08, 08:51–09:27 and 11:39–12:14: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8056613997.mp3
+- arXiv cs.HC, "The AI's Poker Face: Contrasting Persuasion and Sycophancy in Voice-Based Multi-Turn Conversations", 2026-10-14: https://arxiv.org/abs/2610.14124
+- arXiv cs.HC, "Impact of Expertise and Trust on AI-assisted Work", 2026-10-14: https://arxiv.org/abs/2610.14660
+- Nielsen Norman Group, "Context Libraries: How AI Power Users Manage Context Engineering", 2026-10-09: https://www.nngroup.com/articles/context-libraries/
+- Sam Witteveen, "Microsoft Joins the Local AI Push", YouTube, 2026-10-08, 03:52–04:23: https://www.youtube.com/watch?v=CH1ciacnazE&t=232s
+- Windows Blog (Microsoft), "Building Windows for hybrid intelligence", 2026-10-07: https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+- UploadVR, "Meta's Smart Glasses Are Getting Its 'Muse' AI Agent", 2026-09-29: https://www.uploadvr.com/meta-smart-glasses-getting-muse-ai-agent/
+- The Vergecast, "Everything's recording everybody. What now?", 2026-10-15, 38:18–38:52: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8179591152.mp3
+- Road to VR, "Norway Proposes Temporary Ban on Smart Glasses in Public Places", 2026-10-07: https://roadtovr.com/norway-proposes-temporary-ban-on-smart-glasses-in-public-places/
+- Google Keyword, "Guided Vision in Gemini Live: built for accessibility", 2026-10-01: https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/

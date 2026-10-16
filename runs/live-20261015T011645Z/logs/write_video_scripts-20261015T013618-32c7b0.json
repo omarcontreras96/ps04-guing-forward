@@ -1,0 +1,24 @@
+{
+  "stage": "write_video_scripts",
+  "status": "completed",
+  "exit_code": 0,
+  "started_at": "2026-10-15T01:34:50Z",
+  "finished_at": "2026-10-15T01:36:18Z",
+  "input_count": 3,
+  "output_count": 3,
+  "tools": [
+    "anthropic-api"
+  ],
+  "models": [
+    "claude-opus-5-5"
+  ],
+  "model_calls": 3,
+  "tokens": {
+    "input": 31749,
+    "output": 26676
+  },
+  "cost_usd": 0.6605,
+  "cost_basis": "computed_from_token_usage_and_price_table",
+  "errors": [],
+  "note": "01:678w 02:625w 03:678w"
+}

@@ -1,0 +1,73 @@
+{
+ "summary": "UploadVR reports that Meta's Muse consumer AI agent, launched earlier this month on phones and the web in the US, is coming to Meta smart glasses. Muse runs on a persistent cloud Linux VM with its own browser, filesystem and terminal. It can book travel, fill forms, buy products, make phone calls and pay through Stripe Link virtual cards. On glasses it is activated by 'Hey Muse' and works in the background. The article also covers data use (training unless you opt out) and a planned Confidential VM. Timing is vague: 'coming months' officially, 'coming weeks' per Zuckerberg, 'soon' per Bosworth.",
+ "speakers_or_authors": "UploadVR staff (trade press), reporting Meta's statements and claims from Meta executives Mark Zuckerberg and Andrew Bosworth.",
+ "relevance": 3,
+ "relevance_reason": "It sits at the intersection of all three themes: a computer-use agent that acts on the user's behalf, delivered through voice on smart glasses, with privacy and data trade-offs. It is mostly vendor claims, with no hands-on testing of the glasses version.",
+ "themes": [
+  "Computer-use agents",
+  "Smart glasses and personal-context devices",
+  "Voice interface ('Hey Muse')",
+  "Privacy and data use",
+  "Agent payments and safety"
+ ],
+ "claims": [
+  {
+   "claim": "Meta says Muse is coming to its smart glasses and will take actions while the phone stays in the pocket.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Meta's Muse AI agent is coming to its smart glasses \"soon\", letting it take actions at your request while your phone stays in your pocket.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Muse launched on phones and the web in the US earlier in the month, and reportedly topped iPhone App Store downloads with strong reviews.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "it quickly rose up to the top of iPhone App Store downloads, with strong reviews from both journalists and regular users.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Per Meta, Muse runs on a persistent cloud Linux VM with its own browser, filesystem and terminal, and can write code, delegate to subagents and schedule jobs.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "the agent runs on a private persistent Linux virtual machine in the cloud, with its own web browser, filesystem, and terminal that continue to run regardless of whether your app is open.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Meta says Muse can book travel, send emails, fill forms and buy products, and describes more involved tasks like negotiating a bill, selling a car and making phone calls.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Meta says Muse can book travel, send emails, fill out forms and purchase products through websites.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Payments use Stripe Link single-use virtual cards, so the AI never sees the user's real card or bank details.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Muse uses Stripe’s Link, which provides virtual single-use per-payment cards so that the AI never sees your personal card or bank details.",
+   "segment_id": ""
+  },
+  {
+   "claim": "On glasses, users activate Muse by voice; it works in the background and reports back when the task is done.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "You'll activate Muse by saying \"Hey Muse\", or the name of your Muse, and then making a request. It will then work in the background and check back when the task is finished.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Muse data is not used for ads but is used to train future models unless the user opts out; Meta can access the current VM, and a Confidential VM is promised later this year.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Meta says it doesn't use Muse data for advertising, though will use it to train future models unless you opt out.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Meta's timing for the glasses launch is inconsistent across official and executive statements.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Meta officially states \"in the coming months\", though on-stage at Connect 2026, Mark Zuckerberg said \"in the coming weeks\", while CTO Andrew Bosworth separately said \"soon\".",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "The article is trade press, but nearly all the claims about Muse's capabilities, privacy and timing come from Meta, which has a commercial interest in promoting its own product. No sponsorship is disclosed.",
+ "older_event": "Mostly new: the glasses announcement, made around Connect 2026. The phone/web launch of Muse happened earlier in the same month and is background."
+}

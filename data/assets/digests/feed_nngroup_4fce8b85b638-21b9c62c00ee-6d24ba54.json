@@ -1,0 +1,22 @@
+{
+ "summary": "A Nielsen Norman Group explainer on empathy mapping, a UX method for visualizing what a team knows about users in four quadrants (Says, Thinks, Does, Feels). It covers individual vs aggregated maps, benefits, a six-step build process and common mistakes. A short section on AI says it should organize existing research evidence, not generate evidence the team lacks. It does not discuss personal context, computer-use agents, or voice interfaces.",
+ "speakers_or_authors": "Nielsen Norman Group (NN/g), UX research practitioners; no individual author named in the text.",
+ "relevance": 0,
+ "relevance_reason": "General UX methodology article. The only AI content is a brief caution about using AI tools in empathy mapping, which does not touch the publication's themes (personal context devices, computer-use agents, voice/conversational interfaces).",
+ "themes": [
+  "UX research methods",
+  "empathy mapping",
+  "AI-assisted UX analysis (passing)"
+ ],
+ "claims": [
+  {
+   "claim": "AI should be used to organize evidence a team already has, not to generate evidence it lacks, when building empathy maps.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "asking AI to organize evidence you already have is very different from asking it to generate evidence you don’t have.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "NN/g sells UX training and consulting, but this article is a general educational piece with no product promotion evident in the text.",
+ "older_event": "Not event-based; evergreen method explainer. No new product launch or research result is reported."
+}

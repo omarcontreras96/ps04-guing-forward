@@ -1,0 +1,22 @@
+{
+  "stage": "store_upsert",
+  "status": "completed",
+  "exit_code": 0,
+  "started_at": "2026-10-16T00:30:37Z",
+  "finished_at": "2026-10-16T00:30:37Z",
+  "input_count": 66,
+  "output_count": 66,
+  "tools": [
+    "sqlite3"
+  ],
+  "models": [],
+  "model_calls": 0,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "cost_usd": 0.0,
+  "cost_basis": "no_paid_api_calls",
+  "errors": [],
+  "note": "changed=1 new=7 unchanged=58"
+}

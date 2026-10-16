@@ -1,0 +1,21 @@
+Meta says its new Muse Wonder agents check in before doing anything important. Hands-on reports and new research suggest that asking first isn't the same as getting it right. Agents held up in a bounded test where the outcome was checked, and stumbled when they acted on messy personal context. We look at what holds up, what doesn't, and how thin the evidence still is.
+
+Full article: https://guingforward.substack.com/p/a-confirmation-step-is-not-verification
+
+As of 2026-10-15
+
+Full article: https://guingforward.substack.com/p/a-confirmation-step-is-not-verification
+As of 2026-10-15.
+
+Sources (timestamps link to the cited passage):
+- Meta Newsroom, “Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents” (2026-10-12): https://about.fb.com/news/2026/10/introducing-muse-wonder-models/
+- The Vergecast, “How much should you tell your AI agent?” (2026-10-06, at 13:34): https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP4220452170.mp3
+- The Vergecast, “How much should you tell your AI agent?” (2026-10-06, at 32:59): https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP4220452170.mp3
+- Big Technology Podcast (Alex Kantrowitz), “Meta & Microsoft's Claude Slowdown,  His Agent Leaked His Banking Info, Don’t Bully Your AI” (2026-10-09, at 14:07): https://pdst.fm/e/tracking.swap.fm/track/t7yC0rGPUqahTF4et8YD/pscrb.fm/rss/p/traffic.megaphone.fm/AMPP5617885384.mp3
+- Nielsen Norman Group, “The New Siri’s Biggest Strength Is Not Intelligence” (2026-10-09): https://www.nngroup.com/articles/ai-assistant-context/
+- arXiv cs.HC, “Impact of Expertise and Trust on AI-assisted Work” (2026-10-14): https://arxiv.org/abs/2610.14660
+- arXiv cs.HC, “Task-State Governance: A Virtual Machine for Verifiable and Recoverable GUI Agent Execution” (2026-10-15): https://arxiv.org/abs/2610.20100
+- How I AI (Claire Vo), “Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design” (2026-10-14, at 11:53): https://podcasters.spotify.com/pod/show/pen-name/episodes/Metas-new-Muse-Wonder-model-good-for-AI-agents--bad-for-design-e3qf2b2
+- How I AI (Claire Vo), “Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design” (2026-10-14, at 12:25): https://podcasters.spotify.com/pod/show/pen-name/episodes/Metas-new-Muse-Wonder-model-good-for-AI-agents--bad-for-design-e3qf2b2
+
+Made with an AI-assisted pipeline: script drafted with Anthropic Claude from human-reviewed evidence; voiceover and visuals produced in Google Vids. Claims and sources were checked by a human editor.

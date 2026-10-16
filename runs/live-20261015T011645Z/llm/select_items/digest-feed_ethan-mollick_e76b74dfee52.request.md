@@ -1,0 +1,82 @@
+<!-- model: claude-sonnet-5-5 | effort: medium | schema: yes -->
+# SYSTEM
+
+# Project brief
+{
+  "publication_name": "GUIng Forward",
+  "topic": "How AI is changing the way people interact with computers: agents that operate software for you, AI that runs on personal context and new devices, and voice/conversational interfaces versus other modalities.",
+  "audience": "Tech enthusiasts and early adopters who use ChatGPT, Claude or Gemini regularly and follow product launches, but do not read HCI research or vendor documentation. They know what an LLM and an 'agent' are; they do not know how well these interfaces work outside demos.",
+  "central_question": "Which new ways of interacting with computers through AI are actually changing how people use them this month, and which are still demos?",
+  "voice": "Curious, plain-spoken and skeptical of hype; concrete examples over abstractions; separates what was shown from what was shipped and what users report; short paragraphs; no breathless superlatives.",
+  "themes": [
+    "Computer-use, browser and desktop agents that operate software on the user's behalf",
+    "Personal context: assistants that remember or perceive the user (memory, connected apps, glasses, wearables, always-on mics/cameras) and the privacy trade-off",
+    "Voice and conversational interfaces versus screens, text and direct manipulation (the '2001: HAL' question)",
+    "AI built into operating systems, browsers and devices; generative or adaptive interfaces"
+  ],
+  "includes": "Product launches and updates that change how people operate computers; hands-on reviews and practitioner experience; HCI research with user evidence; reliability, safety and privacy evidence about these interfaces.",
+  "excludes": "Model benchmark races, funding and stock news, chip and data-center news, AI policy not tied to an interface, coding-model leaderboards, and rumours without a named source."
+}
+
+## Pass 1: Item digest
+
+You are the research assistant for the publication described in the project brief. You will read ONE
+source item: an article, a video transcript, or a podcast transcript. Each transcript segment is
+prefixed with its segment ID and timestamp, for example `[seg-0012 05:31-06:02]`.
+
+Produce a faithful digest that an editor can use without reading the whole item. Do not judge whether
+to publish it. Specifically:
+- Summarize what the item is and who is speaking or writing.
+- Locate the passages relevant to the publication's themes. For long episodes, find the relevant
+  stretch and ignore the rest.
+- List the item's main claims about AI and human-computer interaction. Classify each by evidence
+  basis:
+  - `observation`: hands-on test, measurement, or study result
+  - `experience`: specific first-hand use
+  - `announcement`: what a vendor says shipped
+  - `assertion`: claim about impact or the future, or opinion
+  - `secondhand`: repeating others
+- For each claim, give a locator:
+  - Written items: an EXACT verbatim quote of 8 to 40 words, copied character for character from the
+    text.
+  - Transcripts: the segment ID that contains the passage.
+  Never paraphrase inside a quote.
+- Note commercial interests: vendor speaking about its own product, sponsorship, investment.
+- Note whether the item mainly discusses an event older than 30 days, and what is new.
+- Give a relevance score from 0 to 3: 0 = off-topic, 1 = passing mention, 2 = useful passage,
+  3 = central to the themes.
+If the item is off-topic, say so briefly and return few or no claims.
+
+# USER
+
+Digest this item for the editor. Return JSON only.
+
+ITEM feed:ethan-mollick:e76b74dfee52
+version_id: e4cd0e9464ff8ee671700b0e774e503eaa1b534a703ebf3ace90588d4935a92d
+kind: feed | publisher: One Useful Thing (Ethan Mollick) (ethan-mollick) | perspective: commentary (academic)
+title: The Overhang
+published_at: 2026-09-18T17:54:32Z | url: https://www.oneusefulthing.org/p/the-overhang
+---
+We are still on an exponential curve of AI development. I try to put out a Substack post every couple weeks or so, yet, as the pace speeds up, that sometimes feels too slow. In the weeks since my last post, we had the apparent cracking of one of the most famous problems in math by an AI (accompanied by controversy) and widespread discussions about the risks posed by AI and what to do about it (also accompanied by controversy). I think these concerns, along with a mounting set of other worries, come down to the same problem I have with my posts: how slowly our very human systems and processes work to keep up with the pace of AI development.
+I don't think the people worried about this are wrong, but I also think a sole focus on future AIs, as important as that is, ignores the fact that AI, right now, is already incredibly capable. In fact, the new GPT-6 Astra and Fable 5.1 are already enough for transformative impact in large sections of the economy and they can reliably do weeks worth of human work when properly guided and harnessed.
+A few fun examples of that: I had GPT-6 Astra turn a 1977 text adventure game called Zork into a full 3D action-adventure game you can play. Zork has no graphics and each location is a paragraph of prose, so the AI had to decide what the white house looks like, what a grue looks like (the original only tells you that you are likely to be eaten by one in the dark), and how to turn “fight the troll” into an action sequence. I also had Fable 5.1 try to reconstruct Italian author Umberto Eco’s library in 3D. Eco kept tens of thousands of books in his Milan apartment and the AI could not find a floor plan, so it instead decided to work from a dozen videos, the foundation's photographs of each bookcase, and two library catalogues. It read spines frame by frame, inferred the rooms, and placed the 5,000 or so books it could identify among 27,000 shelf slots. It marked every book certain, guess, or unknown, and drew the bookcases the cameras never reached in fog. This task, like the Zork game and a lot of real-world work I have had the AI do recently, would have taken weeks of human work involving researchers, coders, and designers. But here we are.
+My point is that, while there is a lot of debate over what future models will do, the current capabilities of existing models are barely being used, and are often not even well understood. For example, I did not know GPT-6 Astra could operate Blender (a sophisticated piece of 3D modelling software) until it did.
+I gave it a copy of my upcoming book, Co-Existence, and asked it to create a trailer for the book from the perspective of an AI. Without clear instructions from me, it proceeded to use Blender and build out an entire animated 3D scene (not an easy task), along with a script with some jokes and reveals (I did reject the first joke it added, but the second was quite good). It then figured out how to generate voices and music and sound effects and gave me this film 45 minutes later. The final product feels a little more ominous than I would like, but that was the AI’s decision, not mine.
+To see how much further it could go, I prompted: “That’s good, but I actually want you to make an action movie trailer based on Co-Existence. Have fun with it. No more than 30 seconds.” Again, it wrote a script and made a 3D prototype in Blender. After I asked for a more cinematic version, it used the Blender animation as a storyboard, operated a video generator through my browser, and edited the generated shots into the final trailer. I gave some minor creative feedback, but never touched any production decision or even knew exactly how it was accomplishing its tasks. You can see the results here.
+There are plenty of flaws in these efforts that you can spot. But they are also examples of the AI exercising a kind of judgement and creativity, things that not long ago were considered uniquely human traits. And they were all done with just a fraction of the token budget of the ChatGPT account I pay for. I think these are fun demonstrations, but they are also a bit scary because AI is getting better at things that were once purely human. Still, none of these projects happened on their own. I chose them, I knew enough about Zork and Eco and my own book to see where the AI went wrong, and to ask for a second version when the first wasn't right. The capability overhang, the gap between what these models can do and what almost anyone is doing with them, is an opportunity because most people don't bring their own advantages to AI, and those who do get much more out of it.
+That is why I think we will need to focus on the individual traits we have that remain useful even as AI abilities improve. You are not trying to compete with AI in producing outputs, that is a losing game. Instead, you want to use your human advantages as basis of working with AI to do things that neither of you could do alone. In my book, I outline four particular personal advantages that matter a lot if you want to use AI in unique and enhancing ways: deep knowledge, wide knowledge, taste, and agency.
+The Four Advantages
+The first two advantages come from what you know. Deep knowledge is the expertise that comes from understanding a field or subject so well that you build intuition around it to quickly and accurately make decisions. It is how an experienced accountant can glance at a spreadsheet and know something is wrong, or how a golf pro can watch a swing and instantly understand the mistake the golfer is making. It is also why I could tell within seconds that the first trailer was more ominous than the book actually is. Deep knowledge is the realm of the specialist, and it is the only way to truly understand the shape of the Jagged Frontier, because only experts can understand the patterns of where AI succeeds or fails, at least in their area of expertise. It also helps you adapt to change because deep knowledge makes it easier to switch from being someone who does the work to someone who manages it. And recent work from Anthropic suggests that expertise also shapes the quality of what AI gives back. Experts not only get better work out of AI, they get more work out of it.
+But you don’t just need deep knowledge, you also want wide knowledge. The training data for LLMs is a large swath of humanity’s vast output. The AI has learned something of design thinking and Bayesian reasoning and the Toyota Production System and Rogerian therapy and Marxist literary criticism. But AI tends not to volunteer any of these patterns unless you know to ask.
+This is where wide knowledge comes in. Lets take one example: the way AI handles design work. If you ever ask AI to create a webpage, it will have certain preferences, including a very annoying habit of adding little headlines on top of your headlines. If you don’t have any grounding in design, you may not realize that you need to ask the AI to stop “adding eyebrows” to the work. It is also how I knew that using a Blender animation as a storyboard for a video generator was a sensible way to make a film, and not the AI wandering off. If you do know the right terms, asking for changes is easy. To gain wide knowledge you need to read and study widely, across fields and formats and traditions. This is valuable in and of itself (the return of the liberal arts!) but doubly so in the age of AI
+Now let’s go back the videos and projects I demonstrated above... You may have reacted viscerally to one or another, or hated them all. You may have found a theme or idea you would like to see more of. In doing this, you are using the third human differentiator in the age of AI, taste. Before AI, making things was hard and slow. Writing a draft took hours. Generating twenty product concepts took a team a week. An academic paper could take years. The constraint was always making enough stuff. Now making is fast and cheap. The scarce resource is your ability to select among stuff using your own taste. Again, in the trailers, I rejected the first joke and kept the second. I asked for a more cinematic version. Those were the only decisions I made on the trailer, but they were based on my taste.
+Some people have a taste for things that many people will find popular, others have a taste that is unique to them, and still others have a taste for what is novel and new. Yes, generative AI leads mostly to slop: a flood of work that is very similar to each other. But slop can be defeated by taste. Making great things with AI means knowing which AI outputs to keep, which to discard, and which to use as raw material for something the AI would never have generated on its own.
+The final human advantage, agency, might be the most important and the hardest to talk about, because it is difficult to define and the subject of a lot of debate. But in the context of AI, I think it is a willingness to test the boundaries of what’s possible when everybody is equally confused about what AI can do. The jagged frontier is unmapped in your field, so agency is about becoming an explorer. It’s the difference between waiting for someone to tell you that AI can now do something, and discovering it yourself by trying. That is part of why I do so many weird AI experiments — like trying to get the AI to play games — it teaches me a lot about what AI can do.
+An interlude about the pre-order bonus for my book
+I discuss these four advantages, and a lot more, in Co-Existence, which comes out October 20. If you pre-order it and let me know at co-existence.ai (pre-ordering really helps authors), we will send you a link to a free voice interview with an AI within a day or two. It asks you about what you know, what you like, and what you have tried, and then gives you a report on your own deep knowledge, wide knowledge, taste, and agency, along with use cases and prompts built around them.
+Where this all leaves us
+Most of the anxiety about AI right now is about future models and whether we will be able to control them. It seems reasonable for governments and AI labs to be arguing about how to manage the speed of development to mitigate these risks. But a slowdown does not undo what already exists. If every lab stopped training new models tomorrow, that wouldn’t change the fact that GPT-6 Astra and Fable 5.1 are already enough to change how large parts of the economy work. The capability overhang between what those models can do today and what most folks are using them for is massive.
+So change is coming no matter how the frontier is paced. It will not happen all at once and it will be uneven, but it is inevitable. Yet inevitable change does not mean the type of change is inevitable. It is increasingly important that we, as a society, develop and share models of AI-human work that enhance, rather than only replace, human labor. And it is equally important that we, as individuals, use AI in ways that enhance, rather than only replace, our own efforts. I don’t think there are bright lines we can point to and say AI will never cross them (see above). But your four advantages are a place to start today.
+The Zork project and Library project are both open source, feel free to modify them if you want (Zork is itself open source).
+=== END ITEM ===
+

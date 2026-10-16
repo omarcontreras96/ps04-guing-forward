@@ -1,0 +1,28 @@
+{
+  "stage": "create_series",
+  "status": "incomplete",
+  "exit_code": 1,
+  "started_at": "2026-10-16T00:30:38Z",
+  "finished_at": "2026-10-16T00:38:46Z",
+  "input_count": 90,
+  "output_count": 2,
+  "tools": [
+    "bash"
+  ],
+  "models": [],
+  "model_calls": 0,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "cost_usd": 0.0,
+  "cost_basis": "no_paid_api_calls",
+  "errors": [
+    {
+      "message": "some drafts failed to generate; review.json lists what is missing",
+      "subject": null,
+      "at": "2026-10-16T00:38:46Z"
+    }
+  ],
+  "note": "some drafts failed to generate; review.json lists what is missing"
+}

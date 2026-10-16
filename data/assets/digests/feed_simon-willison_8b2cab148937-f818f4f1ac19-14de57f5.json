@@ -1,0 +1,14 @@
+{
+ "summary": "A short link-blog post by Simon Willison pointing to indie developer Popcar's piece on the wave of AI-powered game decompilation. It covers mashups between existing games, preservation projects that port old games to new hardware (often via WebAssembly in a browser), and the risks: competitors copying software and paid apps being open-sourced against owners' wishes. Willison quotes both the positive and negative sides.",
+ "speakers_or_authors": "Simon Willison (blog author, developer); quoting Popcar (indie game developer)",
+ "relevance": 0,
+ "relevance_reason": "The post is about AI-assisted decompilation of software and games, which is about software preservation and IP. It does not touch on how people interact with computers through agents, personal context, voice or OS-level AI, so it is off-topic for the brief.",
+ "themes": [
+  "AI decompilation of games",
+  "software preservation",
+  "intellectual property risk"
+ ],
+ "claims": [],
+ "commercial_interest": "None apparent. Willison is a practitioner blogger linking to another developer's piece.",
+ "older_event": "No. The topic is a recent trend, but it is not tied to an interface or product launch and has nothing new for the publication's themes."
+}

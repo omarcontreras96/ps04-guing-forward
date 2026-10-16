@@ -1,0 +1,50 @@
+{
+ "summary": "MKBHD compares the Xiaomi 18 Fold with Apple's iPhone Duo, a folding phone with identical dimensions. He explains how the near-simultaneous unveilings can happen (supply-chain leaks, Xiaomi's speed). He then compares weight, battery, cameras, crease and foldable software behaviour such as multitasking and back-screen handling. The video ends with a plug for his own desk pad.",
+ "speakers_or_authors": "Marques Brownlee (MKBHD)",
+ "relevance": 1,
+ "relevance_reason": "This is a hardware comparison of foldable phones. Its only brush with the themes is brief remarks on foldable software and multitasking (two-app limit vs Android multi-window). It has no AI, personal-context, agent or voice content.",
+ "themes": [
+  "foldable phone hardware",
+  "multitasking software on foldables",
+  "product launch comparison"
+ ],
+ "claims": [
+  {
+   "claim": "The iPhone Duo allows only two apps side by side, while Android foldables offer multi-window, bubble, overlay and triple-app multitasking, as if on a full-size tablet.",
+   "basis": "observation",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0016"
+  },
+  {
+   "claim": "Android foldables treat closing as done and require a swipe or wake to continue on the outer display; the iPhone Duo lights the outer display mid-close for continuity.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0015"
+  },
+  {
+   "claim": "Other foldables disable the back screen during selfies with the main cameras to prevent accidental touches; the iPhone Duo does not appear to do this.",
+   "basis": "observation",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0017"
+  },
+  {
+   "claim": "Apple's software features leak less than hardware because they do not pass through the supply chain, so Apple can surprise people with software.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0005"
+  },
+  {
+   "claim": "The Xiaomi 18 Fold is about 30 grams lighter than the 254 g iPhone Duo and has a 6,000 mAh silicon-carbon battery.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0007"
+  }
+ ],
+ "commercial_interest": "He promotes his own MKBHD desk pad, made with Omnitype, at the end of the video. No sponsorship is evident for the phone content.",
+ "older_event": "The video centers on the iPhone Duo and Xiaomi 18 Fold unveilings in early September 2026, about a month before the video date. The new element is the side-by-side comparison, which rests on specs and not on full reviews."
+}

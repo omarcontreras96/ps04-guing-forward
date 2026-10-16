@@ -1,0 +1,36 @@
+{
+ "summary": "Short blog post by Simon Willison describing a game experiment: he prompted Claude Opus 5.5 Max in the Claude iPhone app's chat mode to build a three.js game, 'Tree appreciator', and reports that Claude worked for over three hours and returned a playable spot-the-difference game. It is a practitioner anecdote about prompting a model to build software, not about interface changes.",
+ "speakers_or_authors": "Simon Willison (developer, blogger)",
+ "relevance": 1,
+ "relevance_reason": "It is a passing, tangential example of a chat app producing a working game from a vague prompt. It has no computer-use agents, personal context, voice or OS integration, and nothing on how people operate computers. The one loosely related detail is a long-running chat-mode task on a phone.",
+ "themes": [
+  "Chat app generating software from a prompt",
+  "Long-running model tasks in a consumer app",
+  "Vague 'make it fun' prompting"
+ ],
+ "claims": [
+  {
+   "claim": "Simon prompted Claude Opus 5.5 Max in the default Claude iPhone app (chat mode, not Claude Code) to build a three.js game called 'Tree appreciator'.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with:",
+   "segment_id": ""
+  },
+  {
+   "claim": "Telling Opus 5.5 to 'make sure it is fun' works surprisingly well, in his experience.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "I've found that telling Opus 5.5 \"make sure it is fun\" works uncomfortably well.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Claude spent 3 hours 7 minutes on the task and returned a spot-the-difference game with music, animation and achievements that he found compelling to play.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "Claude crunched for 3 hours and 7 minutes before retuning a cosy little spot-the-difference game with music and animation and achievements that's quite compelling to play.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent. Willison is an independent blogger, and the post covers his own use of Anthropic's consumer app.",
+ "older_event": "No. The post is a new, dated first-hand experiment, though it describes no product launch."
+}

@@ -1,0 +1,57 @@
+{
+ "summary": "Meta Newsroom post releasing results of a Meta-commissioned YouGov survey of 3,983 small business owners in nine APAC markets. It reports broad AI adoption, self-reported productivity and revenue gains, and a need for guidance and training. It promotes Meta's Small Business Growth Academy and tools (Advantage+, click-to-WhatsApp ads, Meta Business Agent) and includes a customer anecdote from an Indonesian fashion brand.",
+ "speakers_or_authors": "Meta Newsroom (vendor); quoted: Husnul Khotimah, founder of Zayya",
+ "relevance": 1,
+ "relevance_reason": "Only a passing mention of an interface-relevant product (Meta Business Agent handling customer enquiries). The rest is about AI adoption among small businesses and training, which is outside the three themes (personal context devices, computer-use agents, voice/conversational interfaces). The data is self-reported and vendor-commissioned.",
+ "themes": [
+  "small business AI adoption",
+  "vendor-commissioned survey",
+  "customer-service agents (passing)"
+ ],
+ "claims": [
+  {
+   "claim": "Meta-commissioned survey finds 84% of surveyed small business owners use AI, with 76% reporting a positive productivity impact and 71% a positive impact on revenue or sales.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "84% of surveyed small business owners currently using AI, 76% reporting a positive impact on productivity and 71% reporting a positive impact on revenue or sales",
+   "segment_id": ""
+  },
+  {
+   "claim": "The most common uses are content creation/editing (51%), local advertising and marketing (43%), translation (38%), and customer support and communications (37%).",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "51% have used it to create or edit content, 43% for local advertising and marketing, 38% for translation, and 37% for customer support and communications.",
+   "segment_id": ""
+  },
+  {
+   "claim": "86% of owners say small businesses need more guidance to get the full benefits of AI, with cost the leading barrier to training (51%).",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "More than four in five owners surveyed (86%) say small businesses need more guidance to gain the full benefits of AI. Cost is the leading barrier to training, cited by 51%.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Meta offers Meta Business Agent to handle customer enquiries automatically, alongside Advantage+ and click-to-WhatsApp ads.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Advantage+ to create and run high-performing ads, ads that click to WhatsApp to turn conversations into customers, and Meta Business Agent to handle customer enquiries automatically.",
+   "segment_id": ""
+  },
+  {
+   "claim": "A Zayya founder in Indonesia reports that Meta tools cut customer response times from 30-60 minutes to under two minutes and delivered over eight times return on ad spend.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "reducing customer response times from 30 to 60 minutes to under two minutes. This helped to increase sales – she reported more than eight times return on ad spend for this campaign.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The survey is not nationally representative, and differences across markets may partly reflect interpretation of questions, translation and local response norms.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "rather than being nationally representative of the small business population. Reported adoption and impact differ across the nine markets surveyed.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Meta is the vendor and commissioned the survey, and it promotes its own Small Business Growth Academy and products (Advantage+, WhatsApp for Business, Meta Business Agent). Results are self-reported by owners, and the customer story is a Meta-selected testimonial.",
+ "older_event": "No. The survey was fielded 6 August to 2 September 2026 and is newly released, but it is mostly marketing and not about interface change. The Growth Academy launch earlier in the year is referenced as background."
+}

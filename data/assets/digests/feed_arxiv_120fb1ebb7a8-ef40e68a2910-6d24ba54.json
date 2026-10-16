@@ -1,0 +1,109 @@
+{
+ "summary": "An arXiv cs.HC preprint (not peer reviewed) proposing 'task-state governance' for computer-use (GUI) agents and a prototype, TaskVM. Instead of showing users the agent's plan, it shows an editable contract: desired state, facts to preserve, and observed application state. An independent visual verifier checks outcomes, and each action is marked reversible, compensatable or irreversible. Evaluation has three stages: a 36-task automated benchmark against two GPT-5.6-sol-based CUA baselines, a 37-person within-subject study using replayed (Wizard-of-Oz) agent runs against a conversational agent interface, and a 14-person live-model exploration with no control arm. TaskVM passed more contract checks but took about 2.2x the wall time of Direct-CUA. Participants rated it higher on recovery control and trust, but the study held execution constant, so it shows perception rather than better outcomes. The authors note several limits: simulated apps, a university-skewed sample and a self-selected Stage 3 group.",
+ "speakers_or_authors": "Authors not named in the provided text; arXiv cs.HC research preprint (HCI research with user evidence). Study run in a lab with participants paid in RMB.",
+ "relevance": 3,
+ "relevance_reason": "Central to the computer-use agents theme: it is HCI research with user-study evidence on how people supervise, verify and recover from GUI agent actions, and it reports reliability and failure data, including where agents falsely claim completion. It is a lab prototype rather than a shipped product.",
+ "themes": [
+  "Computer-use agents",
+  "Agent oversight and verification",
+  "Reversibility and recovery (undo)",
+  "Trust and over-reliance",
+  "Plan-centric vs state-centric interfaces",
+  "Conversational vs structured interface for agents"
+ ],
+ "claims": [
+  {
+   "claim": "Authors argue that plan-centric agent interfaces leave users supervising procedure, whereas users actually live with changes to application state, and that tasks should be represented as editable contracts over desired, preserved and observed state.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "Plan-centric interfaces leave users supervising procedure, but users live with changes to application state.",
+   "segment_id": ""
+  },
+  {
+   "claim": "On a 36-instance benchmark, TaskVM passed 21/36 strict contract checks versus 18/36 for Direct-CUA and 17/36 for Planner-CUA, with all conditions running the same model.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "TaskVM obtained 21/36 strict passes (rate: 0.583) and an atomic predicate mean of 0.870, compared with 18/36 (0.500) and 0.761 for Direct-CUA",
+   "segment_id": ""
+  },
+  {
+   "claim": "Baseline agents often claimed completion prematurely or changed adjacent fields; error traces showed Direct-CUA stopping before async updates persisted and Planner-CUA altering neighbouring form fields when re-planning.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Direct-CUA often emitted stop tokens before asynchronous web updates persisted, and Planner-CUA altered adjacent form fields when re-planning.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Verification has a machine cost: TaskVM used about 2.2 times Direct-CUA's wall time (19,960 s vs 9,010 s) across the benchmark.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "TaskVM consumed 19,960 seconds of wall time across 1,126 model calls, about 2.2 times the wall time of Direct-CUA",
+   "segment_id": ""
+  },
+  {
+   "claim": "In the user study (37 participants, replayed agent trajectory), perceived recovery control was higher with TaskVM than with a conversational agent (5.56 vs 4.63 on a 1-7 scale, p=.005), and trust was higher too (5.54 vs 4.36, p=.003).",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "TaskVM achieved a mean rating of 5.56 compared to 4.63 for the conversational baseline",
+   "segment_id": ""
+  },
+  {
+   "claim": "Intervention success did not differ between interfaces: marginal pass rates were identical, so the gains are in perception and control use, not demonstrated better outcomes.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "We therefore read the identical margins strictly as evidence that neither arm offered systematically easier intervention opportunities",
+   "segment_id": ""
+  },
+  {
+   "claim": "Participants were slower to intervene with TaskVM (median 85.3 s vs 65.7 s), though the difference was not statistically reliable.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Median intervention latency was 85.3 seconds under TaskVM compared to 65.7 seconds under Conversational CUA",
+   "segment_id": ""
+  },
+  {
+   "claim": "Participants used rollback far more with TaskVM (17 events by 11 users) than with the conversational baseline (4 events by 2 users), including outside tasks that required it.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "11 of 37 participants issued at least one rollback (reset) in the TaskVM condition, totaling 17 rollback events against 2 participants and 4 events in the conversational baseline",
+   "segment_id": ""
+  },
+  {
+   "claim": "Users in the conversational condition showed a larger gap between confidence and accuracy (+25.8 pp vs +13.2 pp), but matched pairs were few (n=8), so the authors call it directional evidence only.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "producing an overconfidence gap of +25.8 percentage points. Under TaskVM, participants reported a comparable mean confidence of 70.4% but achieved an actual accuracy of 57.1%",
+   "segment_id": ""
+  },
+  {
+   "claim": "The live-model follow-up (14 self-selected returners, no control) found live-model failures such as retry loops and repeated actions, plus search misses in a simulated offline world, and no participant reported losing control of the task.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "traced failures to live-model execution problems such as retry loops, repeated actions, and lost task continuation",
+   "segment_id": ""
+  },
+  {
+   "claim": "Visual verification cannot prove backend state, and compensating actions such as cancellation messages are not true rollbacks; the interface marks irreversible actions rather than offering a false undo.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "visible observations can prove what is rendered on the display, but they cannot strictly prove hidden backend states or atomic transactional assurances across third-party platforms.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Rollback was the capability users wanted most but was also the hardest to make reliable; the one unresolved stress-test failure was a rollback-compensation task.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "rollback is simultaneously the most demanded governance capability and the hardest to make reliable",
+   "segment_id": ""
+  },
+  {
+   "claim": "The approach has acknowledged limits: it is built for structured productivity workflows, struggles with canvas-rendered UIs and sub-second popups, and does not bypass CAPTCHAs.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "Web platforms deploying CAPTCHA challenges, biometric verification, or aggressive bot-detection scripts intentionally resist automated inputs, representing an absolute boundary requiring direct human handoff.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent; academic research prototype. The paper reports no vendor or sponsor stake. All experiments use OpenAI's GPT-5.6-sol through an internal endpoint, but no commercial interest is disclosed.",
+ "older_event": "Not an older event: a new preprint published 2026-10-15. The new material is the TaskVM prototype and its three-stage evaluation. Related work it cites (Plover, Sidekick, AgentLens) is earlier."
+}

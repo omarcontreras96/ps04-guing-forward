@@ -1,0 +1,18 @@
+{
+ "summary": "A short link-blog post by Simon Willison pointing to Michael Lynch's writing advice on common mistakes in software blogging: meandering intros, misjudging reader knowledge, assuming readers saw earlier posts, excessive formality, and leaning on links instead of explaining terms. Willison adds that AI delegation is making developer blogs bland. It is about writing craft, not AI interfaces.",
+ "speakers_or_authors": "Simon Willison (quoting Michael Lynch)",
+ "relevance": 0,
+ "relevance_reason": "Off-topic: advice on blogging style. The only AI mention is a passing remark that delegating writing to AI makes blogs bland, which is not about computer interfaces, personal context devices, computer-use agents or voice interfaces.",
+ "themes": [],
+ "claims": [
+  {
+   "claim": "Willison asserts that developers delegating writing to AI is making software blogging bland and homogenous.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "With so many developers delegating their writing to AI, software blogging is becoming bland and homogenous.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent.",
+ "older_event": "No older event; the post is a new link to a recent article, and nothing in it concerns a product launch."
+}

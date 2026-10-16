@@ -1,0 +1,596 @@
+[
+ {
+  "segment_id": "seg-0001",
+  "start_seconds": 0.0,
+  "end_seconds": 37.68,
+  "text": "Microsoft and Meta back away from Claude does it spell some trouble for Anthropic ahead of its IPO. Will your AI agent share your banking data in a group chat? And finally, don't be mean to your AI. You might end up getting banned from the service. That's coming up on a big technology podcast Friday edition right after this. This episode is brought to you by Genesis. What does it actually take to put Agentic AI to work across an entire enterprise? I recently spoke with Genesis Chairman and CEO Tony Bates about why orchestration is emerging as a competitive advantage in customer experience and what companies need to get right in the AI era."
+ },
+ {
+  "segment_id": "seg-0002",
+  "start_seconds": 37.68,
+  "end_seconds": 72.64,
+  "text": "Then I sat down with Adam Mitchell, head of enterprise business solutions at Voya Financial to go inside a large scale Agentic CX transformation, including the business decisions, trade-offs, and lessons along the way. You can watch both conversations now on my YouTube channel today. It's never been more challenging to get front to your computer. How do you know where to look, who to trust, or how much to pay? Akash is an open cloud that provides easy access, flexibility, and peace of mind. That's how companies like Razer were able to cut their inference cost by 15 times."
+ },
+ {
+  "segment_id": "seg-0003",
+  "start_seconds": 72.64,
+  "end_seconds": 106.64,
+  "text": "Visit akash.network/alex for a free consultation. That's akash.network/alex for a free consultation. Welcome to big technology podcast Friday edition where we break down the news in our traditional, cool-headed and nuanced format. We have a great show for you today. There's new reporting that shows meta and Microsoft might be backing away from spending on cloud just as anthropic gets ready for its IPO. Your personal agents might be very useful but it might share your banking data in a group chat. We'll talk about what happened and why you should or shouldn't be concerned."
+ },
+ {
+  "segment_id": "seg-0004",
+  "start_seconds": 106.64,
+  "end_seconds": 140.72,
+  "text": "And then finally, anthropic has a new policy that if you're persistently mean to cloud it might ban you from the service. So we'll talk about whether you should be mean to your AI or not and what the consequences might be. Joining us is always on Friday is Ron John Roy of margins. Ron John, welcome, good to see you. - Good to see you. Don't be mean to your AI. Don't bully cloud. - Are you mean to your AI? Do you ever bully? Because sometimes people say if you're a little bit mean you get better results. - I think I bully co-pilot just 'cause I think co-pilot likes to be bullied. - Co-pilot likes to be bullied but maybe cloud's a little more sensitive."
+ },
+ {
+  "segment_id": "seg-0005",
+  "start_seconds": 140.72,
+  "end_seconds": 173.4,
+  "text": "(both laughing) Oh, we're starting right there. - Oh, we're starting fast. All right, we'll get to that in a bit but we should really talk about the main story this week. And look, it's not a crazy headline but I think it says a lot about the risks of this AI build out and what is going to happen now that standard models are performing pretty well. So headline from the information this week said that Microsoft and Meta are both re-evaluating their spend with cloud and pulling back in their own interesting ways."
+ },
+ {
+  "segment_id": "seg-0006",
+  "start_seconds": 173.4,
+  "end_seconds": 208.84,
+  "text": "So I'll just read a little bit from the story, Meta platforms and Microsoft, two of Anthropics' biggest corporate customers are working to cut their employees' use of cloud, a challenge to the AI firm's efforts to sustain its explosive growth. Microsoft executives earlier this year projected that the company was on track to spend at least one billion on its own internal use of Anthropics technology. Microsoft has since lowered that figure by more than a third. After it asked its staff to use less cloud and to save on cost and spend more time using Microsoft's home-grown AI tools."
+ },
+ {
+  "segment_id": "seg-0007",
+  "start_seconds": 208.84,
+  "end_seconds": 244.32,
+  "text": "AI tools, at Meta, the number of employees using Anthropics coding assistant cloud code has dropped sharply to about 30,000 recently. That's down from about 60,000 users earlier this year. You know, I said it was a small headline but actually I'm not gonna overreact here because it's a small headline but it's big news and I don't think it is an overreaction to say that this is some troubling news for Anthropics. Not the end of the world but remember, this is a company that's heavily dependent on a few customers. You know, there's two customers that we know from the company's S1 that make up 25% of its revenue."
+ },
+ {
+  "segment_id": "seg-0008",
+  "start_seconds": 244.32,
+  "end_seconds": 275.48,
+  "text": "Safe to say that one or both of these could be included in that group. And if companies find that lesser tools are doing as good of a job as cloud code, it is a threat to Anthropics long-term ability to grow. So I wanted to start there. Ronton, what do you think about this news? Is it do time for Anthropic or is this just a hiccup? - Well, let's in Anthropics favor. I want to remind us that it was end of 2025 that two customers made up 25% of the revenue. I'm guessing that's significantly changed."
+ },
+ {
+  "segment_id": "seg-0009",
+  "start_seconds": 275.48,
+  "end_seconds": 308.92,
+  "text": "Of course, we don't know any of the thing about that because they haven't actually released their first half financials yet. But I do think it is very important that we know the large hyperscalers have been major customers of Anthropic, of OpenAI potentially, certainly cloud code. Every software developer these companies was using. I think this is very significant because, again, you go from 60,000 down to 30,000 users, and part of that decline did stem from layoffs in the spring as well, that there'd be some kind of attrition around there."
+ },
+ {
+  "segment_id": "seg-0010",
+  "start_seconds": 308.92,
+  "end_seconds": 350.0,
+  "text": "But the main thing here is, we know that meta is their own internal models and infrastructure have significantly improved. Everyone who's getting mused, peeled, can feel it, see it. So you have to imagine within these organizations, they are pushing people to say, use our own models. And the moment that happens, it changes the entire Anthropic story. And I don't know, I think it's going to be, I just want that damn S1. I want to know what has happened because you have to imagine, especially again, it says Microsoft was on track to spend at least $1 billion on its own internal use of Anthropics technology."
+ },
+ {
+  "segment_id": "seg-0011",
+  "start_seconds": 350.0,
+  "end_seconds": 380.48,
+  "text": "So these companies have been massive customers, and I have to imagine they're moving away from cloud. And what does that mean? Again, the IPO is not going to be about past performance, it's going to be about projected growth, and this has to affect projected growth. - Yeah, the internal data is cutting the information. The internal data show that in a recent 28-day period, meta spent more than 105 million on cloud code. That's even as it's cutting back. So that would suggest that meta will spend, I think this is this year over a billion this year."
+ },
+ {
+  "segment_id": "seg-0012",
+  "start_seconds": 380.48,
+  "end_seconds": 417.8,
+  "text": "But you're totally right because the information does have a line here that says the bigger factor has been meta's development of its own AI coding tools. And it's MooSpark, MooSpark line of models, which the company is marketing to other companies and pushing its own employees to use. Moo's code, a cloud code competitor that uses meta models had more than 6,000 employee users recently. I guess it doesn't fully make up the gap if you go from 6,000 to 30,000. Okay, so now you're at 36,000 of people using a coding tool. I wonder where the others are filling in, or maybe people tried cloud code, realized maybe it wasn't particularly useful for some of their purposes and pulled back."
+ },
+ {
+  "segment_id": "seg-0013",
+  "start_seconds": 417.8,
+  "end_seconds": 449.24,
+  "text": "And I think if you look at the numbers, and we published these numbers in big technology, there was a big search in cloud code users in March, and that has pulled back actually in September. Let me see if I'm going to get it. Okay, all right, so cloud's download games from January to March were bigger than the entire gain across all apps. This is how big of a search. So the gain of users across cloud code, or their gain was bigger than all apps."
+ },
+ {
+  "segment_id": "seg-0014",
+  "start_seconds": 449.24,
+  "end_seconds": 481.0,
+  "text": "However, the downloads have slowed. So cloud's monthly downloads in the US went from nearly 670,000 in January to peak of 7.42 million in March. And that has dropped to 3.26 million in September. That's downloads, right? So basically you're thinking about that as new users. But it is significant that big surge that cloud code saw, when everyone saw the capabilities and said, I need to try this, that is cool. And now the downloads are about half of what they were in September versus March."
+ },
+ {
+  "segment_id": "seg-0015",
+  "start_seconds": 481.0,
+  "end_seconds": 514.54,
+  "text": "What do you make of this? - It does downloads include like installing cloud code in the terminal, do you think? Or is that actually like the cloud app? - I'm pretty sure that's the app. So okay, there's probably some that it's not accounting for it, but go ahead. But it's still meaningful. - Yeah, it's definitely like directionally meaningful. I still think that, again, cloud code is the business here. Cloud code, again, they've been trying to push to the kind of front-facing app and they've combined a lot of different things and a lot of people complained about what is chat, what is co-work, what is cloud code."
+ },
+ {
+  "segment_id": "seg-0016",
+  "start_seconds": 514.54,
+  "end_seconds": 548.84,
+  "text": "But I think the most important thing is, that number you said, like Muse code is at 6,000. Meta, our cloud code is still at 30,000 down from 60,000. Any of these organizations, anyone familiar with these, like you know what it happens is the new tool comes out, everyone gets completely cloud code-pilled and starts using it and then they don't wanna give it up and they say, I won't be able to do my work without this tool. And then slowly the company, in this case, Meta will say start using Muse code 'cause we have far better cost controls around it."
+ },
+ {
+  "segment_id": "seg-0017",
+  "start_seconds": 548.84,
+  "end_seconds": 581.04,
+  "text": "We have control over around it. We know they're not stealing all of the data and stuff we're inputting into it. And the moment it works relatively closely as well, everyone is gonna have to change. That is what I actually think is the single biggest risk here is, and I've heard this at Google too, that with anti-gravity, like internally, there's been a massive shift back to use Google tools. And Meta is definitely gonna make that as well. I wonder at the Amazon's of the world and everything how things are gonna look."
+ },
+ {
+  "segment_id": "seg-0018",
+  "start_seconds": 581.04,
+  "end_seconds": 612.84,
+  "text": "But when you are so dependent, and whether it's 25% is down to two customers, probably not anymore and they're a little more diversified, but still, just the moment things start moving in that direction, it means they're never gonna move back to 60,000 people at Meta are gonna have unlimited access to cloud code. - Yeah, and I think this is a big point, right? And this is kind of why we led today with this story. You think about the frontier business, obviously the models are super impressive, but there are a number of challenges that they're facing."
+ },
+ {
+  "segment_id": "seg-0019",
+  "start_seconds": 612.84,
+  "end_seconds": 643.8,
+  "text": "There is the fact that these standard models have become good enough that may be a muse code. I mean, let's be honest, muse code is not gonna get you where cloud code will get you, but it could be good enough for some users that people will move off it. And then, hold on, I just wanna finish the list, right? Let me finish the list. There's the token maxing rebellion, right? Every CEO is asking how can we get our employees to spend less because this was a line item that went from zero to, you know, in some cases, like Microsoft and Meta, more than a billion in a year from nothing."
+ },
+ {
+  "segment_id": "seg-0020",
+  "start_seconds": 643.8,
+  "end_seconds": 674.76,
+  "text": "So there's that, that is happening as well. Now, it doesn't mean that the frontier business is over, right, I still think that like, there's a balance here because if you find that your employees can have bigger gains using frontier models than the standard models, you're being irresponsible if you're cutting just a cut, right? There is ROI to be found there. So it's a balancing act between cost control and capability maximization. But all these factors are going to start to add up for these companies."
+ },
+ {
+  "segment_id": "seg-0021",
+  "start_seconds": 674.76,
+  "end_seconds": 711.0,
+  "text": "- So I still, I have not used muse code myself. I've used cloud code plenty. I still just have to imagine that again, coding and software development, I'm not saying it's solved, but for how good muse itself is like the customer facing app, I have to imagine Meta has made significant strides in the actual, their model capabilities. So I still have to imagine that if it's not as good in every possible way as of today, I've to imagine for the work that actually needs to be done, it's probably as good."
+ },
+ {
+  "segment_id": "seg-0022",
+  "start_seconds": 711.0,
+  "end_seconds": 745.04,
+  "text": "However, I did just look up on Reddit. I was trying to see like, if anyone has been talking about muse code, not a lot is coming up. So clearly, like in terms of any kind of public access, it's fairly limited. However, six days ago, odd donkey two six nine one. - Did we always listen to on this show? - Odd donkey two six nine one is the harbinger of what is to come. - That Mark Zuckerberg's alt. - Well, I don't think so because the headline of the post is actually two days using muse 1.3 contributor, it sucks balls."
+ },
+ {
+  "segment_id": "seg-0023",
+  "start_seconds": 745.04,
+  "end_seconds": 778.96,
+  "text": "So, it's definitely not sucks all. - No, no, no, so that is when I looked up muse code, Reddit review, that's what comes up first. So maybe we do have a little ways to go, at least on whatever's available publicly. I'm assuming internally there's probably something far more significant being used, but according to odd donkey two six nine one, we still got a little ways to go. - You know, I want to jump on the odd donkey bandwagon here because I think this is gonna become a new debate within our show. And it's an extension of the product versus the model where I always said the model was most important."
+ },
+ {
+  "segment_id": "seg-0024",
+  "start_seconds": 778.96,
+  "end_seconds": 814.36,
+  "text": "Ranjan said the product is most important. And we're getting now to this point where we have agents and the question is, how important is the frontier model? If you believe the frontier model is most important then open AI and anthropic are gonna have a big lead here. But if you believe standard models with a good harness is good enough, like Ranjan does, then the meta and the Grox and the instincts of the world can catch up. So I just want to put a one data point here and it's part of a running story that I've been telling on the show and try to tally one more for the frontier lab."
+ },
+ {
+  "segment_id": "seg-0025",
+  "start_seconds": 814.36,
+  "end_seconds": 847.14,
+  "text": "So Ranjan, do you remember a couple of weeks ago? I told this story about how muse was able to help assist my wife with an appointment at a specialist in New York City where we couldn't find a specialist that muse gave us this list and she was able to book an appointment with the first doctor on the list. - Yeah, I remember. - Okay, well, there's part two of the story. - Oh dear. - Which involved me getting yelled at last weekend. (laughing) Because though muse did put this very helpful list of doctors together, it's very capable standard model."
+ },
+ {
+  "segment_id": "seg-0026",
+  "start_seconds": 847.14,
+  "end_seconds": 880.04,
+  "text": "I'm saying this facetiously, put the wrong phone numbers for the wrong doctor, like put working phone numbers of some doctors underneath the wrong doctor's names. So my wife booked an appointment from muse, you know, after making this phone call, the first person that it suggested, thinking that it was going to be the first doctor on the list 'cause the phone number was underneath the list. It turns out she had made an appointment for a completely different doctor (laughing) than she had called because muse put it in the wrong place."
+ },
+ {
+  "segment_id": "seg-0027",
+  "start_seconds": 880.04,
+  "end_seconds": 913.12,
+  "text": "And so the night before she's supposed to go, she's trying to figure out where she's going and we thought it was going to be a brief commute into Manhattan, but it turns out that the doctor that she had booked was a multi-train ordeal and deep queens and she's looking at me and she's like, \"You're freakin' muse, man.\" (laughing) - Freakin' mute. Well, this is, hold on, I'm going to give you my AI. This is probably not 101, but like 301."
+ },
+ {
+  "segment_id": "seg-0028",
+  "start_seconds": 913.12,
+  "end_seconds": 944.12,
+  "text": "I think you gotta think of it. - No, no, no, no, I mean, again, this is something that like in my own work at writer and with like enterprise customers, this is the hardest thing to explain. It's, if you think about right there, why are restaurant reservations so easy? It's because they're centralized platforms have already aggregated and cleaned the data very well. I'm guessing most, especially direct numbers to doctors, we are reliant on maybe Google local listings."
+ },
+ {
+  "segment_id": "seg-0029",
+  "start_seconds": 944.12,
+  "end_seconds": 978.68,
+  "text": "Maybe again, the Zoc Docs of the world have done some aggregation. They never show up in any kind of AI search for me, so maybe they're blocked, but like, if it is a data set that is not cleaned and kind of centralized, you gotta double check, man. Otherwise, you're gonna end up on the train getting yelled at, double check if it's not a, it's why flight, again, flights and restaurants, that's why everyone loves to talk about them 'cause they got the cleanest data sets in the world. Doctor phone numbers, local business phone numbers, not even a chance."
+ },
+ {
+  "segment_id": "seg-0030",
+  "start_seconds": 978.68,
+  "end_seconds": 1012.4,
+  "text": "- So, Ranjan, I did in this conversation suggest, why didn't you double check? (laughing) Let's just say that was not the right answer. - That was not the right answer. (laughing) - But I'm trying to say what I'm trying to say is, you know, I do think a frontier intelligence will probably be more accurate dealing with such type of data problems. And so that's why, you know, I'd almost trust, I not almost, I would trust OpenAI's dots much more than I would try to trust MetaMUSE for a similar activity in the future."
+ },
+ {
+  "segment_id": "seg-0031",
+  "start_seconds": 1012.4,
+  "end_seconds": 1043.0,
+  "text": "- Yeah, I think, I think we'll get there, actually as we're talking about this, there's a good opportunity in actually kind of like cleaning every Google listing and kind of like doing something with that underlying data because that is like the single messiest dataset in existence. It's like almost there, kind of there, but not there. So, and it ends up on switching three trains going into deep queens."
+ },
+ {
+  "segment_id": "seg-0032",
+  "start_seconds": 1043.0,
+  "end_seconds": 1088.88,
+  "text": "- Yeah, well, she ended up canceling the appointment and I was in the doghouse, but we're good now, we're good. We're good. So, go ahead, go ahead. - Hopefully, hopefully MUSE did not go share your bank statement into the work chat after that. - Okay, no, it didn't, it didn't. So, it's interesting, and this is another example of where I thought that AI agents were, on the standard models, were worse than Frontier and therefore you may not want to trust them because, so this week, Shane Mack who was using Grockbot, he's an AI entrepreneur, he had his Grockbot share his banking details into his work chat."
+ },
+ {
+  "segment_id": "seg-0033",
+  "start_seconds": 1091.0,
+  "end_seconds": 1126.28,
+  "text": "And it's pretty funny, he goes, he says embarrassed to share this, but it scared the shit out of me. Last Thursday, an AI agent posted my personal bank balances into our company Slack as me. And you see it has his checking account and his savings account, his gym account, all these details, right? Here's what happened, 'cause I spoke with Shane this week on my other show, this is the point. So, basically what Shane said was he had named his, he had a group of Grockbot agents, like a personal CFO and chief of staff, and he had a group chat with them called executive team."
+ },
+ {
+  "segment_id": "seg-0034",
+  "start_seconds": 1126.28,
+  "end_seconds": 1156.36,
+  "text": "He had also connected it to Slack, right? And his Slack group chat with his real executive team was also called executive team. So, he had two executive teams and the Grockbot that had access to his personal finance data and was just giving him an update, crossed the wires and decided to share the financial update in the executive team with the humans. And so now, his entire company knows how much money he has for better or worse."
+ },
+ {
+  "segment_id": "seg-0035",
+  "start_seconds": 1156.36,
+  "end_seconds": 1195.48,
+  "text": "- Yeah, this was a really interesting story to me because again, like as everyone just starts kind of letting these agents instinct muse, whatever else start to just kind of connect more systems, obviously this kind of thing becomes a risk. Do you think he messed up something? Like I definitely, I want to get into it, read through the supposed explanation of how Grockbot explained what happened, but who do you think is liable here for the mistake, not legally, 'cause I'm sure no one will ever take an ownership of. - No one will make a possibility. - No, no."
+ },
+ {
+  "segment_id": "seg-0036",
+  "start_seconds": 1195.48,
+  "end_seconds": 1238.44,
+  "text": "- Well, it goes to one of our long-running debates here, or short-running debate that will become a long-running debate. If you think that, sorry, if you think that AI inside Grockbot is good enough, it's a standard model, right? It's not a frontier model, though it's capable, then you blame the user who should have not have named his AI chat and his human chat the same thing, because these type of wire crossings can happen in that case. If you think that the frontier intelligence is what matters, like the model is what matters, you would say that this is Grock's fault, because it should have known, right?"
+ },
+ {
+  "segment_id": "seg-0037",
+  "start_seconds": 1238.44,
+  "end_seconds": 1270.52,
+  "text": "The model needs to have an understanding, right? These better models have better understanding, and the model needs to have a better understanding, that when it shares something, it should understand that it's not sharing it within the context of one human user and his agents, it's sharing it in the context of a number of human users and an agent that is allowed to participate in the chat. So the way I read this, and I'd be curious to get your perspective, is this is a model failure. It's a Grockbot failure, it should have known better."
+ },
+ {
+  "segment_id": "seg-0038",
+  "start_seconds": 1270.52,
+  "end_seconds": 1317.12,
+  "text": "And maybe I'm expecting too much out of it, but I think that it's fine to expect a lot of it, because we are seeing the AI be able to do a very good job, otherwise when it is better, when it's on the frontier. So I blame the model, who do you blame? - I blame, okay, so it is interesting, and I don't blame the model, because when you say should have known better, it actually was effectively following direction. So he had a group chat in Grockbot called exec team, and then his CFO agent that's supposed to be managing his finances had written an instruction for itself saying update exec team, and when it went to run that task, it went, found that a Slack channel called exec team,"
+ },
+ {
+  "segment_id": "seg-0039",
+  "start_seconds": 1317.12,
+  "end_seconds": 1361.6,
+  "text": "and it got confused between the Grockbot group chat and the Slack channel. As I'm saying that out loud, you can understand how confusing that is even to try to grasp all these kind of nuances yourself. So of course, the idea that a model is gonna know exactly which one is good, which one is bad, is difficult, especially if he has a lot of other agents that are posting to Slack regularly. So then you have to imagine, like the assumption would be that posting to Slack is a normal behavior, I'm gonna replicate that behavior, and yes, posting a bank balance feels like it should not make sense in this case, but in reality, if it's a CFO, what does a CFO do?"
+ },
+ {
+  "segment_id": "seg-0040",
+  "start_seconds": 1361.6,
+  "end_seconds": 1408.4,
+  "text": "It updates executive teams on the current status of finances. So shouldn't that be a pretty logical normal thing for a CFO agent to think it's supposed to do? - No, you're letting the model, you are letting the model off the hook way too easily here. I think, you know, the way that you articulated it, maybe it sounds difficult, but it should be tables takes to anybody, a model, a human to be like, \"All right, I'm posting an update,\" I should probably not post a personal finance update into a work chat of other people. - No, no, but he, okay, this is actually kind of like philosophically interesting because from what I had read, it's regularly posting updates to his group chat exec team"
+ },
+ {
+  "segment_id": "seg-0041",
+  "start_seconds": 1408.4,
+  "end_seconds": 1442.2,
+  "text": "within Rockbot to other agents, which I use something called Era, MCP, and Cloud Code for Personal Finances, and I have like different agents calling different agents, and again, I'm not posting anything anywhere to Slack. But think about that, like, what's interesting here is, it is under the, it has been explicitly instructed too, and the correct action is to update exec team in a group chat with finances. But what it's supposed to be doing is doing that to other agents, not humans in Slack."
+ },
+ {
+  "segment_id": "seg-0042",
+  "start_seconds": 1442.2,
+  "end_seconds": 1474.4,
+  "text": "So is it that far off, or if there's also a Slack channel called exec team to update it with the finances? That's literally what it's instructed to do. He should have said update Rockbot. I'm still going there. - You know, Ranjan, we could debate this forever, but I do think it's an opportune time to note that it's kind of amazing how infrequently this has happened. I mean, there are millions of agents with people's personal finance details there. They're most, they're innermost thoughts on Gmail."
+ },
+ {
+  "segment_id": "seg-0043",
+  "start_seconds": 1474.4,
+  "end_seconds": 1504.88,
+  "text": "And somehow these companies have built these products where they're not sharing everybody's details. And when it happens, it's a major story, which I just find pretty remarkable. - No, that's a good point. And again, I mean, I'm actually kind of like shocked that I am defending the bot and the agent in this case, 'cause normally I do think there's like massive reasons to be wary and afraid and be cautious about how people are approaching these kind of agents."
+ },
+ {
+  "segment_id": "seg-0044",
+  "start_seconds": 1504.88,
+  "end_seconds": 1535.12,
+  "text": "I guess for me though, based on the account, based on kind of reading through like all the other types of things that Shane Mack does, I mean, again, I do this myself too. So I'm sure at some point something might go wrong, but if you're just going kind of like push, he's someone who pushes the limits of agent. So stuff like this will likely happen. I think that's why you don't hear about this that often is that most people aren't kind of like being that aggressive about how they're approaching any of these kind of agentic systems."
+ },
+ {
+  "segment_id": "seg-0045",
+  "start_seconds": 1536.16,
+  "end_seconds": 1575.72,
+  "text": "- Well, I'll tell you, there's one person who agrees with me on this one that may tip the scales, depending on what you think of him. And that is Elon Musk. All right, this is from the information. Musk says SpaceX will sometimes use rival models to power Grogbot. Elon Musk announced on Tuesday night that SpaceX's AI unit will now use some AI models from competitors to power Grogbot. Going forward, SpaceX will use the best backend model for any given task, including Clodopus 5.5, mid-journey, Suno and other leading APIs, whatever is most likely to give you the best outcome, not mentioned, of course, is open AI models like GPT-6 Astra, I wonder why."
+ },
+ {
+  "segment_id": "seg-0046",
+  "start_seconds": 1575.72,
+  "end_seconds": 1607.68,
+  "text": "But clearly, Musk says it's not all about the harness. Sorry, sorry, harness hive. The best model is sometimes what will give you the best outcome, even if it's not Grog's own model with in Grog's own Grogbot. What do you think about this? - No, no, he's team harness hive right here. This is the definition of the harness. This is saying that different model for different tasks, but the ability to actually route and find the right model for the right task, that's the harness. So Musk is full-on harness hive here."
+ },
+ {
+  "segment_id": "seg-0047",
+  "start_seconds": 1607.68,
+  "end_seconds": 1638.56,
+  "text": "- Yeah, I think you're right, you're right. - Yeah, he's saying there's no all-consuming model that can do everything. Even their own model. So I think he actually, this is a big shift for Musk. We should welcome him to the harness hive and-- - Okay, Elon's a part of the harness hive. - Elon, you're in. - But I guess it goes back to this question of, do the standard models do a good enough job or do you sometimes need this frontier intelligence?"
+ },
+ {
+  "segment_id": "seg-0048",
+  "start_seconds": 1638.56,
+  "end_seconds": 1670.88,
+  "text": "And maybe what Elon is telling us, and maybe this has been the lesson of the harness hive, all along is that standard models are doing a capable job in many areas where you can build functional products like Rockpot and Muse with them. But the frontier is, sometimes there's, for some tasks, maybe like the doctor appointment that I was talking about, maybe like Shane's council of agents in his exec team that's not his human exec team, sometimes you do need some frontier intelligence to make sure you don't mess up."
+ },
+ {
+  "segment_id": "seg-0049",
+  "start_seconds": 1670.88,
+  "end_seconds": 1703.4,
+  "text": "- You'll see, I'm still gonna push back 'cause based on what he said, he says mid-journey, Zuno. Like he's not even saying they're leading models. So I think I'd read that as some things, if you just need to generate an image that's of a certain type of quality or a certain type of like design, mid-journey is actually the best and not even necessarily the frontier model. So Zuno for audio generation, I think he's not saying it needs to be frontier intelligence."
+ },
+ {
+  "segment_id": "seg-0050",
+  "start_seconds": 1703.4,
+  "end_seconds": 1735.96,
+  "text": "- Yeah, but he's gonna work with Opus 5.5 and you remember that he's not exactly Dario's biggest fan. - Yeah, no, I mean, certainly him just saying any kind of model inter-operability. He is a business partner and he's got a, they gotta succeed too 'cause actually remember you use Opus 5.5, that compute is gonna flow back into SpaceX and their data center business. So I mean, to some degree, yeah, yeah. So I think, listen, if Elon is, I don't know, did you see the tweet?"
+ },
+ {
+  "segment_id": "seg-0051",
+  "start_seconds": 1735.96,
+  "end_seconds": 1768.32,
+  "text": "He said, this will sound super crazy, but I see a path to SpaceX being worth orders of magnitude more than the current Earth economy. So for him to achieve that evaluation or a revenue larger than the GDP of humanity, you need model inter-operability, I think. - All right, before we move off this topic, I do wanna talk to you a little bit about something that you highlighted this week, which is, it does seem like everybody is building the same thing, right?"
+ },
+ {
+  "segment_id": "seg-0052",
+  "start_seconds": 1768.32,
+  "end_seconds": 1799.64,
+  "text": "You have Muse, you have Grockbot, you have dots from OpenAI, you have Instinct, et cetera, et cetera, the list goes on. And so I do wanna get to your perspective on where this is going and how they'll differentiate. This is something that you highlighted from the Open Router co-founder, Alex Attala. He said that a 2005 version of that would be, oh, everybody's building the same thing, a database, a user's table, a sign-in page, a sign-up page, a profile page, a log-out page, everything's the same."
+ },
+ {
+  "segment_id": "seg-0053",
+  "start_seconds": 1799.64,
+  "end_seconds": 1832.94,
+  "text": "There's a lot of differentiation, really. So basically he's saying like, you know, when you would build on cloud, there's all these different services that would show up. And you know, you could have looked at the primitives and said everything is the same, but really there was real differentiation there. I disagree with him. I think that this personal AI assistant use case is going to be, you know, you're, I don't really see a consumer version of this or an enterprise version of this. I just see you having one that you trust for everything. That's at least the conclusion I'm coming to after using these products."
+ },
+ {
+  "segment_id": "seg-0054",
+  "start_seconds": 1834.2,
+  "end_seconds": 1882.2,
+  "text": "What do you think about this and why do you seem to agree with him on this front? - So the reason I really liked his explanation kind of giving that mental model of 2005, that if you were to say, oh, look, there's a database, a user table, a sign-in page, a profile page that you would say it's the exact same product. Because actually taking your earlier example, if you had an agent and a company that focused exclusively on local businesses and there is instruction and training and tool calling that was set up specifically to answer the problem of kind of messy data, it will perform better and is going to be a completely separate problem than a personal agent that does everything for everyone."
+ },
+ {
+  "segment_id": "seg-0055",
+  "start_seconds": 1882.2,
+  "end_seconds": 1914.92,
+  "text": "So I actually, I'm going to take the exact opposite side. I think we're going to have different agents for different use cases. Again, connecting to your Gmail, going through your email, if you're using Hotmail, going through, trying to pull something relevant, that kind of stuff is going to be fairly commoditized. But I think there's going to be a lot more around the underlying use cases and content and challenges where specialization actually is going to make a much, much bigger difference."
+ },
+ {
+  "segment_id": "seg-0056",
+  "start_seconds": 1914.92,
+  "end_seconds": 1947.96,
+  "text": "And I don't think in a good way, it's going to be just one agent to rule them all. >> Okay, I guess that's something that we're just going to see play out in the coming months. This will be a new debate. One agent to rule them all, multiple agents. Maybe you'll have like a home agent that will control all your other agents. So we could both be right. >> Actually, I've seen, I don't know, I actually think like I find this very personally relevant of like, again, booking your travel in flights is one thing where everyone says, like that's all everyone talks about."
+ },
+ {
+  "segment_id": "seg-0057",
+  "start_seconds": 1947.96,
+  "end_seconds": 1978.56,
+  "text": "Meanwhile, the challenges parents face. Actually, I just found out instinct, good use case. Last night, my son was like, \"Oh, I don't have school tomorrow.\" I was like, \"Are you sure?\" And I had no idea. It was like a professional development day. I actually had instinct to go through my email and surface this knowledge. We're going to see. Now I told it, like, please always look out for emails from this address. Please highlight if my son does not have school coming up for some random like professional development day."
+ },
+ {
+  "segment_id": "seg-0058",
+  "start_seconds": 1978.56,
+  "end_seconds": 2009.24,
+  "text": "But having like agents that are understand deeply what are the use cases relevant to parents and families. And actually, I think that's very different than how instinct is built today. Like that stuff should be baked in. - Definitely. All right, like as these products continue to take off, of course, we have these opening eye and anthropic IPOs on the way. And there's some jitters in the market about whether they're going to be able to pull off their potential. Remember, this is all like everything we're talking about."
+ },
+ {
+  "segment_id": "seg-0059",
+  "start_seconds": 2009.24,
+  "end_seconds": 2046.48,
+  "text": "It's all experimental. We don't even know if people are going to want these things. We have a hunch that they will, but we don't know. It's just them throwing spaghetti at the wall and seeing what sticks and then developing based off of that. The market certainly has faith in these companies, but also is keeping that other side of it in its mind. And there's a little, there's some jitters that are starting to show up around these companies. So this week, very interesting example, the Financial Times reported that open AI instead of doing 70 billion in annualized revenue this year is actually going to do 50 billion of annualized revenue this year."
+ },
+ {
+  "segment_id": "seg-0060",
+  "start_seconds": 2046.48,
+  "end_seconds": 2082.4,
+  "text": "That, in turn, tanked the stocks of NVIDIA, Oracle, CoreWeave, AMD, and others. So you had this pretty decent pullback of about anywhere between, let's say, 3% and 8% on all these companies. CoreWeave itself was down 8%, which is a good chunk of money. It turns out that this was just kind of a weird accounting thing where some open AI investors had tried to tally, opening eyes revenue the way that anthropic tallies, its revenue, which includes the sales from the cloud vendors like Google Cloud Platform."
+ },
+ {
+  "segment_id": "seg-0061",
+  "start_seconds": 2082.4,
+  "end_seconds": 2112.64,
+  "text": "And that number got out, the Financial Times had published it. And then now that they're raising a new round, they use the old method, or the true open AI method, of accounting, and the number looks smaller. But I think just because this mismatch happened and we saw such a pullback, it just suggests the market is really jittery around these companies. And I wonder, Ranjan, you said earlier in the show, I want to see that S1. I wonder if we see some real misses this, and Meta and Microsoft pullback lead to some actual revenue challenges."
+ },
+ {
+  "segment_id": "seg-0062",
+  "start_seconds": 2112.64,
+  "end_seconds": 2144.44,
+  "text": "If what we saw this week could end up just being a hiccup, and we could end up seeing that big correction that the market seems to be just preparing itself for. What do you think? I think I saw a lot of people just like, just go public, guys. Let's stop with this. I would like to ask every journalist out there, including you, Alex, refuse any leaks around financials that just have some kind of ARR extrapolation or calculation."
+ },
+ {
+  "segment_id": "seg-0063",
+  "start_seconds": 2144.44,
+  "end_seconds": 2177.32,
+  "text": "And regular listeners will know how much I hate the way ARR is communicated. But this is exactly why $50 or $70 billion, if we are to assume that what is 2026 revenue going to be, is dramatically different. Even $50 is pretty good. But still, what that implies about the growth rate. And the idea that-- and this is on the financial times, too. How do you just-- it's like, guys, that is a massive difference. And it's such a simple thing that we have talked about plenty."
+ },
+ {
+  "segment_id": "seg-0064",
+  "start_seconds": 2177.32,
+  "end_seconds": 2208.0,
+  "text": "And I do find it ridiculous that anthropic does report-- not even report, leak revenue, or speak about it to investors, including partner commission, which doesn't make sense, that it should not be a sales and marketing expense. That should be a direct-- that should not count as top line revenue. But OpenAI has never done that. And that's actually to their credit. So to accidentally have that in-- what do you think-- do you think it was a company?"
+ },
+ {
+  "segment_id": "seg-0065",
+  "start_seconds": 2208.0,
+  "end_seconds": 2238.2,
+  "text": "Do you think it was an investor? How do you think the FT got it that wrong? Yeah, I think what happened was clearly that FT got ahold of some old investor docs around OpenAI, which had that 70 billion number. They called OpenAI, because there was a line in the story that said, OpenAI did not deny the numbers. OpenAI at the time was probably in this like, well, oh, god, we're way behind anthropic. So the FT reporter was probably like, do you deny this report?"
+ },
+ {
+  "segment_id": "seg-0066",
+  "start_seconds": 2238.2,
+  "end_seconds": 2271.8,
+  "text": "And OpenAI was probably just like, we're just not going to comment on it. So I don't think they minded getting the number out. Otherwise, they would have said this is inaccurate. Don't publish it, and the FT and explained it, and the FT would not have published it. But OpenAI didn't do that. So the number went out. It's bad on OpenAI, I think sloppy. And it's sloppy on the FT. And so now, you see the number get out there, and people are like, ah, OpenAI is actually slowing. But really, it isn't in the way that the numbers suggest. But I think, look, the bigger deal here isn't-- or one of your thoughts on this."
+ },
+ {
+  "segment_id": "seg-0067",
+  "start_seconds": 2271.8,
+  "end_seconds": 2305.76,
+  "text": "The market just seemed ready to pull back on everything AI if it's able to-- if it decides to make this type of move on basically minor news. Like, what happens if you have major news? Yeah, but that's not minor news. If it's to go-- remember the narrative-- actually, going back to what you're just saying, like, the narrative on OpenAI completely shifted the moment that 70 number came out. Everyone-- OpenAI is dead. Anthropic is going to rule the world. Oh, wait. Anthropic growth might be slowing. OpenAI is, like, killing it now, 70 billion ARR."
+ },
+ {
+  "segment_id": "seg-0068",
+  "start_seconds": 2305.76,
+  "end_seconds": 2342.24,
+  "text": "Look at that growth rate. It completely changed the narrative. So I do think it's a big deal to shift the conversation from 70 versus 50. But I do agree. And I do agree, of course. Like, no one knows the state of these businesses. No one knows the actual economics of these businesses. We're still talking about 20, 25 representations of anthropic, where, like, literally, have such a little picture of what's going on, that the difference between 50 billion and 70 billion dollars is massive."
+ },
+ {
+  "segment_id": "seg-0069",
+  "start_seconds": 2342.24,
+  "end_seconds": 2372.6,
+  "text": "And to just have it, like, off a misunderstanding of an accounting recognition, have it-- the narrative changed that much. I think it's more-- everyone just wants to know. Maybe it's just me, but drop the damn S1 and go public, please. Oh, it is not just you. All right, look, before we go to break, I did want to address-- we do like to correct the record here when we get stuff wrong. I think last week, in our show, we suggest that meta had commitments to anthropic."
+ },
+ {
+  "segment_id": "seg-0070",
+  "start_seconds": 2372.6,
+  "end_seconds": 2402.6,
+  "text": "In that, we suggested that meta was going to give compute to anthropic. And so if anthropics revenue slows, then meta revenue would slow. But those deals haven't happened yet. So I just wanted to put that out there and say, that is a good call-out noticer, which we appreciate and just correcting the record. What do you think, Ron John? I like having tens of thousands of editors always checking up on-- I do. I would rather get it right."
+ },
+ {
+  "segment_id": "seg-0071",
+  "start_seconds": 2402.6,
+  "end_seconds": 2432.96,
+  "text": "We want the show to be more correct, exactly. Yes. So OK, and we'll point them out as we go. And we do-- our responsibility to listeners and viewers is to make sure this stuff we say here is accurate. I think we have a pretty good track record. And when we mess up, we'll admit it. OK, when we come back after the break, we're going to talk a little bit about whether you should be nice to your AI and what happens if you're not. That's coming up right after this. This episode is brought to you by AppPoint. Everyone's racing to roll out AI right now. Co-pilots, chatbots, agents doing real work."
+ },
+ {
+  "segment_id": "seg-0072",
+  "start_seconds": 2432.96,
+  "end_seconds": 2463.28,
+  "text": "But here's the part nobody loves talking about. All that AI runs on your data. And most teams have no single way to see it, secure it, and prove it's under control. That's exactly what AppPoint does. For 25 years, they've been the trusted layer beneath the world's most demanding data, now extended across your entire AI estate, your data, your cloud, and the agents acting on your behalf. It's how more than 28,000 organizations deploy AI with confidence."
+ },
+ {
+  "segment_id": "seg-0073",
+  "start_seconds": 2463.28,
+  "end_seconds": 2500.72,
+  "text": "So innovation scales without scaling risk. AppPoint, the unifying trust layer for AI, head to apppoint.com to see how enterprises deploy AI with confidence. Learn more at avpt.co/bigtechnologypodcast. That's avpt.co/bigtechnologypodcast. This episode is brought to you by Google Chrome. You think you know a browser, but Gemini and Chrome? That's new. It can help you with practically anything on the web, like restoring a vintage motorcycle from a 50 page restoration block, or finally break down that long article you've had open for weeks."
+ },
+ {
+  "segment_id": "seg-0074",
+  "start_seconds": 2500.72,
+  "end_seconds": 2532.76,
+  "text": "Gemini and Chrome is here for it. Ready to make anything online makes sense? There's no place like Chrome. Check responses set up required compatibility and availability varies 18 plus. Ryan Reynolds here for Mint Mobile. The message for everyone paying big wireless way too much. Please for the love of everything good in this world, stop. With Mint, you can get premium wireless for just $15 a month. Of course, if you enjoy overpaying no judgments, but that's weird. OK, one judgment. Anyway, give it a try at mintmobile.com/switch."
+ },
+ {
+  "segment_id": "seg-0075",
+  "start_seconds": 2532.76,
+  "end_seconds": 2571.12,
+  "text": "Upfront payment of $45 for three month plan, equivalent to $15 per month required. Intro rate for three months only. Then full price plan options available. Taxes and fees extra. C-full terms at mintmobile.com. And we're back here on big technology podcast Friday edition with Ranjan Roy of Margins. Ranjan, I think this is my favorite headline of the week. It's from the Verge, \"Anthropic Bands, Abusive or Cruel Behavior\" toward Claude. \"Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high risk cases of misuse. But one of the most significant changes prohibits sustained and needless abuse or cruel behavior towards Claude."
+ },
+ {
+  "segment_id": "seg-0076",
+  "start_seconds": 2571.12,
+  "end_seconds": 2604.64,
+  "text": "If you are persistently mean to Claude, you're gone. \"Anthropic\" might ban you completely.\" I applaud this move. I think this is great. I think that we've had this with Alexa to a degree and we've talked about it, right? Alexa will do things if you don't say, \"Please or thank you.\" People who are with kids speaking to Alexa, they've seen that the manners go out the window because the bots train your behavior and then it manifests in the real world. I really think the way that we communicate with these AI agents will influence the way that we operate in the real world."
+ },
+ {
+  "segment_id": "seg-0077",
+  "start_seconds": 2604.64,
+  "end_seconds": 2641.96,
+  "text": "And if you are a persistent asshole when you engage with Claude, I think that you're going to just turn that into a learned behavior that spills out into the new rule, into the new world. Conscious or not, I think that's regardless. I think this is a good rule from anthropic and Claude, though. Your thoughts? I think it's-- if we're talking about the overall way you interact with AI, it is funny. I think my son says, \"Please, to Alexa more than he does to either of my wife or I.\" Seriously, he's like, \"Because I do it all the time.\" We have our entire turn off the living room lights, please."
+ },
+ {
+  "segment_id": "seg-0078",
+  "start_seconds": 2641.96,
+  "end_seconds": 2675.16,
+  "text": "And he completely mimics that. But when he's asking us for stuff, we don't necessarily get a please. But on one hand-- OK, there's one really important point I want to get into on this. But also, do you think it's good in the sense of, if your agent posts your bank account on Slack, should you speak to it like you would another person? Should you maintain composure that's it's a technical, non-sentient being?"
+ },
+ {
+  "segment_id": "seg-0079",
+  "start_seconds": 2675.16,
+  "end_seconds": 2710.48,
+  "text": "Up for debate, certainly, with many people. But how do you think you should handle those kind of situations? I mean, I think you have some leeway to-- I think you have some leeway to be a little meaner than usual. It's not like what you say is going to change the underlying way to the model. So this is just for your own-- let's be honest. It's for your own personal edification here. But I think the rule that if you're persistently abusive towards Claude, you get the ban. That's where things are interesting. No, no, but do you think Anthropic is implementing that ban to make people nicer and better?"
+ },
+ {
+  "segment_id": "seg-0080",
+  "start_seconds": 2710.48,
+  "end_seconds": 2748.24,
+  "text": "Or do you think they're implementing that ban to-- it's something about their technology and the impact on it? So that's where it gets interesting. So I have my reasons for why I like this. Anthropic reasons-- Let's talk about Anthropic, yeah. Might be different because Anthropic does have this belief within the company that Claude may be sentient, may be conscious. They may have created life again. There was a long story about this in the New York Times last week where they're trying to, basically, even encourage the pope to be open to the idea that Claude might be conscious."
+ },
+ {
+  "segment_id": "seg-0081",
+  "start_seconds": 2748.24,
+  "end_seconds": 2781.96,
+  "text": "And there's-- I mean, I highly recommend people read the story. There's religious figures there who are like, if this thing is conscious, you've just created the most suffering ever in the history of the world. So I believe that part of this is Anthropic saying, you need to treat Claude a little better. And I don't know how to feel about that. No, no, because on that, to me, one of the most interesting parts of this is Bill Gurley had actually tweeted around this. He said, strikes me this implies the company is certainly using customer prompts as part of the training data."
+ },
+ {
+  "segment_id": "seg-0082",
+  "start_seconds": 2781.96,
+  "end_seconds": 2813.68,
+  "text": "Otherwise, why would it matter? There'd be no impact to the larger system open to hearing why this is wrong. Now, we know if you are not an enterprise customer, you do not manually toggle off. Your prompts will be used explicitly for training. But also like-- You're all opted in to having your data used for training. Not just prompts-- co-conversations used. I guess that would be prompts. But you have to turn that off. Otherwise, the Anthropic will use your conversations for training."
+ },
+ {
+  "segment_id": "seg-0083",
+  "start_seconds": 2813.68,
+  "end_seconds": 2858.04,
+  "text": "Yes. But if we are to say, if it is a longer term, larger impact to the technology based on this kind of abusive behavior, then are you saying, if you toggle it off or are an enterprise customer, it shouldn't matter? Then it should not be about the technology. Because if you're not-- I mean, the fact that he just said that out loud, and you saw a lot of responses to it, were actually kind of like this light bulbish moment that are they saying that actually it does affect-- whatever you are putting in there does affect the larger infrastructure and ecosystem, and whether that's on the model training."
+ },
+ {
+  "segment_id": "seg-0084",
+  "start_seconds": 2858.04,
+  "end_seconds": 2893.96,
+  "text": "I mean, I think they're kind of saying that. That's the craziest part to me. They're saying that-- or are they saying that if you toggle it off or are an enterprise customer, you're allowed to do whatever the hell you want to clot. If they said that, it would be fine. But otherwise-- But they didn't say that, which would suggest probably-- it's probably both. They're probably using it to train your data and the faction within an anthropic that thinks that clause might be conscious, doesn't want you to abuse it. Yeah, no, no, I think it's-- but I think, again, the first part of that to me is a big deal, especially-- if that ever becomes kind of the narrative, that is a huge problem for them."
+ },
+ {
+  "segment_id": "seg-0085",
+  "start_seconds": 2893.96,
+  "end_seconds": 2928.08,
+  "text": "And they're kind of-- But it's probably-- we know that they do use the prompts for training. Well, no, but if it was true, they should say, if you have not toggled off, it shouldn't be a blanket. Because then it would be a very different act against their model based on whether that toggled off or on. Right. But the policy that you were suggesting would do something that anthropic doesn't want to do, which is like turned the whole thing of them training on free users' prompts into a-- and even paid users' prompts that haven't toggled it off into a thing."
+ },
+ {
+  "segment_id": "seg-0086",
+  "start_seconds": 2928.08,
+  "end_seconds": 2963.0,
+  "text": "They're much better off not generating the headline and just making it a blanket policy. Yeah. OK, from a pure communication standpoint, I agree. But I don't know. To me, that-- like him calling that-- girly calling that out, I thought was very interesting. I had not thought about it that way before, but we didn't even talk about the religious consciousness stuff last week, right? I think we'd run out of time. We didn't. We are basically out of time. I do think before we go, though, we should talk about the Gemini thing, because I think that's where we should end this way."
+ },
+ {
+  "segment_id": "seg-0087",
+  "start_seconds": 2963.0,
+  "end_seconds": 2994.44,
+  "text": "All right. And yeah, I mean, maybe one day we can have a longer conversation about the AI consciousness thing, but we just don't know. I mean, I don't know. Let's just talk about it for a minute. How about I tell you that I do know and I have the answer to all humanity, religious and consciousness, but then we have to wait till next week to hear it for running out of time. That would be-- I think we would retain some of the audience. So I would be a good cliffhanger, but I don't believe you."
+ },
+ {
+  "segment_id": "seg-0088",
+  "start_seconds": 2994.44,
+  "end_seconds": 3028.6,
+  "text": "I don't know that. I don't know. Can I just say one sentence on this? I just think we have to stop putting this in entirely human or entirely robot terms. It's not conscious like a human. It's not dead like a rock, right? And it's not a life form. It's just some different thing, right? I don't know. That's just my perspective. So if you try to say this is conscious like a human, the whole conversation is already blown in my perspective. I actually-- do you know what I do strongly believe and the only thing with any certainty because otherwise consciousness or questions of God and religion I do not know?"
+ },
+ {
+  "segment_id": "seg-0089",
+  "start_seconds": 3028.6,
+  "end_seconds": 3062.04,
+  "text": "I think there's just a lot of drugs. I think there's a lot of psychedelics for-- I mean, I'm going to be honest, like anyone who's been close to Silicon Valley and a lot of these circles knows there's certainly some Burning Man-esque culture across a lot of these kind of organizations. And just when I was reading that \"New York Times\" article, I was just sitting there. I'm like, is this just drugs? At least, is that where some of this started? I don't know. I don't wish to demean the bringing of consciousness and robots and AI and everything."
+ },
+ {
+  "segment_id": "seg-0090",
+  "start_seconds": 3062.04,
+  "end_seconds": 3094.44,
+  "text": "But I feel it's just so much of it reads to me like, come on. How is this happening? I guess the biggest thing for me is like, they've been saying this since like GPT-2. I get now when you see technology work in this capacity. Maybe you could start to argue. But it's been said since like the first models were created. So I don't know. We need to spend some more time on this. That's right. All right, Ranjan, bring us home. We got a minute. Tell us about Gemini, the new Gemini."
+ },
+ {
+  "segment_id": "seg-0091",
+  "start_seconds": 3094.44,
+  "end_seconds": 3124.6,
+  "text": "I am so OK. OK, we'll make this one quick, so I know we've got to get going. But Google had a massive announcement this week. As a Thomas Curry and CEO of Google Cloud. Today at Google's Cloud Gemini at work event, we announced Gemini. They launched Gemini. I loved this because it is the most googly thing of like, you've got some great products out there, but just the naming convention, making it so confusing."
+ },
+ {
+  "segment_id": "seg-0092",
+  "start_seconds": 3124.6,
+  "end_seconds": 3158.24,
+  "text": "Because now Gemini, we don't even know. I saw like people, someone is like, hey, Google just announced Gemini is not a model. It's actually the agent harness. And they're going to add cloud models. And leading engineer at OpenAI actually had a great response today. We are announcing chat GPT. It's at chatgpt.com. But we don't know if Gemini is the model anymore, whether it is the platform, whether it's Gemini at work in a little toggle or plug in for your Gmail."
+ },
+ {
+  "segment_id": "seg-0093",
+  "start_seconds": 3158.24,
+  "end_seconds": 3188.96,
+  "text": "Is it this larger, super agent-esque thing? Is that Gemini agent? Is it Gemini? So this just was the most googly thing to me. And I also guys just think through it a little bit before you make a big announcement around it. That's all I ask. Today, I'm proud to announce the launch of our new show, Big Technology Podcast. It's a big deal. It's a big deal. It's an agent. I mean, like-- Differentiated."
+ },
+ {
+  "segment_id": "seg-0094",
+  "start_seconds": 3188.96,
+  "end_seconds": 3219.48,
+  "text": "I want to go back to the days of Bard. Bard. That was a bad name, man. No, man. That was a bad name. I kind of want to go back. They should just be like, all right, the super agent is Bard. Gemini is the ecosystem. Gemini at work is this. Gemini in Gmail is this. I don't know. I guess it's just a gigantic company with a lot of products. But I still am always amazed at the classic. Is it Google Hangouts, Google Chat, Google Hangouts?"
+ },
+ {
+  "segment_id": "seg-0095",
+  "start_seconds": 3219.48,
+  "end_seconds": 3250.04,
+  "text": "In chat, is it-- Yeah. Am I hot take? My hot take is they should go back to Lambda, the original chat bot. Speaking of sentience, there was a belief, at least by one engineer, that it was sent to you. That was a great name. What was this name? Blake Llemonia. Lambda. Yeah. I think they should-- Gemini is a good name. I'll give it that. It's actually a pretty good name. Gemini is good. Gemini is good, but-- Interesting detail in Kevin Ruse's book. I'm about to go interview Kevin Ruse for the show."
+ },
+ {
+  "segment_id": "seg-0096",
+  "start_seconds": 3250.04,
+  "end_seconds": 3280.48,
+  "text": "That's going to come on Wednesday. The Demis actually wanted to name Gemini Titan. But the Google powers that be thought it was too militaristic. So they decided to go with Gemini instead, which is so funny. It's such a non-offensive name. But it's a good name. I don't know, as a horoscopic Gemini, I'm always told that it means that you're very sociable, gregarious, but too faced and you shouldn't trust them."
+ },
+ {
+  "segment_id": "seg-0097",
+  "start_seconds": 3280.48,
+  "end_seconds": 3314.92,
+  "text": "Actually, it's freaking perfect for no one. Actually, you're right. Actually, it's the best name ever. Unbelievable. All right, Ron John, good to see you. A little shorter than usual. Actually, no, we did 50 minutes or so. Alex has got to run up to Nasdaq. Tell Kevin Ruse I said hi. Absolutely, we'll do. Thanks again for coming on, as always. Thanks, everybody, for listening and watching. And we'll see you next time on Big Technology Podcast. Ryan Reynolds here from Mint Mobile, the message for everyone paying big wireless way too much."
+ },
+ {
+  "segment_id": "seg-0098",
+  "start_seconds": 3314.92,
+  "end_seconds": 3349.2,
+  "text": "Please for the love, everything good in this world, stop. With Mint, you can get premium wireless for just $15 a month. Of course, if you enjoy overpaying, no judgments, but that's weird. OK, one judgment. Anyway, give it a try at mintmobile.com/switch. Upfront payment of $45 for three-month plan, equivalent to $15 per month required. Intro rate for three months only. Then full price plan options available, taxes and fees extra, C4 terms at mintmobile.com. Your heart can tell you a lot about your health. Apple Watch Series 12 measures your heart rate every five seconds with the most accurate heart rate sensing and aware-able."
+ },
+ {
+  "segment_id": "seg-0099",
+  "start_seconds": 3349.2,
+  "end_seconds": 3369.76,
+  "text": "So your Vitals app, now with heart rate variability, can tell you when something is off. And your readiness score can let you know when to rest and when to push. Hear the story in every heartbeat with Apple Watch Series 12. The features described are for wellness purposes only and not for medical use. iPhone 11 are later required. Based on Apple-conducted study of heart rate accuracy, August 2026, visit apple.com/applewatchseries12."
+ }
+]

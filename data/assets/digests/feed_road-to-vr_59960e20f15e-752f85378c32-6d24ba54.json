@@ -1,0 +1,21 @@
+{
+ "summary": "Road to VR reports that Valve has discontinued the Index PC VR headset (2019) and is selling all Index products at 20 percent off. The article covers pricing, missing base stations, continued SteamVR support, and the author's view that the sale mainly suits existing owners. It mentions the recent Steam Frame standalone headset only in passing. Nothing concerns AI, personal context, computer-use agents, or voice interfaces.",
+ "speakers_or_authors": "Road to VR staff writer (journalism, XR trade press)",
+ "relevance": 0,
+ "relevance_reason": "This is a VR hardware discontinuation and discount story with no connection to AI interaction, personal-context devices, computer-use agents, or voice/conversational interfaces.",
+ "themes": [
+  "VR hardware",
+  "product discontinuation"
+ ],
+ "claims": [
+  {
+   "claim": "Valve has stopped producing the Index headset and cut prices on all Index products by 20 percent.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Valve Index is no longer being produced, which means this could be your last chance to get new stock of the company’s landmark PC VR headset.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Valve is the vendor of the discounted products; the article is trade press reporting on Valve's own sale and announcement. No sponsorship is stated.",
+ "older_event": "No. The discontinuation and sale are new. The Steam Frame release (last month) is referenced as background."
+}

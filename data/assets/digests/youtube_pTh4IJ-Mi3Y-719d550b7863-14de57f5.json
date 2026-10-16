@@ -1,0 +1,52 @@
+{
+ "summary": "Nate B Jones comments on OpenAI's release of 700+ math research papers, said to be produced mostly from single prompts by an unreleased model. He argues this shows 'narrow superintelligence': strong in verifiable math, but not transferring to engineering judgment or business judgment. He uses coding, where engineers still wrap AI in zero-trust guardrails, as a counterexample, and ends with career advice. The item is about model capability and work, not interfaces.",
+ "speakers_or_authors": "Nate B Jones (AI News & Strategy Daily)",
+ "relevance": 0,
+ "relevance_reason": "The item covers a model-capability milestone (math results) and its implications for jobs and skills. It has nothing on agents operating software, personal-context devices, voice interfaces, or OS/browser integration. Its only tangential link is the point that engineers restrict AI access in zero-trust setups, which is not interface evidence.",
+ "themes": [
+  "narrow superintelligence",
+  "AI math research results",
+  "limits of AI in coding and systems engineering",
+  "AI and business judgment",
+  "career skills"
+ ],
+ "claims": [
+  {
+   "claim": "OpenAI released 700+ math papers, mostly from single prompts to an unreleased model.",
+   "basis": "secondhand",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0001"
+  },
+  {
+   "claim": "Engineers still put zero-trust restrictions and guardrails around AI-generated code instead of assuming it behaves correctly.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0014"
+  },
+  {
+   "claim": "AI's value in engineering is code generation, not designing maintainable systems at the architecture level.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0020"
+  },
+  {
+   "claim": "Math superintelligence does not transfer one-to-one to business judgment or engineering judgment.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0021"
+  },
+  {
+   "claim": "Training AI to be helpful has not made it better at challenging users' assumptions.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0027"
+  }
+ ],
+ "commercial_interest": "None evident beyond the creator's own strategy/news channel; he does not discuss a product he sells.",
+ "older_event": "No. The OpenAI math papers release is the news hook of the week, and the item is mostly opinion about it."
+}

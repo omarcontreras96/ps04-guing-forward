@@ -1,0 +1,64 @@
+WSL is central to our commitment to making Windows the best place to build, run and manage Linux workloads. As AI, cloud-native development, containers, and open-source ecosystems continue to converge on Linux, more developers are choosing to perform these workloads directly on Windows devices. We’re continuing our journey towards this goal with a new feature in WSL: <strong>WSL containers</strong>, which is generally available today.
+
+To try it out,  simply run<code>wsl --update</code> in your terminal or <a href="https://github.com/microsoft/wsl/releases">download the latest release from GitHub</a> and you will gain access to:
+<ul>
+ 	<li><strong>WSL containers CLI</strong>: <code>wslc.exe</code> to directly build, run and deploy Linux containers on Windows, or use its built-in alias <code>container.exe</code> to run the same familiar container commands</li>
+ 	<li><strong>WSL containers API</strong>: Access functions to run Linux containers programmatically in your native Windows apps – unlocking scenarios like running local AI workloads or using cloud-based containerized applications locally.</li>
+</ul>
+<img alt="PowerShell WSL Containers Screenshot" class="alignnone size-large wp-image-57922" height="475" src="https://blogs.windows.com/wp-content/uploads/sites/3/2026/09/cowsay-1024x475.png" width="1024" />
+
+For a deeper look at how WSL containers are built, how they work with WSL, and the architecture behind the platform, see our <a href="https://aka.ms/wslc-architecture">WSL containers architecture</a> blog.
+
+<strong>Let's get into what's new with GA.</strong>
+<h2>New commands and capabilities</h2>
+Since public preview, we've continued to evolve WSL containers and our focus has been on making every day container workflows simpler, improving visibility into running environments, and adding the flexibility needed to manage containers at scale. As part of the GA release, we've introduced several new commands and capabilities across container lifecycle, networking, and observability.
+
+Here are a few highlights, and you can view the full change logs <a href="https://github.com/microsoft/wsl/releases">on our releases page</a>:
+<ul>
+ 	<li><code>wslc container restart</code> — restart a running container</li>
+ 	<li><code>wslc container cp</code> — copy files in and out via tar archive</li>
+ 	<li><code>wslc system info</code> — see the state of your container environment at a glance</li>
+ 	<li><code>wslc network connect</code> and <code>wslc network disconnect</code> — attach and detach containers from networks</li>
+ 	<li><code>wslc network create</code> now supports arbitrary network driver options</li>
+ 	<li>wslc events – Streams real time container activity</li>
+ 	<li>Container health checks are now supported</li>
+ 	<li><code>--stop-timeout</code> on <code>wslc create</code> and <code>wslc run</code>, including <code>-1</code> for an infinite timeout</li>
+ 	<li><code>--mount</code> support during <code>wslc create</code> and <code>wslc run</code></li>
+ 	<li>A configurable storage path for the default <code>wslc</code> session, so you can put your container storage on the drive you want.</li>
+</ul>
+Alongside new commands and platform enhancements for developers, we've also focused on helping organizations adopt WSL containers with the governance and security controls required for production environments.
+<h2>Enterprise manageability for WSL containers</h2>
+This release extends Microsoft Intune and Microsoft Defender for Endpoint (MDE) integrations in WSL to include container workflows as well.
+
+MDE’s existing <a href="https://learn.microsoft.com/en-us/defender-endpoint/mde-plugin-wsl">plugin for WSL</a> has been augmented to also include support for containers. MDE can surface process, file and network activity from WSL containers and connect that activity back to Windows host, helping security teams investigate suspicious activity without creating a separate security workflow.
+
+Microsoft Intune has also added controls to enable or disable WSL container and restrict image pulls to approved registries. Additionally, on your Intune dashboard you will see new settings specific to the WSL container feature:
+<ul>
+ 	<li><strong>Allow WSL containers access</strong> - Control access to the entire WSL containers feature.</li>
+ 	<li><strong>WSL containers registry allow list</strong> - For WSL containers enterprise adoption, organizations need stronger controls over the container images that can be introduced into their environment. With container registry allow lists, administrators can define approved registries and help ensure developers only pull container images from that list, that meet organizational security and compliance requirements.</li>
+</ul>
+You can view the <a href="https://learn.microsoft.com/en-us/windows/wsl/enterprise">WSL enterprise doc pages</a> to learn more on how to set up WSL for your company.
+<h2><span class="TextRun SCXW85191167 BCX8" lang="EN-US" xml:lang="EN-US"><span class="NormalTextRun SCXW85191167 BCX8">Partner and community integrations</span></span></h2>
+<span class="TextRun SCXW223626162 BCX8" lang="EN-US" xml:lang="EN-US"><span class="NormalTextRun SCXW223626162 BCX8">Partners and community contributors are bringing WSL containers into the editors, terminals and desktop tools developers already use,</span> <span class="NormalTextRun SCXW223626162 BCX8">add</span><span class="NormalTextRun SCXW223626162 BCX8">ing </span><span class="NormalTextRun SCXW223626162 BCX8">su</span><span class="NormalTextRun SCXW223626162 BCX8">pport for </span><span class="NormalTextRun SpellingErrorV2Themed SCXW223626162 BCX8">WSLc</span><span class="NormalTextRun SCXW223626162 BCX8"> into </span><span class="NormalTextRun SCXW223626162 BCX8">existing pro</span><span class="NormalTextRun SCXW223626162 BCX8">j</span><span class="NormalTextRun SCXW223626162 BCX8">ects or creating</span> <span class="NormalTextRun SCXW223626162 BCX8">new ones.</span> <span class="NormalTextRun SCXW223626162 BCX8">We're</span><span class="NormalTextRun SCXW223626162 BCX8"> grateful </span><span class="NormalTextRun SCXW223626162 BCX8">for the fantast</span><span class="NormalTextRun SCXW223626162 BCX8">ic community</span><span class="NormalTextRun SCXW223626162 BCX8"> contributions that continue to expand the ecosystem around WSL containers.</span></span>
+<ul>
+ 	<li><strong><a href="https://github.com/devcontainers/cli/blob/main/CHANGELOG.md#0880">VS Code dev container support</a>:</strong> Use <code>wslc</code> as your default driver for creating and interacting with VS Code dev containers</li>
+ 	<li><a href="https://aspire.dev/"><strong>Aspire</strong></a><strong>:</strong> Aspire can use WSL Containers as first-class container runtime</li>
+ 	<li><a href="https://github.com/microsoft/vscode-containers/releases/tag/microsoft-vscode-container-client-v1.1.0"><strong>VS Code container extension</strong></a><strong>:</strong> A popular extension to manage your containers in VS Code, now supports <code>wslc</code>.</li>
+ 	<li><b></b><strong><a href="https://github.com/craigloewen-msft/lazywslc">Lazywslc</a>: </strong>A TUI dashboard to manage your WSL containers</li>
+ 	<li><strong><a href="https://github.com/mhackermsft/wslcontainerdesktop">WSL Container Desktop</a>: </strong>WinUI 3 desktop app for managing WSL containers, Kubernetes (k3s) and container registries.</li>
+ 	<li><strong><a href="https://github.com/craigloewen-msft/wslc-remote">WSLc remote</a>: </strong>A short wrapper script to run <code>wslc</code> from within WSL distros</li>
+</ul>
+<h2>What's next for WSL</h2>
+Over time, we see Linux on Windows evolving beyond a development environment into a strategic execution platform for AI and cloud-native workloads, participating in the same enterprise security, management, and governance frameworks as Windows. We will continue to invest in the broader WSL experience, and in context of this release wanted to highlight two WSL specific items on our roadmap.
+<h3>Adding <code>wslc compose</code></h3>
+<span>Our top feature request for WSLc is adding compose support, and this will be our focus for our next iterations. </span><span> </span>
+
+<span>Our aim is for <code>wsl compose up</code> to work with your existing <code>compose.yaml</code> files, unchanged. We’ve started on this and hope to share more soon.</span>
+<h3>WSL fundamental improvements</h3>
+We are also actively investigating how to better improve some of the core platform capabilities for WSL including networking, cross-OS file performance and more.
+
+You can see some of this work today with wslc, supporting up to 2x faster performance when accessing Windows files from Linux environments, helping reduce one of the most common cross-OS bottlenecks. It also introduces the new <code>consomme</code> network mode, enabled for container workflows which improves networking compatibility across developer and enterprise scenarios.
+
+These foundational improvements benefit WSL distributions, WSL containers, and other container technologies built on WSL, reflecting a broader effort to make Linux on Windows feel increasingly seamless and integrated.
+<h2>Building the future of Linux on Windows, together</h2>
+<span class="TextRun SCXW103354502 BCX8" lang="EN-US" xml:lang="EN-US"><span class="NormalTextRun SCXW103354502 BCX8">Thank you to the developers who tested the preview, shared </span><span class="NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW103354502 BCX8">feedback</span><span class="NormalTextRun SCXW103354502 BCX8"> and helped improve WSL containers.</span></span><span class="TrackedChange SCXW103354502 BCX8"><span class="TextRun SCXW103354502 BCX8" lang="EN-US" xml:lang="EN-US"><span class="NormalTextRun SCXW103354502 BCX8"> </span></span></span><span class="TextRun SCXW103354502 BCX8" lang="EN-US" xml:lang="EN-US"> <span class="NormalTextRun SCXW103354502 BCX8">Y</span><span class="NormalTextRun SCXW103354502 BCX8">ou can fil</span><span class="NormalTextRun SCXW103354502 BCX8">e any </span><span class="NormalTextRun SCXW103354502 BCX8">te</span><span class="NormalTextRun SCXW103354502 BCX8">ch</span><span class="NormalTextRun SCXW103354502 BCX8">nical is</span><span class="NormalTextRun SCXW103354502 BCX8">sues </span><span class="NormalTextRun SCXW103354502 BCX8">and</span><span class="NormalTextRun SCXW103354502 BCX8"> feature requests </span><span class="NormalTextRun SCXW103354502 BCX8">at the</span> <a href="https://github.com/microsoft/wsl"><span class="NormalTextRun SCXW103354502 BCX8">W</span><span class="NormalTextRun SCXW103354502 BCX8">SL </span><span class="NormalTextRun SCXW103354502 BCX8">Gi</span><span class="NormalTextRun SCXW103354502 BCX8">tHub </span><span class="NormalTextRun SCXW103354502 BCX8">rep</span><span class="NormalTextRun SCXW103354502 BCX8">o</span> <span class="NormalTextRun SpellingErrorV2Themed SCXW103354502 BCX8">microsoft</span><span class="NormalTextRun SCXW103354502 BCX8">/</span><span class="NormalTextRun SpellingErrorV2Themed SCXW103354502 BCX8">wsl</span></a><span class="NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW103354502 BCX8">,</span> <span class="NormalTextRun SCXW103354502 BCX8">and </span><span class="NormalTextRun SCXW103354502 BCX8">you can learn more about WSL </span><span class="NormalTextRun SCXW103354502 BCX8">at </span><a href="http://aka.ms/wslc"><span class="NormalTextRun SCXW103354502 BCX8">the </span><span class="NormalTextRun SCXW103354502 BCX8">WSL </span><span class="NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW103354502 BCX8">docs</span></a><span class="NormalTextRun SCXW103354502 BCX8">. </span><span class="NormalTextRun SCXW103354502 BCX8">We invite you to bring your next project to WSL containers and help shape what comes next. We will continue investing in the performance, compatibility and integration that make Windows </span><span class="NormalTextRun SCXW103354502 BCX8">a great place</span><span class="NormalTextRun SCXW103354502 BCX8"> to build with Linux</span><span class="NormalTextRun SCXW103354502 BCX8">.</span></span>

@@ -1,0 +1,68 @@
+# Personal Agents Stopped Being a Demo. The Hardware Is Still Catching Up.
+*As of 2026-10-16*
+
+## Scene 1: The expiring credit
+**Visual:** Simple illustration of a phone notification card reading "Airline credit expiring soon", with a generic agent icon beside it. No faces.
+**On-screen text:** An agent noticed before he did
+**Source on screen:** One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01
+**Narration:** Ethan Mollick writes the newsletter One Useful Thing. He says his personal agent, Meta's Muse, noticed on its own that one of his airline credits was about to expire. When he asked, it contacted American Airlines to request an extension. [01-c3] Moments like that raise this month's question. Of everything that launched between mid-September and mid-October, what actually matters to people who already use ChatGPT, Claude or Gemini? And in what order? Our answer is that the biggest change isn't a gadget or a smarter model. Agents that can reach into your accounts became a mass-market product.
+
+## Scene 2: Number one, agents go mainstream
+**Visual:** Ranked list slide with "1. Personal agents" highlighted. Below it are three generic app tiles labelled Muse, dots and Gemini Task.
+**On-screen text:** #1: Personal agents with account access
+**Source on screen:** One Useful Thing, "The Dot and the Swarm," 2026-10-01; 9to5Google, "Gemini 'Task' redesign integrates Spark into the main chat app," 2026-10-13; Google Keyword, "Gemini 4 Argon comes to the Gemini app.," 2026-10-13
+**Narration:** Number one on our list. According to Mollick, Muse was the top app in the App Store at the start of October. He also notes that OpenAI has released a competitor called dots. [01-c1] Google moved too. It merged its Spark agent into the main Gemini chat as a Task mode. [01-c2] 9to5Google reports that the change is rolling out on Android only, and not yet on iOS or the web. [01-c2] Google says giving Gemini tasks requires a Google AI Pro or Ultra subscription. [01-c2]
+
+## Scene 3: Why it ranks first
+**Visual:** Split screen. On the left is the airline credit card from Scene 1. On the right is a phone call screen labelled "dots" with a ten-minute timer and a website wireframe behind it.
+**On-screen text:** Ten minutes of talking beat paragraphs of typing
+**Source on screen:** The Vergecast, "How much should you tell your AI agent?," 2026-10-06, 15:15–16:20
+**Narration:** Why rank this first? Because the first-hand reports describe something genuinely new. Mollick's credit catch is one example. [01-c3] Another comes from The Verge's Allison Johnson, speaking on the Vergecast. She expected that calling her dots agent would feel weird and dumb. Instead, she talked to it for about ten minutes and went section by section through a website redesign. [01-c4] She said it wasn't perfect. But it was better than sitting and typing paragraphs of thoughts. [01-c4]
+
+## Scene 4: The caveats
+**Visual:** Slide with two crossed-out boxes labelled "Independent ranking data" and "Usage and retention data."
+**On-screen text:** What we don't know yet
+**Source on screen:** none
+**Narration:** Now the caveats. The App Store ranking comes from one commentator. Nobody independently measured it. None of our sources has usage or retention data for any of these agents either. So we know these agents have arrived at the mass market's front door. We don't yet know whether people keep using them.
+
+## Scene 5: Number two, glasses and privacy
+**Visual:** Product image of Ray-Ban Meta Audio glasses showing no camera lens, next to a map outline of Norway with a "Proposed" stamp.
+**On-screen text:** #2: Smart glasses meet the privacy question
+**Source on screen:** UploadVR, "Ray-Ban Meta Audio Drops The Camera For A Lighter, Socially Acceptable Design," 2026-09-28; Road to VR, "Norway Proposes Temporary Ban on Smart Glasses in Public Places," 2026-10-07
+**Narration:** Number two. The privacy reckoning around smart glasses became concrete. Meta's first camera-free smart glasses, Ray-Ban Meta Audio, cost three hundred forty-nine dollars and ship from October thirteenth. [01-c5] Meanwhile, Norway's government plans a temporary ban on smart glasses in selected public places. [01-c6] Road to VR notes that this is still a proposal. It has to pass as legislation through Norway's parliament. [01-c6] One gap in our evidence is that all of it on glasses comes from Meta. Other makers' glasses exist only as leaks.
+
+## Scene 6: Number three, the OS gets rebuilt
+**Visual:** Two-column diagram. The left column is labelled "Shipped today: MXC containment on Windows 11." The right column is labelled "Coming months: Copilot local actions," with a dashed outline.
+**On-screen text:** #3: Windows. The containment shipped, the agent didn't
+**Source on screen:** Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07
+**Narration:** Number three. Operating systems are being rebuilt for agents, but read Microsoft's own post carefully. Microsoft says its agent containment layer, called MXC, is generally available on Windows 11 now. [01-c7] The Copilot features that use local context and take actions on your PC are different. Microsoft says those are only expected to begin rolling out on Copilot+ PCs in the coming months. [01-c7] So the safety layer shipped, and the agent that runs inside it did not. [01-c7] Nobody has tested those actions hands-on yet, so we treat them as a promise. Fourth on our list, voice is finding narrow but real roles. Another piece in this series covers that.
+
+## Scene 7: The pattern
+**Visual:** Product shot of Apple HomeView with an arrow pointing to its single camera. A diagram shows "Recognised: messages, calendar" and "Not recognised: general answers only."
+**On-screen text:** Every device is a surface for an agent
+**Source on screen:** MKBHD, "Apple Homeview Impressions: Not Convinced!," 2026-10-13, 04:09–04:39; The Vergecast, "The AI is in the computer," 2026-10-09, 57:22–58:11
+**Narration:** Here's the thread that ties it all together. In his review of Apple's HomeView, MKBHD explains that its single camera recognises who walks up. It then answers from that person's messages and calendar. Anyone it doesn't recognise gets answers without the personal information. [01-c8] Put that next to the Vergecast's reading of the week's gadgets, and our read is this. The new hardware exists mainly to give an AI assistant your personal context and a surface to act on. [01-c8] That's why the agent wave ranks above any single device.
+
+## Scene 8: Takeaway and what to watch
+**Visual:** Checklist slide with four items: usage numbers, Copilot hands-on tests, Norway's vote, and Gemini Task on iOS and the web.
+**On-screen text:** Agents shipped. The hardware is mostly promises.
+**Source on screen:** none
+**Narration:** The takeaway is that personal agents with access to your accounts are now a consumer product. Most of the devices and operating systems being built around them are still promises. Here is what to watch. Look for real usage and retention numbers for Muse, dots and Gemini tasks. Look for hands-on tests once Copilot's local actions actually ship. Watch whether Norway's parliament passes the glasses ban, and whether Gemini's Task mode reaches iOS and the web. And remember that this ranking is our editorial judgment from the evidence, not a measurement of impact. The full article and every source are linked in the description.
+
+## YouTube description
+Between mid-September and mid-October 2026, the development that mattered most was not a new gadget or model. Personal agents with access to your accounts, such as Meta's Muse, OpenAI's dots and Google's Gemini Task mode, became mass-market consumer products. Glasses, Windows and home devices are being redesigned to give those agents a surface, but most of that redesign is still promised rather than shipped.
+
+Full article: {ARTICLE_URL}
+
+As of 2026-10-16
+
+Sources:
+- One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01: https://www.oneusefulthing.org/p/the-dot-and-the-swarm
+- 9to5Google, "Gemini 'Task' redesign integrates Spark into the main chat app," 2026-10-13: https://9to5google.com/2026/10/12/gemini-spark-task-redesign/
+- Google Keyword: Gemini, "Gemini 4 Argon comes to the Gemini app.," 2026-10-13: https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/
+- The Vergecast, "How much should you tell your AI agent?," 2026-10-06, 15:15–16:20: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP4220452170.mp3
+- UploadVR, "Ray-Ban Meta Audio Drops The Camera For A Lighter, Socially Acceptable Design," 2026-09-28: https://www.uploadvr.com/ray-ban-meta-audio-glasses-no-camera/
+- Road to VR, "Norway Proposes Temporary Ban on Smart Glasses in Public Places," 2026-10-07: https://roadtovr.com/norway-proposes-temporary-ban-on-smart-glasses-in-public-places/
+- Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07: https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+- Marques Brownlee (MKBHD), "Apple Homeview Impressions: Not Convinced!," 2026-10-13, 04:09–04:39: https://www.youtube.com/watch?v=QVv3mQzlrN0&t=249s
+- The Vergecast, "The AI is in the computer," 2026-10-09, 57:22–58:11: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8833126862.mp3

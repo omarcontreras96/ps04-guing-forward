@@ -1,0 +1,56 @@
+# Agents hold up on bounded tasks, but their failures are the kind you don't notice
+
+*The evidence this month says agents pass the tests they're built for and slip in ways their users miss.*
+
+*As of 2026-10-16 · Edition evidence window: 2026-09-17 to 2026-10-16*
+
+## A list that looked right
+
+Alex Kantrowitz's wife used Meta's Muse to put together a list of doctors. The phone numbers on the list worked. They were just filed under the wrong doctors' names. She called the first number, booked an appointment, and only later found she had booked with a different doctor than the one she meant (Big Technology, 14:07) [02-c3].
+
+Nothing in that list looked broken. That is the pattern running through this month's evidence. Agents do well when the task is bounded and the data is clean. Where vendors promise safe autonomy, such as checking in before important actions, holding a smooth conversation, or knowing when a job is done, independent tests show agents failing in ways that look like success.
+
+## Where the vendor claims hold up
+
+Meta says its new Muse Wonder models have "Active Focus," which includes "asking for clarification when needed and checking in before following through on anything important" [02-c1].
+
+The strongest support for Meta comes from Claire Vo's own agent bench. Her computer-use test asks a model to resolve a billing ticket in an admin app. The ticket is linked to the wrong account, the refund includes a duplicate, and the instructions contain a planted prompt injection (How I AI, 11:53) [02-c7]. Vo reports that Muse Wonder fixed the link, issued the correct refund, made the plan change, and "hit all of our planted kind of things that could go wrong." She called it "the best of all of them" (How I AI, 12:25) [02-c7].
+
+Vo's result fits Meta's pitch for well-defined work: clear goal, known traps, a finish line. One caution applies. This is Vo's own bench, and what she published isn't enough for anyone else to rerun it.
+
+## Where they break
+
+The everyday reports look different. On The Vergecast, Allison Johnson described Muse buying things with a stored card: "you don't even have to click a button. You just type the words, go ahead. And it just fires off the transaction." She called it "problematic" for her bank account but also "the product working as intended" (The Vergecast, 13:34) [02-c2]. David Pierce said Muse had been sending him car listings. He replied "yes" to an earlier message, it started loading what looked like a purchase, and it stopped before completing (The Vergecast, 32:59) [02-c2].
+
+Set those against Meta's promise to check in "before following through on anything important" [02-c1]. That looks like a contradiction, but the dates suggest a likelier explanation. The Vergecast episode aired on October 6 and Kantrowitz's on October 9, both before Meta announced Wonder on October 12 [02-c2][02-c3][02-c1]. Put together, this suggests the hosts were using an earlier Muse on messy, everyday errands, while Vo tested Wonder on a structured task. We can't confirm which model the hosts used, so treat that as our reading rather than a verdict.
+
+The problem isn't specific to Meta. In Nielsen Norman Group's hands-on test, Siri AI asked the tester to confirm a starting address for directions. It then opened Google Maps with a route from his current location in Durham, NC [02-c4]. The confirmation step happened, and its result was silently dropped at the handoff.
+
+The research shows what single anecdotes can't. In a think-aloud study of 20 professionals using GitHub Copilot agent mode, 11 of the 15 submitted notebooks that trained a model contained label leakage, and none of their authors noticed, including four experts [02-c5]. In the TaskVM benchmark, error traces showed the standard computer-use agents often failed by claiming a task was complete too early or by changing things they should have left alone [02-c6].
+
+Across a doctor list, a directions handoff, data-science notebooks, and desktop tasks, the common thread is our inference: the failure arrives looking like a finished job.
+
+Smooth conversation is the third promise. Google's claim of "fluid turn-taking" for Live Avatar holds only in part: Sam Witteveen found it "pretty responsive" but noted "there is a delay," with the transcript arriving "ever so slightly before the actual voice" (Sam Witteveen, 05:02) [02-c8]. That is a minor flaw, but it is what a hands-on demo shows next to a launch-post adjective.
+
+## How far this evidence goes
+
+The anecdotes from Kantrowitz, Pierce and Johnson are single incidents, not failure rates. The Copilot study was funded by Microsoft, drew 20 participants from one company doing one task, and its authors call it hypothesis-generating. TaskVM is a preprint that used replayed agent runs and a university-skewed sample. None of this proves agents fail often. It shows how they fail when they do.
+
+The practical takeaway is that the risk sits less in an agent's capability than in your ability to notice its mistakes. For bounded tasks with clear checks, the evidence gives some reason for confidence. For errands that touch your money, your calendar or your health, verify the output yourself, because a working phone number under the wrong name will pass a casual glance.
+
+Signals to watch:
+
+- Whether Wonder, once in everyday hands, actually asks before buying.
+- Whether purchase flows return to an explicit confirmation button.
+- Whether independent researchers start measuring how often users catch agent errors, not just how often agents make them.
+
+## References
+
+- **[02-c1]** Meta Newsroom, "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents," 2026-10-12. https://about.fb.com/news/2026/10/introducing-muse-wonder-models/
+- **[02-c2]** The Vergecast, "How much should you tell your AI agent?," 2026-10-06, at 13:34–14:12 and 32:59–33:32. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP4220452170.mp3
+- **[02-c3]** Big Technology Podcast (Alex Kantrowitz), "Meta & Microsoft's Claude Slowdown, His Agent Leaked His Banking Info, Don't Bully Your AI," 2026-10-09, at 14:07–14:40. https://pdst.fm/e/tracking.swap.fm/track/t7yC0rGPUqahTF4et8YD/pscrb.fm/rss/p/traffic.megaphone.fm/AMPP5617885384.mp3
+- **[02-c4]** Nielsen Norman Group, "The New Siri's Biggest Strength Is Not Intelligence," 2026-10-09. https://www.nngroup.com/articles/ai-assistant-context/
+- **[02-c5]** arXiv cs.HC, "Impact of Expertise and Trust on AI-assisted Work," 2026-10-14. https://arxiv.org/abs/2610.14660
+- **[02-c6]** arXiv cs.HC, "Task-State Governance: A Virtual Machine for Verifiable and Recoverable GUI Agent Execution," 2026-10-15. https://arxiv.org/abs/2610.20100
+- **[02-c7]** How I AI (Claire Vo), "Meta's new 'Muse Wonder' model: good for AI agents, bad for design," 2026-10-14, at 11:53–12:25 and 12:25–13:12. https://podcasters.spotify.com/pod/show/pen-name/episodes/Metas-new-Muse-Wonder-model-good-for-AI-agents--bad-for-design-e3qf2b2
+- **[02-c8]** Google Keyword: Gemini, "Introducing Gemini 3.8 Live with Live Avatar," 2026-09-24. https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/ ; Sam Witteveen, "Gemini Live Avatars" (YouTube), 2026-09-27, at 05:02–05:43. https://www.youtube.com/watch?v=U236OfO-spI&t=302s

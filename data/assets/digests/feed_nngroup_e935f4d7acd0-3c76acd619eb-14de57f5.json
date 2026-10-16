@@ -1,0 +1,79 @@
+{
+ "summary": "Nielsen Norman Group article summarizing research on how readers react when AI use in text content is disclosed, and proposing the PACED framework (policy, audience, context, expectations, degree of AI contribution) for deciding whether to disclose. It finds no consistent trust penalty across studies, but stronger negative reactions when human sincerity or creativity matters, when AI involvement is large, or when disclosure comes from a third party. It also describes a 'disclosure paradox': people say they want disclosure but penalize content that carries it.",
+ "speakers_or_authors": "Nielsen Norman Group (UX research practitioners); summarizes academic studies by Licenji & Hoxha, Purcell et al., Li et al., Nakano et al., Brüns & Meißner, Sahebi et al., Schilke & Reimann, and Fang et al.",
+ "relevance": 1,
+ "relevance_reason": "It is about disclosure labels for AI-generated text content, a trust and communication question. It is not about how people operate computers through agents, personal context, voice, or OS-level AI, so it only touches the brief's trust and privacy concerns tangentially. Possible side-use as a note on AI transparency, but it is off the central question.",
+ "themes": [
+  "AI disclosure and trust",
+  "EU AI Act transparency obligations",
+  "AI-generated text and authenticity",
+  "audience reactions to AI labels"
+ ],
+ "claims": [
+  {
+   "claim": "The EU AI Act's transparency obligations requiring AI-content disclosure in particular cases started in August 2026.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "the EU adopted a landmark AI law, which requires companies to disclose AI-generated content in particular cases; the transparency obligations started in August 2026.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Across reviewed studies, AI disclosure had no consistent effect on trust; in some cases it lowered ratings and in others had no measurable effect.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "there wasn’t one consistent audience reaction to AI disclosure. Its effects varied across studies and contexts",
+   "segment_id": ""
+  },
+  {
+   "claim": "In a trust game with real money, labeling messages as AI-assisted did not reduce amounts sent or trustworthiness ratings.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "The AI disclosure did not reduce either how much money message recipients sent or their rating of the other person’s trustworthiness.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Disclosed AI involvement lowered ratings more as the disclosed percentage of AI contribution grew.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "The readers’ ratings decreased as the disclosed percentage of AI involvement increased.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Disclosing AI-generated images in brand posts lowered perceived authenticity, credibility and brand attitudes, even though participants could not tell the AI images from human-made ones.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "participants rated brand authenticity, post credibility, and brand attitudes lower.",
+   "segment_id": ""
+  },
+  {
+   "claim": "People say they want AI disclosure yet rate disclosed content as less trustworthy, the 'disclosure paradox'.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "participants rated AI-attributed text as less trustworthy, less authentic, and less useful, even though they said that disclosing AI use was important.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Trust was lowest when AI use was exposed by a third party, so proactive disclosure may be safer.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "they trusted one whose AI use was exposed by a third party least of all.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Writers consider disclosure necessary much less often than readers do.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Writers were far less likely than readers to consider an AI disclosure necessary.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Anthropic released a statistical watermark for its newer Claude models, a machine-readable mark distinct from human-readable disclosure.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "such as the statistical watermark Anthropic released for its newer Claude models.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent; NN/g is a UX research and training firm publishing its own framework (PACED), which supports its consulting and training business.",
+ "older_event": "No. The EU AI Act was adopted in 2024, but the article's news hook is the August 2026 start of transparency obligations, and the studies cited are mostly 2024-2026."
+}

@@ -1,0 +1,227 @@
+{
+  "run_id": "replay-20261015T041930Z",
+  "mode": "replay",
+  "as_of_date": "2026-10-15",
+  "previous_run_id": "live-20261015T011645Z",
+  "note": "Policy v2 comparison: run 1's identical evidence; policy v1->v2 (relayed statements, partial duplicates, theme coverage) and the claim-marker prompt fix",
+  "status": "awaiting_review",
+  "started_at": "2026-10-15T04:19:30Z",
+  "last_stage_finished_at": "2026-10-15T04:27:22Z",
+  "elapsed_seconds": 472.0,
+  "counts": {
+    "discovered": 55,
+    "discovered_distinct_items": 55,
+    "duplicate_observations": 0,
+    "extracted": 52,
+    "new": 52,
+    "changed": 0,
+    "unchanged": 0,
+    "corpus_items_in_store": 52,
+    "eligible": 51,
+    "excluded": 1,
+    "excluded_by_reason": {
+      "outside_window": 1
+    },
+    "accepted": 20,
+    "rejected": 20,
+    "deferred": 11,
+    "briefs": 3,
+    "articles": 3,
+    "video_scripts": 3
+  },
+  "coverage": {
+    "eligible": {
+      "by_kind": {
+        "feed": 35,
+        "podcast": 8,
+        "youtube": 8
+      },
+      "independent_publishers": [
+        "ars-technica",
+        "arxiv",
+        "big-technology",
+        "claire-vo",
+        "ethan-mollick",
+        "google",
+        "microsoft",
+        "mkbhd",
+        "nate-b-jones",
+        "nngroup",
+        "road-to-vr",
+        "sam-witteveen",
+        "simon-willison",
+        "the-verge"
+      ],
+      "publisher_count": 14
+    },
+    "accepted": {
+      "by_kind": {
+        "feed": 11,
+        "podcast": 5,
+        "youtube": 4
+      },
+      "independent_publishers": [
+        "arxiv",
+        "big-technology",
+        "claire-vo",
+        "ethan-mollick",
+        "google",
+        "microsoft",
+        "mkbhd",
+        "nngroup",
+        "sam-witteveen",
+        "the-verge"
+      ],
+      "publisher_count": 10
+    },
+    "cited_in_briefs": {
+      "by_kind": {
+        "podcast": 5,
+        "feed": 10,
+        "youtube": 4
+      },
+      "independent_publishers": [
+        "arxiv",
+        "big-technology",
+        "claire-vo",
+        "ethan-mollick",
+        "google",
+        "microsoft",
+        "mkbhd",
+        "nngroup",
+        "sam-witteveen",
+        "the-verge"
+      ],
+      "publisher_count": 10
+    }
+  },
+  "coverage_limitations": {
+    "collection_complete": false,
+    "collectors": {
+      "feeds": {
+        "status": "completed",
+        "exit_code": 0
+      },
+      "youtube": {
+        "status": "completed",
+        "exit_code": 0
+      },
+      "podcasts": {
+        "status": "completed",
+        "exit_code": 0
+      }
+    },
+    "simulated_failures": [],
+    "items_failed_extraction": []
+  },
+  "stages": [
+    {
+      "stage": "select_items",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 51,
+      "output_count": 51,
+      "started_at": "2026-10-15T04:19:30Z",
+      "finished_at": "2026-10-15T04:21:32Z",
+      "cost_usd": 0.6563,
+      "note": "accept=20 defer=11 reject=20",
+      "receipt": "runs/replay-20261015T041930Z/logs/select_items-20261015T042132-bb80df.json"
+    },
+    {
+      "stage": "create_briefs",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 51,
+      "output_count": 3,
+      "started_at": "2026-10-15T04:21:32Z",
+      "finished_at": "2026-10-15T04:25:31Z",
+      "cost_usd": 1.279,
+      "note": "validation=valid quote_corrections=0",
+      "receipt": "runs/replay-20261015T041930Z/logs/create_briefs-20261015T042531-552e94.json"
+    },
+    {
+      "stage": "write_articles",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 3,
+      "started_at": "2026-10-15T04:25:31Z",
+      "finished_at": "2026-10-15T04:26:33Z",
+      "cost_usd": 0.5919,
+      "note": "01:927w 02:905w 03:872w",
+      "receipt": "runs/replay-20261015T041930Z/logs/write_articles-20261015T042633-3ef7b2.json"
+    },
+    {
+      "stage": "write_video_scripts",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 3,
+      "started_at": "2026-10-15T04:25:31Z",
+      "finished_at": "2026-10-15T04:27:21Z",
+      "cost_usd": 0.7183,
+      "note": "01:722w 02:711w 03:731w",
+      "receipt": "runs/replay-20261015T041930Z/logs/write_video_scripts-20261015T042721-72aa70.json"
+    },
+    {
+      "stage": "check_content",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 1,
+      "started_at": "2026-10-15T04:27:21Z",
+      "finished_at": "2026-10-15T04:27:22Z",
+      "cost_usd": 0.0,
+      "note": "passed=true errors=0 warnings=7 review_id=d2b27350c50c",
+      "receipt": "runs/replay-20261015T041930Z/logs/check_content-20261015T042722-4b8b39.json"
+    },
+    {
+      "stage": "create_series",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 51,
+      "output_count": 3,
+      "started_at": "2026-10-15T04:19:30Z",
+      "finished_at": "2026-10-15T04:27:22Z",
+      "cost_usd": 0.0,
+      "note": "awaiting human review: passed=true",
+      "receipt": "runs/replay-20261015T041930Z/logs/create_series-20261015T042722-aa03f9.json"
+    }
+  ],
+  "failed_or_incomplete_stages": [],
+  "models": [
+    "claude-opus-5-5"
+  ],
+  "tools": [
+    "anthropic-api",
+    "bash",
+    "python"
+  ],
+  "cost": {
+    "known_usd": 3.2455,
+    "by_stage_usd": {
+      "select_items": 0.6563,
+      "create_briefs": 1.279,
+      "write_articles": 0.5919,
+      "write_video_scripts": 0.7183,
+      "check_content": 0.0,
+      "create_series": 0.0
+    },
+    "stages_with_unknown_cost": [],
+    "basis": "Model costs computed from API token usage x snapshotted price table (estimate; excludes taxes/credits). Local tools (yt-dlp, whisper.cpp, ffmpeg) and public feeds are counted as $0 API cost."
+  },
+  "review": {
+    "review_id": "d2b27350c50c53b88e33f7bf0dece84159ddcff621293acbf2a5874dcbba80d7",
+    "passed": true,
+    "errors": 0,
+    "warnings": 7
+  },
+  "approval": null,
+  "package": null,
+  "publication_links": null,
+  "published": null,
+  "remaining_manual_actions": [
+    "Human editorial review: read articles/, video_scripts/, review.json and the evidence; record corrections; create approval.json (review/record_approval.sh), then: bash run.sh --package runs/replay-20261015T041930Z",
+    "Collection was incomplete; see coverage_limitations and decide whether to rerun after fixing sources."
+  ]
+}

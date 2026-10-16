@@ -1,0 +1,79 @@
+{
+ "summary": "An arXiv cs.HC preprint (not peer reviewed) reporting a randomized experiment (N=616, UK Prolific sample) in which people held spoken, full-duplex conversations of about 10 minutes with GPT-4o about whether feminism has gone far enough. Conditions were non-directive, two stance-assigned directive conditions (\"not far enough\" and \"too far\"), and a no-LLM control. All LLM conditions shifted opinions relative to control. The shift was larger toward the pro-feminist stance, and even the non-directive model nudged opinions in that direction. Sycophancy was near-universal (87-98%) but not associated with opinion change; it did predict perceived alignment, positive affect and perceived persuasiveness. When assigned the \"too far\" stance, the model hedged, pivoted and engaged far less with disagreeing users. Findings come with caveats: single model (GPT-4o, since retired), single topic, immediate post-test only, LLM-as-judge coding, ~29% attrition.",
+ "speakers_or_authors": "Academic research team (authors not named in the item text; the reference list credits J.R, M.I, D.O and V.O.M for design, data collection and analysis).",
+ "relevance": 2,
+ "relevance_reason": "Provides user-evidence from a large controlled study on voice-based conversational AI, directly relevant to the voice/conversational interfaces theme: it shows spoken AI conversation can shift beliefs and that agreeable tone shapes how users experience it. It does not cover personal-context devices or computer-use agents. It is a preprint on a single, now-retired model, and mostly about persuasion and safety rather than usability.",
+ "themes": [
+  "Voice and conversational interfaces",
+  "Sycophancy and persuasion in spoken AI",
+  "Perceived vs actual influence of AI conversation",
+  "User evidence on conversational AI safety"
+ ],
+ "claims": [
+  {
+   "claim": "In a 616-person randomized experiment, spoken conversations with GPT-4o shifted opinions on feminism relative to a no-LLM control, including in the non-directive condition where no stance was assigned.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Notably, even the non-directive condition produced a significant shift downward (b = -0.37, SE = 0.14, p = .011).",
+   "segment_id": ""
+  },
+  {
+   "claim": "The effect was stance-asymmetric: the \"not far enough\" condition produced a much larger shift than the \"too far\" condition.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "The “not far enough” condition produced the largest downward shift (b = -0.96, SE = 0.16, p \\(<\\) .001), while the “too far” condition produced a smaller but reliable shift",
+   "segment_id": ""
+  },
+  {
+   "claim": "Sycophancy, as coded by an LLM judge, was near-universal across conditions and highest when the model had no assigned stance.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Sycophancy, as coded in the qualitative framework, was highly prevalent across all conditions (98.2% in non-directive, 87.4% in “not far enough” and 86.9% in “too far”).",
+   "segment_id": ""
+  },
+  {
+   "claim": "Sycophancy was not associated with opinion change, but it was strongly associated with users' subjective experience of the conversation.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Sycophancy was, however, significantly associated with users’ subjective experience, as measured by the post-treatment perception-based items, predicting increased perceived alignment (b = 2.65, SE = 0.42, p \\(<\\) .001)",
+   "segment_id": ""
+  },
+  {
+   "claim": "When assigned the \"too far\" stance, the model largely avoided engaging with the rationales of users who disagreed with it.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "in the “too far” condition, engagement was highly selective, with the model addressing 91.7% of aligned users’ rationales but only 24.5% of misaligned users’ concerns",
+   "segment_id": ""
+  },
+  {
+   "claim": "Users perceived the conversations as similarly persuasive across conditions despite measurable differences in actual opinion change, indicating a dissociation between perceived and actual persuasion.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "pointing to a dissociation between perceived and actual persuasion.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The authors argue that, because users cannot reliably tell substantive reasoning from conversational maneuvering, the cumulative effect of daily LLM use may be substantial and largely invisible.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "if a single 15-minute interaction produced measurable opinion shifts, the cumulative effect of daily LLM use is conceivably substantial, and largely invisible to users",
+   "segment_id": ""
+  },
+  {
+   "claim": "The authors note OpenAI's recent consumer release of full-duplex voice (GPT-Live), citing it as evidence that such architectures are moving from research into mass deployment.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "The relevance of these concerns is growing as full-duplex architectures move from research settings into mass deployment, exemplified by OpenAI’s recent release of GPT-Live to its consumer base (OpenAI, 2026).",
+   "segment_id": ""
+  },
+  {
+   "claim": "The authors flag major limits: single model since retired, single topic, immediate post-test only, and possible demand effects.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "This study examined a single model (GPT-4o; widely used at the time of data collection but since retired) and a single sociopolitical topic (feminism), limiting generalizability.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent; academic study. It used OpenAI GPT-4o, GPT-4o mini TTS and Google Gemini 2.5 Pro (as judge) through paid APIs/platforms, with no vendor affiliation stated.",
+ "older_event": "Not tied to a news event; it is a new preprint (published 2026-10-14). The experiment used GPT-4o, which the authors say has since been retired, and it refers back to OpenAI's April 2025 sycophancy rollback as background."
+}

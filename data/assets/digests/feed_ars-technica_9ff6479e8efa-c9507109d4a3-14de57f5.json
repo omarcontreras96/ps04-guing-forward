@@ -1,0 +1,51 @@
+{
+ "summary": "Ars Technica reports on Google's AI additions to the Play Store: Ask Play expanding from per-listing Q&A to general app and game search with generated recommendations and comparison charts, a new Game Finder with a 'Gamer DNA' profile built from Android usage data, and a promised way to privately host and share personal vibe-coded apps. The excerpt covers discovery features in detail but says little about the private hosting feature beyond the headline and intro.",
+ "speakers_or_authors": "Ars Technica staff writer (byline not shown in the item); Google is the source of the announcements.",
+ "relevance": 1,
+ "relevance_reason": "This is a vendor announcement of AI search and recommendation inside an app store, with a personal-data angle (usage data profiling). It is only loosely tied to the brief's themes of agents, personal context, voice, or OS-level AI. The private hosting of vibe-coded apps could matter, but the provided text gives no detail, and there is no hands-on evidence.",
+ "themes": [
+  "AI built into app stores and devices",
+  "Personal context and usage-data profiling",
+  "Conversational search versus browsing and lists",
+  "Vibe-coded personal apps"
+ ],
+ "claims": [
+  {
+   "claim": "Ask Play is expanding from per-listing Q&A to a general conversational search for apps and games, generating recommendations that can include comparison charts. Gemini will get a similar capability later.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "You ask the robot questions, and it generates recommendations that can include detailed comparison charts. Gemini will roll out a similar capability soon.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google's Game Finder builds a 'Gamer DNA' profile from Android usage data covering 1.2 billion players and matches users with similar players. Users can tune it by rating games.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "featuring insights into the way 1.2 billion people play games on Android. It builds a profile called Gamer DNA and matches you with players who have similar DNA.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The Play Store will soon let people privately host and share apps they built with AI. No details are given on how it works or when it ships.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "the Play Store will soon offer a way to privately host and share those creations.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Prompting Game Finder with specific preferences is promised for later. How much customization exists at launch is unclear, and the accuracy gain from rating games is unverified.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Google says you’ll eventually be able to prompt Game Finder with fairly specific game preferences, but it’s unclear how much customization will be available at launch.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Game Finder and Gamer DNA roll out in the US on the day of the article, with other markets to follow.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Game Finder and Gamer DNA are rolling out in the US today, with other markets following “soon.”",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Vendor announcement: the claims come from Google about its own Play Store products. The article offers no independent testing or user reports.",
+ "older_event": "No. These are new announcements as of the publication date (2026-10-13). Ask Play itself launched in 2025, and this is its expansion."
+}

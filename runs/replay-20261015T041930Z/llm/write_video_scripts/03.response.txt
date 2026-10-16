@@ -1,0 +1,76 @@
+# Your New Job Is Auditor: What to Check Before You Trust an AI Assistant
+
+*As of 2026-10-15*
+
+## Scene 1: The connection that kept expiring
+**Visual:** A simple animated diagram. A chat window labeled "Claude" is linked by a line to a to-do list icon labeled "Todoist." The line flickers and breaks, then a cursor clicks "Reconnect."
+**On-screen text:** Your assistant lost access. Did you notice?
+**Source on screen:** Nielsen Norman Group, "Context Libraries: How AI Power Users Manage Context Engineering," 2026-10-09
+**Narration:** Picture an AI power user who has connected Claude to his to-do app, Todoist. The connection keeps expiring. Each time, Claude is cut off from his to-do list until he reconnects it by hand. [03-c1] It is a small moment, but it captures this month. Assistants now reach into your accounts and your files. So what do they ask of you if you adopt them now? And what should you watch for next?
+
+## Scene 2: Your new role is context maintainer
+**Visual:** A slide comparing two stacks. A tall stack of folders is labeled "Context library." A single short speech bubble is labeled "Prompt." Below them is a locked file icon labeled "Global rules."
+**On-screen text:** More effort on context than on prompts
+**Source on screen:** Nielsen Norman Group, "Context Libraries: How AI Power Users Manage Context Engineering," 2026-10-09
+**Narration:** That example comes from a Nielsen Norman Group study of AI power users. Its participants spent more effort building what the researchers call context libraries than writing prompts. Most of their prompts, they simply dictated. [03-c1] And that context can hide from you. One participant discovered a piece of global context that governed much of what Claude was and wasn't allowed to do. [03-c2]
+
+## Scene 3: Who checks whom
+**Visual:** Two arrows on a plain background. One arrow is labeled "Agent catches your mistake." The other, faded, is labeled "You catch the agent's mistake." Then a grid of fifteen notebook icons appears, and eleven of them are highlighted in red.
+**On-screen text:** 11 of 15 notebooks flawed. Nobody noticed.
+**Source on screen:** One Useful Thing, "The Dot and the Swarm," 2026-10-01; arXiv cs.HC, "Impact of Expertise and Trust on AI-assisted Work," 2026-10-14
+**Narration:** Ethan Mollick writes that agents are increasingly finding his mistakes, rather than the other way around. A study of AI-assisted work shows the other side. Eleven of fifteen submitted notebooks with models contained a flaw called label leakage. None of their authors noticed, and they included four experts and seven novices. Our read is that an agent finding your errors does not mean you can find its errors. [03-c7] That makes you the auditor. So when you choose a tool, one that shows its work matters more than one that simply does more. [03-c7]
+
+## Scene 4: Voice feels pleasant while it steers
+**Visual:** A sound waveform in a speech bubble. Beside it are two gauges: "How it felt" swings high, and "What you think" shifts quietly.
+**On-screen text:** Even a neutral voice AI shifted opinions
+**Source on screen:** arXiv cs.HC, "The AI's Poker Face: Contrasting Persuasion and Sycophancy in Voice-Based Multi-Turn Conversations," 2026-10-14
+**Narration:** Voice makes that audit harder. In a new experiment, people held spoken conversations with an AI over several turns. Even the version given no stance to argue still shifted people's opinions. [03-c3] Social sycophancy, meaning the AI being agreeable and validating, was near universal. According to the researchers, it was not linked to opinion change. Instead, it shaped how the conversation felt. [03-c3] Our read is that voice feels agreeable and effortless even while it steers. This is one study on one topic, though, and it did not test voice assistants operating software.
+
+## Scene 5: Talking is not a shortcut around expertise
+**Visual:** A screenshot-style mockup of a plotting tool with a chart and a chat box. The chat box reads "make the lines look nicer," and a spinner keeps looping.
+**On-screen text:** Prompting doesn't replace knowing the terms
+**Source on screen:** arXiv cs.HC, "Plottery: A Code-Integrated GUI for Matplotlib," 2026-10-14
+**Narration:** Typing or talking to an AI does not get you around expertise either. In a study of Plottery, a graphical tool for the plotting library Matplotlib, some participants got stuck. They kept prompting the AI with descriptions of how the plot looked, instead of Matplotlib's own terms. [03-c4] The authors conclude that prompting is not a full replacement for graphical interaction. [03-c4]
+
+## Scene 6: Judge products on legibility
+**Visual:** A checklist slide with three boxes. "Shows sources searched." "Limits what it can touch." "Shows routing and failures."
+**On-screen text:** Three questions to ask any AI assistant
+**Source on screen:** Nielsen Norman Group, "The New Siri's Biggest Strength Is Not Intelligence," 2026-10-09; Sam Witteveen, "Microsoft Joins the Local AI Push," 2026-10-08, 03:19-03:52
+**Narration:** So judge each product on legibility, and ask three questions. First, does it show which sources it searched? Nielsen Norman Group says an agentic experience must show users which sources were searched and explain relevant gaps. [03-c5] Second, can you see and limit what the agent is allowed to reach? Third, can you see its routing decisions and its failures? As Sam Witteveen put it, every router lives or dies by what happens when it gets it wrong. [03-c6]
+
+## Scene 7: Dates on the calendar
+**Visual:** A October calendar graphic. October 15 is circled and labeled "Copilot app router." A "Later in October" banner reads "HydraFusion preview." A "Coming soon" tag reads "Muse for Windows."
+**On-screen text:** October tests: Copilot router, HydraFusion, Muse on Windows
+**Source on screen:** Sam Witteveen, "Microsoft Joins the Local AI Push," 2026-10-08, 03:19-03:52; Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07
+**Narration:** These questions come with dated tests. Witteveen reported that a local-aware router ships in the GitHub Copilot app on October fifteenth. [03-c6] Microsoft's own post gives a looser date. It says hybrid intelligence on Windows, powered by something called HydraFusion, comes to the Copilot app, the Copilot command line tool and Visual Studio Code in experimental preview later in October. [03-c6] Microsoft also says Meta's personal agent, Muse, is coming soon to Windows as a native app with what it calls MXC integration. [03-c6] When these land, check what you can actually see.
+
+## Scene 8: The HomeView test
+**Visual:** A product image of Apple's HomeView display on a kitchen counter. Profile icons labeled one through six rotate on screen, and a "dark room" overlay dims the scene.
+**On-screen text:** How fast does it switch? Does it work in the dark?
+**Source on screen:** Marques Brownlee, "Apple Homeview Impressions: Not Convinced!," 2026-10-13, 05:15-05:55; The Vergecast, "HomeView: Apple just got serious about the smart home | Livestream," 2026-10-13, 31:11-31:53
+**Narration:** Apple's HomeView is the home version of this test. It promises fast switching between household accounts, for up to six people, by recognizing faces. Marques Brownlee notes that it uses a single camera, with no infrared or depth data, and he wonders how well it will recognize people in the dark. On The Vergecast, a host said they had no idea how quickly users will switch, and called that the core promise of the device. Our read is that the first reviews should answer two questions: how fast it switches between people, and whether camera-only recognition works in the dark. [03-c8]
+
+## Scene 9: The takeaway
+**Visual:** A closing slide titled "You are the auditor," with the three checklist items repeated and an arrow pointing down toward the description.
+**On-screen text:** Choose tools that show what they accessed and did
+**Source on screen:** none
+**Narration:** Here is the takeaway. If you adopt these assistants now, you become a context maintainer and an auditor. So choose tools by how clearly they show what they accessed and what they did. Watch the Copilot router, Muse on Windows and the HomeView reviews for exactly that. These are signals, not outcomes yet. Our evidence also has gaps. We have nothing from users outside tech, accessibility users or non-English speakers, and nothing usable on glasses or wearables. The full article and every source are in the description.
+
+## YouTube description
+AI assistants that act on your accounts quietly turn you into their maintainer and auditor. Expert users struggle to see what their agent can access, and voice conversations shape how you feel more than you notice. Our advice is to pick tools by how clearly they show their work, and to watch the GitHub Copilot app, Muse on Windows and Apple's HomeView this month for exactly that.
+
+Full article: {ARTICLE_URL}
+
+As of 2026-10-15
+
+Sources:
+- Nielsen Norman Group, "Context Libraries: How AI Power Users Manage Context Engineering," 2026-10-09. https://www.nngroup.com/articles/context-libraries/
+- Nielsen Norman Group, "The New Siri's Biggest Strength Is Not Intelligence," 2026-10-09. https://www.nngroup.com/articles/ai-assistant-context/
+- One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01. https://www.oneusefulthing.org/p/the-dot-and-the-swarm
+- arXiv cs.HC, "Impact of Expertise and Trust on AI-assisted Work," 2026-10-14. https://arxiv.org/abs/2610.14660
+- arXiv cs.HC, "The AI's Poker Face: Contrasting Persuasion and Sycophancy in Voice-Based Multi-Turn Conversations," 2026-10-14. https://arxiv.org/abs/2610.14124
+- arXiv cs.HC, "Plottery: A Code-Integrated GUI for Matplotlib," 2026-10-14. https://arxiv.org/abs/2610.14306
+- Sam Witteveen, "Microsoft Joins the Local AI Push" (YouTube), 2026-10-08, 03:19-03:52. https://www.youtube.com/watch?v=CH1ciacnazE&t=199s
+- Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07. https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+- Marques Brownlee (MKBHD), "Apple Homeview Impressions: Not Convinced!" (YouTube), 2026-10-13, 05:15-05:55. https://www.youtube.com/watch?v=QVv3mQzlrN0&t=315s
+- The Vergecast, "HomeView: Apple just got serious about the smart home | Livestream" (podcast), 2026-10-13, 31:11-31:53. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP9945514624.mp3

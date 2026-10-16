@@ -1,0 +1,87 @@
+{
+ "summary": "A Nielsen Norman Group (UX research) article reporting on a study of expert Claude users from various industries and how they build and maintain 'context libraries': markdown files and connected sources (via MCP/API such as Notion, Slack, Granola, Todoist) that agents read and edit. It describes four lessons: context needs ongoing maintenance, let the agent update context, structure the library for findability, and give agents only the context they need. Findings include stale files, connections that keep breaking, participants rarely checking what Claude changed, context bleeding across projects, and no platform help with curation.",
+ "speakers_or_authors": "Nielsen Norman Group (UX research team; no individual author named in the text provided)",
+ "relevance": 3,
+ "relevance_reason": "Directly covers personal context for AI agents (memory, connected accounts, files) and how agent users actually manage it, with observational evidence from a user study. It shows the practical gap between agent demos and daily use. Little on voice or consumer devices.",
+ "themes": [
+  "Personal context and memory for AI agents",
+  "Computer-use agents in real workflows",
+  "Context maintenance burden and reliability",
+  "Agent usability gaps and lack of platform support",
+  "Context scoping, privacy and over-sharing of ambient data"
+ ],
+ "claims": [
+  {
+   "claim": "Expert Claude users spent more effort engineering context libraries than writing prompts, yet each had improvised a bespoke process and files went stale or missing.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Our participants spent more effort engineering context libraries than crafting prompts (most of which they casually dictated). Yet each had improvised a bespoke process, files went stale or missing",
+   "segment_id": ""
+  },
+  {
+   "claim": "Users learned context engineering mainly from social posts and their own experimentation, not from the AI systems themselves.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Users in our study had learned how to use context mainly from X and Reddit posts and from their own experimentation.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Context files go stale and automations stop matching how people work, even when the agent has broad access to recent email, messages and transcripts; one user just ignored the useless parts instead of giving feedback.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "The participant had started ignoring the useless parts of the automation without providing any explicit feedback to the system.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Connections to external tools such as Todoist break repeatedly, which undercuts the time-saving purpose of agents; one participant called it 'system decay'.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "His Todoist connection kept expiring, cutting Claude off from his to-do list until he reconnected it by hand.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Participants almost never edited context files by hand, asking Claude to make changes, often across many files, and rarely checked what changed; they judged quality by later outputs.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "They didn’t always know exactly which files needed changes or where they lived, and they rarely checked what Claude had changed.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Participants often could not find their own context files, and one found a global context file governing Claude's permissions that he did not know existed.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "One participant even discovered a piece of global context governing much of what Claude was and wasn’t allowed to do — a file he hadn’t known existed.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Claude's own cloud storage for context was unpopular and confusing; users fell back to local files and Google Drive.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Claude’s own cloud storage for context was unpopular and confusing.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Context bleeds across use cases: design guidelines for a podcast were applied to an unrelated book-tracking app, and Claude could not tell which of two people had done work.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Another was surprised that the visual-design guidelines he’d provided for his podcast work somehow got applied to a book-tracking app he was building.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Larger context windows do not remove the need to limit context; the most elaborate library was engineered to load as little as possible, using folder-based scoping.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Models now accept millions of tokens, and power users pay for high usage limits, but LLM performance still depends on how much is in the context window.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Until platforms handle curation themselves, the burden of context curation falls on users, and non-expert users will likely face amplified problems.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "until the platforms take on curation strategy themselves, that work falls to users.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent. NN/g is a UX research and training firm publishing its own study; no vendor sponsorship stated in the text. The study focused on Claude users.",
+ "older_event": "No. This reports on a recent NN/g study; the findings are new, not a response to an older event. Study sample size and methods are not given in the text."
+}

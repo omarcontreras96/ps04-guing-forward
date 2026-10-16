@@ -1,0 +1,59 @@
+{
+ "summary": "Google's monthly AI roundup for September 2026, written by the vendor. Items relevant to the brief: Gemini 3.8 Live voice models, Connected Apps in Gemini, the CC group agent in Google Labs, Googlebook laptops with Magic Pointer and Rambler dictation, and the Gemini app for Windows with Gemini Spark task delegation. It also covers frontier models, science projects and infrastructure, which are mostly off-topic. All claims come from Google's own announcements, with no independent testing or user evidence.",
+ "speakers_or_authors": "Google (Keyword blog, vendor roundup)",
+ "relevance": 2,
+ "relevance_reason": "Several useful passages on voice interfaces, connected apps, a group personal agent, OS-level AI and a new laptop category. The item is a vendor announcement list with no hands-on evidence, and much of it (models, science, space) is outside the brief.",
+ "themes": [
+  "Voice and conversational interfaces",
+  "AI built into operating systems and devices",
+  "Personal agents and connected apps",
+  "Desktop agents (Gemini Spark on Windows)",
+  "Personal context and privacy controls"
+ ],
+ "claims": [
+  {
+   "claim": "Google launched Gemini 3.8 Live and Live Extended Thinking speech-to-speech models, rolling out across Search Live, Gemini Live and Workspace so users can do tasks by voice in Gmail, Docs and Keep.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "for everyone across Search Live, Gemini Live, and Google Workspace, where you can get things done using your voice in Gmail, Docs, and Keep.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Gemini gained Connected Apps (Airtable, Linear, Adobe, Peloton, SeatGeek and others), so users can do tasks inside Gemini without switching tabs.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Instead of switching between tabs, you can now tackle your tasks all in one place.",
+   "segment_id": ""
+  },
+  {
+   "claim": "CC, Google Labs' personal agent, is expanding to a group agent with its own email address for family calendars and to-dos, with built-in privacy controls. It is an experimental preview.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "CC even gets its own email address to coordinate family calendars, track group to-dos, and streamline daily logistics in one spot with built-in privacy controls.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Googlebook, a laptop built on Android with ChromeOS foundations, is open for pre-order and includes Magic Pointer (point and ask Gemini about anything on screen) and Rambler voice dictation. It is not yet shipping.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Magic Pointer let you point and ask Gemini about anything on your screen with a quick cursor wiggle",
+   "segment_id": ""
+  },
+  {
+   "claim": "The Gemini app for Windows opens with Alt + Space and lets users delegate multi-step tasks to Gemini Spark and pull files from Gmail and Drive.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "you can delegate multi-step tasks to Gemini Spark, synthesize files across Gmail and Drive, and generate Nano Banana images or Gemini Omni videos",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google says Gemini 3.8 Live Extended Thinking is the top-rated speech-to-speech model for multi-step reasoning without lag. No source or data is given for the rating.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "the top-rated speech-to-speech model for multi-step reasoning without all the lag",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Vendor self-promotion: Google describes its own products. Googlebook is being sold via pre-order, and the roundup also promotes a student plan and its own design award.",
+ "older_event": "No. This is a roundup of September 2026 announcements published October 2, 2026, so the items are within 30 days. Googlebook is only pre-order and CC for groups is an experimental preview, so shipped versus demo status is unverified."
+}

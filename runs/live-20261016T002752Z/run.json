@@ -1,0 +1,9 @@
+{
+  "run_id": "live-20261016T002752Z",
+  "started_at": "2026-10-16T00:27:52Z",
+  "as_of_date": "2026-10-16",
+  "mode": "live",
+  "previous_run_id": "live-20261015T045321Z",
+  "note": "Run 2 (second live day): repeatability check, same config and policy v2 as live-20261015T045321Z",
+  "simulated_failures": []
+}

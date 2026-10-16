@@ -1,0 +1,65 @@
+{
+ "summary": "Claire Vo, host of How I AI, gives a first-look review of Meta's new Muse Wonder model family using her own roughly 20-task bench. She finds it strongest at agentic work, including a computer-use task of resolving a billing ticket in an admin app with a planted prompt injection. It is serviceable at back-end coding, and weak at front-end design, prototypes and creative tasks. She also covers its voice-assistant persona, speed, and Meta's 'active memory' and 'active focus' claims. Most of the episode is a model review, with only a small stretch on interface topics.",
+ "speakers_or_authors": "Claire Vo (host, product leader)",
+ "relevance": 2,
+ "relevance_reason": "Mostly a model-performance review (partly bench-style, which the brief excludes). It contains a useful hands-on passage on a computer-use agent resolving a SaaS billing ticket, plus notes on voice-assistant quality and memory features for personal agents. Little on interfaces or devices beyond that.",
+ "themes": [
+  "Computer-use agents operating SaaS apps",
+  "Personal agents and memory",
+  "Voice assistant persona",
+  "Practitioner model testing"
+ ],
+ "claims": [
+  {
+   "claim": "Meta says Muse Wonder is built for personal and professional agentic work, with claimed strengths in memory use/creation and sustained effort ('active focus').",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0005"
+  },
+  {
+   "claim": "In Vo's computer-use test, Muse Wonder resolved a billing ticket in an admin app (wrong account link, duplicate refund, plan change, prompt injection in the instructions) and was the best of all models tested.",
+   "basis": "observation",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0018"
+  },
+  {
+   "claim": "Muse Wonder ranked first on computer use, inbox triage, email drafting, back-end feature implementation and the voice-assistant test; it was her favorite across four agentic tasks.",
+   "basis": "observation",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0016"
+  },
+  {
+   "claim": "Vo found its voice-assistant persona personable and straightforward, near the top of her bench alongside Sonnet, and suggests it could suit a personal-agent orchestrator voice.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0020"
+  },
+  {
+   "claim": "Front-end and prototype output was poor: broken interactions, ignored dark-mode instruction and brand guidelines, broken images, and generic styling.",
+   "basis": "observation",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0022"
+  },
+  {
+   "claim": "The model is fast on one-shot tasks but slow on long agentic tasks, possibly because of the 'active focus' mode; Vo has only begun tracking this.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0029"
+  },
+  {
+   "claim": "Vo plans to put Muse Wonder in the loop of agents she is building rather than use it for design work, and says it is not yet her preferred model.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0031"
+  }
+ ],
+ "commercial_interest": "The episode carries sponsor reads (DX, Jira Product Discovery/Atlassian). Vo is an independent reviewer of Meta's model. She signed up for a Muse subscription to test it and says she ran Muse Code headlessly through Claude Code. Meta's benchmark claims are relayed secondhand.",
+ "older_event": "No. The Muse Wonder launch is the new event, reviewed as a first look."
+}

@@ -1,0 +1,59 @@
+# Agents can act; the evidence says people can't yet check them
+
+*This month's tests show agents finishing real tasks, and people missing the mistakes.*
+
+*As of 2026-10-15 · Edition evidence window: 2026-09-16 to 2026-10-15*
+
+Alex Kantrowitz's Muse agent gave him a tidy list of doctors with working phone numbers. On Big Technology Podcast (14:07), he said the numbers were filed under the wrong names. His wife called the first number, booked an appointment and later found it was with a completely different doctor from the one she thought she had called [02-c5].
+
+The failure was not dramatic. No one hijacked the agent. It produced something plausible, and the person relying on it had no easy way to see that it was wrong.
+
+That pattern runs through this month's independent evidence. The claim that agents can complete real multi-step tasks holds up. The claim that they can be trusted to do so unsupervised does not. The safety figures vendors publish do not measure the kind of failure that keeps turning up.
+
+## What holds up: the agents can do the work
+
+The strongest positive evidence comes from Claire Vo's own computer-use test. On How I AI (11:53), she described a billing ticket in an admin app with three traps: a link to the wrong account, a duplicate refund and a planted prompt injection. Meta's Muse Wonder handled all three and did better than the other models she tested [02-c4]. "It hit all of our planted kind of things that could go wrong," she said (How I AI, 12:25) [02-c4].
+
+The vendors report progress too. Google says Gemini 4 Argon cut attack success on Gray Swan's indirect prompt-injection benchmark to 0.7% across 15 adaptive attempts [02-c1]. That figure is self-reported, and no source in this edition checks it independently. We can neither confirm nor refute it.
+
+Vo's planted injection is the one independent result here that touches the threat Google measures, and it went the agent's way [02-c4]. On whether an agent can carry out a messy, multi-step task without being tricked, the evidence is encouraging.
+
+## What doesn't: the errors nobody caught
+
+The independent failures are a different kind.
+
+In a think-aloud study posted to arXiv, professionals used GitHub Copilot agent mode to build models. Eleven of the 15 notebooks with trained models contained label leakage, and none of their authors noticed. Those authors included four experts and seven novices [02-c2]. The same study found that participants' trust in the AI tracked their confidence and satisfaction, but not the quality of what they produced [02-c3]. People felt better about their work whether or not the work was sound.
+
+Nielsen Norman Group found the same gap in a test of Siri AI. The assistant confirmed that directions should start from the tester's brother's address. It then opened Google Maps with a route from the tester's current location in Durham, NC [02-c6]. The confirmation was correct. The action did not match it.
+
+Kantrowitz's doctor list fits here as well. The phone numbers were real. They were attached to the wrong names, and the error surfaced only after the appointment was booked [02-c5].
+
+Put together, these sources suggest something none of them says alone. Google's figure measures whether the model resists an attacker. The failures in independent tests were mostly plausible errors that slipped past the person. Those errors happened because the interface did not show what was carried over, searched or assumed. The arXiv authors and NN/g both point to that gap: users need to stay able to evaluate the work, and a detail confirmed in one step has to survive into the action. A low injection rate is therefore not evidence that an agent can be left unchecked [02-c8].
+
+## The fair objection, and what to watch
+
+A reasonable counterargument is that agents are clearly getting more reliable, and Vo's result is evidence of that. Both trends are real. The evidence does not show that better reliability removes the need to check.
+
+Practitioner experience points the same way. Nate B Jones, who has used Microsoft's Copilot, called its briefings "a batting average": useful 50-60% of the time. He said the hit rate improves if you show it a good previous briefing and explain what made it useful (AI News & Strategy Daily, 05:45) [02-c7]. A tool with that hit rate is valuable to someone who reviews its output and risky for someone who doesn't [02-c8].
+
+Most of the independent evidence is small or informal. The arXiv study had 20 participants from one company working on one task. NN/g ran most requests once or twice. Vo designed her own benchmark. Kantrowitz's story is a single anecdote. We left out the widely discussed story of an agent leaking a bank balance because it reached Big Technology second-hand. The hosts also disagreed about whether the model or the user's setup was at fault.
+
+Some signals would show that the "trust it" claim is catching up with the "it can do it" claim:
+
+- Vendors report how often users catch agent errors, not just how often attackers fail.
+- Assistants show what they searched, what they carried over from earlier steps and what they assumed.
+- Someone independently replicates Google's injection figures.
+- Larger studies test whether trust starts to track quality.
+
+Until then, treat an agent's output like a capable new colleague's first draft: worth having, and worth checking.
+
+## References
+
+- **[02-c1]** Google Keyword: Gemini, "Developing Gemini 4 Argon responsibly and safely," 2026-10-13. https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/
+- **[02-c2]** arXiv cs.HC, "Impact of Expertise and Trust on AI-assisted Work," 2026-10-14. https://arxiv.org/abs/2610.14660
+- **[02-c3]** arXiv cs.HC, "Impact of Expertise and Trust on AI-assisted Work," 2026-10-14. https://arxiv.org/abs/2610.14660
+- **[02-c4]** How I AI (Claire Vo), "Meta's new 'Muse Wonder' model: good for AI agents, bad for design," podcast, 2026-10-14, 11:53-12:25 and 12:25-13:12. https://podcasters.spotify.com/pod/show/pen-name/episodes/Metas-new-Muse-Wonder-model-good-for-AI-agents--bad-for-design-e3qf2b2
+- **[02-c5]** Big Technology Podcast (Alex Kantrowitz), "Meta & Microsoft's Claude Slowdown, His Agent Leaked His Banking Info, Don't Bully Your AI," podcast, 2026-10-09, 14:07-14:40. https://pdst.fm/e/tracking.swap.fm/track/t7yC0rGPUqahTF4et8YD/pscrb.fm/rss/p/traffic.megaphone.fm/AMPP5617885384.mp3
+- **[02-c6]** Nielsen Norman Group, "The New Siri's Biggest Strength Is Not Intelligence," 2026-10-09. https://www.nngroup.com/articles/ai-assistant-context/
+- **[02-c7]** Nate B Jones (AI News & Strategy Daily), "OpenClaw Was Too Dangerous To Install. 7 Months Later Microsoft Is Bringing It To Your Company.," YouTube, 2026-10-02, 05:45-06:15. https://www.youtube.com/watch?v=avN5R3OhxYs&t=345s
+- **[02-c8]** Inference drawing on: Google Keyword, "Developing Gemini 4 Argon responsibly and safely," 2026-10-13, https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/; arXiv cs.HC, "Impact of Expertise and Trust on AI-assisted Work," 2026-10-14, https://arxiv.org/abs/2610.14660; Nielsen Norman Group, "The New Siri's Biggest Strength Is Not Intelligence," 2026-10-09, https://www.nngroup.com/articles/ai-assistant-context/; Big Technology Podcast, "Meta & Microsoft's Claude Slowdown, His Agent Leaked His Banking Info, Don't Bully Your AI," podcast, 2026-10-09, 15:44-16:18, https://pdst.fm/e/tracking.swap.fm/track/t7yC0rGPUqahTF4et8YD/pscrb.fm/rss/p/traffic.megaphone.fm/AMPP5617885384.mp3

@@ -1,0 +1,72 @@
+{
+ "summary": "Marques Brownlee gives hands-on first impressions of Apple's HomeView, a $300 smart-home display with a 7-inch screen, announced at a mini Home event alongside HomePod mini 2 and a new Apple TV 4K. The review focuses on its camera-based fast account switching for personal context, the lack of voice recognition, the new Siri, and the absence of third-party apps. His verdict: a skip for most people, and a second generation might be more convincing.",
+ "speakers_or_authors": "Marques Brownlee (MKBHD), consumer tech reviewer",
+ "relevance": 2,
+ "relevance_reason": "The passage on HomeView's face-based account switching and personal context, plus the Siri AI comments, bear on the personal-context and device themes. The rest is conventional hardware review (pricing, design, speakers, display), and the hands-on time was short (about one day).",
+ "themes": [
+  "Personal context: camera-based recognition for per-user answers and privacy trade-offs",
+  "AI built into devices: new Siri on a smart home display",
+  "Voice versus other modalities: no voice recognition, camera-based identification instead",
+  "Hands-on first impressions versus shipped value"
+ ],
+ "claims": [
+  {
+   "claim": "HomeView uses a single camera with facial recognition to identify who walks up and switch to that person's personal context (messages, calendar) and Apple account, for up to six people; unrecognized users still get timers, weather, music and Siri.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0008"
+  },
+  {
+   "claim": "Fast account switching is described as new for Apple and clever for multi-person households. Brownlee says he has wanted it on iPads for years.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0009"
+  },
+  {
+   "claim": "The recognition is not full Face ID: it uses a single 12-megapixel Center Stage camera with no IR or depth data, and checks for a recently unlocked iPhone or Watch nearby to guard against spoofing. Brownlee questions how well it works in the dark.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0010"
+  },
+  {
+   "claim": "HomeView has no voice recognition. It only gives personal answers if it sees you nearby, unlike Google's Nest Hub Max, which recognizes his voice (not always reliably).",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0011"
+  },
+  {
+   "claim": "It relies on the new Siri AI, which Brownlee calls still kind of slow but able to do more; answers mostly come from first-party apps.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0014"
+  },
+  {
+   "claim": "No App Store or third-party apps run natively; third-party content comes via CarPlay-standard casting or AirPlay from the iPhone, and iPhone tap-to-beam handles music, Safari links and FaceTime calls.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0007"
+  },
+  {
+   "claim": "At $300 it costs more than Google's Nest Hub Max ($229) and Amazon's Echo Hub ($179). The wall-mounted version costs the same but lacks the woofer and the wall adapter, which costs $60 to $130 extra.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0005"
+  },
+  {
+   "claim": "Brownlee's verdict after about a day of use: he cannot identify an ideal audience, expects it to become a screen-plus-speaker for timers and music after the novelty fades, and calls it a skip for most people.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0019"
+  }
+ ],
+ "commercial_interest": "No sponsorship disclosed for this review. The end of the video promotes his own desk pad merchandise. Apple is the vendor behind the product reviewed, and Brownlee says it was briefed by Apple (\"I was told\").",
+ "older_event": "No. The item covers an Apple event announced the same day as publication (2026-10-13), so it is a fresh launch with first impressions only, not long-term use."
+}

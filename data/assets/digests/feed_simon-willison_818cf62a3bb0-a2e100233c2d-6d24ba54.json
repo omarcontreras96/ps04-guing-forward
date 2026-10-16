@@ -1,0 +1,43 @@
+{
+ "summary": "Short blog post by Simon Willison announcing web-edit 0.1a0, a small Python web app that gives a web UI for viewing and editing files in a folder. He built it with Codex and GPT-6 Astra Extra High after wanting to edit a credentials file from his phone without passing the credentials through the LLM. It is meant to run over Tailscale, and editing uses CodeMirror 6 because Monaco's mobile experience is still weak.",
+ "speakers_or_authors": "Simon Willison (developer/practitioner, Simon Willison's Weblog)",
+ "relevance": 1,
+ "relevance_reason": "Passing mention of a relevant workflow: directing a coding agent from a phone via Codex Remote, and a small privacy-motivated tool to keep secrets out of the LLM's context. It is a tiny tool announcement with no evidence about how well the interface works, and it is mostly a developer-tooling item.",
+ "themes": [
+  "computer-use agents",
+  "privacy and personal context",
+  "mobile agent workflows"
+ ],
+ "claims": [
+  {
+   "claim": "Willison was working on a project from his phone using Codex Remote and wanted to edit a credentials file without sending the credentials through the LLM.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself.",
+   "segment_id": ""
+  },
+  {
+   "claim": "He had Codex with GPT-6 Astra Extra High build a Python web app for viewing and editing files in a folder.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The app is designed to run over Tailscale so an agent can start it and the user can edit files from a phone.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Monaco was passed over for CodeMirror 6 because Monaco's mobile experience is still not great.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "Editing uses CodeMirror 6 - I was going to use Monaco but that still doesn't have a great mobile experience yet.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent; the author built an open personal tool and mentions OpenAI's Codex and GPT-6 as tools he uses, with no sponsorship stated.",
+ "older_event": "No. The post is new (12 Oct 2026) and announces a fresh alpha release, web-edit 0.1a0."
+}

@@ -1,0 +1,57 @@
+{
+ "summary": "Google's launch post for Gemini 4 Argon, a frontier model released via the API, Antigravity, the Gemini app and AI Mode in Search. It is mostly about coding, science, cybersecurity and robotics results and benchmark rankings. A section on agent safety covers shortcut attempts, a misalignment monitor and prompt-injection resistance. Nearly all of it is vendor-reported, with little on how people interact with computers.",
+ "speakers_or_authors": "Google (vendor blog post, no named author)",
+ "relevance": 1,
+ "relevance_reason": "This is mainly a model launch with benchmark and enterprise-science claims, which the brief excludes. Only the agent safety passage (prompt injection when agents browse or read email, pausing for human confirmation) touches computer-use agents, and it is vendor-reported with no user evidence.",
+ "themes": [
+  "computer-use agents",
+  "agent safety and prompt injection",
+  "model launch (mostly out of scope)"
+ ],
+ "claims": [
+  {
+   "claim": "Google says Argon was trained to pause for human confirmation before irreversible steps, and that shortcut attempts on coding benchmarks fell to 2%.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "we trained Argon to respect system boundaries, report negative findings honestly, and pause for human confirmation before taking irreversible steps.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google reports Argon leads the Gray Swan indirect prompt injection benchmark, cutting attack success to 0.7% across 15 adaptive attempts. This is a vendor-reported figure for agents that browse pages and read email.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Argon leads the Gray Swan Indirect Prompt Injection (IPI) benchmark, cutting attack success across 15 adaptive attempts to 0.7%.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google says it built an automated monitor that reads an agent's reasoning and actions and blocks unintended workarounds in real time.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "we built an automated misalignment monitor that reads the agent’s step-by-step reasoning and actions to catch and block unintended workarounds in real time.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google says Argon in Antigravity raised agentic code submissions by over 35% and cut rollbacks by nearly a third. This is an internal result with no methodology given.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Argon in Antigravity has helped teams increase agentic code submissions by more than 35% while reducing code rollbacks by nearly a third.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google says the ADK team gave Argon a short goal and it worked autonomously overnight, producing optimizations now live in the open-source repo.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Working autonomously overnight, Argon surfaced optimizations, now live in google/adk-python, that cut in-memory session prep time by 40% in long sessions",
+   "segment_id": ""
+  },
+  {
+   "claim": "Argon is available to Google AI Ultra and Pro subscribers in the Gemini app and AI Mode in Search starting the day of the post.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Try it starting today in the Gemini app and AI Mode in Search if you’re a Google AI Ultra or Pro subscriber.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Vendor speaking about its own product. The post promotes Google paid tiers (AI Ultra, Pro, API pricing) and partner results, and all benchmark and impact figures are self-reported.",
+ "older_event": "No. The post announces a new model released on 2026-10-13. It does not mainly discuss an event older than 30 days."
+}

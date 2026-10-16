@@ -1,0 +1,10 @@
+{
+ "summary": "A Nielsen Norman Group explainer on empathy mapping, a UX research method that organizes user research into Says, Thinks, Does and Feels quadrants. It covers building a map, its uses, and common mistakes. A short section on AI says to use AI to organize existing evidence, not to generate evidence that doesn't exist. It does not discuss AI interfaces, agents, voice, or personal-context devices.",
+ "speakers_or_authors": "Nielsen Norman Group (NN/g), UX research practitioners; no individual author named in the text.",
+ "relevance": 0,
+ "relevance_reason": "A general UX methods article. Its only AI content is a brief caution about using AI tools in empathy mapping, which is unrelated to how AI changes the way people interact with computers.",
+ "themes": [],
+ "claims": [],
+ "commercial_interest": "NN/g sells UX training and consulting; the article is general guidance with no product promotion in the text.",
+ "older_event": "Not an event-based item. It is evergreen method guidance, and nothing in it is news."
+}

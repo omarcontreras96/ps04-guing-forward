@@ -1,0 +1,34 @@
+{
+  "review_id": "58ac39607074c2f7964f86cfe9ec884fa1630ff5aaaa22a624b3837325f0d6c1",
+  "run_id": "live-20261015T043607Z",
+  "as_of_date": "2026-10-15",
+  "passed": true,
+  "error_count": 0,
+  "warning_count": 4,
+  "issues": [
+    {
+      "piece_id": "01",
+      "artifact": "articles/01.md",
+      "severity": "warning",
+      "message": "Human judgment required: check that inference claims 01-c8 follow from the cited passages, and that the counterargument is fairly represented."
+    },
+    {
+      "piece_id": "02",
+      "artifact": "articles/02.md",
+      "severity": "warning",
+      "message": "Human judgment required: check that inference claims 02-c8 follow from the cited passages, and that the counterargument is fairly represented."
+    },
+    {
+      "piece_id": "03",
+      "artifact": "articles/03.md",
+      "severity": "warning",
+      "message": "Human judgment required: check that inference claims 03-c8 follow from the cited passages, and that the counterargument is fairly represented."
+    },
+    {
+      "piece_id": "03",
+      "artifact": "articles/03.md",
+      "severity": "warning",
+      "message": "article body is 909 words (target 600-900)"
+    }
+  ]
+}

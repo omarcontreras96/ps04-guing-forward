@@ -1,0 +1,94 @@
+{
+ "summary": "Claire Vo interviews Kath Korevec, OpenAI's product lead for ChatGPT Sites, live at OpenAI DevDay. Korevec demos Sites, which hosts software built with Codex and, as of that day, lets visitors use their own connected plugins (Notion, Slack, Calendar) so each person sees their own data on a shared site. She shows an internal incident-command dashboard, a weekly Spotify playlist site that uses computer use to scan Reddit, and a dungeon-crawler game. Vo shows a 3D game built with a faster model. They discuss bringing inference into sites and why Korevec refuses to let AI write messages in her voice. Most of the episode is about building personal software, with sponsor reads in the middle.",
+ "speakers_or_authors": "Claire Vo (host, How I AI) and Kath Korevec (product lead for ChatGPT Sites at OpenAI)",
+ "relevance": 2,
+ "relevance_reason": "A useful passage on personal-context software: sites that pull each user's connected data and run per-user. There is also a small computer-use example and a brief remark on AI impersonation. Voice interfaces are not covered. Much of the episode is a vendor demo and game-building.",
+ "themes": [
+  "Personal context via connected accounts (plugins) in custom software",
+  "Computer-use agent running a weekly automation",
+  "Personal, disposable software built with Codex",
+  "Trust and authorship: AI speaking in your voice",
+  "Generative real-time UI and bringing inference into the site"
+ ],
+ "claims": [
+  {
+   "claim": "OpenAI announced plugins in Sites that let visitors use their own connected plugins, so each viewer of a shared site sees only their own data and no API keys are needed.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "it will allow anyone to come to your site and use their connected plugins. And so you see only your data on that site.",
+   "segment_id": "seg-0005"
+  },
+  {
+   "claim": "The feature is available for enterprise workspaces. When a user logs in, the site asks them to approve their Notion, Slack and calendar connections.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "when you log in, it will actually ask you to approve your connections.",
+   "segment_id": "seg-0006"
+  },
+  {
+   "claim": "The same shared site shows different content depending on the viewer's team, which Korevec says suits data and finance teams with sensitive data.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "they'll be referencing they'll be looking at the exact same site, but they're going to see content based on what their team is.",
+   "segment_id": "seg-0015"
+  },
+  {
+   "claim": "Korevec uses a personal incident-command site that pulls a timeline, responders and runbooks from Slack, Notion and her calendar, so she can follow incidents without bugging her team. She notes the content shown is demo data.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "it takes a timeline of all of the incidents that are happening at that time.",
+   "segment_id": "seg-0007"
+  },
+  {
+   "claim": "Roughly 60 connectors are available, and Korevec says users build both small prototypes and personalized or internal tools, including throwaway weekly views.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "I think there are about 60 or so that we have in the in working right now in the tool",
+   "segment_id": "seg-0017"
+  },
+  {
+   "claim": "Korevec built a site that uses computer use to look at Reddit for popular music and runs every Monday to build a playlist. It needs her laptop open to run.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "in order to run it, it uses computer use. So I have to like have my laptop open and running",
+   "segment_id": "seg-0028"
+  },
+  {
+   "claim": "OpenAI says it has used Sites internally for just over a year and launched it two months ago, and the DevDay keynote slides were a ChatGPT site.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "We launched it two months ago and we internally have just kind of seen it explode",
+   "segment_id": "seg-0004"
+  },
+  {
+   "claim": "Vo says a faster model let her change a 3D game by typing requests such as bunk beds, seasons or removing gravity, and suggests generative UI may be more interesting in games than in business software. She also says it was an expensive use of credits.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "you were able to type PIP needs bunk beds and then ultra-fast just like built the bunk beds",
+   "segment_id": "seg-0044"
+  },
+  {
+   "claim": "OpenAI is experimenting with bringing inference into the site itself, with a chat widget so visitors can modify or interact with the site. Korevec says the widget is very simple and was not working during the live demo.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "we are playing around with ways to get inference into the site to bring your inference.",
+   "segment_id": "seg-0047"
+  },
+  {
+   "claim": "Korevec objects to AI sending messages in her name and tells Codex not to email or message people for her. She says a bot recently impersonated her in her community Slack.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "I don't like it writing for me. I recently had a bot start earning slacks for me and my community slack.",
+   "segment_id": "seg-0060"
+  },
+  {
+   "claim": "As the app developer, Korevec only gets lightweight analytics (visits and traffic), with more agentic analytics planned.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "I do have access to some pretty lightweight analytics. It's basically like it's like visits and traffic.",
+   "segment_id": "seg-0039"
+  }
+ ],
+ "commercial_interest": "Korevec is the OpenAI product lead for Sites, so the product claims are vendor claims, and the episode is recorded at OpenAI DevDay. The host is a guest of OpenAI at the event. Sponsor reads from Merge and Vanta appear mid-episode, and Merge names OpenAI as a customer.",
+ "older_event": "The episode is about new announcements at DevDay (plugins in Sites, hosting MCP plugins, a faster model). Sites itself launched about two months before and was used internally for about a year."
+}

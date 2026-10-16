@@ -1,0 +1,3037 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  } ],
+  "wpWinPositions": [ {
+  
+  } ],
+  "events": [ {
+    "tStartMs": 2572,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Okay,"
+    } ]
+  }, {
+    "tStartMs": 3484,
+    "dDurationMs": 2038,
+    "segs": [ {
+      "utf8": "so Google is dropping a brand\nnew category of computer,"
+    } ]
+  }, {
+    "tStartMs": 5724,
+    "dDurationMs": 965,
+    "segs": [ {
+      "utf8": "new operating system,"
+    } ]
+  }, {
+    "tStartMs": 6891,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "these new laptops."
+    } ]
+  }, {
+    "tStartMs": 8418,
+    "dDurationMs": 1314,
+    "segs": [ {
+      "utf8": "You know, with Windows doing"
+    } ]
+  }, {
+    "tStartMs": 10344,
+    "dDurationMs": 2460,
+    "segs": [ {
+      "utf8": "Windows things and a bunch\nof other tides changing,"
+    } ]
+  }, {
+    "tStartMs": 12886,
+    "dDurationMs": 2111,
+    "segs": [ {
+      "utf8": "maybe this is the perfect\ntime to jump in..."
+    } ]
+  }, {
+    "tStartMs": 15079,
+    "dDurationMs": 915,
+    "segs": [ {
+      "utf8": "and shake things up."
+    } ]
+  }, {
+    "tStartMs": 16636,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "So"
+    } ]
+  }, {
+    "tStartMs": 17680,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "enter...\nGooglebooks."
+    } ]
+  }, {
+    "tStartMs": 18592,
+    "dDurationMs": 1487,
+    "segs": [ {
+      "utf8": "I got my hands on...\na couple of them here,"
+    } ]
+  }, {
+    "tStartMs": 20611,
+    "dDurationMs": 1546,
+    "segs": [ {
+      "utf8": "and my first question going into this was"
+    } ]
+  }, {
+    "tStartMs": 22359,
+    "dDurationMs": 1111,
+    "segs": [ {
+      "utf8": "basically, okay, it's Google,"
+    } ]
+  }, {
+    "tStartMs": 24324,
+    "dDurationMs": 2212,
+    "segs": [ {
+      "utf8": "what is the difference\nbetween this and a Chromebook?"
+    } ]
+  }, {
+    "tStartMs": 26618,
+    "dDurationMs": 1618,
+    "segs": [ {
+      "utf8": "'Cause we all know what Chromebooks are,"
+    } ]
+  }, {
+    "tStartMs": 28928,
+    "dDurationMs": 1023,
+    "segs": [ {
+      "utf8": "and this is supposed to be"
+    } ]
+  }, {
+    "tStartMs": 30153,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "different,"
+    } ]
+  }, {
+    "tStartMs": 31197,
+    "dDurationMs": 847,
+    "segs": [ {
+      "utf8": "certainly priced different."
+    } ]
+  }, {
+    "tStartMs": 32926,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "So"
+    } ]
+  }, {
+    "tStartMs": 33970,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "what actually"
+    } ]
+  }, {
+    "tStartMs": 35014,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "is"
+    } ]
+  }, {
+    "tStartMs": 36058,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "a"
+    } ]
+  }, {
+    "tStartMs": 37102,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Googlebook?"
+    } ]
+  }, {
+    "tStartMs": 38014,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "So first of all,\nthere's actually 5 of these things."
+    } ]
+  }, {
+    "tStartMs": 38926,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Google's not"
+    } ]
+  }, {
+    "tStartMs": 39944,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "making...\nany Googlebooks themselves."
+    } ]
+  }, {
+    "tStartMs": 40856,
+    "dDurationMs": 1583,
+    "segs": [ {
+      "utf8": "They're trusting 5 companies\nto make them at launch."
+    } ]
+  }, {
+    "tStartMs": 42521,
+    "dDurationMs": 1357,
+    "segs": [ {
+      "utf8": "So there's an ASUS Googlebook,"
+    } ]
+  }, {
+    "tStartMs": 44430,
+    "dDurationMs": 926,
+    "segs": [ {
+      "utf8": "an...\nAcer Googlebook,"
+    } ]
+  }, {
+    "tStartMs": 46068,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "a Dell"
+    } ]
+  }, {
+    "tStartMs": 47112,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Googlebook,"
+    } ]
+  }, {
+    "tStartMs": 48156,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "an HP Googlebook,"
+    } ]
+  }, {
+    "tStartMs": 49200,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and a Lenovo Googlebook."
+    } ]
+  }, {
+    "tStartMs": 50112,
+    "dDurationMs": 2030,
+    "segs": [ {
+      "utf8": "And all these machines have\na few things in common..."
+    } ]
+  }, {
+    "tStartMs": 52224,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "They're"
+    } ]
+  }, {
+    "tStartMs": 53268,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "all...\npremium..."
+    } ]
+  }, {
+    "tStartMs": 54180,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and"
+    } ]
+  }, {
+    "tStartMs": 55224,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "lightweight..."
+    } ]
+  }, {
+    "tStartMs": 56136,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "They start at 16 gigs\nof RAM going up to 32."
+    } ]
+  }, {
+    "tStartMs": 57048,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "They"
+    } ]
+  }, {
+    "tStartMs": 58092,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "all have 2K+"
+    } ]
+  }, {
+    "tStartMs": 59136,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "touchscreen displays,"
+    } ]
+  }, {
+    "tStartMs": 60180,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and they all have this"
+    } ]
+  }, {
+    "tStartMs": 61224,
+    "dDurationMs": 851,
+    "segs": [ {
+      "utf8": "colorful LED bar...\non the back..."
+    } ]
+  }, {
+    "tStartMs": 62157,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "called a Glowbar."
+    } ]
+  }, {
+    "tStartMs": 63384,
+    "dDurationMs": 1765,
+    "segs": [ {
+      "utf8": "The Glowbar only really does a few things."
+    } ]
+  }, {
+    "tStartMs": 65231,
+    "dDurationMs": 1501,
+    "segs": [ {
+      "utf8": "It turns red when the battery's low,"
+    } ]
+  }, {
+    "tStartMs": 67404,
+    "dDurationMs": 2337,
+    "segs": [ {
+      "utf8": "it shows your charging progress\nwhen you're plugged in,"
+    } ]
+  }, {
+    "tStartMs": 69943,
+    "dDurationMs": 2689,
+    "segs": [ {
+      "utf8": "and then it turns kind of purple\nwhen you're talking to Gemini,"
+    } ]
+  }, {
+    "tStartMs": 72714,
+    "dDurationMs": 1045,
+    "segs": [ {
+      "utf8": "and...\nthat's about it."
+    } ]
+  }, {
+    "tStartMs": 73841,
+    "dDurationMs": 1647,
+    "segs": [ {
+      "utf8": "But maybe most importantly,"
+    } ]
+  }, {
+    "tStartMs": 76080,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "they"
+    } ]
+  }, {
+    "tStartMs": 77124,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "don't run"
+    } ]
+  }, {
+    "tStartMs": 78168,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "ChromeOS."
+    } ]
+  }, {
+    "tStartMs": 79212,
+    "dDurationMs": 1402,
+    "segs": [ {
+      "utf8": "Technically...\nSo they all run this"
+    } ]
+  }, {
+    "tStartMs": 80816,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "new OS called"
+    } ]
+  }, {
+    "tStartMs": 82149,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Googlebook"
+    } ]
+  }, {
+    "tStartMs": 83193,
+    "dDurationMs": 2452,
+    "segs": [ {
+      "utf8": "OS...\nwhich I don't think that's a good name."
+    } ]
+  }, {
+    "tStartMs": 85727,
+    "dDurationMs": 2716,
+    "segs": [ {
+      "utf8": "It's already kind of confusing\nbecause Googlebooks..."
+    } ]
+  }, {
+    "tStartMs": 88525,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "exist,"
+    } ]
+  }, {
+    "tStartMs": 89437,
+    "dDurationMs": 1699,
+    "segs": [ {
+      "utf8": "but there's also a\nseparate product called..."
+    } ]
+  }, {
+    "tStartMs": 91218,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Google"
+    } ]
+  }, {
+    "tStartMs": 92262,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Books."
+    } ]
+  }, {
+    "tStartMs": 93306,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "So that's..."
+    } ]
+  }, {
+    "tStartMs": 94218,
+    "dDurationMs": 1612,
+    "segs": [ {
+      "utf8": "confusing, but we'll let that slide,\nI guess."
+    } ]
+  }, {
+    "tStartMs": 95929,
+    "dDurationMs": 1197,
+    "segs": [ {
+      "utf8": "Anyway, the idea is that..."
+    } ]
+  }, {
+    "tStartMs": 97208,
+    "dDurationMs": 1707,
+    "segs": [ {
+      "utf8": "this is supposed to be...\na great laptop"
+    } ]
+  }, {
+    "tStartMs": 99117,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "for someone"
+    } ]
+  }, {
+    "tStartMs": 100232,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "with"
+    } ]
+  }, {
+    "tStartMs": 101276,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "an Android phone,"
+    } ]
+  }, {
+    "tStartMs": 102320,
+    "dDurationMs": 1670,
+    "segs": [ {
+      "utf8": "specifically a Pixel phone,\nespecially at launch."
+    } ]
+  }, {
+    "tStartMs": 104792,
+    "dDurationMs": 1799,
+    "segs": [ {
+      "utf8": "It's supposed to be giving you...\nthe same"
+    } ]
+  }, {
+    "tStartMs": 106793,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "level"
+    } ]
+  }, {
+    "tStartMs": 107837,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "of continuity...\nand"
+    } ]
+  }, {
+    "tStartMs": 108881,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "ecosystem"
+    } ]
+  }, {
+    "tStartMs": 109925,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "as someone would experience with an"
+    } ]
+  }, {
+    "tStartMs": 111052,
+    "dDurationMs": 1064,
+    "segs": [ {
+      "utf8": "iPhone if they were using"
+    } ]
+  }, {
+    "tStartMs": 112628,
+    "dDurationMs": 1488,
+    "segs": [ {
+      "utf8": "a bunch of Apple products.\nand then"
+    } ]
+  }, {
+    "tStartMs": 114318,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "sprinkle a little"
+    } ]
+  }, {
+    "tStartMs": 115362,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "extra"
+    } ]
+  }, {
+    "tStartMs": 116406,
+    "dDurationMs": 832,
+    "segs": [ {
+      "utf8": "Gemini on top.\nSo this here is the"
+    } ]
+  }, {
+    "tStartMs": 117440,
+    "dDurationMs": 2492,
+    "segs": [ {
+      "utf8": "ASUS Googlebook that I've\nbeen using for the past week."
+    } ]
+  }, {
+    "tStartMs": 120134,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Googlebook OS"
+    } ]
+  }, {
+    "tStartMs": 121178,
+    "dDurationMs": 1427,
+    "segs": [ {
+      "utf8": "lets me get notifications from my Pixel"
+    } ]
+  }, {
+    "tStartMs": 123157,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "on my laptop."
+    } ]
+  }, {
+    "tStartMs": 124201,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "I can text from my phone"
+    } ]
+  }, {
+    "tStartMs": 125245,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "on the laptop."
+    } ]
+  }, {
+    "tStartMs": 126289,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "I can also share"
+    } ]
+  }, {
+    "tStartMs": 127333,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "internet from my phone,"
+    } ]
+  }, {
+    "tStartMs": 128245,
+    "dDurationMs": 1875,
+    "segs": [ {
+      "utf8": "so I basically have\ncellular wherever I go."
+    } ]
+  }, {
+    "tStartMs": 130550,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "And I can also"
+    } ]
+  }, {
+    "tStartMs": 131594,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "access my files"
+    } ]
+  }, {
+    "tStartMs": 132638,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "on the phone"
+    } ]
+  }, {
+    "tStartMs": 133682,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "from the laptop super"
+    } ]
+  }, {
+    "tStartMs": 134726,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "easily,"
+    } ]
+  }, {
+    "tStartMs": 135770,
+    "dDurationMs": 1099,
+    "segs": [ {
+      "utf8": "literally a click and drag away, as"
+    } ]
+  }, {
+    "tStartMs": 137071,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "long as they're..."
+    } ]
+  }, {
+    "tStartMs": 137983,
+    "dDurationMs": 932,
+    "segs": [ {
+      "utf8": "under 200 megabytes."
+    } ]
+  }, {
+    "tStartMs": 139717,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "And"
+    } ]
+  }, {
+    "tStartMs": 140761,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "if I start a task on my phone,"
+    } ]
+  }, {
+    "tStartMs": 141805,
+    "dDurationMs": 1617,
+    "segs": [ {
+      "utf8": "like...\nbooking a flight, for example,"
+    } ]
+  }, {
+    "tStartMs": 144004,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and then realize,"
+    } ]
+  }, {
+    "tStartMs": 145048,
+    "dDurationMs": 1224,
+    "segs": [ {
+      "utf8": "you know what, this is a..."
+    } ]
+  }, {
+    "tStartMs": 146354,
+    "dDurationMs": 931,
+    "segs": [ {
+      "utf8": "big screen activity,"
+    } ]
+  }, {
+    "tStartMs": 148037,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "I can just"
+    } ]
+  }, {
+    "tStartMs": 149081,
+    "dDurationMs": 1730,
+    "segs": [ {
+      "utf8": "pick up where I left off...\non the Googlebook"
+    } ]
+  }, {
+    "tStartMs": 151013,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "with one"
+    } ]
+  }, {
+    "tStartMs": 152057,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "click..."
+    } ]
+  }, {
+    "tStartMs": 152969,
+    "dDurationMs": 1326,
+    "segs": [ {
+      "utf8": "And then the rest of the\nOS basically just feels"
+    } ]
+  }, {
+    "tStartMs": 155197,
+    "dDurationMs": 982,
+    "segs": [ {
+      "utf8": "like Android, more or"
+    } ]
+  }, {
+    "tStartMs": 156381,
+    "dDurationMs": 1539,
+    "segs": [ {
+      "utf8": "less, like from the home screens"
+    } ]
+  }, {
+    "tStartMs": 158122,
+    "dDurationMs": 1287,
+    "segs": [ {
+      "utf8": "with folders...\nand widgets,"
+    } ]
+  }, {
+    "tStartMs": 160021,
+    "dDurationMs": 1995,
+    "segs": [ {
+      "utf8": "to the app drawer with...\nall of our apps,"
+    } ]
+  }, {
+    "tStartMs": 162218,
+    "dDurationMs": 922,
+    "segs": [ {
+      "utf8": "the quick settings."
+    } ]
+  }, {
+    "tStartMs": 163540,
+    "dDurationMs": 935,
+    "segs": [ {
+      "utf8": "The quick settings even"
+    } ]
+  }, {
+    "tStartMs": 164677,
+    "dDurationMs": 1913,
+    "segs": [ {
+      "utf8": "look straight from Android.\nLike they still have"
+    } ]
+  }, {
+    "tStartMs": 166792,
+    "dDurationMs": 1233,
+    "segs": [ {
+      "utf8": "an...\nauto-rotate toggle in them"
+    } ]
+  }, {
+    "tStartMs": 168617,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "that"
+    } ]
+  }, {
+    "tStartMs": 169661,
+    "dDurationMs": 1329,
+    "segs": [ {
+      "utf8": "doesn't do anything on this laptop,\nbut it's there."
+    } ]
+  }, {
+    "tStartMs": 171782,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "And it's funny,"
+    } ]
+  }, {
+    "tStartMs": 172694,
+    "dDurationMs": 1722,
+    "segs": [ {
+      "utf8": "you can actually go into\nthe About this device..."
+    } ]
+  }, {
+    "tStartMs": 174498,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and it"
+    } ]
+  }, {
+    "tStartMs": 175542,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "actually says"
+    } ]
+  }, {
+    "tStartMs": 176586,
+    "dDurationMs": 1399,
+    "segs": [ {
+      "utf8": "Android 17.\nBut of course, you know,"
+    } ]
+  }, {
+    "tStartMs": 178067,
+    "dDurationMs": 1910,
+    "segs": [ {
+      "utf8": "there's some other\ntweaks to make it work..."
+    } ]
+  }, {
+    "tStartMs": 180059,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "with"
+    } ]
+  }, {
+    "tStartMs": 181103,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "a touchscreen"
+    } ]
+  }, {
+    "tStartMs": 182147,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "or a mouse and keyboard."
+    } ]
+  }, {
+    "tStartMs": 183191,
+    "dDurationMs": 838,
+    "segs": [ {
+      "utf8": "And the point is...\nit runs"
+    } ]
+  }, {
+    "tStartMs": 184231,
+    "dDurationMs": 1729,
+    "segs": [ {
+      "utf8": "Android apps...\nSo it has the Play Store,"
+    } ]
+  }, {
+    "tStartMs": 186162,
+    "dDurationMs": 3127,
+    "segs": [ {
+      "utf8": "and you can install as many apps as\nyou want to that internal storage."
+    } ]
+  }, {
+    "tStartMs": 189380,
+    "dDurationMs": 1749,
+    "segs": [ {
+      "utf8": "But if you don't wanna\ninstall a new Android app,"
+    } ]
+  }, {
+    "tStartMs": 191211,
+    "dDurationMs": 2074,
+    "segs": [ {
+      "utf8": "you can just mirror it from\nyour phone that already has it."
+    } ]
+  }, {
+    "tStartMs": 193367,
+    "dDurationMs": 1396,
+    "segs": [ {
+      "utf8": "So that's the main premise..."
+    } ]
+  }, {
+    "tStartMs": 194845,
+    "dDurationMs": 1192,
+    "segs": [ {
+      "utf8": "And then there's a few..."
+    } ]
+  }, {
+    "tStartMs": 196119,
+    "dDurationMs": 2567,
+    "segs": [ {
+      "utf8": "extra Gemini features\nsprinkled on top that ChromeOS"
+    } ]
+  }, {
+    "tStartMs": 198888,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "doesn't have."
+    } ]
+  }, {
+    "tStartMs": 200131,
+    "dDurationMs": 835,
+    "segs": [ {
+      "utf8": "The headlining one"
+    } ]
+  }, {
+    "tStartMs": 201638,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "is"
+    } ]
+  }, {
+    "tStartMs": 202682,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "this"
+    } ]
+  }, {
+    "tStartMs": 203726,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "magic"
+    } ]
+  }, {
+    "tStartMs": 204770,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "pointer feature with the cursor."
+    } ]
+  }, {
+    "tStartMs": 205682,
+    "dDurationMs": 1549,
+    "segs": [ {
+      "utf8": "And it's actually off by default,\nbut once you enable it,"
+    } ]
+  }, {
+    "tStartMs": 207313,
+    "dDurationMs": 3034,
+    "segs": [ {
+      "utf8": "it lets you wiggle your cursor to\nactivate and then select something to"
+    } ]
+  }, {
+    "tStartMs": 210549,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "ask Gemini about it"
+    } ]
+  }, {
+    "tStartMs": 211593,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "or"
+    } ]
+  }, {
+    "tStartMs": 212637,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "do something with it."
+    } ]
+  }, {
+    "tStartMs": 213681,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "So, you know,"
+    } ]
+  }, {
+    "tStartMs": 214725,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "mostly looking up images and then"
+    } ]
+  }, {
+    "tStartMs": 215769,
+    "dDurationMs": 2049,
+    "segs": [ {
+      "utf8": "asking for more information about them,\nstuff like that."
+    } ]
+  }, {
+    "tStartMs": 217980,
+    "dDurationMs": 1717,
+    "segs": [ {
+      "utf8": "I think my personal\nfavorite is actually the"
+    } ]
+  }, {
+    "tStartMs": 219899,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "semantic file"
+    } ]
+  }, {
+    "tStartMs": 220943,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "search,"
+    } ]
+  }, {
+    "tStartMs": 221987,
+    "dDurationMs": 846,
+    "segs": [ {
+      "utf8": "uh, 'cause there is...\nlocal storage,"
+    } ]
+  }, {
+    "tStartMs": 223415,
+    "dDurationMs": 1677,
+    "segs": [ {
+      "utf8": "half a terabyte of it\nactually on this one."
+    } ]
+  }, {
+    "tStartMs": 225370,
+    "dDurationMs": 1301,
+    "segs": [ {
+      "utf8": "And there is a file system.\nSo"
+    } ]
+  }, {
+    "tStartMs": 227153,
+    "dDurationMs": 2094,
+    "segs": [ {
+      "utf8": "in case you don't remember\nthe exact file name,"
+    } ]
+  }, {
+    "tStartMs": 229329,
+    "dDurationMs": 1167,
+    "segs": [ {
+      "utf8": "but need to find something,"
+    } ]
+  }, {
+    "tStartMs": 230698,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "you can search"
+    } ]
+  }, {
+    "tStartMs": 231846,
+    "dDurationMs": 2464,
+    "segs": [ {
+      "utf8": "just a description of what\nyou remember is in the file,"
+    } ]
+  }, {
+    "tStartMs": 234922,
+    "dDurationMs": 1955,
+    "segs": [ {
+      "utf8": "and the Files app can\nstill find it for you."
+    } ]
+  }, {
+    "tStartMs": 237569,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "This is"
+    } ]
+  }, {
+    "tStartMs": 238613,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "actually very useful AI."
+    } ]
+  }, {
+    "tStartMs": 239657,
+    "dDurationMs": 2026,
+    "segs": [ {
+      "utf8": "And there's also Rambler,\nwhich is Google's new,"
+    } ]
+  }, {
+    "tStartMs": 241765,
+    "dDurationMs": 1255,
+    "segs": [ {
+      "utf8": "much smarter speech-to-text."
+    } ]
+  }, {
+    "tStartMs": 243390,
+    "dDurationMs": 1033,
+    "segs": [ {
+      "utf8": "That removes the ums and"
+    } ]
+  }, {
+    "tStartMs": 244625,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "uhs"
+    } ]
+  }, {
+    "tStartMs": 245669,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and"
+    } ]
+  }, {
+    "tStartMs": 246713,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "works super quickly."
+    } ]
+  }, {
+    "tStartMs": 247757,
+    "dDurationMs": 1306,
+    "segs": [ {
+      "utf8": "There's a dedicated button\nfor it on the keyboard too,"
+    } ]
+  }, {
+    "tStartMs": 249145,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "which is hilarious."
+    } ]
+  }, {
+    "tStartMs": 250189,
+    "dDurationMs": 1008,
+    "segs": [ {
+      "utf8": "And then there's also this"
+    } ]
+  }, {
+    "tStartMs": 251399,
+    "dDurationMs": 992,
+    "segs": [ {
+      "utf8": "Create My Widget feature"
+    } ]
+  }, {
+    "tStartMs": 252593,
+    "dDurationMs": 2111,
+    "segs": [ {
+      "utf8": "where you can describe a\nnew widget that you want"
+    } ]
+  }, {
+    "tStartMs": 254906,
+    "dDurationMs": 903,
+    "segs": [ {
+      "utf8": "with natural language,"
+    } ]
+  }, {
+    "tStartMs": 256011,
+    "dDurationMs": 3006,
+    "segs": [ {
+      "utf8": "and it just makes it for you,\nwhich can be pretty sick when it works."
+    } ]
+  }, {
+    "tStartMs": 259219,
+    "dDurationMs": 2021,
+    "segs": [ {
+      "utf8": "They're not the prettiest\nwidgets in the world,"
+    } ]
+  }, {
+    "tStartMs": 261322,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "but"
+    } ]
+  }, {
+    "tStartMs": 262366,
+    "dDurationMs": 1640,
+    "segs": [ {
+      "utf8": "hey, if it works, it's pretty convenient.\nSo"
+    } ]
+  }, {
+    "tStartMs": 264208,
+    "dDurationMs": 2576,
+    "segs": [ {
+      "utf8": "I like a lot of things about this,\nand I think I mostly"
+    } ]
+  }, {
+    "tStartMs": 267286,
+    "dDurationMs": 1368,
+    "segs": [ {
+      "utf8": "understand...\nwhat a Googlebook"
+    } ]
+  }, {
+    "tStartMs": 268856,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "is."
+    } ]
+  }, {
+    "tStartMs": 269940,
+    "dDurationMs": 3169,
+    "segs": [ {
+      "utf8": "But there's also some things about this\nthat make it a little less clear..."
+    } ]
+  }, {
+    "tStartMs": 273191,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "who"
+    } ]
+  }, {
+    "tStartMs": 274235,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "would actually"
+    } ]
+  }, {
+    "tStartMs": 275279,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "want to get"
+    } ]
+  }, {
+    "tStartMs": 276323,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "one.\nAnd I think that all starts"
+    } ]
+  }, {
+    "tStartMs": 277645,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "with the price."
+    } ]
+  }, {
+    "tStartMs": 279024,
+    "dDurationMs": 1831,
+    "segs": [ {
+      "utf8": "So the cheapest Googlebook starts"
+    } ]
+  }, {
+    "tStartMs": 281057,
+    "dDurationMs": 2698,
+    "segs": [ {
+      "utf8": "at $900.\nand then they go up from there."
+    } ]
+  }, {
+    "tStartMs": 283837,
+    "dDurationMs": 1774,
+    "segs": [ {
+      "utf8": "They go well into the 4 digits...\nAnd..."
+    } ]
+  }, {
+    "tStartMs": 285611,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "this is"
+    } ]
+  }, {
+    "tStartMs": 286655,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "playing"
+    } ]
+  }, {
+    "tStartMs": 287699,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "in that, like,"
+    } ]
+  }, {
+    "tStartMs": 288743,
+    "dDurationMs": 992,
+    "segs": [ {
+      "utf8": "you know, I like to call this like..."
+    } ]
+  }, {
+    "tStartMs": 289817,
+    "dDurationMs": 1012,
+    "segs": [ {
+      "utf8": "the premium entry-level"
+    } ]
+  }, {
+    "tStartMs": 291031,
+    "dDurationMs": 1917,
+    "segs": [ {
+      "utf8": "category, like, which is where MacBook Air"
+    } ]
+  }, {
+    "tStartMs": 293150,
+    "dDurationMs": 1061,
+    "segs": [ {
+      "utf8": "has sat for a long time."
+    } ]
+  }, {
+    "tStartMs": 294953,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "So..."
+    } ]
+  }, {
+    "tStartMs": 295865,
+    "dDurationMs": 1481,
+    "segs": [ {
+      "utf8": "at that price,\nwhat is the argument for getting"
+    } ]
+  }, {
+    "tStartMs": 297548,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "a"
+    } ]
+  }, {
+    "tStartMs": 298592,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Googlebook?"
+    } ]
+  }, {
+    "tStartMs": 299504,
+    "dDurationMs": 1260,
+    "segs": [ {
+      "utf8": "Google actually confirmed\nthat some Chromebooks,"
+    } ]
+  }, {
+    "tStartMs": 300846,
+    "dDurationMs": 1332,
+    "segs": [ {
+      "utf8": "probably a lot of new ones,"
+    } ]
+  }, {
+    "tStartMs": 302840,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "will"
+    } ]
+  }, {
+    "tStartMs": 303884,
+    "dDurationMs": 1195,
+    "segs": [ {
+      "utf8": "be able to upgrade...\nto Googlebook OS,"
+    } ]
+  }, {
+    "tStartMs": 305591,
+    "dDurationMs": 1280,
+    "segs": [ {
+      "utf8": "and I guess essentially..."
+    } ]
+  }, {
+    "tStartMs": 306953,
+    "dDurationMs": 914,
+    "segs": [ {
+      "utf8": "become Googlebooks,"
+    } ]
+  }, {
+    "tStartMs": 307949,
+    "dDurationMs": 2421,
+    "segs": [ {
+      "utf8": "but it hasn't really said\nwhich models or when."
+    } ]
+  }, {
+    "tStartMs": 311144,
+    "dDurationMs": 1690,
+    "segs": [ {
+      "utf8": "But if that includes things like..."
+    } ]
+  }, {
+    "tStartMs": 312916,
+    "dDurationMs": 3826,
+    "segs": [ {
+      "utf8": "the Galaxy Chromebook Plus, for example,\nthat's already a really nice, premium,"
+    } ]
+  }, {
+    "tStartMs": 316824,
+    "dDurationMs": 1501,
+    "segs": [ {
+      "utf8": "super lightweight AMOLED laptop,"
+    } ]
+  }, {
+    "tStartMs": 318527,
+    "dDurationMs": 1493,
+    "segs": [ {
+      "utf8": "full-size ports and everything."
+    } ]
+  }, {
+    "tStartMs": 320340,
+    "dDurationMs": 1641,
+    "segs": [ {
+      "utf8": "That's only $750."
+    } ]
+  }, {
+    "tStartMs": 322063,
+    "dDurationMs": 1759,
+    "segs": [ {
+      "utf8": "So that's kind of an\nunknown question right now."
+    } ]
+  }, {
+    "tStartMs": 324334,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "But the other,"
+    } ]
+  }, {
+    "tStartMs": 325378,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "maybe more interesting one,"
+    } ]
+  }, {
+    "tStartMs": 326557,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "is just about"
+    } ]
+  }, {
+    "tStartMs": 327601,
+    "dDurationMs": 805,
+    "segs": [ {
+      "utf8": "what"
+    } ]
+  }, {
+    "tStartMs": 328406,
+    "dDurationMs": 827,
+    "segs": [ {
+      "utf8": "apps...\nyou will actually..."
+    } ]
+  }, {
+    "tStartMs": 329315,
+    "dDurationMs": 852,
+    "segs": [ {
+      "utf8": "be able to use...\n'Cause I said it ran Android,"
+    } ]
+  }, {
+    "tStartMs": 330759,
+    "dDurationMs": 1184,
+    "segs": [ {
+      "utf8": "and I said it had the Play Store,"
+    } ]
+  }, {
+    "tStartMs": 332145,
+    "dDurationMs": 2335,
+    "segs": [ {
+      "utf8": "which is something that's not\nexactly the same as a Chromebook,"
+    } ]
+  }, {
+    "tStartMs": 335262,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "but then there's some"
+    } ]
+  }, {
+    "tStartMs": 336306,
+    "dDurationMs": 2360,
+    "segs": [ {
+      "utf8": "asterisks to that.\nBecause Googlebook OS, like I said, is a"
+    } ]
+  }, {
+    "tStartMs": 339258,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "new...\nOS"
+    } ]
+  }, {
+    "tStartMs": 340302,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "after all."
+    } ]
+  }, {
+    "tStartMs": 341346,
+    "dDurationMs": 937,
+    "segs": [ {
+      "utf8": "And so compatibility is not"
+    } ]
+  }, {
+    "tStartMs": 342485,
+    "dDurationMs": 1022,
+    "segs": [ {
+      "utf8": "perfect across the board."
+    } ]
+  }, {
+    "tStartMs": 344089,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "I was able to run..."
+    } ]
+  }, {
+    "tStartMs": 345001,
+    "dDurationMs": 2893,
+    "segs": [ {
+      "utf8": "a lot of Android apps on this,\nbut if you go through the Play Store,"
+    } ]
+  }, {
+    "tStartMs": 347976,
+    "dDurationMs": 934,
+    "segs": [ {
+      "utf8": "you will see that there"
+    } ]
+  }, {
+    "tStartMs": 349112,
+    "dDurationMs": 1756,
+    "segs": [ {
+      "utf8": "is a...\nA spectrum"
+    } ]
+  }, {
+    "tStartMs": 351690,
+    "dDurationMs": 1092,
+    "segs": [ {
+      "utf8": "of compatibility with"
+    } ]
+  }, {
+    "tStartMs": 353294,
+    "dDurationMs": 868,
+    "segs": [ {
+      "utf8": "how well the apps"
+    } ]
+  }, {
+    "tStartMs": 354364,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "actually"
+    } ]
+  }, {
+    "tStartMs": 355408,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "work.\nThere's actually these"
+    } ]
+  }, {
+    "tStartMs": 356452,
+    "dDurationMs": 849,
+    "segs": [ {
+      "utf8": "labels next to each..."
+    } ]
+  }, {
+    "tStartMs": 357383,
+    "dDurationMs": 1412,
+    "segs": [ {
+      "utf8": "app when you search through these"
+    } ]
+  }, {
+    "tStartMs": 359297,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "that say"
+    } ]
+  }, {
+    "tStartMs": 360341,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Made for Desktop,"
+    } ]
+  }, {
+    "tStartMs": 361669,
+    "dDurationMs": 915,
+    "segs": [ {
+      "utf8": "Optimized for Desktop,"
+    } ]
+  }, {
+    "tStartMs": 363146,
+    "dDurationMs": 1004,
+    "segs": [ {
+      "utf8": "Compatible with Desktop,"
+    } ]
+  }, {
+    "tStartMs": 364872,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "or"
+    } ]
+  }, {
+    "tStartMs": 365916,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Better on the Website,"
+    } ]
+  }, {
+    "tStartMs": 366949,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "or"
+    } ]
+  }, {
+    "tStartMs": 367993,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Built for Mobile..."
+    } ]
+  }, {
+    "tStartMs": 368905,
+    "dDurationMs": 2021,
+    "segs": [ {
+      "utf8": "So the Made for Desktop badge is\nbasically the best case scenario,"
+    } ]
+  }, {
+    "tStartMs": 371008,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "right?\nWhere this"
+    } ]
+  }, {
+    "tStartMs": 372052,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "app was...\nmade for"
+    } ]
+  }, {
+    "tStartMs": 373096,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Googlebook OS."
+    } ]
+  }, {
+    "tStartMs": 374140,
+    "dDurationMs": 1855,
+    "segs": [ {
+      "utf8": "And you'll see this in a\nhandful of those featured apps,"
+    } ]
+  }, {
+    "tStartMs": 376077,
+    "dDurationMs": 2357,
+    "segs": [ {
+      "utf8": "which is cool.\nWhat you'll see a lot more"
+    } ]
+  }, {
+    "tStartMs": 378636,
+    "dDurationMs": 1463,
+    "segs": [ {
+      "utf8": "of is the Compatible with Desktop or"
+    } ]
+  }, {
+    "tStartMs": 380301,
+    "dDurationMs": 862,
+    "segs": [ {
+      "utf8": "Optimized for Desktop,"
+    } ]
+  }, {
+    "tStartMs": 381245,
+    "dDurationMs": 3393,
+    "segs": [ {
+      "utf8": "which kind of seems to mean you have a\nlarge screen version of the app that works"
+    } ]
+  }, {
+    "tStartMs": 384720,
+    "dDurationMs": 3136,
+    "segs": [ {
+      "utf8": "with the mouse and keyboard controls\ninstead of just a stretched phone app."
+    } ]
+  }, {
+    "tStartMs": 388568,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "But then when you see"
+    } ]
+  }, {
+    "tStartMs": 390019,
+    "dDurationMs": 862,
+    "segs": [ {
+      "utf8": "Better on the Website,"
+    } ]
+  }, {
+    "tStartMs": 391623,
+    "dDurationMs": 1248,
+    "segs": [ {
+      "utf8": "first of all, it's just a burn,"
+    } ]
+  }, {
+    "tStartMs": 393463,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "but hey,"
+    } ]
+  }, {
+    "tStartMs": 394507,
+    "dDurationMs": 1611,
+    "segs": [ {
+      "utf8": "this app is just not good...\non the desktop right now."
+    } ]
+  }, {
+    "tStartMs": 396200,
+    "dDurationMs": 1848,
+    "segs": [ {
+      "utf8": "You might as well just\nopen it in the browser"
+    } ]
+  }, {
+    "tStartMs": 398250,
+    "dDurationMs": 1463,
+    "segs": [ {
+      "utf8": "and use it on their website instead."
+    } ]
+  }, {
+    "tStartMs": 400535,
+    "dDurationMs": 2749,
+    "segs": [ {
+      "utf8": "And then Built for Mobile just\nmeans you're straight up getting..."
+    } ]
+  }, {
+    "tStartMs": 403366,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "a phone"
+    } ]
+  }, {
+    "tStartMs": 404410,
+    "dDurationMs": 1569,
+    "segs": [ {
+      "utf8": "version of the app,\nnot optimized for the big screen,"
+    } ]
+  }, {
+    "tStartMs": 406181,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "at all.\nSo..."
+    } ]
+  }, {
+    "tStartMs": 407093,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "most apps"
+    } ]
+  }, {
+    "tStartMs": 408137,
+    "dDurationMs": 2202,
+    "segs": [ {
+      "utf8": "in the Play Store, at least right now...\nat launch,"
+    } ]
+  }, {
+    "tStartMs": 411091,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "are not"
+    } ]
+  }, {
+    "tStartMs": 412135,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "built"
+    } ]
+  }, {
+    "tStartMs": 413179,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "for Googlebook OS."
+    } ]
+  }, {
+    "tStartMs": 414223,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "And that's...\nthe issue"
+    } ]
+  }, {
+    "tStartMs": 415423,
+    "dDurationMs": 1487,
+    "segs": [ {
+      "utf8": "right now.\nThere's like a desert"
+    } ]
+  }, {
+    "tStartMs": 417412,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "of"
+    } ]
+  }, {
+    "tStartMs": 418456,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "desktop-class"
+    } ]
+  }, {
+    "tStartMs": 419500,
+    "dDurationMs": 1639,
+    "segs": [ {
+      "utf8": "apps, like, that are truly...\nreally, really good"
+    } ]
+  }, {
+    "tStartMs": 421721,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "on a Googlebook."
+    } ]
+  }, {
+    "tStartMs": 422765,
+    "dDurationMs": 2487,
+    "segs": [ {
+      "utf8": "And that's not an issue that\nWindows machines or Macs"
+    } ]
+  }, {
+    "tStartMs": 425454,
+    "dDurationMs": 1133,
+    "segs": [ {
+      "utf8": "or even...\nLinux machines"
+    } ]
+  }, {
+    "tStartMs": 427099,
+    "dDurationMs": 1010,
+    "segs": [ {
+      "utf8": "will have right now."
+    } ]
+  }, {
+    "tStartMs": 428191,
+    "dDurationMs": 1650,
+    "segs": [ {
+      "utf8": "So like having the Play Store is nice"
+    } ]
+  }, {
+    "tStartMs": 430043,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and it's a"
+    } ]
+  }, {
+    "tStartMs": 431087,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "big improvement"
+    } ]
+  }, {
+    "tStartMs": 432131,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "over a Chromebook,"
+    } ]
+  }, {
+    "tStartMs": 433175,
+    "dDurationMs": 1548,
+    "segs": [ {
+      "utf8": "to being able to say you\nhave millions of apps that"
+    } ]
+  }, {
+    "tStartMs": 434925,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "run...\non the thing,"
+    } ]
+  }, {
+    "tStartMs": 436634,
+    "dDurationMs": 3336,
+    "segs": [ {
+      "utf8": "but a huge amount of these apps are\nnot going to be a great experience..."
+    } ]
+  }, {
+    "tStartMs": 440052,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "or be premium"
+    } ]
+  }, {
+    "tStartMs": 441096,
+    "dDurationMs": 1101,
+    "segs": [ {
+      "utf8": "or...\noptimized very much at all."
+    } ]
+  }, {
+    "tStartMs": 442399,
+    "dDurationMs": 3383,
+    "segs": [ {
+      "utf8": "So if you're someone who's like in the\nmarket for a new laptop and there's"
+    } ]
+  }, {
+    "tStartMs": 445864,
+    "dDurationMs": 1276,
+    "segs": [ {
+      "utf8": "one or two apps that you know"
+    } ]
+  }, {
+    "tStartMs": 447342,
+    "dDurationMs": 1638,
+    "segs": [ {
+      "utf8": "you have to have...\non this machine,"
+    } ]
+  }, {
+    "tStartMs": 449790,
+    "dDurationMs": 1573,
+    "segs": [ {
+      "utf8": "and it turns out that those apps"
+    } ]
+  }, {
+    "tStartMs": 451565,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "aren't"
+    } ]
+  }, {
+    "tStartMs": 452609,
+    "dDurationMs": 988,
+    "segs": [ {
+      "utf8": "very good...\non a Googlebook,"
+    } ]
+  }, {
+    "tStartMs": 454379,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "then this"
+    } ]
+  }, {
+    "tStartMs": 455423,
+    "dDurationMs": 1264,
+    "segs": [ {
+      "utf8": "doesn't really solve that problem..."
+    } ]
+  }, {
+    "tStartMs": 456769,
+    "dDurationMs": 926,
+    "segs": [ {
+      "utf8": "over Chromebooks for"
+    } ]
+  }, {
+    "tStartMs": 457897,
+    "dDurationMs": 1889,
+    "segs": [ {
+      "utf8": "you.\nThe thing is, I happen to think this"
+    } ]
+  }, {
+    "tStartMs": 459988,
+    "dDurationMs": 1410,
+    "segs": [ {
+      "utf8": "ASUS Googlebook...\nis really nice."
+    } ]
+  }, {
+    "tStartMs": 461600,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "It's incredibly"
+    } ]
+  }, {
+    "tStartMs": 462698,
+    "dDurationMs": 1274,
+    "segs": [ {
+      "utf8": "ultra, ultra lightweight.\nLike,"
+    } ]
+  }, {
+    "tStartMs": 464054,
+    "dDurationMs": 3490,
+    "segs": [ {
+      "utf8": "that's the first thing I noticed out the\nbox is it's super easy to travel with."
+    } ]
+  }, {
+    "tStartMs": 467626,
+    "dDurationMs": 1134,
+    "segs": [ {
+      "utf8": "It's barely over 2 pounds."
+    } ]
+  }, {
+    "tStartMs": 469235,
+    "dDurationMs": 3124,
+    "segs": [ {
+      "utf8": "The battery life is also great,\nespecially the standby time."
+    } ]
+  }, {
+    "tStartMs": 472951,
+    "dDurationMs": 2029,
+    "segs": [ {
+      "utf8": "I got multiple days out of this thing..."
+    } ]
+  }, {
+    "tStartMs": 475062,
+    "dDurationMs": 2872,
+    "segs": [ {
+      "utf8": "It has full-size ports, so 2 USB Type-C...\nand USB Type-A"
+    } ]
+  }, {
+    "tStartMs": 478726,
+    "dDurationMs": 1773,
+    "segs": [ {
+      "utf8": "and HDMI.\nThe 1,000-nit"
+    } ]
+  }, {
+    "tStartMs": 480701,
+    "dDurationMs": 1686,
+    "segs": [ {
+      "utf8": "OLED panel looks great, and it has this"
+    } ]
+  }, {
+    "tStartMs": 482589,
+    "dDurationMs": 2730,
+    "segs": [ {
+      "utf8": "anti-reflective coating,\nso it blocks reflections really well."
+    } ]
+  }, {
+    "tStartMs": 486201,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "And"
+    } ]
+  }, {
+    "tStartMs": 487245,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "you know what?"
+    } ]
+  }, {
+    "tStartMs": 488157,
+    "dDurationMs": 1433,
+    "segs": [ {
+      "utf8": "It passes the one-finger open test,\nwhich is underrated."
+    } ]
+  }, {
+    "tStartMs": 490250,
+    "dDurationMs": 964,
+    "segs": [ {
+      "utf8": "The keyboard is solid,"
+    } ]
+  }, {
+    "tStartMs": 491796,
+    "dDurationMs": 2248,
+    "segs": [ {
+      "utf8": "you know,\na little bit of deck flex here and there,"
+    } ]
+  }, {
+    "tStartMs": 494126,
+    "dDurationMs": 877,
+    "segs": [ {
+      "utf8": "but nothing terrible."
+    } ]
+  }, {
+    "tStartMs": 495685,
+    "dDurationMs": 1425,
+    "segs": [ {
+      "utf8": "Large trackpad with haptic touch,"
+    } ]
+  }, {
+    "tStartMs": 497782,
+    "dDurationMs": 1426,
+    "segs": [ {
+      "utf8": "fingerprint reader in the corner,"
+    } ]
+  }, {
+    "tStartMs": 499770,
+    "dDurationMs": 2019,
+    "segs": [ {
+      "utf8": "even has a webcam cover slider,\nwhich is nice."
+    } ]
+  }, {
+    "tStartMs": 501991,
+    "dDurationMs": 2430,
+    "segs": [ {
+      "utf8": "This is a really likable, solid,\nthin-and-light laptop,"
+    } ]
+  }, {
+    "tStartMs": 504973,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and it"
+    } ]
+  }, {
+    "tStartMs": 506017,
+    "dDurationMs": 1952,
+    "segs": [ {
+      "utf8": "costs $1,300.\nThat is,"
+    } ]
+  }, {
+    "tStartMs": 508811,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "that's"
+    } ]
+  }, {
+    "tStartMs": 509855,
+    "dDurationMs": 1147,
+    "segs": [ {
+      "utf8": "MacBook Air money, literally.\nThis"
+    } ]
+  }, {
+    "tStartMs": 511204,
+    "dDurationMs": 3710,
+    "segs": [ {
+      "utf8": "Dell one with the 2-year-old\nSnapdragon X Elite"
+    } ]
+  }, {
+    "tStartMs": 515116,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "chip,"
+    } ]
+  }, {
+    "tStartMs": 516160,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "starts,"
+    } ]
+  }, {
+    "tStartMs": 517204,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "starts...\nat $1,000..."
+    } ]
+  }, {
+    "tStartMs": 518116,
+    "dDurationMs": 1596,
+    "segs": [ {
+      "utf8": "and goes up to $1,800."
+    } ]
+  }, {
+    "tStartMs": 519794,
+    "dDurationMs": 2308,
+    "segs": [ {
+      "utf8": "So, you know, the ARM chip is...\ngreat because..."
+    } ]
+  }, {
+    "tStartMs": 522102,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "then,"
+    } ]
+  }, {
+    "tStartMs": 523146,
+    "dDurationMs": 1765,
+    "segs": [ {
+      "utf8": "you know,\nthe apps that are optimized for desktop"
+    } ]
+  }, {
+    "tStartMs": 525443,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "are"
+    } ]
+  }, {
+    "tStartMs": 526487,
+    "dDurationMs": 1683,
+    "segs": [ {
+      "utf8": "probably also optimized for ARM.\nSo they at least..."
+    } ]
+  }, {
+    "tStartMs": 528252,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "run"
+    } ]
+  }, {
+    "tStartMs": 529296,
+    "dDurationMs": 2800,
+    "segs": [ {
+      "utf8": "more natively than they would\non the Intel-based Googlebooks,"
+    } ]
+  }, {
+    "tStartMs": 532178,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "which are"
+    } ]
+  }, {
+    "tStartMs": 533222,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "in some sort of"
+    } ]
+  }, {
+    "tStartMs": 534266,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "translation layer.\nBut"
+    } ]
+  }, {
+    "tStartMs": 535729,
+    "dDurationMs": 3702,
+    "segs": [ {
+      "utf8": "I didn't find that to make a whole huge\ndifference in the experience for me."
+    } ]
+  }, {
+    "tStartMs": 539513,
+    "dDurationMs": 1584,
+    "segs": [ {
+      "utf8": "So I don't know, I really like"
+    } ]
+  }, {
+    "tStartMs": 541299,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "the idea...\nof"
+    } ]
+  }, {
+    "tStartMs": 542343,
+    "dDurationMs": 1049,
+    "segs": [ {
+      "utf8": "a super...\nminimal laptop"
+    } ]
+  }, {
+    "tStartMs": 543594,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "that's"
+    } ]
+  }, {
+    "tStartMs": 544638,
+    "dDurationMs": 1812,
+    "segs": [ {
+      "utf8": "even thinner and lighter\nthan a MacBook Air."
+    } ]
+  }, {
+    "tStartMs": 547420,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "But if it's"
+    } ]
+  }, {
+    "tStartMs": 548464,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "gonna cost"
+    } ]
+  }, {
+    "tStartMs": 549508,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "just as much"
+    } ]
+  }, {
+    "tStartMs": 550552,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and run"
+    } ]
+  }, {
+    "tStartMs": 551596,
+    "dDurationMs": 1854,
+    "segs": [ {
+      "utf8": "way less apps,\nthen..."
+    } ]
+  }, {
+    "tStartMs": 553532,
+    "dDurationMs": 2096,
+    "segs": [ {
+      "utf8": "that's...\nwhen you start losing people,"
+    } ]
+  }, {
+    "tStartMs": 555830,
+    "dDurationMs": 1409,
+    "segs": [ {
+      "utf8": "either to...\na much cheaper"
+    } ]
+  }, {
+    "tStartMs": 557441,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Chromebook...\nor"
+    } ]
+  }, {
+    "tStartMs": 558485,
+    "dDurationMs": 1041,
+    "segs": [ {
+      "utf8": "to that MacBook Air."
+    } ]
+  }, {
+    "tStartMs": 559660,
+    "dDurationMs": 1904,
+    "segs": [ {
+      "utf8": "So I think as fun as these things are,"
+    } ]
+  }, {
+    "tStartMs": 561766,
+    "dDurationMs": 2529,
+    "segs": [ {
+      "utf8": "they really do have quite\na long road ahead of them"
+    } ]
+  }, {
+    "tStartMs": 564877,
+    "dDurationMs": 1044,
+    "segs": [ {
+      "utf8": "until they're actually"
+    } ]
+  }, {
+    "tStartMs": 566123,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "a"
+    } ]
+  }, {
+    "tStartMs": 567167,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "good idea to buy."
+    } ]
+  }, {
+    "tStartMs": 568211,
+    "dDurationMs": 864,
+    "segs": [ {
+      "utf8": "It's possible that someday,"
+    } ]
+  }, {
+    "tStartMs": 569607,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Googlebooks"
+    } ]
+  }, {
+    "tStartMs": 570700,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "will match"
+    } ]
+  }, {
+    "tStartMs": 571744,
+    "dDurationMs": 1963,
+    "segs": [ {
+      "utf8": "the experience of Windows\nand macOS as far as..."
+    } ]
+  }, {
+    "tStartMs": 573789,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "app support"
+    } ]
+  }, {
+    "tStartMs": 574962,
+    "dDurationMs": 1188,
+    "segs": [ {
+      "utf8": "and...\noffline usability,"
+    } ]
+  }, {
+    "tStartMs": 576960,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "but today"
+    } ]
+  }, {
+    "tStartMs": 578193,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "is not"
+    } ]
+  }, {
+    "tStartMs": 579237,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "that day."
+    } ]
+  }, {
+    "tStartMs": 580281,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "And I always say,"
+    } ]
+  }, {
+    "tStartMs": 581193,
+    "dDurationMs": 1051,
+    "segs": [ {
+      "utf8": "buy products just based\non what they are today,"
+    } ]
+  }, {
+    "tStartMs": 582326,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "not on the promise"
+    } ]
+  }, {
+    "tStartMs": 583370,
+    "dDurationMs": 1007,
+    "segs": [ {
+      "utf8": "of future software updates."
+    } ]
+  }, {
+    "tStartMs": 584459,
+    "dDurationMs": 1029,
+    "segs": [ {
+      "utf8": "But hey, it's technically"
+    } ]
+  }, {
+    "tStartMs": 585690,
+    "dDurationMs": 851,
+    "segs": [ {
+      "utf8": "first generation.\nThis"
+    } ]
+  }, {
+    "tStartMs": 586743,
+    "dDurationMs": 1385,
+    "segs": [ {
+      "utf8": "is a first-gen Google product.\nSo,"
+    } ]
+  }, {
+    "tStartMs": 588770,
+    "dDurationMs": 1696,
+    "segs": [ {
+      "utf8": "you know, do you wanna go for that ride?"
+    } ]
+  }, {
+    "tStartMs": 591368,
+    "dDurationMs": 1429,
+    "segs": [ {
+      "utf8": "You know, many of those rides have"
+    } ]
+  }, {
+    "tStartMs": 592999,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "ended"
+    } ]
+  }, {
+    "tStartMs": 594000,
+    "dDurationMs": 2157,
+    "segs": [ {
+      "utf8": "in the killedbygoogle.com graveyard,\nand that's a"
+    } ]
+  }, {
+    "tStartMs": 596359,
+    "dDurationMs": 1264,
+    "segs": [ {
+      "utf8": "very common story we all know."
+    } ]
+  }, {
+    "tStartMs": 597705,
+    "dDurationMs": 1579,
+    "segs": [ {
+      "utf8": "But, you know, it could go up and up."
+    } ]
+  }, {
+    "tStartMs": 599766,
+    "dDurationMs": 2222,
+    "segs": [ {
+      "utf8": "Pixel fans, this could be the one.\nMaybe."
+    } ]
+  }, {
+    "tStartMs": 602700,
+    "dDurationMs": 2422,
+    "segs": [ {
+      "utf8": "Matter of fact,\nI think it's time to bring back that handy"
+    } ]
+  }, {
+    "tStartMs": 605604,
+    "dDurationMs": 1558,
+    "segs": [ {
+      "utf8": "grading system that I first created..."
+    } ]
+  }, {
+    "tStartMs": 607244,
+    "dDurationMs": 1170,
+    "segs": [ {
+      "utf8": "for the MacBook Neo review..."
+    } ]
+  }, {
+    "tStartMs": 608496,
+    "dDurationMs": 2292,
+    "segs": [ {
+      "utf8": "So if you are considering\ngetting one of these laptops,"
+    } ]
+  }, {
+    "tStartMs": 610870,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "this can maybe"
+    } ]
+  }, {
+    "tStartMs": 611914,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "help you out."
+    } ]
+  }, {
+    "tStartMs": 612958,
+    "dDurationMs": 1769,
+    "segs": [ {
+      "utf8": "So let's start with the obvious one,\nPixel fans."
+    } ]
+  }, {
+    "tStartMs": 616716,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "A."
+    } ]
+  }, {
+    "tStartMs": 617760,
+    "dDurationMs": 1994,
+    "segs": [ {
+      "utf8": "This was made for you.\nAnd if anyone is familiar"
+    } ]
+  }, {
+    "tStartMs": 620376,
+    "dDurationMs": 2830,
+    "segs": [ {
+      "utf8": "with waiting way too long for\nsomething to be as good as it"
+    } ]
+  }, {
+    "tStartMs": 623288,
+    "dDurationMs": 2738,
+    "segs": [ {
+      "utf8": "should have been years ago,\nit's us..."
+    } ]
+  }, {
+    "tStartMs": 626026,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "right?"
+    } ]
+  }, {
+    "tStartMs": 627070,
+    "dDurationMs": 1117,
+    "segs": [ {
+      "utf8": "Why not give it a shot?"
+    } ]
+  }, {
+    "tStartMs": 628269,
+    "dDurationMs": 1134,
+    "segs": [ {
+      "utf8": "Hang in there, brother."
+    } ]
+  }, {
+    "tStartMs": 630205,
+    "dDurationMs": 2032,
+    "segs": [ {
+      "utf8": "Okay, next up: students.\nThis is funny..."
+    } ]
+  }, {
+    "tStartMs": 632319,
+    "dDurationMs": 2456,
+    "segs": [ {
+      "utf8": "I actually don't think\nthis is a very good idea,"
+    } ]
+  }, {
+    "tStartMs": 634857,
+    "dDurationMs": 2191,
+    "segs": [ {
+      "utf8": "mainly because it's\nbasically a Chromebook,"
+    } ]
+  }, {
+    "tStartMs": 637130,
+    "dDurationMs": 1345,
+    "segs": [ {
+      "utf8": "which is made for students,"
+    } ]
+  }, {
+    "tStartMs": 639067,
+    "dDurationMs": 1504,
+    "segs": [ {
+      "utf8": "but with a little extra sauce."
+    } ]
+  }, {
+    "tStartMs": 641293,
+    "dDurationMs": 1293,
+    "segs": [ {
+      "utf8": "And I don't think you need"
+    } ]
+  }, {
+    "tStartMs": 643098,
+    "dDurationMs": 1556,
+    "segs": [ {
+      "utf8": "that sauce...\nfor the most part."
+    } ]
+  }, {
+    "tStartMs": 645366,
+    "dDurationMs": 1874,
+    "segs": [ {
+      "utf8": "The connecting to your Android phone,"
+    } ]
+  }, {
+    "tStartMs": 647832,
+    "dDurationMs": 1935,
+    "segs": [ {
+      "utf8": "the Gemini intelligence.\nIn school,"
+    } ]
+  }, {
+    "tStartMs": 650299,
+    "dDurationMs": 1345,
+    "segs": [ {
+      "utf8": "really?\nI don't think you need that."
+    } ]
+  }, {
+    "tStartMs": 651726,
+    "dDurationMs": 2407,
+    "segs": [ {
+      "utf8": "It's just getting unnecessarily\nexpensive over the Chromebook"
+    } ]
+  }, {
+    "tStartMs": 654215,
+    "dDurationMs": 1060,
+    "segs": [ {
+      "utf8": "that's already made for you."
+    } ]
+  }, {
+    "tStartMs": 655937,
+    "dDurationMs": 1998,
+    "segs": [ {
+      "utf8": "Just get a Chromebook.\nThey're not going anywhere..."
+    } ]
+  }, {
+    "tStartMs": 658017,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "College."
+    } ]
+  }, {
+    "tStartMs": 659013,
+    "dDurationMs": 1876,
+    "segs": [ {
+      "utf8": "Okay,\nthere's a little bit more nuance here now,"
+    } ]
+  }, {
+    "tStartMs": 660971,
+    "dDurationMs": 3100,
+    "segs": [ {
+      "utf8": "just depending on what your major is,\nwhich is what we talked about last time."
+    } ]
+  }, {
+    "tStartMs": 664823,
+    "dDurationMs": 1794,
+    "segs": [ {
+      "utf8": "And so I think I can\nkind of average it out..."
+    } ]
+  }, {
+    "tStartMs": 666699,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "to somewhere in the B-"
+    } ]
+  }, {
+    "tStartMs": 667996,
+    "dDurationMs": 1990,
+    "segs": [ {
+      "utf8": "range.\nYou know, college for me was a lot of"
+    } ]
+  }, {
+    "tStartMs": 670488,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "note-taking"
+    } ]
+  }, {
+    "tStartMs": 671652,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and reading"
+    } ]
+  }, {
+    "tStartMs": 672665,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and studying..."
+    } ]
+  }, {
+    "tStartMs": 673577,
+    "dDurationMs": 3399,
+    "segs": [ {
+      "utf8": "and things that Gemini Intelligence could\nhave potentially been very helpful for,"
+    } ]
+  }, {
+    "tStartMs": 677058,
+    "dDurationMs": 925,
+    "segs": [ {
+      "utf8": "which is kind of cool."
+    } ]
+  }, {
+    "tStartMs": 678815,
+    "dDurationMs": 2206,
+    "segs": [ {
+      "utf8": "But again,\nthe second there's that like one app..."
+    } ]
+  }, {
+    "tStartMs": 681103,
+    "dDurationMs": 1519,
+    "segs": [ {
+      "utf8": "that you need for your major that's"
+    } ]
+  }, {
+    "tStartMs": 683154,
+    "dDurationMs": 1337,
+    "segs": [ {
+      "utf8": "not in the Play Store...\nthen..."
+    } ]
+  }, {
+    "tStartMs": 684573,
+    "dDurationMs": 1611,
+    "segs": [ {
+      "utf8": "that kind of makes this a non-option."
+    } ]
+  }, {
+    "tStartMs": 686266,
+    "dDurationMs": 1886,
+    "segs": [ {
+      "utf8": "So,\nsomething to be aware of ahead of time."
+    } ]
+  }, {
+    "tStartMs": 689024,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Also,"
+    } ]
+  }, {
+    "tStartMs": 689936,
+    "dDurationMs": 2987,
+    "segs": [ {
+      "utf8": "in case you're curious which Googlebook\nhas the best speakers for watching movies,"
+    } ]
+  }, {
+    "tStartMs": 693005,
+    "dDurationMs": 1515,
+    "segs": [ {
+      "utf8": "because we do that in college too,"
+    } ]
+  }, {
+    "tStartMs": 695480,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "it's the ASUS."
+    } ]
+  }, {
+    "tStartMs": 697200,
+    "dDurationMs": 927,
+    "segs": [ {
+      "utf8": "Okay, next: Writers."
+    } ]
+  }, {
+    "tStartMs": 698719,
+    "dDurationMs": 3112,
+    "segs": [ {
+      "utf8": "I consider myself a bit of a\npart-time writer with these videos..."
+    } ]
+  }, {
+    "tStartMs": 701913,
+    "dDurationMs": 1182,
+    "segs": [ {
+      "utf8": "It's pretty good for that."
+    } ]
+  }, {
+    "tStartMs": 703177,
+    "dDurationMs": 1892,
+    "segs": [ {
+      "utf8": "I wrote a lot of this review\non the ASUS Googlebook."
+    } ]
+  }, {
+    "tStartMs": 705151,
+    "dDurationMs": 943,
+    "segs": [ {
+      "utf8": "The keyboard's pretty good."
+    } ]
+  }, {
+    "tStartMs": 706176,
+    "dDurationMs": 1056,
+    "segs": [ {
+      "utf8": "The battery life is very good."
+    } ]
+  }, {
+    "tStartMs": 707314,
+    "dDurationMs": 2488,
+    "segs": [ {
+      "utf8": "The screen is more than enough.\nIt's all been fine."
+    } ]
+  }, {
+    "tStartMs": 709884,
+    "dDurationMs": 894,
+    "segs": [ {
+      "utf8": "I mean, word processing,"
+    } ]
+  }, {
+    "tStartMs": 711290,
+    "dDurationMs": 853,
+    "segs": [ {
+      "utf8": "web browsing, emailing,"
+    } ]
+  }, {
+    "tStartMs": 712835,
+    "dDurationMs": 1138,
+    "segs": [ {
+      "utf8": "it's all right up their alley."
+    } ]
+  }, {
+    "tStartMs": 714055,
+    "dDurationMs": 1627,
+    "segs": [ {
+      "utf8": "And then there's the Google stuff on top."
+    } ]
+  }, {
+    "tStartMs": 715800,
+    "dDurationMs": 3887,
+    "segs": [ {
+      "utf8": "If you don't use the Gemini stuff so much,\nyou can still get just as much computer"
+    } ]
+  }, {
+    "tStartMs": 720189,
+    "dDurationMs": 1547,
+    "segs": [ {
+      "utf8": "for less with a Chromebook, but..."
+    } ]
+  }, {
+    "tStartMs": 721818,
+    "dDurationMs": 1115,
+    "segs": [ {
+      "utf8": "I find that stuff useful."
+    } ]
+  }, {
+    "tStartMs": 723685,
+    "dDurationMs": 876,
+    "segs": [ {
+      "utf8": "Then: photographers."
+    } ]
+  }, {
+    "tStartMs": 725203,
+    "dDurationMs": 2690,
+    "segs": [ {
+      "utf8": "I wanted to write the whole word here,\nbut it didn't fit."
+    } ]
+  }, {
+    "tStartMs": 728840,
+    "dDurationMs": 1788,
+    "segs": [ {
+      "utf8": "B-.\nSo there's like Photoshop Express"
+    } ]
+  }, {
+    "tStartMs": 731160,
+    "dDurationMs": 1119,
+    "segs": [ {
+      "utf8": "and Lightroom for Android"
+    } ]
+  }, {
+    "tStartMs": 732781,
+    "dDurationMs": 1600,
+    "segs": [ {
+      "utf8": "and Snapseed, things like that.\nLike"
+    } ]
+  }, {
+    "tStartMs": 735013,
+    "dDurationMs": 3712,
+    "segs": [ {
+      "utf8": "not really full-fledged editing suites,\nbut good enough for light retouching..."
+    } ]
+  }, {
+    "tStartMs": 738807,
+    "dDurationMs": 2464,
+    "segs": [ {
+      "utf8": "The display is bright enough,\nespecially on the ASUS,"
+    } ]
+  }, {
+    "tStartMs": 741353,
+    "dDurationMs": 831,
+    "segs": [ {
+      "utf8": "the 1,000-nit OLED."
+    } ]
+  }, {
+    "tStartMs": 742266,
+    "dDurationMs": 1359,
+    "segs": [ {
+      "utf8": "Like, these are fine displays."
+    } ]
+  }, {
+    "tStartMs": 743707,
+    "dDurationMs": 1888,
+    "segs": [ {
+      "utf8": "They're not particularly great for color,"
+    } ]
+  }, {
+    "tStartMs": 746207,
+    "dDurationMs": 1359,
+    "segs": [ {
+      "utf8": "but just for the casual edits,"
+    } ]
+  }, {
+    "tStartMs": 748108,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "that's fine."
+    } ]
+  }, {
+    "tStartMs": 749020,
+    "dDurationMs": 3130,
+    "segs": [ {
+      "utf8": "The high-end stuff, you already know,\nyou're not looking at a Googlebook."
+    } ]
+  }, {
+    "tStartMs": 753210,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Then: coders."
+    } ]
+  }, {
+    "tStartMs": 754638,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Okay,"
+    } ]
+  }, {
+    "tStartMs": 755682,
+    "dDurationMs": 2465,
+    "segs": [ {
+      "utf8": "this turned out to be like sneaky\none of the things that I don't"
+    } ]
+  }, {
+    "tStartMs": 758229,
+    "dDurationMs": 1117,
+    "segs": [ {
+      "utf8": "have so much experience with,"
+    } ]
+  }, {
+    "tStartMs": 759428,
+    "dDurationMs": 2025,
+    "segs": [ {
+      "utf8": "but it turns out these\nmight actually be great for."
+    } ]
+  }, {
+    "tStartMs": 761535,
+    "dDurationMs": 2770,
+    "segs": [ {
+      "utf8": "Mostly because Google happens to\nhave a bunch of really robust agentic"
+    } ]
+  }, {
+    "tStartMs": 764387,
+    "dDurationMs": 1222,
+    "segs": [ {
+      "utf8": "coding tools like Android Studio"
+    } ]
+  }, {
+    "tStartMs": 766281,
+    "dDurationMs": 2323,
+    "segs": [ {
+      "utf8": "that work really well on these\nmachines so long as you give"
+    } ]
+  }, {
+    "tStartMs": 768686,
+    "dDurationMs": 1018,
+    "segs": [ {
+      "utf8": "them an internet connection"
+    } ]
+  }, {
+    "tStartMs": 770446,
+    "dDurationMs": 896,
+    "segs": [ {
+      "utf8": "and enough local memory."
+    } ]
+  }, {
+    "tStartMs": 772094,
+    "dDurationMs": 1670,
+    "segs": [ {
+      "utf8": "And they did give them\nenough local memory,"
+    } ]
+  }, {
+    "tStartMs": 773846,
+    "dDurationMs": 2614,
+    "segs": [ {
+      "utf8": "so that's good news.\nThen: video editors."
+    } ]
+  }, {
+    "tStartMs": 777420,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Okay, so"
+    } ]
+  }, {
+    "tStartMs": 778611,
+    "dDurationMs": 1179,
+    "segs": [ {
+      "utf8": "no Premiere Pro,"
+    } ]
+  }, {
+    "tStartMs": 780452,
+    "dDurationMs": 2327,
+    "segs": [ {
+      "utf8": "no Final Cut Pro,\nno"
+    } ]
+  }, {
+    "tStartMs": 783531,
+    "dDurationMs": 1055,
+    "segs": [ {
+      "utf8": "Resolve, but"
+    } ]
+  }, {
+    "tStartMs": 785308,
+    "dDurationMs": 960,
+    "segs": [ {
+      "utf8": "you do have"
+    } ]
+  }, {
+    "tStartMs": 786930,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "CapCut"
+    } ]
+  }, {
+    "tStartMs": 788039,
+    "dDurationMs": 1340,
+    "segs": [ {
+      "utf8": "and LumaFusion."
+    } ]
+  }, {
+    "tStartMs": 789461,
+    "dDurationMs": 1136,
+    "segs": [ {
+      "utf8": "You know, I mentioned earlier,"
+    } ]
+  }, {
+    "tStartMs": 790679,
+    "dDurationMs": 2312,
+    "segs": [ {
+      "utf8": "you can drag and drop files\nfrom your phone back and forth,"
+    } ]
+  }, {
+    "tStartMs": 793073,
+    "dDurationMs": 1217,
+    "segs": [ {
+      "utf8": "from the computer to your phone,"
+    } ]
+  }, {
+    "tStartMs": 794902,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and that's cool,"
+    } ]
+  }, {
+    "tStartMs": 795814,
+    "dDurationMs": 1441,
+    "segs": [ {
+      "utf8": "but it's only for files\nup to 200 megabytes,"
+    } ]
+  }, {
+    "tStartMs": 797337,
+    "dDurationMs": 2353,
+    "segs": [ {
+      "utf8": "which does kind of rule out a\nlot of the bigger video files."
+    } ]
+  }, {
+    "tStartMs": 800442,
+    "dDurationMs": 1988,
+    "segs": [ {
+      "utf8": "I don't think people who are\ntrying to get a laptop"
+    } ]
+  }, {
+    "tStartMs": 802512,
+    "dDurationMs": 1136,
+    "segs": [ {
+      "utf8": "specifically for video editing"
+    } ]
+  }, {
+    "tStartMs": 804390,
+    "dDurationMs": 4782,
+    "segs": [ {
+      "utf8": "are looking at getting a Googlebook.\nGamers..."
+    } ]
+  }, {
+    "tStartMs": 809254,
+    "dDurationMs": 1925,
+    "segs": [ {
+      "utf8": "I don't know if you even"
+    } ]
+  }, {
+    "tStartMs": 811841,
+    "dDurationMs": 2969,
+    "segs": [ {
+      "utf8": "made it this far into the video, but"
+    } ]
+  }, {
+    "tStartMs": 815920,
+    "dDurationMs": 915,
+    "segs": [ {
+      "utf8": "thanks for watching."
+    } ]
+  }, {
+    "tStartMs": 817657,
+    "dDurationMs": 1552,
+    "segs": [ {
+      "utf8": "And then: Grandma.\nOkay, great."
+    } ]
+  }, {
+    "tStartMs": 819291,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Yeah, so I"
+    } ]
+  }, {
+    "tStartMs": 820388,
+    "dDurationMs": 1711,
+    "segs": [ {
+      "utf8": "don't think you're\ngonna need one of these."
+    } ]
+  }, {
+    "tStartMs": 822181,
+    "dDurationMs": 1627,
+    "segs": [ {
+      "utf8": "I know, Grandma, I know you like to shop."
+    } ]
+  }, {
+    "tStartMs": 824470,
+    "dDurationMs": 1169,
+    "segs": [ {
+      "utf8": "I know you like to web browse."
+    } ]
+  }, {
+    "tStartMs": 825721,
+    "dDurationMs": 1835,
+    "segs": [ {
+      "utf8": "I know you like to email\nall of the grandkids,"
+    } ]
+  }, {
+    "tStartMs": 828108,
+    "dDurationMs": 877,
+    "segs": [ {
+      "utf8": "and that's really cool."
+    } ]
+  }, {
+    "tStartMs": 829507,
+    "dDurationMs": 2836,
+    "segs": [ {
+      "utf8": "But I feel like for $1,000,\nwe can get you a better computer for less."
+    } ]
+  }, {
+    "tStartMs": 832965,
+    "dDurationMs": 2769,
+    "segs": [ {
+      "utf8": "We can do more with $1,000.\nEither way,"
+    } ]
+  }, {
+    "tStartMs": 836526,
+    "dDurationMs": 977,
+    "segs": [ {
+      "utf8": "I think that's about it."
+    } ]
+  }, {
+    "tStartMs": 837585,
+    "dDurationMs": 1242,
+    "segs": [ {
+      "utf8": "Hopefully that was helpful.\nUh,"
+    } ]
+  }, {
+    "tStartMs": 838909,
+    "dDurationMs": 3315,
+    "segs": [ {
+      "utf8": "I do enjoy reviewing these things when\nthey're new first-generation products,"
+    } ]
+  }, {
+    "tStartMs": 842306,
+    "dDurationMs": 974,
+    "segs": [ {
+      "utf8": "but a lot more to come."
+    } ]
+  }, {
+    "tStartMs": 844050,
+    "dDurationMs": 1021,
+    "segs": [ {
+      "utf8": "Thanks for watching!"
+    } ]
+  }, {
+    "tStartMs": 845153,
+    "dDurationMs": 2029,
+    "segs": [ {
+      "utf8": "Catch you guys in the next one...\nPeace."
+    } ]
+  } ]
+}

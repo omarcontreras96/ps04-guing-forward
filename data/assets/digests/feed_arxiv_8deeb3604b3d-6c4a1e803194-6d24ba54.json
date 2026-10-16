@@ -1,0 +1,44 @@
+{
+ "summary": "An arXiv cs.HC preprint (not peer reviewed) presenting a dataset of 7,786 chart revisions across 1,664 Wikimedia Commons chart images from 2004-2026, with edit categories labeled by an LLM pipeline. It analyzes how communities edit charts: multi-contributor charts get more color and text edits, text and mark edits come in burstier cadences than data edits, and SVG charts draw more contributors but narrower edits than raster charts. AI appears only as a labeling tool; the paper is not about AI changing how people interact with computers.",
+ "speakers_or_authors": "Authors not named in the provided text; an academic visualization/HCI research team (VGTC empirical study paper).",
+ "relevance": 0,
+ "relevance_reason": "The paper is about human community editing of charts on Wikimedia Commons. LLMs are only a research instrument for labeling edits. It does not cover personal context devices, computer-use agents, or voice and conversational interfaces. The only tangential link is a mention of ML-driven chart editing tools as background.",
+ "themes": [
+  "community chart editing",
+  "Wikimedia Commons",
+  "LLM-assisted annotation methodology",
+  "SVG vs raster"
+ ],
+ "claims": [
+  {
+   "claim": "The authors built a dataset of 7,786 longitudinal chart revisions across 1,664 images from Wikimedia Commons, labeled using an LLM pipeline.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "We introduce a novel dataset of 7,786 longitudinal chart revisions across 1,664 images, labeled with edit categories using an LLM pipeline.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The LLM labeling pipeline agreed closely with human annotation on an 80-revision sample, but the authors had to drop edit categories the LLM could not detect reliably.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Agreement between LLM and human labels achieved a Cohen’s kappa of \\(0.85\\) (weighted by category base rates).",
+   "segment_id": ""
+  },
+  {
+   "claim": "Multi-contributor charts were more likely to get mark color and text content edits than single-contributor charts.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Charts revised by multiple contributors showed more diverse edits and higher likelihood of Mark Color (Odds Ratio: \\(OR=1.32\\)) and Text Content (\\(OR=1.60\\)) edits",
+   "segment_id": ""
+  },
+  {
+   "claim": "SVG charts attracted more contributors and revisions than raster charts, but their revisions were more narrowly scoped.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "SVG charts attracted more unique contributors (Incidence Rate Ratio: \\(IRR=1.15\\), \\(p<.001\\)) and underwent more revisions (\\(IRR=1.13\\), \\(p<.001\\)) than charts in raster formats",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent; academic preprint with an open-access dataset. Gemini 3 Flash is used as a tool, with no vendor involvement.",
+ "older_event": "No. This is a new preprint (published 2026-10-15) presenting a new dataset. It covers two decades of Wikimedia history, but that is its data, not an older news event."
+}

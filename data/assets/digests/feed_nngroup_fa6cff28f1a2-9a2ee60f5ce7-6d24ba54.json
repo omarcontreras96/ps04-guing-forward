@@ -1,0 +1,102 @@
+{
+ "summary": "A Nielsen Norman Group UX practitioner compares old Siri, Apple's new Siri AI (beta since Sept 14, 2026) and ChatGPT Plus on everyday tasks after a weekend trip: finding photos, retrieving a brother's restaurant recommendations, and drafting a message. The article argues that personal context from the phone plus model capability makes a useful assistant. It also finds failures: Siri AI missed a Signal message, misread an ambiguous place name, and lost a confirmed starting point when handing off to Google Maps. It ends with design advice on showing searched sources, confirmations, and building accurate mental models.",
+ "speakers_or_authors": "Nielsen Norman Group (NN/G) UX researcher (author not named in the text provided)",
+ "relevance": 3,
+ "relevance_reason": "Hands-on practitioner test of a personal-context assistant on a phone, with evidence on where it works and fails, including cross-app task handoff. This is central to the personal-context theme and touches the computer-use agent theme. It is a small, informal exploration, not a controlled study.",
+ "themes": [
+  "Personal context and on-device data",
+  "Siri AI vs ChatGPT hands-on comparison",
+  "Agentic task handoff across apps",
+  "Transparency of sources and recovery from failure",
+  "Confirmation and clarification in agent actions",
+  "Users' mental models of assistant capabilities"
+ ],
+ "claims": [
+  {
+   "claim": "Phones already hold much personal context, so an assistant with access to it has an advantage over a smarter model that needs users to supply that information.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "An AI assistant that can access all that context has an important advantage over one that is highly intelligent but requires users to provide it with that information.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Siri AI found the three breakfast spots the brother had texted and correctly answered a follow-up about whether the author went to any of them, without the author digging through messages.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "it quickly found the three breakfast spots he had texted me. I then asked, “Did I go to any of them?” It correctly said I had not",
+   "segment_id": ""
+  },
+  {
+   "claim": "ChatGPT, with work Gmail and Slack connected, found nothing for the same restaurant question because the connected accounts lacked the needed context.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "ChatGPT searched the work accounts I had connected and found nothing; those accounts gave it information, but not the context my question needed.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Siri AI missed a Signal message about Saturday plans because Signal is not available to Siri by default, and it did not say which sources were searched, so a failure to find the message could read as nonexistence.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "missed Peter’s Signal message to meet at Olea at 5:30, because Signal (a privacy-focused app) is not available to Siri by default.",
+   "segment_id": ""
+  },
+  {
+   "claim": "For 'Show me photos from New York last weekend,' old Siri showed generic web images, ChatGPT offered news-photo links, and Siri AI found the author's trip photos.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Old Siri showed generic web images; ChatGPT searched the web and offered news-photo links; Siri AI found my trip photos.",
+   "segment_id": ""
+  },
+  {
+   "claim": "In a message-drafting task, Siri AI prepared the right list for the right contact, while old Siri picked a different contact and just restated the request in the message body.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Old Siri chose a different contact and made the message body a literal restatement of the request. Both displayed a draft and asked for confirmation.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Siri AI picked the neighborhood Dimes Square instead of the restaurant Dimes without asking the user to disambiguate.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "Dimes is a restaurant close to Dimes Square, and Siri AI selected Dimes Square, the neighborhood.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Siri AI lost a detail the user had confirmed: it opened Google Maps with a route from the user's current location instead of from the brother's address, so the task failed despite a successful app launch.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "It then proceeded to open Google Maps with a route from my current location (Durham, NC).",
+   "segment_id": ""
+  },
+  {
+   "claim": "Siri AI's progress labels included 'Searching websites' during personal message drafting with no explanation, which can raise suspicion instead of confidence.",
+   "basis": "experience",
+   "locator_type": "text",
+   "quote": "Siri AI displayed Searching contacts and Searching emails, but also Searching websites, without explaining why.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Apple describes Siri AI as using an on-device Spotlight index with semantic indexing, but the author cannot separate the model's contribution from the retrieval system's.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Apple describes Siri AI’s use of an on-device Spotlight index, and its developer documentation explains how semantic indexing makes app content searchable by meaning and relationships.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The test is informal: different devices, input methods, models and retrieval systems, and most requests were run only once or twice, so it is not a controlled comparison.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Most requests ran once or twice. Differences in devices, input methods, models, and retrieval systems make this a hands-on exploration, not a controlled comparison",
+   "segment_id": ""
+  },
+  {
+   "claim": "Earlier NN/G research found frequent assistant users relied on a small set of simple tasks and might not discover improvements.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "Earlier NN/G research on intelligent assistants found that frequent users relied on a small set of simple tasks and warned that people accustomed to limited assistants might not discover improvements.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "No apparent commercial interest. NN/G is a UX research and training consultancy and is not selling a product here. The author tested the products on their own devices (ChatGPT Plus subscription).",
+ "older_event": "No. It discusses Siri AI's beta, which began rolling out Sept 14, 2026, about three and a half weeks before publication on Oct 9, 2026. The new element is the author's hands-on comparison and UX analysis."
+}

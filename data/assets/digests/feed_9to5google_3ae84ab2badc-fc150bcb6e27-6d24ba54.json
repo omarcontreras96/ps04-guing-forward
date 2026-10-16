@@ -1,0 +1,52 @@
+{
+ "summary": "9to5Google reports a Gemini app redesign on Android that folds Google's Spark personal agent into the main chat experience. Chat and Task buttons now sit above the prompt box, Spark is removed from the navigation drawer, a Scheduled page is added, and chats and Spark tasks share one history with status filters. The article says the Spark branding is being played down, the update is rolling out server-side on Android only, and Spark needs an AI Pro or Ultra subscription.",
+ "speakers_or_authors": "9to5Google staff (journalism, Android/Google ecosystem)",
+ "relevance": 2,
+ "relevance_reason": "It covers a shipped interface change for a computer-use/personal agent, showing how Google is moving agent tasks into the main chat flow. It is a short, news-only item with no hands-on usage evidence or reliability data.",
+ "themes": [
+  "Computer-use agents",
+  "Agent integration into chat UI",
+  "Gemini Spark",
+  "Task management interface for agents",
+  "Product rollout"
+ ],
+ "claims": [
+  {
+   "claim": "The redesign adds Chat and Task buttons above the prompt box, with Task being Gemini Spark.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "This redesign adds buttons for “Chat” and “Task” just above the prompt box. “Task” is Gemini Spark",
+   "segment_id": ""
+  },
+  {
+   "claim": "Spark tasks and chats now share a single history that can be filtered by status (All, Ready, Needs attention, In progress), and a new Scheduled page lists Spark tasks organized as Active, Paused, Completed and Suggested.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "All chats and Spark tasks are combined into one history. The new filter icon lets you sort by All, Ready, Needs attention, and In progress.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google appears to be deemphasizing the Spark brand, for example by renaming the settings entry to Task settings.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Google appears to be deemphasizing the “Spark” branding with this redesign.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The change is rolling out server-side on Android, not yet seen on iOS or web, and Spark requires an AI Pro or AI Ultra subscription.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "This change is rolling out via a server-side update on Android. We’re not seeing it just yet on iOS or the web.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Integrating the agent into the main app makes starting a task much quicker because it is no longer siloed off.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "It’s much quicker to start a task with the experience no longer siloed off.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent. This is independent tech journalism describing Google's own product and quoting Google's description of the change.",
+ "older_event": "Spark was announced at I/O 2026 in May (more than 30 days ago). What is new is the October redesign that merges Spark into the main Gemini chat and history."
+}

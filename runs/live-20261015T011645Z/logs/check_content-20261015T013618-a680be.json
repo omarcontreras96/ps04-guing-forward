@@ -1,0 +1,22 @@
+{
+  "stage": "check_content",
+  "status": "completed",
+  "exit_code": 0,
+  "started_at": "2026-10-15T01:36:18Z",
+  "finished_at": "2026-10-15T01:36:18Z",
+  "input_count": 3,
+  "output_count": 1,
+  "tools": [
+    "python"
+  ],
+  "models": [],
+  "model_calls": 0,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "cost_usd": 0.0,
+  "cost_basis": "no_paid_api_calls",
+  "errors": [],
+  "note": "passed=true errors=0 warnings=5 review_id=53f739cf8a02"
+}

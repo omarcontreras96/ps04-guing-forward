@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/occ/Library/Mobile Documents/com~apple~CloudDocs/MIT/1.Courses/Fall 26/1.125 Arch & Eng Software Systems/PS04C/ps04/collectors/feeds.py", line 94, in <module>
+    sys.exit(main(sys.argv[1], sys.argv[2]))
+             ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/occ/Library/Mobile Documents/com~apple~CloudDocs/MIT/1.Courses/Fall 26/1.125 Arch & Eng Software Systems/PS04C/ps04/collectors/feeds.py", line 77, in main
+    "title": html.unescape((e.get("title") or "").strip()),
+             ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'unescape'

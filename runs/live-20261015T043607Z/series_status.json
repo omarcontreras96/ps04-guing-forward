@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "note": "awaiting human review: passed=true",
+  "steps": {
+    "select_items": 0,
+    "create_briefs": 0,
+    "write_articles": 0,
+    "write_video_scripts": 0,
+    "check_content": 0
+  }
+}

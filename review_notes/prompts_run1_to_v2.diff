@@ -1,0 +1,24 @@
+--- runs/live-20261015T011645Z/prompts/write_articles.md	2026-10-14 21:16:45
++++ prompts/write_articles.md	2026-10-15 00:18:51
+@@ -12,6 +12,9 @@
+   names, or quotes beyond them.
+ - Every sentence that relies on a claim ends with the claim's marker in square brackets, for example
+   `[01-c2]`. Use only the brief's claim IDs, and use each claim at least once.
++- Put a claim's marker only on sentences that rely on that claim's own evidence. A direct quote takes the
++  marker of the claim whose evidence contains that quote. An `inference` marker goes only on the
++  sentence that states the inference, never on the quotes that feed it.
+ - Make the epistemic status visible in the prose:
+   - Facts are stated plainly.
+   - Source claims are attributed ("Microsoft says…", "on The Vergecast, Nilay Patel argued…").
+--- runs/live-20261015T011645Z/prompts/write_video_scripts.md	2026-10-14 21:16:45
++++ prompts/write_video_scripts.md	2026-10-15 00:18:51
+@@ -18,6 +18,9 @@
+   **Narration:** <spoken text> [claim markers such as 01-c2 at the end of the sentence that relies on
+   them]
+ 
++- Put a claim's marker only on sentences that rely on that claim's own evidence. A direct quote takes the
++  marker of the claim whose evidence contains that quote. An `inference` marker goes only on the
++  sentence that states the inference, never on the quotes that feed it.
+ - Scene 1 hooks with a concrete moment from the evidence and states the question. The last scene gives
+   the takeaway and what to watch, and points viewers to the full article and sources in the
+   description.

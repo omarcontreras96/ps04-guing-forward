@@ -1,0 +1,28 @@
+{
+  "stage": "collect_sources",
+  "status": "incomplete",
+  "exit_code": 1,
+  "started_at": "2026-10-15T04:53:22Z",
+  "finished_at": "2026-10-15T04:53:52Z",
+  "input_count": 71,
+  "output_count": 83,
+  "tools": [
+    "bash"
+  ],
+  "models": [],
+  "model_calls": 0,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "cost_usd": 0.0,
+  "cost_basis": "no_paid_api_calls",
+  "errors": [
+    {
+      "message": "a collection step exited 1 (see collection_status.json and that step's receipt)",
+      "subject": null,
+      "at": "2026-10-15T04:53:51Z"
+    }
+  ],
+  "note": "usable=true"
+}

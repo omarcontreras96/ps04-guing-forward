@@ -1,0 +1,74 @@
+{
+ "summary": "A scoping review (arXiv preprint, not peer reviewed) of 45 papers from Jan 2020 to Jun 2026 on LLM-based affective personal informatics tools: systems that track and reflect on mood, emotion and stress using personal data. It maps trends, system types and research methods. It finds most tools are text-centric, screen-bound and chat or journaling based, and that evaluations skew toward young campus cohorts. It calls for end-to-end multimodal, low-burden and more inclusive designs.",
+ "speakers_or_authors": "Not named in the provided text; academic HCI/affective computing authors (arXiv cs.HC preprint).",
+ "relevance": 2,
+ "relevance_reason": "Gives user-study-based evidence on how well LLM tools that use personal data (passive sensing, screenshots, wearables, voice) work outside demos. Also speaks to the conversational-versus-screen question. It is a research survey in a mental-wellbeing niche, not about consumer devices or computer-use agents.",
+ "themes": [
+  "personal context and sensing data",
+  "conversational interfaces versus low-burden interaction",
+  "voice and speech dialogue pipelines",
+  "wearables and physiological sensing",
+  "research evidence and generalizability gaps",
+  "privacy-sensitive personal data"
+ ],
+ "claims": [
+  {
+   "claim": "Most reviewed tools use pure text input, and the non-text systems mostly convert signals into text before the LLM sees them, which risks losing information and compounding errors.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "existing tools rely heavily on multi-stage, text-centric pipelines, where non-textual data (e.g., physiological and behavioral signals) are converted into intermediate textual proxies, risking information loss and error propagation.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Most tools depend on active, screen-bound interaction (journaling, multi-turn chat), which can burden users, especially when distressed.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "most tools rely on active, screen-bound interactions, such as text-based journaling and multi-turn conversations, which can impose cognitive and interaction burdens on users.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Empirical evaluations skew toward young, educated, university-affiliated participants, limiting how far the findings generalize.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "empirical evaluations are skewed toward young, educated, university-affiliated cohorts, limiting the generalizability of their findings.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The GPT family was the backbone for 64.4% of the reviewed systems, and publications surged in 2025 (25 papers, 55.6% of the corpus).",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "the GPT family served as the primary backbone in \\(64.4\\%\\) of the corpus (\\(n=29\\), deduplicated)",
+   "segment_id": ""
+  },
+  {
+   "claim": "Speech-dialogue systems typically use ASR transcription, which strips out paralinguistic emotional cues such as pitch, tremor and pauses.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "standard ASR transcriptions strip away rich paralinguistic cues (e.g., pitch inflection, vocal tremors, and pauses) that often carry far more critical emotional information than semantic words alone",
+   "segment_id": ""
+  },
+  {
+   "claim": "Embodied AI and VR systems, which could reduce screen reliance, are under-explored (about 19% of the corpus).",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "systems exploring physical embodiment and spatial immersion remain markedly under-explored, with embodied AI (\\(11.9\\%\\), \\(n=5\\)) and VR environments (\\(7.1\\%\\), \\(n=3\\)) collectively representing only \\(19.0\\%\\) (\\(n=8\\)) of the corpus.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Most evaluated systems were tested on small samples: 17.8% had 10 or fewer participants and 42.2% had 11 to 25.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "The majority of evaluations (\\(42.2\\%\\), \\(n=19\\)) were conducted with sample sizes between 11 and 25",
+   "segment_id": ""
+  },
+  {
+   "claim": "The authors recommend micro-interaction, peripheral interaction and adaptive interaction to lower user burden, while acknowledging that fully passive interaction is not feasible.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "blindly pursuing fully passive interaction is not feasible. Instead, future research needs to find a balance between achieving low-burden interaction and ensuring the effectiveness and usability of tools.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent; academic review. It mentions many vendor models (OpenAI, Meta, Google, Anthropic) only as the models used in the reviewed studies.",
+ "older_event": "No single event; it reviews research from 2020 to June 2026. The new element is the review itself, published October 2026, and its synthesis of the field."
+}

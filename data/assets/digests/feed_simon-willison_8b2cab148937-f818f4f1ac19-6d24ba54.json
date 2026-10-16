@@ -1,0 +1,29 @@
+{
+ "summary": "A short link-blog post by Simon Willison pointing to indie game developer Popcar's piece on the wave of AI-powered game decompilation. It covers game mashups, preservation projects that port old games to new hardware or browsers via WebAssembly, and the risk that anyone can decompile and reuse other software. It is not about interfaces.",
+ "speakers_or_authors": "Simon Willison (blog author), quoting indie game developer Popcar",
+ "relevance": 0,
+ "relevance_reason": "The post concerns AI decompilation of software, game preservation and IP risk. It does not touch personal context devices, computer-use agents or voice/conversational interfaces, so it is off-topic for the publication.",
+ "themes": [
+  "AI decompilation of games",
+  "game preservation",
+  "software IP and copying"
+ ],
+ "claims": [
+  {
+   "claim": "AI-powered decompilation of existing games is producing a wave of mashups and game preservation projects, often running in browsers via WebAssembly.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "enabling weird mashups between existing games, and producing a boom in game preservation projects to get old games working on new hardware (often in a browser using WebAssembly)",
+   "segment_id": ""
+  },
+  {
+   "claim": "Popcar argues that if AI can decompile software, anyone can reuse competitors' or paid software and it cannot be stopped.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "Anybody can decompile other software and use it any way they'd like, and nobody can stop them. Companies can steal from competitors.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent; a personal blog link post with no sponsorship noted.",
+ "older_event": "Not an older event. It comments on a recent trend, but there is nothing new on interfaces."
+}

@@ -1,0 +1,10 @@
+{
+ "summary": "Short Road to VR news item about leaked regulatory photos (external and internal) of Pico's Space Pro headset, taken from Japan's MIC filings. It says the headset, codenamed 'Project Swan' and widely seen as Pico's answer to Apple Vision Pro, was due to debut earlier this month but the event was cancelled and postponed. It is expected in Q4 2026 and has also appeared in FCC filings. The text contains no information about AI or interaction design.",
+ "speakers_or_authors": "Road to VR staff (trade press journalism)",
+ "relevance": 0,
+ "relevance_reason": "Hardware leak about a mixed-reality headset from regulatory filings. It has no discussion of AI agents, personal context, voice interfaces or AI in operating systems, so it is off-topic for the brief.",
+ "themes": [],
+ "claims": [],
+ "commercial_interest": "Article carries an affiliate-link disclosure (Road to VR may earn commission). No vendor is speaking; the source is regulatory filings.",
+ "older_event": "No. The item reports a recent leak and a postponed launch event. The only new information is the MIC photos and the FCC filing, and nothing in it concerns AI interaction."
+}

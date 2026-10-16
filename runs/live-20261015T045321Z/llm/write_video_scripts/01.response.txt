@@ -1,0 +1,69 @@
+# The Agent Became the Front Door. The Hardware Is Still Auditioning.
+*As of 2026-10-15*
+
+## Scene 1: The airline credit
+**Visual:** Animated text card styled as a notification: "Your airline credit expires soon." A second card slides in: "Wrong project number in your permit email." No faces.
+**On-screen text:** Your agent noticed before you did
+**Source on screen:** One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01
+**Narration:** An airline credit was about to expire. Ethan Mollick, who writes the newsletter One Useful Thing, says his agent Muse noticed. [01-c2] When he asked, it contacted American Airlines to request an extension. [01-c2] Another of his agents flagged a permit email he'd sent his town with the wrong project number. [01-c2] So of everything that launched or changed between mid-September and mid-October, what actually changes how you use your computer and phone? And what is still a promise?
+
+## Scene 2: Number one: the agent moves into the main app
+**Visual:** Simple diagram. Before: a Gemini chat box and a separate "Spark" menu. After: one box labeled "Gemini" with a single shared history list. A "1" ranking badge in the corner.
+**On-screen text:** #1: Personal agents become the default way in
+**Source on screen:** 9to5Google, "Gemini 'Task' redesign integrates Spark into the main chat app," 2026-10-13
+**Narration:** In our ranking, this comes first. Agents that know about you and act on it are moving into the apps you already open. Google has folded its Spark agent into the main Gemini chat. According to 9to5Google, all your chats and Spark tasks now sit in one history. [01-c1] Spark requires an AI Pro or AI Ultra subscription. [01-c1] Our read is that this is more than housekeeping. Once the agent lives in the box you already type into, it stops being an experiment you visit. One caveat: Mollick's stories come from one working user, not from usage data. No source offers adoption numbers for Muse or Spark.
+
+## Scene 3: Number two: Windows ships the fence first
+**Visual:** Slide split in two. Left: a padlock icon with "MXC: available now." Right: a Copilot icon with a calendar and "Local actions: coming months."
+**On-screen text:** #2: The containment shipped. The agent hasn't.
+**Source on screen:** Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07
+**Narration:** Second: agents built into the operating system, which are mostly announced, not delivered. Microsoft says its Execution Containers, called MXC, are now generally available on Windows 11. They let organizations decide which files and networks agents can reach, and they enforce those rules while the agent runs. [01-c3] The part most people would notice is Copilot using what's on your PC and taking actions there. That is only expected to begin rolling out on Copilot+ PCs in the coming months. [01-c3] So the fence has shipped. What it's meant to hold hasn't.
+
+## Scene 4: The Googlebook's best AI feature is search
+**Visual:** Screenshot of the Googlebook Files app with a plain-language search typed in. An inset shows a toggle labeled "Magic Pointer: Off."
+**On-screen text:** Best AI feature: describe the file, find the file
+**Source on screen:** Marques Brownlee (MKBHD), "WTF is a Googlebook?," 2026-10-08, 03:25–03:56
+**Narration:** Google's Googlebook is the other operating-system bet. In his hands-on review, Marques Brownlee says the headline Magic Pointer feature is off by default. Once you turn it on, you wiggle the cursor and select something to ask Gemini about. [01-c4] His personal favorite was plainer: semantic file search. You describe what you remember is in a file, and the Files app finds it. [01-c4] That's useful. It is also a long way from an agent running your laptop.
+
+## Scene 5: Number three: devices that know who you are
+**Visual:** Product shot of the Apple HomeView display. A diagram shows a camera icon plus a phone-and-watch icon, both feeding a checkmark labeled "Your account." A crossed-out microphone icon labeled "No voice ID."
+**On-screen text:** #3: Face plus nearby iPhone switches the account
+**Source on screen:** Marques Brownlee (MKBHD), "Apple Homeview Impressions: Not Convinced!," 2026-10-13, 05:15–06:27
+**Narration:** Third, devices are being rebuilt around knowing who you are. Apple's HomeView switches to your account when its single camera recognizes your face and your iPhone or Watch was recently unlocked nearby. [01-c5] Brownlee points out it has no infrared and no voice recognition. So it gives you personal answers only when it can see you, not when you're around the corner or on the couch. [01-c5] Google, meanwhile, says Guided Vision, a voice and camera assistant in Gemini Live for blind and low-vision users, is now available on Android 9 and up. Google also says it can make mistakes. [01-c8] We found no independent user reports yet. [01-c8]
+
+## Scene 6: The pattern: hardware as a host
+**Visual:** Diagram: icons for a laptop, a tablet, a home display and glasses, each with an arrow pointing to one central box labeled "Your agent."
+**On-screen text:** Every device becomes a surface for an agent
+**Source on screen:** The Vergecast, "The AI is in the computer," 2026-10-09, 57:22–58:11; UploadVR, "Meta's Smart Glasses Are Getting Its 'Muse' AI Agent," 2026-09-29
+**Narration:** Step back and a pattern appears. Our read is that this month's hardware is mostly a place for agents to run, not a new way to interact. The Vergecast's hosts argued that every company's hardware idea boils down to a surface for your agent to act for you, and UploadVR reports that Muse on Meta's glasses will work in the background and check back when it's done. [01-c7]
+
+## Scene 7: Number four: the pushback targets cameras
+**Visual:** Map slide highlighting Norway and the Netherlands. Below it, a product shot of the camera-free Ray-Ban Meta Audio glasses with a "$349" tag.
+**On-screen text:** #4: Bans, halted sales, and glasses without cameras
+**Source on screen:** Road to VR, "Norway Proposes Temporary Ban on Smart Glasses in Public Places," 2026-10-07; UploadVR, "Ray-Ban Meta Audio Drops The Camera For A Lighter, Socially Acceptable Design," 2026-09-28
+**Narration:** Fourth, the pushback has arrived. Road to VR reports that Norway plans to propose a temporary ban on smart glasses in public places like parks, beaches, museums and shopping malls. [01-c6] It still has to be introduced as legislation and approved. [01-c6] A Dutch eyewear chain, Hans Anders, halted sales of Meta's glasses, citing privacy. [01-c6] And Meta opened preorders for Ray-Ban Meta Audio, glasses with no camera, at three hundred forty-nine dollars. [01-c6] Notice the target. Every one of these responses is about the camera, the part you can see. None of them deals with the account access that agents like Muse and Spark run on.
+
+## Scene 8: The takeaway and what to watch
+**Visual:** Ranked list slide: "1. Agents in your apps. 2. OS agents: mostly promised. 3. Devices built around you. 4. Camera pushback." Below it, a checklist titled "Watch for."
+**On-screen text:** Agents shipped. OS agents and devices are still auditioning.
+**Source on screen:** none
+**Narration:** So here's the ranking. Agents that hold your personal context are now the front door of apps you already use. New operating-system agents and new devices matter mostly as places for those agents to run, and much of that is promised, not shipped. Keep the limits in mind. Muse dominated the coverage because it dominated the news, not because many people tested it. Nobody has independently tested Copilot's local actions, Muse on glasses, or Guided Vision. Here's what to watch: Copilot's local actions actually reaching PCs, and what testers find. Hands-on reviews of Muse on glasses. Real adoption numbers for Muse or Spark. And whether Norway's parliament approves the ban. The full article and every source are in the description.
+
+## YouTube description
+Between mid-September and mid-October, the biggest change in how people use their computers was not a new gadget. Personal agents that can act on your accounts became the default entry point of mainstream apps like Gemini. New OS agents and devices mostly serve as places for those agents to run, and many of their features are still announced rather than shipped.
+
+Full article: {ARTICLE_URL}
+
+As of 2026-10-15
+
+Sources:
+- 9to5Google, "Gemini 'Task' redesign integrates Spark into the main chat app," 2026-10-13: https://9to5google.com/2026/10/12/gemini-spark-task-redesign/
+- One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01: https://www.oneusefulthing.org/p/the-dot-and-the-swarm
+- Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07: https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+- Marques Brownlee (MKBHD), "WTF is a Googlebook?," 2026-10-08, 03:25–03:56: https://www.youtube.com/watch?v=_0G4OG39XjI&t=205s
+- Marques Brownlee (MKBHD), "Apple Homeview Impressions: Not Convinced!," 2026-10-13, 05:15–06:27: https://www.youtube.com/watch?v=QVv3mQzlrN0&t=315s
+- Google Keyword: Gemini, "Guided Vision in Gemini Live: built for accessibility," 2026-10-01: https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/
+- The Vergecast, "The AI is in the computer," 2026-10-09, 57:22–58:11: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8833126862.mp3
+- UploadVR, "Meta's Smart Glasses Are Getting Its 'Muse' AI Agent," 2026-09-29: https://www.uploadvr.com/meta-smart-glasses-getting-muse-ai-agent/
+- Road to VR, "Norway Proposes Temporary Ban on Smart Glasses in Public Places," 2026-10-07: https://roadtovr.com/norway-proposes-temporary-ban-on-smart-glasses-in-public-places/
+- UploadVR, "Ray-Ban Meta Audio Drops The Camera For A Lighter, Socially Acceptable Design," 2026-09-28: https://www.uploadvr.com/ray-ban-meta-audio-glasses-no-camera/

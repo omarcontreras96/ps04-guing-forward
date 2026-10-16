@@ -1,0 +1,102 @@
+{
+ "summary": "Vergecast episode in which David Pierce and The Verge's V Song discuss always-recording wearables. Topics: Meta's camera-free Ray-Ban Meta Audio glasses (Song's hands-on use with the wake word disabled), Amazon's Bee Frontier and Eclipse wearables with Amazon shopping integrations, Apple Watch audio intelligence, companies' attempts to redefine 'recording' as transcripts or summaries, and the social and etiquette costs of bystander recording. A short news segment mentions an AI toy that left millions of transcribed conversations unprotected. The rest is ads.",
+ "speakers_or_authors": "David Pierce (host), V Song (Verge reporter), Travis Larchuk (news segment)",
+ "relevance": 3,
+ "relevance_reason": "Centrally on the personal-context devices theme: always-listening wearables, smart glasses, and the privacy trade-off, with hands-on experience and a clear argument that listening, not just recording, is what unsettles people.",
+ "themes": [
+  "Smart glasses without cameras",
+  "Always-on listening wearables",
+  "Privacy and bystander consent",
+  "Redefining 'recording' as transcripts",
+  "Personal context data needs of AI assistants",
+  "Accessibility trade-offs"
+ ],
+ "claims": [
+  {
+   "claim": "Song found camera-free Ray-Ban Meta Audio glasses relaxing to wear in public, with the wake word disabled and an action button used to summon the AI, so no ambient listening occurs until triggered.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0024"
+  },
+  {
+   "claim": "Pierce argues the camera is not much of a loss for AI glasses because current visual AI is weak and a phone camera is a better way to point at something.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0018"
+  },
+  {
+   "claim": "Meta's VP of wearables said the camera-free glasses were two years in development, and the company underestimated how much people would like discreet open-ear audio. Meta AI is said to be coming to all the glasses but is not yet on these.",
+   "basis": "secondhand",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0014"
+  },
+  {
+   "claim": "Camera-free glasses lose out for blind and low-vision users, and FDA-cleared hearing assistance is announced as a software add-on of about $150 but not yet available.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0020"
+  },
+  {
+   "claim": "Amazon announced Bee Frontier ($74.99) and the Bee Eclipse MagSafe device: always-listening wearables that transcribe the day, with a desktop app and a pro subscription whose integrations can surface Amazon shopping prompts from conversations.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0041"
+  },
+  {
+   "claim": "Last year's Bee review test produced inaccurate to-dos from TV audio, which Amazon says is improved; Song has not yet tested the new version.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0039"
+  },
+  {
+   "claim": "Companies like Amazon and Apple argue that keeping only transcripts or summaries and deleting raw audio means no recording exists, a framing Song says misses the societal concerns.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0045"
+  },
+  {
+   "claim": "Apple's technical explanation of what it does not store for Apple Watch audio intelligence did not reassure people, and the idea of replaying the last 15 seconds of conversation unsettled them.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0048"
+  },
+  {
+   "claim": "Pierce's running theory is that people are spooked by listening regardless of recording, and that the market will reject camera-first glasses.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0052"
+  },
+  {
+   "claim": "These devices make users stewards of other people's data, and bystanders cannot tell who is wearing a recording device; Song calls for public discussion and etiquette, and for people not to punch wearers.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0056"
+  },
+  {
+   "claim": "Verge reporting found an AI pet toy, Elico from Energize Labs, left millions of transcribed conversations unprotected and the company profiled customers from them.",
+   "basis": "secondhand",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0004"
+  },
+  {
+   "claim": "AI assistants want data because it makes them more useful, and a best-possible assistant would need to know everything about you and the people around you.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0066"
+  }
+ ],
+ "commercial_interest": "Episode carries ads (Sonos, Ring, Schwab, Palo Alto Networks, Granola, Atlassian Jira, Apple Watch Series 12). Granola is an AI meeting-notes product and Ring is a recording-camera product, both relevant to the topic, but ad copy is separate from editorial discussion. No sign the guest has a stake in the devices discussed.",
+ "older_event": "Mostly current: Amazon's Bee Frontier/Eclipse announcement and Ray-Ban Meta Audio glasses are recent (Oct 2026). Background references to last summer's smart-glasses backlash, last year's Bee review, and Meta Connect announcements."
+}

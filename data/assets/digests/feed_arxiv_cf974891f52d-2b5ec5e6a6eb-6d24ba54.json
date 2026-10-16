@@ -1,0 +1,72 @@
+{
+ "summary": "An arXiv HCI preprint (not peer reviewed) presenting ArguScale, a dashboard that helps instructors monitor many concurrent small-group classroom discussions. It uses AI-detected cues (opinion, disagreement, hesitation, uncertainty, interruption) shown as a temporal density plot, linked to transcript and audio evidence. A 20-person lab study found faster and more accurate identification of hesitant and disagreeing groups than with a transcript baseline. It is a narrow classroom-monitoring tool, not a consumer interface.",
+ "speakers_or_authors": "Research authors (not named in the provided text); a university HCI team working with ethics instructors and teaching assistants.",
+ "relevance": 1,
+ "relevance_reason": "It offers user-evidence on AI-mediated audio sensemaking, with a tangential voice/audio angle and a privacy note. But it concerns a specialised instructor dashboard rather than consumer personal-context devices, computer-use agents, or conversational assistants. It only loosely touches the publication's themes.",
+ "themes": [
+  "Human-AI sensemaking with evidence grounding",
+  "Voice/audio analysis (hesitation, uncertainty cues from speech)",
+  "Privacy of classroom speech capture",
+  "Progressive disclosure from AI summaries to raw evidence"
+ ],
+ "claims": [
+  {
+   "claim": "In a formative test, TAs relied on summaries and text and none used audio snippets, because short snippets lacked context to interpret cues like hesitation under live time pressure.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "none of the three participants used the audio playback features during the monitoring task",
+   "segment_id": ""
+  },
+  {
+   "claim": "Identifying hesitant groups took about 18 seconds with the full system versus roughly 282-288 seconds with the ablated version or transcript baseline, with higher precision and recall.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "participants completed the task substantially faster (18.46 s vs. 281.58 s and 288.10 s) while achieving higher precision (0.94 vs. 0.75 and 0.76)",
+   "segment_id": ""
+  },
+  {
+   "claim": "The AI cue detectors for hesitation and uncertainty had high recall but mostly false-positive errors, for example with less fluent English speakers or speakers who habitually raise pitch.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Errors were concentrated primarily in false positives. For hesitation, these sometimes occurred when speakers with relatively lower English fluency frequently used filler words and pauses throughout their speech.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Workload (NASA-TLX) did not differ significantly between the full system and the ablated version, despite more signals to monitor.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "NASA-TLX responses did not exhibit statistically significant differences between conditions (\\(p>0.05\\)).",
+   "segment_id": ""
+  },
+  {
+   "claim": "Participants adopted strategies such as deferring grounding, revisiting earlier evidence, and progressively moving from lightweight transcripts to audio rather than always going to the richest evidence.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Participants therefore did not consistently progress toward the richest available evidence.",
+   "segment_id": ""
+  },
+  {
+   "claim": "The authors argue AI summaries should serve as entry points into evidence rather than final interpretations, with evidence access designed progressively.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "these representations should function as entry points into evidence rather than final interpretations, allowing users to decide when further grounding is necessary.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Classroom speech capture raises privacy and data-access concerns even with anonymized audio; the authors suggest on-device processing as a future direction.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "collecting and processing classroom speech raises important privacy and data-access concerns",
+   "segment_id": ""
+  },
+  {
+   "claim": "The evaluation was a controlled lab study and does not show effects on real classroom practice or learning over sustained use.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "our main evaluation was conducted in a controlled laboratory setting and does not capture how ArguScale would affect classroom practice or student learning over sustained use",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent; academic research. Acknowledgements are placeholders (TBD). Authors disclose using Claude, Codex and ChatGPT for coding and writing support.",
+ "older_event": "Not an event-driven item. It is a new preprint published 2026-10-14; all content is new research, and it is not peer reviewed."
+}

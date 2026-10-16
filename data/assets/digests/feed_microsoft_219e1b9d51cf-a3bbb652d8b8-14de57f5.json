@@ -1,0 +1,25 @@
+{
+ "summary": "Microsoft's Windows developer blog announces general availability of WSL containers, a CLI (wslc.exe) and API for building and running Linux containers on Windows, plus new commands, Intune and Defender for Endpoint controls, partner integrations, and a roadmap including compose support. It is a developer-tooling release; AI is mentioned only as a motivating workload.",
+ "speakers_or_authors": "Microsoft Windows developer team (Windows Blog, vendor)",
+ "relevance": 0,
+ "relevance_reason": "Container tooling for developers and enterprise IT. It does not concern agents operating software, personal context, voice interfaces, or AI-driven OS interfaces. The only AI link is a passing mention of running local AI workloads.",
+ "themes": [],
+ "claims": [
+  {
+   "claim": "Microsoft says WSL containers is generally available, with a CLI (wslc.exe) and an API for running Linux containers from native Windows apps, including local AI workloads.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "WSL containers API: Access functions to run Linux containers programmatically in your native Windows apps – unlocking scenarios like running local AI workloads",
+   "segment_id": ""
+  },
+  {
+   "claim": "Microsoft says wslc delivers up to 2x faster access to Windows files from Linux environments.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "supporting up to 2x faster performance when accessing Windows files from Linux environments, helping reduce one of the most common cross-OS bottlenecks",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Vendor announcing its own product (Microsoft). No independent testing or user reports; performance claims are Microsoft's own.",
+ "older_event": "No. The item reports a new GA release dated 2026-09-29, following an earlier public preview."
+}

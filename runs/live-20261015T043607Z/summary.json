@@ -1,0 +1,347 @@
+{
+  "run_id": "live-20261015T043607Z",
+  "mode": "live",
+  "as_of_date": "2026-10-15",
+  "previous_run_id": "live-20261015T011645Z",
+  "note": "Option B: corrected project brief (student's question + 3 themes), theme-aware collection, policy v2",
+  "status": "awaiting_review",
+  "started_at": "2026-10-15T04:36:07Z",
+  "last_stage_finished_at": "2026-10-15T04:53:01Z",
+  "elapsed_seconds": 1014.0,
+  "counts": {
+    "discovered": 20,
+    "discovered_distinct_items": 20,
+    "duplicate_observations": 0,
+    "extracted": 20,
+    "new": 8,
+    "changed": 1,
+    "unchanged": 11,
+    "corpus_items_in_store": 60,
+    "eligible": 59,
+    "excluded": 1,
+    "excluded_by_reason": {
+      "outside_window": 1
+    },
+    "accepted": 24,
+    "rejected": 22,
+    "deferred": 13,
+    "briefs": 3,
+    "articles": 3,
+    "video_scripts": 3
+  },
+  "coverage": {
+    "eligible": {
+      "by_kind": {
+        "feed": 35,
+        "podcast": 11,
+        "youtube": 13
+      },
+      "independent_publishers": [
+        "ars-technica",
+        "arxiv",
+        "big-technology",
+        "claire-vo",
+        "ethan-mollick",
+        "google",
+        "microsoft",
+        "mkbhd",
+        "nate-b-jones",
+        "nngroup",
+        "road-to-vr",
+        "sam-witteveen",
+        "simon-willison",
+        "the-verge"
+      ],
+      "publisher_count": 14
+    },
+    "accepted": {
+      "by_kind": {
+        "feed": 11,
+        "podcast": 6,
+        "youtube": 7
+      },
+      "independent_publishers": [
+        "arxiv",
+        "big-technology",
+        "claire-vo",
+        "ethan-mollick",
+        "google",
+        "microsoft",
+        "mkbhd",
+        "nate-b-jones",
+        "nngroup",
+        "sam-witteveen",
+        "the-verge"
+      ],
+      "publisher_count": 11
+    },
+    "cited_in_briefs": {
+      "by_kind": {
+        "feed": 9,
+        "youtube": 3,
+        "podcast": 5
+      },
+      "independent_publishers": [
+        "arxiv",
+        "big-technology",
+        "claire-vo",
+        "ethan-mollick",
+        "google",
+        "microsoft",
+        "nate-b-jones",
+        "nngroup",
+        "sam-witteveen",
+        "the-verge"
+      ],
+      "publisher_count": 10
+    }
+  },
+  "coverage_limitations": {
+    "collection_complete": false,
+    "collectors": {
+      "feeds": {
+        "status": "incomplete",
+        "exit_code": 1
+      },
+      "youtube": {
+        "status": "completed",
+        "exit_code": 0
+      },
+      "podcasts": {
+        "status": "completed",
+        "exit_code": 0
+      }
+    },
+    "simulated_failures": [],
+    "items_failed_extraction": []
+  },
+  "stages": [
+    {
+      "stage": "fetch_feeds",
+      "status": "incomplete",
+      "exit_code": 1,
+      "input_count": 11,
+      "output_count": 0,
+      "started_at": "2026-10-15T04:36:07Z",
+      "finished_at": "2026-10-15T04:36:08Z",
+      "cost_usd": 0.0,
+      "note": "input_count = configured feed sources",
+      "receipt": "runs/live-20261015T043607Z/logs/fetch_feeds-20261015T043608-58f308.json"
+    },
+    {
+      "stage": "fetch_podcasts",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 11,
+      "started_at": "2026-10-15T04:36:07Z",
+      "finished_at": "2026-10-15T04:36:11Z",
+      "cost_usd": 0.0,
+      "note": "input_count = configured podcast sources",
+      "receipt": "runs/live-20261015T043607Z/logs/fetch_podcasts-20261015T043611-bb9bbf.json"
+    },
+    {
+      "stage": "fetch_youtube",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 9,
+      "started_at": "2026-10-15T04:36:07Z",
+      "finished_at": "2026-10-15T04:36:33Z",
+      "cost_usd": 0.0,
+      "note": "input_count = configured youtube sources",
+      "receipt": "runs/live-20261015T043607Z/logs/fetch_youtube-20261015T043633-d9db99.json"
+    },
+    {
+      "stage": "extract_content",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 20,
+      "output_count": 20,
+      "started_at": "2026-10-15T04:36:33Z",
+      "finished_at": "2026-10-15T04:43:31Z",
+      "cost_usd": 0.0,
+      "note": "extracted=9 reused_stored_version=11",
+      "receipt": "runs/live-20261015T043607Z/logs/extract_content-20261015T044331-77c534.json"
+    },
+    {
+      "stage": "collect_sources",
+      "status": "incomplete",
+      "exit_code": 1,
+      "input_count": 20,
+      "output_count": 59,
+      "started_at": "2026-10-15T04:36:07Z",
+      "finished_at": "2026-10-15T04:43:32Z",
+      "cost_usd": 0.0,
+      "note": "usable=true",
+      "receipt": "runs/live-20261015T043607Z/logs/collect_sources-20261015T044332-ce1160.json"
+    },
+    {
+      "stage": "filter_items",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 60,
+      "output_count": 59,
+      "started_at": "2026-10-15T04:43:32Z",
+      "finished_at": "2026-10-15T04:43:32Z",
+      "cost_usd": 0.0,
+      "note": "excluded: outside_window=1",
+      "receipt": "runs/live-20261015T043607Z/logs/filter_items-20261015T044332-b9aac3.json"
+    },
+    {
+      "stage": "store_upsert",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 20,
+      "output_count": 20,
+      "started_at": "2026-10-15T04:43:31Z",
+      "finished_at": "2026-10-15T04:43:32Z",
+      "cost_usd": 0.0,
+      "note": "changed=1 new=8 unchanged=11",
+      "receipt": "runs/live-20261015T043607Z/logs/store_upsert-20261015T044332-d70de8.json"
+    },
+    {
+      "stage": "select_items",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 59,
+      "output_count": 59,
+      "started_at": "2026-10-15T04:43:32Z",
+      "finished_at": "2026-10-15T04:47:55Z",
+      "cost_usd": 2.8221,
+      "note": "accept=24 defer=13 reject=22",
+      "receipt": "runs/live-20261015T043607Z/logs/select_items-20261015T044755-bf738a.json"
+    },
+    {
+      "stage": "create_briefs",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 59,
+      "output_count": 3,
+      "started_at": "2026-10-15T04:47:55Z",
+      "finished_at": "2026-10-15T04:50:56Z",
+      "cost_usd": 1.3075,
+      "note": "validation=valid quote_corrections=0",
+      "receipt": "runs/live-20261015T043607Z/logs/create_briefs-20261015T045056-d7bc79.json"
+    },
+    {
+      "stage": "write_articles",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 3,
+      "started_at": "2026-10-15T04:50:56Z",
+      "finished_at": "2026-10-15T04:51:53Z",
+      "cost_usd": 0.4782,
+      "note": "01:866w 02:885w 03:909w",
+      "receipt": "runs/live-20261015T043607Z/logs/write_articles-20261015T045153-ed731d.json"
+    },
+    {
+      "stage": "write_video_scripts",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 3,
+      "started_at": "2026-10-15T04:50:56Z",
+      "finished_at": "2026-10-15T04:53:00Z",
+      "cost_usd": 0.777,
+      "note": "01:638w 02:617w 03:696w",
+      "receipt": "runs/live-20261015T043607Z/logs/write_video_scripts-20261015T045300-eafe42.json"
+    },
+    {
+      "stage": "check_content",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 3,
+      "output_count": 1,
+      "started_at": "2026-10-15T04:53:00Z",
+      "finished_at": "2026-10-15T04:53:01Z",
+      "cost_usd": 0.0,
+      "note": "passed=true errors=0 warnings=4 review_id=58ac39607074",
+      "receipt": "runs/live-20261015T043607Z/logs/check_content-20261015T045301-c7d8c4.json"
+    },
+    {
+      "stage": "create_series",
+      "status": "completed",
+      "exit_code": 0,
+      "input_count": 59,
+      "output_count": 3,
+      "started_at": "2026-10-15T04:43:32Z",
+      "finished_at": "2026-10-15T04:53:01Z",
+      "cost_usd": 0.0,
+      "note": "awaiting human review: passed=true",
+      "receipt": "runs/live-20261015T043607Z/logs/create_series-20261015T045301-8d7bcc.json"
+    }
+  ],
+  "failed_or_incomplete_stages": [
+    {
+      "stage": "fetch_feeds",
+      "status": "incomplete",
+      "exit_code": 1,
+      "errors": []
+    },
+    {
+      "stage": "collect_sources",
+      "status": "incomplete",
+      "exit_code": 1,
+      "errors": [
+        {
+          "message": "a collection step exited 1 (see collection_status.json and that step's receipt)",
+          "subject": null,
+          "at": "2026-10-15T04:43:32Z"
+        }
+      ]
+    }
+  ],
+  "models": [
+    "claude-opus-5-5",
+    "claude-sonnet-5-5"
+  ],
+  "tools": [
+    "anthropic-api",
+    "bash",
+    "feedparser",
+    "ffmpeg",
+    "python",
+    "sqlite3",
+    "trafilatura",
+    "urllib",
+    "whisper.cpp(ggml-base.en.bin)",
+    "yt-dlp",
+    "yt-dlp 2026.08.19"
+  ],
+  "cost": {
+    "known_usd": 5.3848,
+    "by_stage_usd": {
+      "fetch_feeds": 0.0,
+      "fetch_podcasts": 0.0,
+      "fetch_youtube": 0.0,
+      "extract_content": 0.0,
+      "collect_sources": 0.0,
+      "filter_items": 0.0,
+      "store_upsert": 0.0,
+      "select_items": 2.8221,
+      "create_briefs": 1.3075,
+      "write_articles": 0.4782,
+      "write_video_scripts": 0.777,
+      "check_content": 0.0,
+      "create_series": 0.0
+    },
+    "stages_with_unknown_cost": [],
+    "basis": "Model costs computed from API token usage x snapshotted price table (estimate; excludes taxes/credits). Local tools (yt-dlp, whisper.cpp, ffmpeg) and public feeds are counted as $0 API cost."
+  },
+  "review": {
+    "review_id": "58ac39607074c2f7964f86cfe9ec884fa1630ff5aaaa22a624b3837325f0d6c1",
+    "passed": true,
+    "errors": 0,
+    "warnings": 4
+  },
+  "approval": null,
+  "package": null,
+  "publication_links": null,
+  "published": null,
+  "remaining_manual_actions": [
+    "Human editorial review: read articles/, video_scripts/, review.json and the evidence; record corrections; create approval.json (review/record_approval.sh), then: bash run.sh --package runs/live-20261015T043607Z",
+    "Collection was incomplete; see coverage_limitations and decide whether to rerun after fixing sources."
+  ]
+}

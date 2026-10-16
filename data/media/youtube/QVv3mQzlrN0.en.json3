@@ -1,0 +1,2581 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  } ],
+  "wpWinPositions": [ {
+  
+  } ],
+  "events": [ {
+    "tStartMs": 2432,
+    "dDurationMs": 2396,
+    "segs": [ {
+      "utf8": "All right, so Apple had a mini\nHome event today..."
+    } ]
+  }, {
+    "tStartMs": 4910,
+    "dDurationMs": 2075,
+    "segs": [ {
+      "utf8": "where they refreshed\ntheir Home lineup with..."
+    } ]
+  }, {
+    "tStartMs": 7067,
+    "dDurationMs": 902,
+    "segs": [ {
+      "utf8": "a new HomePod mini 2,"
+    } ]
+  }, {
+    "tStartMs": 8051,
+    "dDurationMs": 3059,
+    "segs": [ {
+      "utf8": "which has some new colors and a\nnew glowing display at the top that"
+    } ]
+  }, {
+    "tStartMs": 11192,
+    "dDurationMs": 1371,
+    "segs": [ {
+      "utf8": "matches your music's album art,"
+    } ]
+  }, {
+    "tStartMs": 12765,
+    "dDurationMs": 855,
+    "segs": [ {
+      "utf8": "a new Apple TV 4K..."
+    } ]
+  }, {
+    "tStartMs": 13702,
+    "dDurationMs": 996,
+    "segs": [ {
+      "utf8": "that has far-field mics"
+    } ]
+  }, {
+    "tStartMs": 14900,
+    "dDurationMs": 3153,
+    "segs": [ {
+      "utf8": "and a new remote with speakers so\nyou can always ask Siri to find it,"
+    } ]
+  }, {
+    "tStartMs": 18255,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "clever,"
+    } ]
+  }, {
+    "tStartMs": 19303,
+    "dDurationMs": 2027,
+    "segs": [ {
+      "utf8": "and a new device to tie\nthe Home all together"
+    } ]
+  }, {
+    "tStartMs": 21962,
+    "dDurationMs": 856,
+    "segs": [ {
+      "utf8": "called...\nHomeView..."
+    } ]
+  }, {
+    "tStartMs": 22900,
+    "dDurationMs": 1418,
+    "segs": [ {
+      "utf8": "They just, they never name it..."
+    } ]
+  }, {
+    "tStartMs": 24400,
+    "dDurationMs": 2070,
+    "segs": [ {
+      "utf8": "what you think they're gonna name it.\nBut yeah,"
+    } ]
+  }, {
+    "tStartMs": 26552,
+    "dDurationMs": 2325,
+    "segs": [ {
+      "utf8": "this was a real hole in\ntheir ecosystem for a while,"
+    } ]
+  }, {
+    "tStartMs": 28959,
+    "dDurationMs": 2279,
+    "segs": [ {
+      "utf8": "and if Apple wants to pull people from...\nthe Amazon"
+    } ]
+  }, {
+    "tStartMs": 31910,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and"
+    } ]
+  }, {
+    "tStartMs": 32954,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Google"
+    } ]
+  }, {
+    "tStartMs": 33998,
+    "dDurationMs": 1152,
+    "segs": [ {
+      "utf8": "Home ecosystems...\nthey needed something like this."
+    } ]
+  }, {
+    "tStartMs": 35470,
+    "dDurationMs": 1637,
+    "segs": [ {
+      "utf8": "Now that I've spent some\ntime with it though,"
+    } ]
+  }, {
+    "tStartMs": 37309,
+    "dDurationMs": 1041,
+    "segs": [ {
+      "utf8": "and I've digested everything,"
+    } ]
+  }, {
+    "tStartMs": 39270,
+    "dDurationMs": 1548,
+    "segs": [ {
+      "utf8": "I actually don't think this"
+    } ]
+  }, {
+    "tStartMs": 41020,
+    "dDurationMs": 1037,
+    "segs": [ {
+      "utf8": "first...\noffering..."
+    } ]
+  }, {
+    "tStartMs": 42139,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "is"
+    } ]
+  }, {
+    "tStartMs": 43183,
+    "dDurationMs": 1443,
+    "segs": [ {
+      "utf8": "very convincing.\nSo welcome to your hands-on..."
+    } ]
+  }, {
+    "tStartMs": 44708,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and first look"
+    } ]
+  }, {
+    "tStartMs": 45857,
+    "dDurationMs": 2373,
+    "segs": [ {
+      "utf8": "and everything you need to\nknow or might be wondering"
+    } ]
+  }, {
+    "tStartMs": 48742,
+    "dDurationMs": 891,
+    "segs": [ {
+      "utf8": "about this...\nApple..."
+    } ]
+  }, {
+    "tStartMs": 49715,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "HomeView."
+    } ]
+  }, {
+    "tStartMs": 50759,
+    "dDurationMs": 3166,
+    "segs": [ {
+      "utf8": "And I'm gonna try to make it quick\n'cause I just have a few key thoughts..."
+    } ]
+  }, {
+    "tStartMs": 54007,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "on this thing."
+    } ]
+  }, {
+    "tStartMs": 55336,
+    "dDurationMs": 983,
+    "segs": [ {
+      "utf8": "So the basic product..."
+    } ]
+  }, {
+    "tStartMs": 56401,
+    "dDurationMs": 984,
+    "segs": [ {
+      "utf8": "is this is a display..."
+    } ]
+  }, {
+    "tStartMs": 57467,
+    "dDurationMs": 2744,
+    "segs": [ {
+      "utf8": "that lives somewhere in your\nhouse as a dashboard or a hub..."
+    } ]
+  }, {
+    "tStartMs": 60293,
+    "dDurationMs": 845,
+    "segs": [ {
+      "utf8": "for your smart home."
+    } ]
+  }, {
+    "tStartMs": 61340,
+    "dDurationMs": 2559,
+    "segs": [ {
+      "utf8": "Kind of the equivalent of like\nthe Google Nest Hub Max..."
+    } ]
+  }, {
+    "tStartMs": 63981,
+    "dDurationMs": 1076,
+    "segs": [ {
+      "utf8": "or the Amazon Echo Hub..."
+    } ]
+  }, {
+    "tStartMs": 65139,
+    "dDurationMs": 2605,
+    "segs": [ {
+      "utf8": "So it serves as a controller or\na connector for all of the"
+    } ]
+  }, {
+    "tStartMs": 67826,
+    "dDurationMs": 1354,
+    "segs": [ {
+      "utf8": "other pieces of your smart home"
+    } ]
+  }, {
+    "tStartMs": 69382,
+    "dDurationMs": 1818,
+    "segs": [ {
+      "utf8": "tech.\nSo your thermostats, your doorbells,"
+    } ]
+  }, {
+    "tStartMs": 71402,
+    "dDurationMs": 2148,
+    "segs": [ {
+      "utf8": "your security cameras, et cetera.\nSo HomeView"
+    } ]
+  }, {
+    "tStartMs": 73752,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "has a 7-inch"
+    } ]
+  }, {
+    "tStartMs": 74796,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "square"
+    } ]
+  }, {
+    "tStartMs": 75840,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "touchscreen"
+    } ]
+  }, {
+    "tStartMs": 76884,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "sitting in this"
+    } ]
+  }, {
+    "tStartMs": 77928,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "color-matching base."
+    } ]
+  }, {
+    "tStartMs": 78972,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "It has speakers in it"
+    } ]
+  }, {
+    "tStartMs": 80016,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and a camera at the top,"
+    } ]
+  }, {
+    "tStartMs": 81183,
+    "dDurationMs": 2428,
+    "segs": [ {
+      "utf8": "and the display articulates\nup and down a little bit"
+    } ]
+  }, {
+    "tStartMs": 83813,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "on this little"
+    } ]
+  }, {
+    "tStartMs": 84857,
+    "dDurationMs": 1407,
+    "segs": [ {
+      "utf8": "arm...\nand it's mostly made of metal."
+    } ]
+  }, {
+    "tStartMs": 86346,
+    "dDurationMs": 2138,
+    "segs": [ {
+      "utf8": "Some people are saying\nthere's a little bit of"
+    } ]
+  }, {
+    "tStartMs": 89146,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "iMac...\nG4"
+    } ]
+  }, {
+    "tStartMs": 90190,
+    "dDurationMs": 1169,
+    "segs": [ {
+      "utf8": "inspiration...\nin there."
+    } ]
+  }, {
+    "tStartMs": 91441,
+    "dDurationMs": 1940,
+    "segs": [ {
+      "utf8": "I don't know,\nI kind of see it a little bit,"
+    } ]
+  }, {
+    "tStartMs": 93463,
+    "dDurationMs": 1619,
+    "segs": [ {
+      "utf8": "like maybe with that semicircle base."
+    } ]
+  }, {
+    "tStartMs": 95834,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "But"
+    } ]
+  }, {
+    "tStartMs": 96878,
+    "dDurationMs": 1016,
+    "segs": [ {
+      "utf8": "there's also rumors of another one coming"
+    } ]
+  }, {
+    "tStartMs": 98096,
+    "dDurationMs": 1389,
+    "segs": [ {
+      "utf8": "later with like a larger display"
+    } ]
+  }, {
+    "tStartMs": 100117,
+    "dDurationMs": 1021,
+    "segs": [ {
+      "utf8": "and a whole articulating"
+    } ]
+  }, {
+    "tStartMs": 101340,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "arm."
+    } ]
+  }, {
+    "tStartMs": 102384,
+    "dDurationMs": 1388,
+    "segs": [ {
+      "utf8": "That I could see a little bit more G4"
+    } ]
+  }, {
+    "tStartMs": 103974,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "in."
+    } ]
+  }, {
+    "tStartMs": 104886,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "But you know,\nthat's another story for another day."
+    } ]
+  }, {
+    "tStartMs": 105840,
+    "dDurationMs": 1033,
+    "segs": [ {
+      "utf8": "Now notably,"
+    } ]
+  }, {
+    "tStartMs": 107075,
+    "dDurationMs": 2067,
+    "segs": [ {
+      "utf8": "the Google Nest Hub Max,"
+    } ]
+  }, {
+    "tStartMs": 109344,
+    "dDurationMs": 1977,
+    "segs": [ {
+      "utf8": "$229.\nAmazon's Echo Hub,"
+    } ]
+  }, {
+    "tStartMs": 112113,
+    "dDurationMs": 2457,
+    "segs": [ {
+      "utf8": "$179.\nApple's HomeView,"
+    } ]
+  }, {
+    "tStartMs": 115470,
+    "dDurationMs": 2197,
+    "segs": [ {
+      "utf8": "$300.\nSo it's"
+    } ]
+  }, {
+    "tStartMs": 117869,
+    "dDurationMs": 1450,
+    "segs": [ {
+      "utf8": "not a deal-breaker, but that's"
+    } ]
+  }, {
+    "tStartMs": 119801,
+    "dDurationMs": 1246,
+    "segs": [ {
+      "utf8": "just where we're starting."
+    } ]
+  }, {
+    "tStartMs": 121129,
+    "dDurationMs": 1206,
+    "segs": [ {
+      "utf8": "So then the first interesting note"
+    } ]
+  }, {
+    "tStartMs": 123127,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "is there's actually"
+    } ]
+  }, {
+    "tStartMs": 124171,
+    "dDurationMs": 1710,
+    "segs": [ {
+      "utf8": "two versions of the HomeView.\nThere's a version"
+    } ]
+  }, {
+    "tStartMs": 126083,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "on a stand,"
+    } ]
+  }, {
+    "tStartMs": 127127,
+    "dDurationMs": 948,
+    "segs": [ {
+      "utf8": "which you've seen, this metal base,"
+    } ]
+  }, {
+    "tStartMs": 128897,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "or"
+    } ]
+  }, {
+    "tStartMs": 129941,
+    "dDurationMs": 866,
+    "segs": [ {
+      "utf8": "there's a wall-mounted version."
+    } ]
+  }, {
+    "tStartMs": 131309,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "And this is"
+    } ]
+  }, {
+    "tStartMs": 132353,
+    "dDurationMs": 2308,
+    "segs": [ {
+      "utf8": "already where it starts to get\ninteresting because they're the same"
+    } ]
+  }, {
+    "tStartMs": 134863,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "price,"
+    } ]
+  }, {
+    "tStartMs": 135907,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "the same"
+    } ]
+  }, {
+    "tStartMs": 136818,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "$300.\nNow that's a little"
+    } ]
+  }, {
+    "tStartMs": 137862,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "odd to me to start"
+    } ]
+  }, {
+    "tStartMs": 138906,
+    "dDurationMs": 1174,
+    "segs": [ {
+      "utf8": "just because...\nthe speakers in the thing"
+    } ]
+  }, {
+    "tStartMs": 140282,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "are split"
+    } ]
+  }, {
+    "tStartMs": 141326,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "between...\nthe display part"
+    } ]
+  }, {
+    "tStartMs": 142346,
+    "dDurationMs": 897,
+    "segs": [ {
+      "utf8": "and the base part."
+    } ]
+  }, {
+    "tStartMs": 143340,
+    "dDurationMs": 1230,
+    "segs": [ {
+      "utf8": "So there are dual speakers"
+    } ]
+  }, {
+    "tStartMs": 144772,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "in the display,"
+    } ]
+  }, {
+    "tStartMs": 145684,
+    "dDurationMs": 2233,
+    "segs": [ {
+      "utf8": "but then they also have a\nlower frequency woofer..."
+    } ]
+  }, {
+    "tStartMs": 147999,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "in that base"
+    } ]
+  }, {
+    "tStartMs": 149043,
+    "dDurationMs": 999,
+    "segs": [ {
+      "utf8": "to give you the fuller sound."
+    } ]
+  }, {
+    "tStartMs": 150124,
+    "dDurationMs": 2314,
+    "segs": [ {
+      "utf8": "So of course the wall-mounted version,\nsince it doesn't have..."
+    } ]
+  }, {
+    "tStartMs": 152520,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "the base,"
+    } ]
+  }, {
+    "tStartMs": 153523,
+    "dDurationMs": 1848,
+    "segs": [ {
+      "utf8": "no woofers.\nAnd then you"
+    } ]
+  }, {
+    "tStartMs": 155573,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "also"
+    } ]
+  }, {
+    "tStartMs": 156617,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "have to then"
+    } ]
+  }, {
+    "tStartMs": 157661,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "buy...\nthe adapter to"
+    } ]
+  }, {
+    "tStartMs": 158705,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "put it on the wall.\nSo you can choose"
+    } ]
+  }, {
+    "tStartMs": 159749,
+    "dDurationMs": 1037,
+    "segs": [ {
+      "utf8": "the one that's wall-mounted,"
+    } ]
+  }, {
+    "tStartMs": 160868,
+    "dDurationMs": 2003,
+    "segs": [ {
+      "utf8": "but it doesn't come with\nan adapter by default."
+    } ]
+  }, {
+    "tStartMs": 163553,
+    "dDurationMs": 1204,
+    "segs": [ {
+      "utf8": "You then buy the adapter too."
+    } ]
+  }, {
+    "tStartMs": 164839,
+    "dDurationMs": 2245,
+    "segs": [ {
+      "utf8": "So there's a $60 USB-C wall adapter,"
+    } ]
+  }, {
+    "tStartMs": 167286,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "or"
+    } ]
+  }, {
+    "tStartMs": 168330,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "an"
+    } ]
+  }, {
+    "tStartMs": 169374,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "$80"
+    } ]
+  }, {
+    "tStartMs": 170418,
+    "dDurationMs": 510,
+    "segs": [ {
+      "utf8": "AC adapter,"
+    } ]
+  }, {
+    "tStartMs": 170928,
+    "dDurationMs": 623,
+    "segs": [ {
+      "utf8": "or...\nthe $130..."
+    } ]
+  }, {
+    "tStartMs": 171633,
+    "dDurationMs": 898,
+    "segs": [ {
+      "utf8": "Power over Ethernet adapter."
+    } ]
+  }, {
+    "tStartMs": 172613,
+    "dDurationMs": 2133,
+    "segs": [ {
+      "utf8": "So if I'm getting this straight,\nthe wall-mounted version..."
+    } ]
+  }, {
+    "tStartMs": 174828,
+    "dDurationMs": 2280,
+    "segs": [ {
+      "utf8": "doesn't come with the adapter to\nactually attach it to the wall."
+    } ]
+  }, {
+    "tStartMs": 177190,
+    "dDurationMs": 2248,
+    "segs": [ {
+      "utf8": "You have to buy that separately.\nAnd..."
+    } ]
+  }, {
+    "tStartMs": 179438,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "it sounds worse"
+    } ]
+  }, {
+    "tStartMs": 180482,
+    "dDurationMs": 1108,
+    "segs": [ {
+      "utf8": "'cause there's no woofer."
+    } ]
+  }, {
+    "tStartMs": 182580,
+    "dDurationMs": 1311,
+    "segs": [ {
+      "utf8": "And it only comes in silver or gray."
+    } ]
+  }, {
+    "tStartMs": 183973,
+    "dDurationMs": 1687,
+    "segs": [ {
+      "utf8": "None of the other colors\nare available for it."
+    } ]
+  }, {
+    "tStartMs": 186910,
+    "dDurationMs": 1166,
+    "segs": [ {
+      "utf8": "So why are they the same price?"
+    } ]
+  }, {
+    "tStartMs": 188608,
+    "dDurationMs": 1203,
+    "segs": [ {
+      "utf8": "Why do they cost the same amount?"
+    } ]
+  }, {
+    "tStartMs": 190013,
+    "dDurationMs": 1438,
+    "segs": [ {
+      "utf8": "I'm not sure I've figured that one out."
+    } ]
+  }, {
+    "tStartMs": 191533,
+    "dDurationMs": 1311,
+    "segs": [ {
+      "utf8": "But anyway, functionality."
+    } ]
+  }, {
+    "tStartMs": 192926,
+    "dDurationMs": 936,
+    "segs": [ {
+      "utf8": "Okay, so this thing"
+    } ]
+  }, {
+    "tStartMs": 194364,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "has..."
+    } ]
+  }, {
+    "tStartMs": 195276,
+    "dDurationMs": 2436,
+    "segs": [ {
+      "utf8": "an A18 chip inside,\nthey print these things at this point,"
+    } ]
+  }, {
+    "tStartMs": 197914,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and it has a new"
+    } ]
+  }, {
+    "tStartMs": 199321,
+    "dDurationMs": 1204,
+    "segs": [ {
+      "utf8": "operating system on top,"
+    } ]
+  }, {
+    "tStartMs": 201237,
+    "dDurationMs": 1144,
+    "segs": [ {
+      "utf8": "HomeView OS,\nor at least I"
+    } ]
+  }, {
+    "tStartMs": 202583,
+    "dDurationMs": 992,
+    "segs": [ {
+      "utf8": "think that's what it is."
+    } ]
+  }, {
+    "tStartMs": 203657,
+    "dDurationMs": 1707,
+    "segs": [ {
+      "utf8": "They never really named it, but it's not"
+    } ]
+  }, {
+    "tStartMs": 205876,
+    "dDurationMs": 2465,
+    "segs": [ {
+      "utf8": "iOS, it's not...\niPadOS, it's this new HomeView software."
+    } ]
+  }, {
+    "tStartMs": 208530,
+    "dDurationMs": 1397,
+    "segs": [ {
+      "utf8": "It is pretty familiar though..."
+    } ]
+  }, {
+    "tStartMs": 210009,
+    "dDurationMs": 1449,
+    "segs": [ {
+      "utf8": "And in fact, the more you use it,"
+    } ]
+  }, {
+    "tStartMs": 211540,
+    "dDurationMs": 3676,
+    "segs": [ {
+      "utf8": "the more you see elements borrowed from\nother operating systems that Apple makes,"
+    } ]
+  }, {
+    "tStartMs": 215418,
+    "dDurationMs": 1773,
+    "segs": [ {
+      "utf8": "like the customization...\nof the watch..."
+    } ]
+  }, {
+    "tStartMs": 217191,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "or...\nclock faces,"
+    } ]
+  }, {
+    "tStartMs": 218812,
+    "dDurationMs": 2098,
+    "segs": [ {
+      "utf8": "that's straight from the Apple Watch,\nvery much"
+    } ]
+  }, {
+    "tStartMs": 221412,
+    "dDurationMs": 985,
+    "segs": [ {
+      "utf8": "giant Apple Watch here."
+    } ]
+  }, {
+    "tStartMs": 222989,
+    "dDurationMs": 939,
+    "segs": [ {
+      "utf8": "There's complications,"
+    } ]
+  }, {
+    "tStartMs": 224510,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "modular faces,"
+    } ]
+  }, {
+    "tStartMs": 225589,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "et cetera."
+    } ]
+  }, {
+    "tStartMs": 226853,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "And then"
+    } ]
+  }, {
+    "tStartMs": 227897,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "you swipe up from the bottom"
+    } ]
+  }, {
+    "tStartMs": 228941,
+    "dDurationMs": 2106,
+    "segs": [ {
+      "utf8": "to get to your app drawer,\nwhich you can customize."
+    } ]
+  }, {
+    "tStartMs": 231129,
+    "dDurationMs": 1588,
+    "segs": [ {
+      "utf8": "You can throw some widgets in there."
+    } ]
+  }, {
+    "tStartMs": 232919,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "So it's"
+    } ]
+  }, {
+    "tStartMs": 233963,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "kind of like"
+    } ]
+  }, {
+    "tStartMs": 235007,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "an"
+    } ]
+  }, {
+    "tStartMs": 236051,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "iPhone"
+    } ]
+  }, {
+    "tStartMs": 237095,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "home screen."
+    } ]
+  }, {
+    "tStartMs": 238139,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "But to be perfectly clear,"
+    } ]
+  }, {
+    "tStartMs": 239183,
+    "dDurationMs": 106,
+    "segs": [ {
+      "utf8": "no"
+    } ]
+  }, {
+    "tStartMs": 239289,
+    "dDurationMs": 938,
+    "segs": [ {
+      "utf8": "App Store.\nNo..."
+    } ]
+  }, {
+    "tStartMs": 240309,
+    "dDurationMs": 1049,
+    "segs": [ {
+      "utf8": "App Store,\nno third-party apps will run on this"
+    } ]
+  }, {
+    "tStartMs": 241560,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "thing."
+    } ]
+  }, {
+    "tStartMs": 242604,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "It does support"
+    } ]
+  }, {
+    "tStartMs": 243648,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "the CarPlay standard.\nSo"
+    } ]
+  }, {
+    "tStartMs": 244692,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "apps that"
+    } ]
+  }, {
+    "tStartMs": 245736,
+    "dDurationMs": 1322,
+    "segs": [ {
+      "utf8": "use the CarPlay standard,\nyou'll be able to"
+    } ]
+  }, {
+    "tStartMs": 247260,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "beam"
+    } ]
+  }, {
+    "tStartMs": 248304,
+    "dDurationMs": 1153,
+    "segs": [ {
+      "utf8": "content from your...\niPhone to this display."
+    } ]
+  }, {
+    "tStartMs": 249539,
+    "dDurationMs": 1802,
+    "segs": [ {
+      "utf8": "We'll get more into that in a second, but"
+    } ]
+  }, {
+    "tStartMs": 251853,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "yeah, no"
+    } ]
+  }, {
+    "tStartMs": 252897,
+    "dDurationMs": 2352,
+    "segs": [ {
+      "utf8": "third-party apps.\nBut then this big headlining feature"
+    } ]
+  }, {
+    "tStartMs": 255751,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "is"
+    } ]
+  }, {
+    "tStartMs": 256795,
+    "dDurationMs": 2097,
+    "segs": [ {
+      "utf8": "fast account switching.\nThis is actually pretty clever."
+    } ]
+  }, {
+    "tStartMs": 259020,
+    "dDurationMs": 2272,
+    "segs": [ {
+      "utf8": "So up at the top here,\nit's kind of hard to see,"
+    } ]
+  }, {
+    "tStartMs": 261374,
+    "dDurationMs": 1411,
+    "segs": [ {
+      "utf8": "but there is a single camera..."
+    } ]
+  }, {
+    "tStartMs": 262867,
+    "dDurationMs": 1412,
+    "segs": [ {
+      "utf8": "that does facial recognition..."
+    } ]
+  }, {
+    "tStartMs": 264361,
+    "dDurationMs": 2567,
+    "segs": [ {
+      "utf8": "So when you walk up to the HomeView,\nit recognizes you,"
+    } ]
+  }, {
+    "tStartMs": 267010,
+    "dDurationMs": 1749,
+    "segs": [ {
+      "utf8": "and then it's able to give you answers"
+    } ]
+  }, {
+    "tStartMs": 269261,
+    "dDurationMs": 1219,
+    "segs": [ {
+      "utf8": "from your personal context,"
+    } ]
+  }, {
+    "tStartMs": 270682,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "like your messages"
+    } ]
+  }, {
+    "tStartMs": 272079,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and your calendar,"
+    } ]
+  }, {
+    "tStartMs": 273123,
+    "dDurationMs": 1768,
+    "segs": [ {
+      "utf8": "et cetera.\nSo if nobody's walked up to it or"
+    } ]
+  }, {
+    "tStartMs": 275093,
+    "dDurationMs": 2378,
+    "segs": [ {
+      "utf8": "nobody that it recognizes walks up to it,\nit still works."
+    } ]
+  }, {
+    "tStartMs": 277553,
+    "dDurationMs": 2034,
+    "segs": [ {
+      "utf8": "It just doesn't give that\npersonal information..."
+    } ]
+  }, {
+    "tStartMs": 279669,
+    "dDurationMs": 1947,
+    "segs": [ {
+      "utf8": "And you can choose...\nwhich information that is."
+    } ]
+  }, {
+    "tStartMs": 282198,
+    "dDurationMs": 1170,
+    "segs": [ {
+      "utf8": "But it can always do...\ntimers"
+    } ]
+  }, {
+    "tStartMs": 283570,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and..."
+    } ]
+  }, {
+    "tStartMs": 284482,
+    "dDurationMs": 2330,
+    "segs": [ {
+      "utf8": "ask Siri stuff and say the weather\nand play music and things like that."
+    } ]
+  }, {
+    "tStartMs": 286894,
+    "dDurationMs": 1403,
+    "segs": [ {
+      "utf8": "So for multi-person households,"
+    } ]
+  }, {
+    "tStartMs": 288969,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "it will,"
+    } ]
+  }, {
+    "tStartMs": 290013,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "based on who"
+    } ]
+  }, {
+    "tStartMs": 291057,
+    "dDurationMs": 1512,
+    "segs": [ {
+      "utf8": "walks up to it and who it recognizes,\nit will"
+    } ]
+  }, {
+    "tStartMs": 292771,
+    "dDurationMs": 1020,
+    "segs": [ {
+      "utf8": "actively switch between"
+    } ]
+  }, {
+    "tStartMs": 293993,
+    "dDurationMs": 1498,
+    "segs": [ {
+      "utf8": "different...\npersonal contexts and"
+    } ]
+  }, {
+    "tStartMs": 295693,
+    "dDurationMs": 1738,
+    "segs": [ {
+      "utf8": "different Apple accounts...\nseamlessly."
+    } ]
+  }, {
+    "tStartMs": 297513,
+    "dDurationMs": 3167,
+    "segs": [ {
+      "utf8": "Whoever walks up to it, boom,\nswitches to the new person's account."
+    } ]
+  }, {
+    "tStartMs": 301768,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Which, to be clear,"
+    } ]
+  }, {
+    "tStartMs": 303149,
+    "dDurationMs": 1269,
+    "segs": [ {
+      "utf8": "they've never done this before..."
+    } ]
+  }, {
+    "tStartMs": 304500,
+    "dDurationMs": 1884,
+    "segs": [ {
+      "utf8": "We've wanted them to do this before...\nbecause..."
+    } ]
+  }, {
+    "tStartMs": 306466,
+    "dDurationMs": 1187,
+    "segs": [ {
+      "utf8": "I've wanted this on...\niPads for"
+    } ]
+  }, {
+    "tStartMs": 307855,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "years...\nand"
+    } ]
+  }, {
+    "tStartMs": 308899,
+    "dDurationMs": 1076,
+    "segs": [ {
+      "utf8": "Apple would rather just...\nyou buy"
+    } ]
+  }, {
+    "tStartMs": 310647,
+    "dDurationMs": 1720,
+    "segs": [ {
+      "utf8": "more...\niPads for more people in your family,"
+    } ]
+  }, {
+    "tStartMs": 312449,
+    "dDurationMs": 2579,
+    "segs": [ {
+      "utf8": "but this has to live in a household\nwhere multiple people use it."
+    } ]
+  }, {
+    "tStartMs": 315640,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "So"
+    } ]
+  }, {
+    "tStartMs": 316684,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "fast account switching"
+    } ]
+  }, {
+    "tStartMs": 317728,
+    "dDurationMs": 2052,
+    "segs": [ {
+      "utf8": "is the clever thing.\nAnd this will work for up to six people."
+    } ]
+  }, {
+    "tStartMs": 320690,
+    "dDurationMs": 925,
+    "segs": [ {
+      "utf8": "Two things though."
+    } ]
+  }, {
+    "tStartMs": 322337,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "One,"
+    } ]
+  }, {
+    "tStartMs": 323381,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "this is not"
+    } ]
+  }, {
+    "tStartMs": 324425,
+    "dDurationMs": 2673,
+    "segs": [ {
+      "utf8": "full Face ID...\nSo just to be clear, it is just the single"
+    } ]
+  }, {
+    "tStartMs": 327300,
+    "dDurationMs": 1635,
+    "segs": [ {
+      "utf8": "12-megapixel Center Stage camera"
+    } ]
+  }, {
+    "tStartMs": 329447,
+    "dDurationMs": 938,
+    "segs": [ {
+      "utf8": "and then...\nno extra"
+    } ]
+  }, {
+    "tStartMs": 330997,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "IR"
+    } ]
+  }, {
+    "tStartMs": 332041,
+    "dDurationMs": 870,
+    "segs": [ {
+      "utf8": "or depth information.\nBut it also"
+    } ]
+  }, {
+    "tStartMs": 333443,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "pays attention to"
+    } ]
+  }, {
+    "tStartMs": 334487,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "if your"
+    } ]
+  }, {
+    "tStartMs": 335531,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "iPhone"
+    } ]
+  }, {
+    "tStartMs": 336575,
+    "dDurationMs": 128,
+    "segs": [ {
+      "utf8": "or"
+    } ]
+  }, {
+    "tStartMs": 336703,
+    "dDurationMs": 916,
+    "segs": [ {
+      "utf8": "Watch...\nis"
+    } ]
+  }, {
+    "tStartMs": 337833,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "nearby"
+    } ]
+  }, {
+    "tStartMs": 338784,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and was recently unlocked...\njust to"
+    } ]
+  }, {
+    "tStartMs": 339828,
+    "dDurationMs": 866,
+    "segs": [ {
+      "utf8": "double-check to make sure it was you."
+    } ]
+  }, {
+    "tStartMs": 340896,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "So in"
+    } ]
+  }, {
+    "tStartMs": 341940,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "theory,"
+    } ]
+  }, {
+    "tStartMs": 342984,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "if someone like"
+    } ]
+  }, {
+    "tStartMs": 344028,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "holds up a picture of you,"
+    } ]
+  }, {
+    "tStartMs": 344940,
+    "dDurationMs": 2230,
+    "segs": [ {
+      "utf8": "but you're somewhere else or you're\nasleep and your phone is locked for"
+    } ]
+  }, {
+    "tStartMs": 347252,
+    "dDurationMs": 1417,
+    "segs": [ {
+      "utf8": "a while or something like that,"
+    } ]
+  }, {
+    "tStartMs": 349491,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "it should not"
+    } ]
+  }, {
+    "tStartMs": 350535,
+    "dDurationMs": 1415,
+    "segs": [ {
+      "utf8": "be tricked by that.\nBut I do wonder how"
+    } ]
+  }, {
+    "tStartMs": 352152,
+    "dDurationMs": 1159,
+    "segs": [ {
+      "utf8": "good that is...\nand also how"
+    } ]
+  }, {
+    "tStartMs": 353513,
+    "dDurationMs": 1941,
+    "segs": [ {
+      "utf8": "well it will recognize\npeople in the dark..."
+    } ]
+  }, {
+    "tStartMs": 355536,
+    "dDurationMs": 1952,
+    "segs": [ {
+      "utf8": "since there's no infrared.\nBut then number two,"
+    } ]
+  }, {
+    "tStartMs": 358310,
+    "dDurationMs": 884,
+    "segs": [ {
+      "utf8": "no...\nvoice recognition,"
+    } ]
+  }, {
+    "tStartMs": 360096,
+    "dDurationMs": 1303,
+    "segs": [ {
+      "utf8": "which I was kind of surprised by."
+    } ]
+  }, {
+    "tStartMs": 361481,
+    "dDurationMs": 1428,
+    "segs": [ {
+      "utf8": "I figured they could have done this."
+    } ]
+  }, {
+    "tStartMs": 363111,
+    "dDurationMs": 1849,
+    "segs": [ {
+      "utf8": "You know, with Google's,\nI have a Google Home,"
+    } ]
+  }, {
+    "tStartMs": 365042,
+    "dDurationMs": 1261,
+    "segs": [ {
+      "utf8": "the Nest Hub Max and everything,"
+    } ]
+  }, {
+    "tStartMs": 366505,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "this"
+    } ]
+  }, {
+    "tStartMs": 367549,
+    "dDurationMs": 2022,
+    "segs": [ {
+      "utf8": "is how it's supposed to work.\nIt doesn't always work, but when"
+    } ]
+  }, {
+    "tStartMs": 369773,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "I ask for something,"
+    } ]
+  }, {
+    "tStartMs": 370817,
+    "dDurationMs": 2771,
+    "segs": [ {
+      "utf8": "it knows my voice, recognizes me,\nand so it gives me personal answers."
+    } ]
+  }, {
+    "tStartMs": 373670,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "If someone else"
+    } ]
+  }, {
+    "tStartMs": 374714,
+    "dDurationMs": 2686,
+    "segs": [ {
+      "utf8": "has a different account on it,\nit will give them their personal answers,"
+    } ]
+  }, {
+    "tStartMs": 378280,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "but..."
+    } ]
+  }, {
+    "tStartMs": 379192,
+    "dDurationMs": 1574,
+    "segs": [ {
+      "utf8": "that's not how the\nApple version will work."
+    } ]
+  }, {
+    "tStartMs": 380848,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "HomeView..."
+    } ]
+  }, {
+    "tStartMs": 381760,
+    "dDurationMs": 1927,
+    "segs": [ {
+      "utf8": "can only do that personal\ncontext if it sees you"
+    } ]
+  }, {
+    "tStartMs": 384229,
+    "dDurationMs": 1107,
+    "segs": [ {
+      "utf8": "in the general vicinity,"
+    } ]
+  }, {
+    "tStartMs": 385418,
+    "dDurationMs": 2295,
+    "segs": [ {
+      "utf8": "not if you're around the\ncorner or on the couch."
+    } ]
+  }, {
+    "tStartMs": 387795,
+    "dDurationMs": 1666,
+    "segs": [ {
+      "utf8": "Now, a couple other things I noticed..."
+    } ]
+  }, {
+    "tStartMs": 389543,
+    "dDurationMs": 1846,
+    "segs": [ {
+      "utf8": "There's no battery in here.\nSo while you can"
+    } ]
+  }, {
+    "tStartMs": 391591,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "pretty"
+    } ]
+  }, {
+    "tStartMs": 392635,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "easily"
+    } ]
+  }, {
+    "tStartMs": 393679,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "unplug it at the back,"
+    } ]
+  }, {
+    "tStartMs": 394723,
+    "dDurationMs": 1386,
+    "segs": [ {
+      "utf8": "it's not exactly useful\nuntil you plug it in again."
+    } ]
+  }, {
+    "tStartMs": 396311,
+    "dDurationMs": 1218,
+    "segs": [ {
+      "utf8": "But at least it's USB Type-C."
+    } ]
+  }, {
+    "tStartMs": 397611,
+    "dDurationMs": 1352,
+    "segs": [ {
+      "utf8": "That's actually kind of solid..."
+    } ]
+  }, {
+    "tStartMs": 399045,
+    "dDurationMs": 1442,
+    "segs": [ {
+      "utf8": "Theoretically, that makes it a bit"
+    } ]
+  }, {
+    "tStartMs": 400689,
+    "dDurationMs": 2837,
+    "segs": [ {
+      "utf8": "more transportable.\nAnd then it also has"
+    } ]
+  }, {
+    "tStartMs": 404028,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "thick"
+    } ]
+  }, {
+    "tStartMs": 405072,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "black...\nbezels,"
+    } ]
+  }, {
+    "tStartMs": 406116,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "which"
+    } ]
+  }, {
+    "tStartMs": 407160,
+    "dDurationMs": 2415,
+    "segs": [ {
+      "utf8": "might not be a big deal to you,\nbut remember the..."
+    } ]
+  }, {
+    "tStartMs": 409657,
+    "dDurationMs": 1717,
+    "segs": [ {
+      "utf8": "iMac?\nDo you remember"
+    } ]
+  }, {
+    "tStartMs": 411576,
+    "dDurationMs": 1186,
+    "segs": [ {
+      "utf8": "when they talked about the..."
+    } ]
+  }, {
+    "tStartMs": 412844,
+    "dDurationMs": 1840,
+    "segs": [ {
+      "utf8": "iMac and they switched this thing to...\nwhite"
+    } ]
+  }, {
+    "tStartMs": 414886,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "bezels"
+    } ]
+  }, {
+    "tStartMs": 415930,
+    "dDurationMs": 1005,
+    "segs": [ {
+      "utf8": "a couple years ago to make it, you know,"
+    } ]
+  }, {
+    "tStartMs": 417017,
+    "dDurationMs": 3195,
+    "segs": [ {
+      "utf8": "this more friendly family computer that\ncan be placed anywhere in the home?"
+    } ]
+  }, {
+    "tStartMs": 420294,
+    "dDurationMs": 1047,
+    "segs": [ {
+      "utf8": "I still remember that..."
+    } ]
+  }, {
+    "tStartMs": 421423,
+    "dDurationMs": 1235,
+    "segs": [ {
+      "utf8": "I remember them saying that."
+    } ]
+  }, {
+    "tStartMs": 423330,
+    "dDurationMs": 1047,
+    "segs": [ {
+      "utf8": "But then yet here we are"
+    } ]
+  }, {
+    "tStartMs": 424909,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "with black bezels"
+    } ]
+  }, {
+    "tStartMs": 426128,
+    "dDurationMs": 2834,
+    "segs": [ {
+      "utf8": "on the HomeView.\nMakes you think."
+    } ]
+  }, {
+    "tStartMs": 429060,
+    "dDurationMs": 2807,
+    "segs": [ {
+      "utf8": "But I generally,\nI do think that the most important part of"
+    } ]
+  }, {
+    "tStartMs": 432069,
+    "dDurationMs": 1994,
+    "segs": [ {
+      "utf8": "this product...\nis that the display looks..."
+    } ]
+  }, {
+    "tStartMs": 434145,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "pretty decent..."
+    } ]
+  }, {
+    "tStartMs": 435057,
+    "dDurationMs": 2241,
+    "segs": [ {
+      "utf8": "no matter what you think\nof the rest of the design."
+    } ]
+  }, {
+    "tStartMs": 437800,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "I think it looks"
+    } ]
+  }, {
+    "tStartMs": 439122,
+    "dDurationMs": 1608,
+    "segs": [ {
+      "utf8": "a little funky, but whatever.\nBut..."
+    } ]
+  }, {
+    "tStartMs": 440812,
+    "dDurationMs": 1777,
+    "segs": [ {
+      "utf8": "the LCD display itself...\nlooks fine."
+    } ]
+  }, {
+    "tStartMs": 442671,
+    "dDurationMs": 1000,
+    "segs": [ {
+      "utf8": "It gets up to 500 nits."
+    } ]
+  }, {
+    "tStartMs": 444443,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "I..."
+    } ]
+  }, {
+    "tStartMs": 445355,
+    "dDurationMs": 1545,
+    "segs": [ {
+      "utf8": "personally can't tell if\nit's higher refresh rate."
+    } ]
+  }, {
+    "tStartMs": 446982,
+    "dDurationMs": 3021,
+    "segs": [ {
+      "utf8": "I'm pretty sure it's 60Hz in the\nlittle time I interacted with it,"
+    } ]
+  }, {
+    "tStartMs": 450725,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "but it goes...\ndown"
+    } ]
+  }, {
+    "tStartMs": 451769,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "to 0.3 nits at its"
+    } ]
+  }, {
+    "tStartMs": 452813,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "lowest,"
+    } ]
+  }, {
+    "tStartMs": 453857,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and it has True Tone."
+    } ]
+  }, {
+    "tStartMs": 455115,
+    "dDurationMs": 2222,
+    "segs": [ {
+      "utf8": "And that's actually really\nimportant in the dark."
+    } ]
+  }, {
+    "tStartMs": 457419,
+    "dDurationMs": 1752,
+    "segs": [ {
+      "utf8": "If it's in like a bedroom or something,"
+    } ]
+  }, {
+    "tStartMs": 459863,
+    "dDurationMs": 859,
+    "segs": [ {
+      "utf8": "that means that this"
+    } ]
+  }, {
+    "tStartMs": 461314,
+    "dDurationMs": 1657,
+    "segs": [ {
+      "utf8": "super overpriced alarm clock could be"
+    } ]
+  }, {
+    "tStartMs": 463173,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "not"
+    } ]
+  }, {
+    "tStartMs": 464217,
+    "dDurationMs": 2054,
+    "segs": [ {
+      "utf8": "annoyingly bright.\nBut then it has a lot of the same..."
+    } ]
+  }, {
+    "tStartMs": 466353,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "quirks"
+    } ]
+  }, {
+    "tStartMs": 467397,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and"
+    } ]
+  }, {
+    "tStartMs": 468441,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "features"
+    } ]
+  }, {
+    "tStartMs": 469485,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "as"
+    } ]
+  }, {
+    "tStartMs": 470529,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "a HomePod."
+    } ]
+  }, {
+    "tStartMs": 471573,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "So"
+    } ]
+  }, {
+    "tStartMs": 472617,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "it still relies"
+    } ]
+  }, {
+    "tStartMs": 473661,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "on"
+    } ]
+  }, {
+    "tStartMs": 474705,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Siri,"
+    } ]
+  }, {
+    "tStartMs": 475749,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "in this case, the new Siri AI, which"
+    } ]
+  }, {
+    "tStartMs": 476793,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "has its ups and downs.\nIt's still kind of slow,"
+    } ]
+  }, {
+    "tStartMs": 477837,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "but"
+    } ]
+  }, {
+    "tStartMs": 478881,
+    "dDurationMs": 2045,
+    "segs": [ {
+      "utf8": "it does more stuff.\nAnd then it obviously will give you"
+    } ]
+  }, {
+    "tStartMs": 481128,
+    "dDurationMs": 1844,
+    "segs": [ {
+      "utf8": "a lot of first-party\napp responses to things."
+    } ]
+  }, {
+    "tStartMs": 483054,
+    "dDurationMs": 945,
+    "segs": [ {
+      "utf8": "If you ask it for music,"
+    } ]
+  }, {
+    "tStartMs": 484611,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Apple Music."
+    } ]
+  }, {
+    "tStartMs": 485655,
+    "dDurationMs": 833,
+    "segs": [ {
+      "utf8": "If you ask it for the calendar,"
+    } ]
+  }, {
+    "tStartMs": 487120,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Apple Calendar."
+    } ]
+  }, {
+    "tStartMs": 488032,
+    "dDurationMs": 2388,
+    "segs": [ {
+      "utf8": "But then also, just like a HomePod,\nyou can actually tap your..."
+    } ]
+  }, {
+    "tStartMs": 490502,
+    "dDurationMs": 1588,
+    "segs": [ {
+      "utf8": "iPhone to it to beam...\nwhatever content"
+    } ]
+  }, {
+    "tStartMs": 492292,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "was on your phone"
+    } ]
+  }, {
+    "tStartMs": 493450,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "to the HomeView,"
+    } ]
+  }, {
+    "tStartMs": 494494,
+    "dDurationMs": 1692,
+    "segs": [ {
+      "utf8": "and then it'll start\nplaying from the HomeView."
+    } ]
+  }, {
+    "tStartMs": 496268,
+    "dDurationMs": 1373,
+    "segs": [ {
+      "utf8": "So if you have music, Apple Music,"
+    } ]
+  }, {
+    "tStartMs": 498183,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "beam it,"
+    } ]
+  }, {
+    "tStartMs": 499227,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "starts playing on the HomeView."
+    } ]
+  }, {
+    "tStartMs": 500483,
+    "dDurationMs": 1931,
+    "segs": [ {
+      "utf8": "If you've got a link,\nif you're open in Safari,"
+    } ]
+  }, {
+    "tStartMs": 503006,
+    "dDurationMs": 2118,
+    "segs": [ {
+      "utf8": "beam it, it'll open in Safari...\non the HomeView."
+    } ]
+  }, {
+    "tStartMs": 505940,
+    "dDurationMs": 1870,
+    "segs": [ {
+      "utf8": "And if you have a FaceTime call going,\nyou can"
+    } ]
+  }, {
+    "tStartMs": 508012,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "actually"
+    } ]
+  }, {
+    "tStartMs": 509056,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "beam it"
+    } ]
+  }, {
+    "tStartMs": 510100,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "to the HomeView,"
+    } ]
+  }, {
+    "tStartMs": 511144,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and then it'll start up on that display"
+    } ]
+  }, {
+    "tStartMs": 512188,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "with that camera."
+    } ]
+  }, {
+    "tStartMs": 513100,
+    "dDurationMs": 1690,
+    "segs": [ {
+      "utf8": "But if you want to use\na third-party service,"
+    } ]
+  }, {
+    "tStartMs": 515542,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "basically you"
+    } ]
+  }, {
+    "tStartMs": 516587,
+    "dDurationMs": 1504,
+    "segs": [ {
+      "utf8": "AirPlay to it...\nSo I was told..."
+    } ]
+  }, {
+    "tStartMs": 518173,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "that...\nif..."
+    } ]
+  }, {
+    "tStartMs": 519085,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "the"
+    } ]
+  }, {
+    "tStartMs": 520129,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "app supports the CarPlay standard,"
+    } ]
+  }, {
+    "tStartMs": 521173,
+    "dDurationMs": 1125,
+    "segs": [ {
+      "utf8": "it will still...\nbe able to show"
+    } ]
+  }, {
+    "tStartMs": 522980,
+    "dDurationMs": 1356,
+    "segs": [ {
+      "utf8": "essentially from the...\niPhone"
+    } ]
+  }, {
+    "tStartMs": 524538,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "onto the HomeView."
+    } ]
+  }, {
+    "tStartMs": 525450,
+    "dDurationMs": 2129,
+    "segs": [ {
+      "utf8": "So it's not running\nnatively on the HomeView,"
+    } ]
+  }, {
+    "tStartMs": 527661,
+    "dDurationMs": 1009,
+    "segs": [ {
+      "utf8": "but stuff like Spotify"
+    } ]
+  }, {
+    "tStartMs": 529362,
+    "dDurationMs": 2100,
+    "segs": [ {
+      "utf8": "or SoundCloud...\nor other things like that..."
+    } ]
+  }, {
+    "tStartMs": 531544,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "can still"
+    } ]
+  }, {
+    "tStartMs": 532588,
+    "dDurationMs": 912,
+    "segs": [ {
+      "utf8": "play from a HomeView."
+    } ]
+  }, {
+    "tStartMs": 533790,
+    "dDurationMs": 872,
+    "segs": [ {
+      "utf8": "And sound quality was"
+    } ]
+  }, {
+    "tStartMs": 535564,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "fine."
+    } ]
+  }, {
+    "tStartMs": 536608,
+    "dDurationMs": 2162,
+    "segs": [ {
+      "utf8": "You know, it had that bass,\nso the subwoofer was there."
+    } ]
+  }, {
+    "tStartMs": 539462,
+    "dDurationMs": 1482,
+    "segs": [ {
+      "utf8": "It's a little bit low in max volume,"
+    } ]
+  }, {
+    "tStartMs": 541026,
+    "dDurationMs": 2613,
+    "segs": [ {
+      "utf8": "if I'm being honest. I kind of\nexpected it to be a bit louder,"
+    } ]
+  }, {
+    "tStartMs": 543721,
+    "dDurationMs": 959,
+    "segs": [ {
+      "utf8": "but it is pretty small."
+    } ]
+  }, {
+    "tStartMs": 545370,
+    "dDurationMs": 2477,
+    "segs": [ {
+      "utf8": "But at least it wasn't distorting...\nor sounding"
+    } ]
+  }, {
+    "tStartMs": 548049,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "truly bad"
+    } ]
+  }, {
+    "tStartMs": 549093,
+    "dDurationMs": 1487,
+    "segs": [ {
+      "utf8": "while trying to get extra loud."
+    } ]
+  }, {
+    "tStartMs": 550782,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "So I guess"
+    } ]
+  }, {
+    "tStartMs": 551826,
+    "dDurationMs": 1459,
+    "segs": [ {
+      "utf8": "that's the win...\nSo here's the deal."
+    } ]
+  }, {
+    "tStartMs": 553367,
+    "dDurationMs": 1283,
+    "segs": [ {
+      "utf8": "This is...\nmy take."
+    } ]
+  }, {
+    "tStartMs": 555797,
+    "dDurationMs": 2453,
+    "segs": [ {
+      "utf8": "You know,\nthe point of the product is clearly to"
+    } ]
+  }, {
+    "tStartMs": 558452,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "plug...\na hole..."
+    } ]
+  }, {
+    "tStartMs": 559364,
+    "dDurationMs": 1084,
+    "segs": [ {
+      "utf8": "in their ecosystem.\nLike,"
+    } ]
+  }, {
+    "tStartMs": 560530,
+    "dDurationMs": 2256,
+    "segs": [ {
+      "utf8": "Apple saw people going\nout and building their"
+    } ]
+  }, {
+    "tStartMs": 563318,
+    "dDurationMs": 2360,
+    "segs": [ {
+      "utf8": "Google smart homes or\ntheir Amazon smart homes,"
+    } ]
+  }, {
+    "tStartMs": 565760,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and they just..."
+    } ]
+  }, {
+    "tStartMs": 566672,
+    "dDurationMs": 2382,
+    "segs": [ {
+      "utf8": "wanted to offer something,\nsome equivalent stuff,"
+    } ]
+  }, {
+    "tStartMs": 569136,
+    "dDurationMs": 958,
+    "segs": [ {
+      "utf8": "so that people could"
+    } ]
+  }, {
+    "tStartMs": 570776,
+    "dDurationMs": 905,
+    "segs": [ {
+      "utf8": "come back to having"
+    } ]
+  }, {
+    "tStartMs": 571883,
+    "dDurationMs": 1892,
+    "segs": [ {
+      "utf8": "their stuff in Apple's ecosystem.\nSo..."
+    } ]
+  }, {
+    "tStartMs": 573857,
+    "dDurationMs": 1985,
+    "segs": [ {
+      "utf8": "they had to make some smart home stuff."
+    } ]
+  }, {
+    "tStartMs": 576010,
+    "dDurationMs": 2178,
+    "segs": [ {
+      "utf8": "You know,\nthey partnered with LG to make..."
+    } ]
+  }, {
+    "tStartMs": 578270,
+    "dDurationMs": 1363,
+    "segs": [ {
+      "utf8": "the Smart Home Collection..."
+    } ]
+  }, {
+    "tStartMs": 579715,
+    "dDurationMs": 1620,
+    "segs": [ {
+      "utf8": "so there's some new doorbells and"
+    } ]
+  }, {
+    "tStartMs": 581537,
+    "dDurationMs": 3221,
+    "segs": [ {
+      "utf8": "thermostats and security cameras\nnow that they worked with LG on"
+    } ]
+  }, {
+    "tStartMs": 585270,
+    "dDurationMs": 1363,
+    "segs": [ {
+      "utf8": "that meet Apple standards..."
+    } ]
+  }, {
+    "tStartMs": 586715,
+    "dDurationMs": 1569,
+    "segs": [ {
+      "utf8": "And now of course they make this"
+    } ]
+  }, {
+    "tStartMs": 588486,
+    "dDurationMs": 836,
+    "segs": [ {
+      "utf8": "HomeView display."
+    } ]
+  }, {
+    "tStartMs": 589490,
+    "dDurationMs": 3021,
+    "segs": [ {
+      "utf8": "But whenever we see a new product,\nwhenever I think about a new product,"
+    } ]
+  }, {
+    "tStartMs": 592593,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "I always"
+    } ]
+  }, {
+    "tStartMs": 593637,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "want to think about the"
+    } ]
+  }, {
+    "tStartMs": 594681,
+    "dDurationMs": 1134,
+    "segs": [ {
+      "utf8": "target demographic that they think"
+    } ]
+  }, {
+    "tStartMs": 596017,
+    "dDurationMs": 1067,
+    "segs": [ {
+      "utf8": "it's best for, that they're"
+    } ]
+  }, {
+    "tStartMs": 597286,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "aiming this"
+    } ]
+  }, {
+    "tStartMs": 598330,
+    "dDurationMs": 2360,
+    "segs": [ {
+      "utf8": "at.\nAnd I've been living with this"
+    } ]
+  }, {
+    "tStartMs": 600892,
+    "dDurationMs": 2075,
+    "segs": [ {
+      "utf8": "for...\nall day basically, and I cannot figure"
+    } ]
+  }, {
+    "tStartMs": 603479,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "any group"
+    } ]
+  }, {
+    "tStartMs": 604523,
+    "dDurationMs": 1102,
+    "segs": [ {
+      "utf8": "that this is actually...\nideal for."
+    } ]
+  }, {
+    "tStartMs": 605827,
+    "dDurationMs": 1781,
+    "segs": [ {
+      "utf8": "Like maybe, okay, I guess...\nin theory,"
+    } ]
+  }, {
+    "tStartMs": 607690,
+    "dDurationMs": 3400,
+    "segs": [ {
+      "utf8": "the complete casual who doesn't really\ncare about the price and just..."
+    } ]
+  }, {
+    "tStartMs": 611172,
+    "dDurationMs": 3497,
+    "segs": [ {
+      "utf8": "kind of likes that it's in the Apple\necosystem and the couple interesting"
+    } ]
+  }, {
+    "tStartMs": 614751,
+    "dDurationMs": 1487,
+    "segs": [ {
+      "utf8": "features of it connecting to the"
+    } ]
+  }, {
+    "tStartMs": 616440,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "iPhone,"
+    } ]
+  }, {
+    "tStartMs": 617484,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "that makes it cool, then"
+    } ]
+  }, {
+    "tStartMs": 618579,
+    "dDurationMs": 899,
+    "segs": [ {
+      "utf8": "sure, fine, I guess."
+    } ]
+  }, {
+    "tStartMs": 619560,
+    "dDurationMs": 3482,
+    "segs": [ {
+      "utf8": "But for like the super bleeding edge\nsmart home enthusiast who already"
+    } ]
+  }, {
+    "tStartMs": 623124,
+    "dDurationMs": 2515,
+    "segs": [ {
+      "utf8": "has a bunch of smart lights\nand is like ready to go"
+    } ]
+  }, {
+    "tStartMs": 625841,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "all"
+    } ]
+  }, {
+    "tStartMs": 626885,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "in"
+    } ]
+  }, {
+    "tStartMs": 627929,
+    "dDurationMs": 1481,
+    "segs": [ {
+      "utf8": "with a smart doorbell and a smart\nthermostat and a smart home,"
+    } ]
+  }, {
+    "tStartMs": 630262,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "well,"
+    } ]
+  }, {
+    "tStartMs": 631306,
+    "dDurationMs": 1082,
+    "segs": [ {
+      "utf8": "this ecosystem is still...\ndwarfed by"
+    } ]
+  }, {
+    "tStartMs": 632590,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "Amazon's..."
+    } ]
+  }, {
+    "tStartMs": 633502,
+    "dDurationMs": 1959,
+    "segs": [ {
+      "utf8": "and even Google's,\nand the value proposition..."
+    } ]
+  }, {
+    "tStartMs": 635543,
+    "dDurationMs": 2412,
+    "segs": [ {
+      "utf8": "of the display product\nthat lives in your kitchen"
+    } ]
+  }, {
+    "tStartMs": 638707,
+    "dDurationMs": 1802,
+    "segs": [ {
+      "utf8": "is not...\nthat different between them."
+    } ]
+  }, {
+    "tStartMs": 640591,
+    "dDurationMs": 1038,
+    "segs": [ {
+      "utf8": "So...\nI just imagine..."
+    } ]
+  }, {
+    "tStartMs": 641711,
+    "dDurationMs": 988,
+    "segs": [ {
+      "utf8": "anyone who gets this,"
+    } ]
+  }, {
+    "tStartMs": 643231,
+    "dDurationMs": 1140,
+    "segs": [ {
+      "utf8": "after like the first two"
+    } ]
+  }, {
+    "tStartMs": 644573,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "weeks"
+    } ]
+  }, {
+    "tStartMs": 645617,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "when the novelty"
+    } ]
+  }, {
+    "tStartMs": 646661,
+    "dDurationMs": 2152,
+    "segs": [ {
+      "utf8": "wears off,\nit's just going to be..."
+    } ]
+  }, {
+    "tStartMs": 648895,
+    "dDurationMs": 1732,
+    "segs": [ {
+      "utf8": "reduced to that...\nLCD square"
+    } ]
+  }, {
+    "tStartMs": 651109,
+    "dDurationMs": 3651,
+    "segs": [ {
+      "utf8": "attached to a speaker that\nlives in the corner somewhere."
+    } ]
+  }, {
+    "tStartMs": 655900,
+    "dDurationMs": 1949,
+    "segs": [ {
+      "utf8": "Once in a while you ask it for some"
+    } ]
+  }, {
+    "tStartMs": 658461,
+    "dDurationMs": 1397,
+    "segs": [ {
+      "utf8": "some music or for a timer,"
+    } ]
+  }, {
+    "tStartMs": 660060,
+    "dDurationMs": 1965,
+    "segs": [ {
+      "utf8": "or you ask Siri some stuff, and it's"
+    } ]
+  }, {
+    "tStartMs": 662227,
+    "dDurationMs": 2079,
+    "segs": [ {
+      "utf8": "fine at that, but it doesn't really..."
+    } ]
+  }, {
+    "tStartMs": 664388,
+    "dDurationMs": 2079,
+    "segs": [ {
+      "utf8": "bring any extra value...\non top of that"
+    } ]
+  }, {
+    "tStartMs": 667339,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "that's"
+    } ]
+  }, {
+    "tStartMs": 668383,
+    "dDurationMs": 2066,
+    "segs": [ {
+      "utf8": "convincing me that it's\nworth the extra price..."
+    } ]
+  }, {
+    "tStartMs": 670531,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "So yeah,"
+    } ]
+  }, {
+    "tStartMs": 671443,
+    "dDurationMs": 1802,
+    "segs": [ {
+      "utf8": "my first impression is I think\nit's a skip for most people,"
+    } ]
+  }, {
+    "tStartMs": 673837,
+    "dDurationMs": 1337,
+    "segs": [ {
+      "utf8": "but maybe the second generation..."
+    } ]
+  }, {
+    "tStartMs": 675256,
+    "dDurationMs": 2254,
+    "segs": [ {
+      "utf8": "at some point when it comes\nout can be more convincing."
+    } ]
+  }, {
+    "tStartMs": 678415,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "We'll see..."
+    } ]
+  }, {
+    "tStartMs": 679327,
+    "dDurationMs": 1405,
+    "segs": [ {
+      "utf8": "Oh, by the way,\nyou guys totally crushed it"
+    } ]
+  }, {
+    "tStartMs": 680934,
+    "dDurationMs": 1516,
+    "segs": [ {
+      "utf8": "with the desk pad launch\nfrom the last video,"
+    } ]
+  }, {
+    "tStartMs": 682932,
+    "dDurationMs": 1019,
+    "segs": [ {
+      "utf8": "it's sold out of the smooth one"
+    } ]
+  }, {
+    "tStartMs": 684153,
+    "dDurationMs": 842,
+    "segs": [ {
+      "utf8": "already, which is amazing."
+    } ]
+  }, {
+    "tStartMs": 685077,
+    "dDurationMs": 1765,
+    "segs": [ {
+      "utf8": "We're trying to restock\nthat as quickly as possible."
+    } ]
+  }, {
+    "tStartMs": 687374,
+    "dDurationMs": 1871,
+    "segs": [ {
+      "utf8": "But like I said in that video,\nthe one that I prefer..."
+    } ]
+  }, {
+    "tStartMs": 689327,
+    "dDurationMs": 1552,
+    "segs": [ {
+      "utf8": "is the rough one with a\nlittle bit of texture,"
+    } ]
+  }, {
+    "tStartMs": 690961,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "and that one"
+    } ]
+  }, {
+    "tStartMs": 692005,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "is still available for now,"
+    } ]
+  }, {
+    "tStartMs": 692917,
+    "dDurationMs": 1420,
+    "segs": [ {
+      "utf8": "so I'll leave a link below\nif you still want to get it."
+    } ]
+  }, {
+    "tStartMs": 695029,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "But anyway,"
+    } ]
+  }, {
+    "tStartMs": 696073,
+    "dDurationMs": 830,
+    "segs": [ {
+      "utf8": "that's been it."
+    } ]
+  }, {
+    "tStartMs": 697273,
+    "dDurationMs": 1557,
+    "segs": [ {
+      "utf8": "Thank you very much,\nand thanks for watching,"
+    } ]
+  }, {
+    "tStartMs": 699700,
+    "dDurationMs": 1981,
+    "segs": [ {
+      "utf8": "and I'll catch you in the next one...\nPeace."
+    } ]
+  } ]
+}

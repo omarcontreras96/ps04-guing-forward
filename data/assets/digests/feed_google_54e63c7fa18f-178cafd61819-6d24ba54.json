@@ -1,0 +1,35 @@
+{
+ "summary": "A short Google developer-blog announcement that Gemini 4 Argon, described as a frontier model for long-horizon workflows such as code migrations, enterprise knowledge work and cybersecurity defense, is available via the paid Gemini API tier, AI Studio and Android Studio. Google AI Ultra subscribers can also use it in AI Studio and Google Antigravity, an agent-first development platform. The post links to developer guides and gives no usage data, user evidence or interface details.",
+ "speakers_or_authors": "Google (vendor blog post, Google Keyword: Gemini; no named author)",
+ "relevance": 1,
+ "relevance_reason": "This is a developer model-availability announcement. It only touches the computer-use agent theme by mentioning an agent-first development platform (Antigravity) and long-horizon workflows. It describes no consumer interface change, no hands-on evidence and no reliability or privacy data, and it is close to the excluded model-release news.",
+ "themes": [
+  "computer-use agents",
+  "model release (developer-focused)"
+ ],
+ "claims": [
+  {
+   "claim": "Google says Gemini 4 Argon is available to developers starting today as its frontier model for software engineering, enterprise knowledge work and cybersecurity defense.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "developers can build with Gemini 4 Argon, our frontier model for complex workflows across real-world software engineering, enterprise knowledge work, and cybersecurity defense.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google says the model is designed for long-horizon workflows needing deep reasoning, such as code migrations and frontier research, and handles multi-step problems with ease. This is a vendor claim with no supporting evidence in the post.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "designed for those long-horizon workflows that require deep reasoning and structural precision, including code migrations and frontier research.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Access is through the paid Gemini API tier in AI Studio and Android Studio. Google AI Ultra subscribers can use it in AI Studio and in Google Antigravity, which Google calls its agent-first development platform.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Google AI Ultra subscribers can try it in AI Studio, and our agent-first development platform, Google Antigravity.",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Vendor speaking about its own product. Google promotes its paid API tier, the AI Ultra subscription and its Antigravity platform. No independent evaluation is included.",
+ "older_event": "No. The item announces a launch dated 2026-10-13. It is a brief announcement with no performance data."
+}

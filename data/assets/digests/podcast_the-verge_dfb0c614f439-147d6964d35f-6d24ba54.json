@@ -1,0 +1,79 @@
+{
+ "summary": "A Vergecast special, 'Bear Lair', in which host David Pierce and senior AI reporter Hayden Field act as mock investors (fake money) hearing pitches from listeners about apps they built by vibe coding with Claude, Gemini and similar tools. Projects include a home dashboard replacing a Skylight tablet's software, a toddler meal and pantry tracker, a church sermon search tool, a photo-gathering app for funerals, a pain-tracking web app, a Pokemon card treemap and a bike-ride turnaround calculator. A short news segment at the start mentions Google Book laptops going on sale. Much of the item is banter, with sponsor reads from AWS AI.",
+ "speakers_or_authors": "David Pierce (host), Hayden Field (Verge senior AI reporter), Travis Larchak (producer), and listener guests John, Sarah, Eddie, Simon, Meals, Ruslan and Spencer",
+ "relevance": 1,
+ "relevance_reason": "The item is mostly about vibe coding, which is not one of the three themes. It offers only passing, anecdotal material: natural-language creation of personal software, a Claude-connected personal health log, and a brief Google Book launch mention. There is no evidence about computer-use agents, voice interfaces or personal-context devices.",
+ "themes": [
+  "vibe coding as personal software creation",
+  "personal data and AI analysis (health logging, searchable archives)",
+  "Google Book launch (news brief)",
+  "anecdotal hobbyist experience, not evidence"
+ ],
+ "claims": [
+  {
+   "claim": "Five Google Book laptops from five other manufacturers are on sale, running Android-based Google Book OS in place of Chrome OS; Google said not every Android app may run smoothly on the Intel models initially.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0003"
+  },
+  {
+   "claim": "Google told Android Authority that not every Android app may run smoothly on the Intel-based Google Books from the start.",
+   "basis": "secondhand",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0004"
+  },
+  {
+   "claim": "A listener rebuilt his wall-mounted family dashboard with AI, so he can ask Claude for new apps and connect to Home Assistant and task apps via MCP, but notes it costs a lot in tokens.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0012"
+  },
+  {
+   "claim": "A listener vibe-coded a church sermon search pipeline with Gemini, using Whisper transcription and summaries; hallucination was worse six months ago but seems better now. Short one-liners may not survive summarization.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0038"
+  },
+  {
+   "claim": "A listener built a pain-logging web app with Claude that exports CSV/JSON, which she then pulls into Claude for analysis. She deliberately avoided ingesting medication, food and cycle data, which she already tracks elsewhere.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0070"
+  },
+  {
+   "claim": "A non-programmer who built websites with Dreamweaver in the 90s built and launched a live full-stack photo-gathering app using Claude and Firebase.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0052"
+  },
+  {
+   "claim": "A cyclist used Gemini to produce a working ride calculator on the first try, then had it build a custom data field for his Garmin watch.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0083"
+  },
+  {
+   "claim": "Pierce says the pitched ideas were good and relatable, not weird one-offs, which he sees as the beauty of vibe coding.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0089"
+  },
+  {
+   "claim": "Pierce calls vibe coding one of the biggest trends in technology and the first way AI has found product-market fit.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0001"
+  }
+ ],
+ "commercial_interest": "AWS AI sponsor reads run through the episode. The Verge promotes its subscription. The bids are fake money, with no real investment.",
+ "older_event": "The item is mostly new (October 5, 2026): a listener pitch show. The Google Book news brief is current, since the laptops go on sale that day."
+}

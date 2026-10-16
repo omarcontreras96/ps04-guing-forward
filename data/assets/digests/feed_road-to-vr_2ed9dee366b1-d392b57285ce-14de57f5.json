@@ -1,0 +1,10 @@
+{
+ "summary": "Road to VR reports that SideQuest, the unofficial Quest game store, has simplified installation. Users now sign in with a Meta account and connect over Bluetooth for wireless ADB, with no developer account, USB cable or developer mode needed. The update also lets users install existing Steam game ports from inside the headset. The article is about sideloading on a VR headset, not AI interfaces.",
+ "speakers_or_authors": "Road to VR staff writer, quoting SideQuest CEO and co-founder Shane Harris (from a Reddit post)",
+ "relevance": 0,
+ "relevance_reason": "This is a VR sideloading and app-store convenience update. It has no AI, agent, personal-context or voice/conversational interface angle, so it is off-topic for the brief.",
+ "themes": [],
+ "claims": [],
+ "commercial_interest": "The SideQuest CEO is describing his own product's update; the article repeats his statements. No sponsorship is disclosed.",
+ "older_event": "No. This is a current product update (published 2026-10-13); the only older context is SideQuest's 2019 founding."
+}

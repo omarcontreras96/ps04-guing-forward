@@ -1,0 +1,30 @@
+{
+  "stage": "write_video_scripts",
+  "status": "incomplete",
+  "exit_code": 1,
+  "started_at": "2026-10-16T00:37:26Z",
+  "finished_at": "2026-10-16T00:38:44Z",
+  "input_count": 3,
+  "output_count": 2,
+  "tools": [
+    "anthropic-api"
+  ],
+  "models": [
+    "claude-opus-5-5"
+  ],
+  "model_calls": 2,
+  "tokens": {
+    "input": 21321,
+    "output": 14208
+  },
+  "cost_usd": 0.3694,
+  "cost_basis": "computed_from_token_usage_and_price_table",
+  "errors": [
+    {
+      "message": "script 03 failed: {'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4ysdnqvAuHrjyq9ir1S'}",
+      "subject": "03",
+      "at": "2026-10-16T00:38:44Z"
+    }
+  ],
+  "note": "01:688w 02:604w"
+}

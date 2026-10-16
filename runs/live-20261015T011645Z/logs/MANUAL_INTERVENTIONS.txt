@@ -1,0 +1,1 @@
+2026-10-15T01:20:20Z run.json rewritten by hand: run.sh bug (jq select on empty string) produced an empty file at start; values reconstructed from run_id/start time. Fixed in run.sh afterwards.

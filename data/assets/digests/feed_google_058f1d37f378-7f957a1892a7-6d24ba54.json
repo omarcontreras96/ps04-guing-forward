@@ -1,0 +1,65 @@
+{
+ "summary": "Google announces the launch of Guided Vision in Gemini Live on Android 9+ devices. Users share their camera and Gemini describes surroundings, reads fine print, locates objects, and gives spoken cues to reframe the camera. It was developed with Aira (tens of thousands of hours of visual interpretation data; 1,000+ trusted testers) and can be started from the Gemini app, accessibility shortcuts or TalkBack. Google says it can make mistakes and is not for navigation or obstacle detection.",
+ "speakers_or_authors": "Google (Gemini team), vendor blog post",
+ "relevance": 3,
+ "relevance_reason": "A shipped voice-and-camera conversational interface with a concrete, useful accessibility use case, and it explicitly states limits. It bears on the voice/conversational theme and the camera-as-context theme. It is vendor-only, with no independent user evidence.",
+ "themes": [
+  "Voice and conversational interfaces",
+  "Camera-based personal context",
+  "Accessibility",
+  "Vendor launch with stated safety limits"
+ ],
+ "claims": [
+  {
+   "claim": "Google is launching Guided Vision in Gemini Live across compatible Android devices, offering voice-forward, real-time visual interpretation for blind and low-vision users and others.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Today, we’re launching Guided Vision in Gemini Live across compatible Android devices — bringing voice-forward, real-time visual interpretation to people who are blind, have low vision, or want intuitive visual assistance.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google partnered with Aira, whose interpreters supplied tens of thousands of hours of data, and more than 1,000 Aira testers stress-tested the model.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "we partnered with Aira to visually interpret data for a total of tens of thousands of hours. More than 1,000 members of Aira’s Trusted Tester network helped stress-test and refine the model",
+   "segment_id": ""
+  },
+  {
+   "claim": "Gemini gives spoken prompts to help users reframe the camera when it is pointed too high, too close or off to the side.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "If your camera is pointed too high, too close, or slightly off to the side, Gemini provides natural verbal prompts to help you reframe",
+   "segment_id": ""
+  },
+  {
+   "claim": "Guided Vision handles everyday tasks such as reading small labels, finding dropped objects and checking whether clothes match.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Read small nutrition labels on food packages, decipher appliance dials and washing machine cycles, or read printed menus in dimly lit restaurants.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google says the tool can make mistakes and is not for navigation, safe travel or obstacle detection, and is no replacement for a white cane or other mobility aids.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "It is not a medical device, mobility aid, or white cane replacement, and it’s not intended for navigation, safe-travel guidance, or obstacle detection.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Guided Vision is available on Android 9 and above wherever Gemini Live is supported, and can be launched via the Gemini app, accessibility shortcuts or TalkBack.",
+   "basis": "announcement",
+   "locator_type": "text",
+   "quote": "Guided Vision is now available on Android devices running Android 9 and above in regions and languages where Gemini Live is supported.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Google says Guided Vision was built with the accessibility community and tested with blind and low-vision communities in several countries.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "It reflects extensive testing and feedback from blind and low-vision communities across India, Brazil, Singapore, Indonesia, Japan, and more",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Google is promoting its own product, and all claims come from the vendor with no independent testing or user reports. Aira is named as a partner.",
+ "older_event": "No. This is a launch announcement dated 2026-10-01. It mentions an earlier preview from earlier in the month, and the new element is general availability."
+}

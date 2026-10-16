@@ -1,0 +1,36 @@
+{
+  "collectors": {
+    "feeds": {
+      "status": "completed",
+      "exit_code": 0
+    },
+    "youtube": {
+      "status": "completed",
+      "exit_code": 0
+    },
+    "podcasts": {
+      "status": "completed",
+      "exit_code": 0
+    }
+  },
+  "extract_content": {
+    "exit_code": 1
+  },
+  "store_upsert": {
+    "exit_code": 0
+  },
+  "store_list": {
+    "exit_code": 0
+  },
+  "filter_items": {
+    "exit_code": 0
+  },
+  "counts": {
+    "candidates": 71,
+    "items": 68,
+    "eligible": 83
+  },
+  "simulated_failures": [],
+  "complete": false,
+  "usable": true
+}

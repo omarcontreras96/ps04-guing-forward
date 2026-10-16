@@ -1,0 +1,52 @@
+{
+ "summary": "9to5Google reports a leak, attributed to SammyGuru, of Samsung's first Android XR glasses. The leak lists specs (Snapdragon AR1 Gen 1, 12MP camera, 9-hour battery, weight from 41g), 25 frame styles from Warby Parker and Gentle Monster, and phone compatibility. Price and release date are unconfirmed, though other reports point to November 2026. The article covers hardware only and says nothing about how the glasses work or what the AI does.",
+ "speakers_or_authors": "Ben (9to5Google staff writer), citing a SammyGuru leak",
+ "relevance": 2,
+ "relevance_reason": "Smart glasses are the consumer devices driving the personal-context theme, and this is a competitor to Ray-Ban Meta. But the item is a leak of specs and styles, with no evidence on AI features, privacy or real use.",
+ "themes": [
+  "smart glasses",
+  "Android XR",
+  "personal-context devices",
+  "Ray-Ban Meta competition",
+  "Samsung hardware leak"
+ ],
+ "claims": [
+  {
+   "claim": "A leak says Samsung's Android XR glasses weigh as little as 41g, over 10g lighter than the nearest camera-equipped Ray-Ban Meta glasses.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "Samsung’s glasses will weigh as little as 41g, over 10g lighter than the nearest Ray-Ban Meta glasses with a camera",
+   "segment_id": ""
+  },
+  {
+   "claim": "The leaked specs list a Snapdragon AR1 Gen 1 chip, 12MP camera with 3K video, two speakers and four microphones, and a 9-hour battery (72 hours with case).",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "9-hour battery (72 hours with case)",
+   "segment_id": ""
+  },
+  {
+   "claim": "The glasses reportedly offer basic functionality on both Android phones and iPhone, while some Galaxy-only features require One UI 9 and Wear OS 7.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "certain Galaxy-only features require One UI 9 (Android 17) on your phone and Wear OS 7 on Galaxy Watch.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Warby Parker and Gentle Monster partnerships will supply many frame styles, with Gentle Monster offering prescription lenses.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "Gentle Monster, at least, will be offering its glasses with prescription lenses.",
+   "segment_id": ""
+  },
+  {
+   "claim": "Price and a firm release date are unclear, though other reports point to a November 2026 launch.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "Pricing and a firm release date for any of this remains unclear",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "None apparent. The article is independent journalism based on a third-party leak, with no sponsorship noted.",
+ "older_event": "No. The leak is new this week, but it builds on earlier reports of a November 2026 launch."
+}

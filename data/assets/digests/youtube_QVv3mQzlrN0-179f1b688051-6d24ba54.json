@@ -1,0 +1,66 @@
+{
+ "summary": "Marques Brownlee gives first impressions of Apple's HomeView, a $300 smart-home display with a 7-inch screen, A18 chip, new HomeView OS and the new Siri AI, announced at a mini Home event alongside a HomePod mini 2 and a new Apple TV 4K. The relevant part is its face-recognition-based fast account switching for up to six people, which unlocks personal context (messages, calendar) when it sees a recognized person. It has no voice recognition and no third-party apps. He concludes it is a skip for most people.",
+ "speakers_or_authors": "Marques Brownlee (MKBHD), consumer tech reviewer",
+ "relevance": 2,
+ "relevance_reason": "Most of the video is a conventional smart-home hardware review. The useful passage covers personal context on a shared device (camera-based recognition, no voice ID, privacy-tuned fallback) and a brief note on the new Siri AI. It is not about computer-use agents, and voice is only touched on.",
+ "themes": [
+  "personal context on shared devices",
+  "face recognition and account switching",
+  "Siri AI and voice assistants",
+  "smart home hardware",
+  "limited hands-on impressions"
+ ],
+ "claims": [
+  {
+   "claim": "HomeView uses a single camera to recognize who walks up and then gives answers from that person's personal context, such as messages and calendar. Unrecognized users still get timers, weather and music without personal data.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0008"
+  },
+  {
+   "claim": "Fast account switching switches between different people's personal contexts and Apple accounts for up to six people. Brownlee calls it clever and says Apple has not done this before.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0009"
+  },
+  {
+   "claim": "Recognition is not full Face ID: it uses a 12MP Center Stage camera with no IR or depth data, plus a check that a nearby iPhone or Watch was recently unlocked. Brownlee questions how well it works in the dark.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0010"
+  },
+  {
+   "claim": "HomeView has no voice recognition. It provides personal context only when it sees you nearby, unlike Google's Nest Hub Max, which recognizes his voice, although not always reliably.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0011"
+  },
+  {
+   "claim": "The new Siri AI on HomeView is still slow, though it does more than before, and it gives first-party app responses by default.",
+   "basis": "experience",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0014"
+  },
+  {
+   "claim": "There is no App Store and no third-party apps run natively. Apps using the CarPlay standard, or AirPlay, can show content from an iPhone.",
+   "basis": "announcement",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0007"
+  },
+  {
+   "claim": "Brownlee cannot identify an ideal buyer. He expects the novelty to wear off in two weeks, leaving a screen and speaker for timers and music, and calls it a skip for most people.",
+   "basis": "assertion",
+   "locator_type": "segment",
+   "quote": "",
+   "segment_id": "seg-0019"
+  }
+ ],
+ "commercial_interest": "No sponsorship disclosed for this video. The creator sells his own merchandise (a desk pad), mentioned at the end. Brownlee did not buy the product, and he notes he was told about CarPlay support by Apple.",
+ "older_event": "No. It covers an Apple Home event held the same day (the video was published 2026-10-13), so the product impressions are new. It is a first look with limited hands-on time, not long-term use."
+}

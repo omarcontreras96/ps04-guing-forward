@@ -1,0 +1,24 @@
+Is talking to AI, the way HAL worked in 2001, the best way to use it? This month's evidence suggests conversation is a strong way to hand off work and a weak way to check it. A blogger's voice-built feature, two HCI studies, a year with Alexa Plus and new research on trust all point the same way. Use voice or chat as a dispatcher, and keep a visual or structured view for anything you need to own.
+
+Full article: https://guingforward.substack.com/p/talk-to-delegate-look-to-check
+
+As of 2026-10-15
+
+Full article: https://guingforward.substack.com/p/talk-to-delegate-look-to-check
+As of 2026-10-15.
+
+Sources (timestamps link to the cited passage):
+- Simon Willison's Weblog, “A new feature for my blog, built using my voice” (2026-10-09): https://simonwillison.net/2026/Oct/9/built-using-my-voice/
+- arXiv cs.HC, “Plottery: A Code-Integrated GUI for Matplotlib” (2026-10-14): https://arxiv.org/abs/2610.14306
+- arXiv cs.HC, “Task-State Governance: A Virtual Machine for Verifiable and Recoverable GUI Agent Execution” (2026-10-15): https://arxiv.org/abs/2610.20100
+- The Vergecast, “The many pluses and minuses of Alexa Plus” (2026-10-08, at 08:51): https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8056613997.mp3
+- The Vergecast, “The many pluses and minuses of Alexa Plus” (2026-10-08, at 11:39): https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8056613997.mp3
+- arXiv cs.HC, “The AI's Poker Face: Contrasting Persuasion and Sycophancy in Voice-Based Multi-Turn Conversations” (2026-10-14): https://arxiv.org/abs/2610.14124
+- arXiv cs.HC, “Impact of Expertise and Trust on AI-assisted Work” (2026-10-14): https://arxiv.org/abs/2610.14660
+- Nielsen Norman Group, “Context Libraries: How AI Power Users Manage Context Engineering” (2026-10-09): https://www.nngroup.com/articles/context-libraries/
+- Sam Witteveen, “Microsoft Joins the Local AI Push” (2026-10-08, at 03:52): https://www.youtube.com/watch?v=CH1ciacnazE&t=232s
+- Windows Blog (Microsoft), “Building Windows for hybrid intelligence” (2026-10-07): https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+- UploadVR, “Meta's Smart Glasses Are Getting Its 'Muse' AI Agent” (2026-09-29): https://www.uploadvr.com/meta-smart-glasses-getting-muse-ai-agent/
+- Road to VR, “Norway Proposes Temporary Ban on Smart Glasses in Public Places” (2026-10-07): https://roadtovr.com/norway-proposes-temporary-ban-on-smart-glasses-in-public-places/
+
+Made with an AI-assisted pipeline: script drafted with Anthropic Claude from human-reviewed evidence; voiceover and visuals produced in Google Vids. Claims and sources were checked by a human editor.

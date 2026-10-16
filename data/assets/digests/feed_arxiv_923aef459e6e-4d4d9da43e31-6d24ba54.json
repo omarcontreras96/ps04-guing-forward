@@ -1,0 +1,87 @@
+{
+ "summary": "An arXiv cs.HC preprint (funded by Microsoft) reporting a think-aloud study of 20 professionals, split by data-science expertise and trust in AI, who used the same agentic tool (GitHub Copilot agent mode, Claude Sonnet) on a 30-minute data-science hiring task. Participants who delegated more completed more of the task but understood less and were more likely to produce invalid work. 11 of 15 submitted models contained label leakage, and none of those authors noticed it. Experts decomposed the task and scrutinized outputs. Novices pasted the brief and accepted what came back. Trust was linked to confidence and satisfaction, not to artifact quality. Stated delegation did not match observed delegation, especially for novices. The authors call the findings hypothesis-generating (N=20, one company, one task).",
+ "speakers_or_authors": "Qianou Ma and colleagues (Qianou Ma is named in the acknowledgements; the full author list is not given in the text). Work funded by Microsoft; research preprint, not peer reviewed.",
+ "relevance": 3,
+ "relevance_reason": "Provides user evidence on how people actually work with computer-use or coding agents: delegation, oversight, trust and verification failures. This speaks directly to the computer-use agents theme and the question of demo versus real use.",
+ "themes": [
+  "Computer-use agents",
+  "Delegation and oversight of agents",
+  "Trust and overreliance",
+  "Expertise and verification",
+  "Agent interface design implications"
+ ],
+ "claims": [
+  {
+   "claim": "Participants who delegated more completed more of the task but were also more likely to produce invalid solutions, and experts more often resisted this tradeoff by sacrificing completion to scrutinize outputs.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "participants who delegated more completed more of the task, but were also more likely to produce invalid solutions. Experts more often resisted this tradeoff",
+   "segment_id": ""
+  },
+  {
+   "claim": "Observed delegation was negatively correlated with notebook completeness and positively correlated with human understanding.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "observed delegation does significantly negatively correlate with completeness (\\(\\rho=-0.59^{**}\\), \\(p=.006\\)) but positively correlates with understanding (\\(\\rho=+0.73^{***}\\), \\(p=.001\\))",
+   "segment_id": ""
+  },
+  {
+   "claim": "11 of 15 submitted notebooks with trained models contained label leakage, and none of their authors (4 experts, 7 novices) noticed it.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "11 of the 15 submitted notebooks with implemented models contained label leakage, and none of those authors (4 experts, 7 novices) noticed.",
+   "segment_id": ""
+  },
+  {
+   "claim": "High-understanding participants produced notebooks less than half as complete as low-understanding participants (30.4% vs 76.1% mean completeness).",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "high-understanding participants produced notebooks that were less than half as complete (\\(M=30.4\\%,SD=36.0\\)) as those of low-understanding participants (\\(M=76.1\\%,SD=29.3\\))",
+   "segment_id": ""
+  },
+  {
+   "claim": "Trust in AI delegation correlated with confidence, engagement and satisfaction but not with the graded completeness or validity of the work.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Participants who reported more comfort delegating finished the session markedly more confident in an output whose measured validity or completeness was no better",
+   "segment_id": ""
+  },
+  {
+   "claim": "Stated delegation preferences diverged from observed behavior; novices overclaimed how involved they would be (mean gap +1.08, seven overclaiming and none underclaiming).",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Novices (\\(n=12\\)) show a mean gap of \\(+1.08\\), with seven overclaiming and none underclaiming; experts (\\(n=8\\)) show a mean gap of \\(-0.12\\)",
+   "segment_id": ""
+  },
+  {
+   "claim": "Surface review by novices, and asking the agent to check itself, did not catch the leakage; participants who did so reached 100% completion but missed it.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "Both P6 and P13 reached 100% task completion. However, neither caught the label leakage in their model",
+   "segment_id": ""
+  },
+  {
+   "claim": "In the human-only subtasks, defects that required checking a claim against its evidence were caught by almost nobody, while errors stated in the artifact's text were caught by most.",
+   "basis": "observation",
+   "locator_type": "text",
+   "quote": "defects that require checking a claim against its evidence were raised by almost nobody",
+   "segment_id": ""
+  },
+  {
+   "claim": "The authors argue that current agent interfaces assume a capable supervisor and that tools should use smaller increments, mandatory check-ins and automated self-verification, and should infer user expertise from behavior.",
+   "basis": "assertion",
+   "locator_type": "text",
+   "quote": "people need smaller increments, mandatory check-ins, and automatically triggered self-verification loops (or a foregrounded “what to check” surface) that do not assume the human will audit what comes back",
+   "segment_id": ""
+  },
+  {
+   "claim": "Contemporary agent interfaces make it easy to waive approvals and cede oversight, which pushes users to delegate beyond their expertise.",
+   "basis": "secondhand",
+   "locator_type": "text",
+   "quote": "Contemporary agent interfaces increasingly make it easy for users to waive approvals, suppress interruptions, and cede oversight to the agent",
+   "segment_id": ""
+  }
+ ],
+ "commercial_interest": "Funded by Microsoft. The study used GitHub Copilot (a Microsoft product) in agent mode, the task came from a major U.S. software company (the dataset is from Microsoft's vivainsights package), and participants were recruited at a large technology company. The findings are critical of agent defaults rather than promotional.",
+ "older_event": "Not an older event; a new preprint (published 2026-10-14). Its related-work section cites earlier studies, such as the METR-style developer slowdown result, but the primary study is new."
+}

@@ -1,0 +1,42 @@
+{
+  "stage": "extract_content",
+  "status": "incomplete",
+  "exit_code": 1,
+  "started_at": "2026-10-16T00:28:21Z",
+  "finished_at": "2026-10-16T00:30:37Z",
+  "input_count": 69,
+  "output_count": 66,
+  "tools": [
+    "urllib",
+    "trafilatura",
+    "yt-dlp",
+    "ffmpeg",
+    "whisper.cpp(ggml-base.en.bin)"
+  ],
+  "models": [],
+  "model_calls": 0,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "cost_usd": 0.0,
+  "cost_basis": "no_paid_api_calls",
+  "errors": [
+    {
+      "message": "extraction failed: ExtractionError: no substantive text (feed 89 words; page error: None)",
+      "subject": "feed:simon-willison:7e80df2842c6",
+      "at": "2026-10-16T00:28:22Z"
+    },
+    {
+      "message": "extraction failed: ExtractionError: no substantive text (feed 79 words; page error: None)",
+      "subject": "feed:simon-willison:5af1a93eb20f",
+      "at": "2026-10-16T00:28:22Z"
+    },
+    {
+      "message": "extraction failed: ExtractionError: no captions and audio download failed: ERROR: unable to download video data: HTTP Error 403: Forbidden",
+      "subject": "youtube:PseF3LyXQ04",
+      "at": "2026-10-16T00:28:32Z"
+    }
+  ],
+  "note": "extracted=8 reused_stored_version=58"
+}

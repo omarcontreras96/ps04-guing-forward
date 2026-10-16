@@ -1,0 +1,22 @@
+{
+  "stage": "fetch_youtube",
+  "status": "completed",
+  "exit_code": 0,
+  "started_at": "2026-10-16T00:27:52Z",
+  "finished_at": "2026-10-16T00:28:21Z",
+  "input_count": 3,
+  "output_count": 9,
+  "tools": [
+    "yt-dlp 2026.08.19"
+  ],
+  "models": [],
+  "model_calls": 0,
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "cost_usd": 0.0,
+  "cost_basis": "no_paid_api_calls",
+  "errors": [],
+  "note": "input_count = configured youtube sources"
+}

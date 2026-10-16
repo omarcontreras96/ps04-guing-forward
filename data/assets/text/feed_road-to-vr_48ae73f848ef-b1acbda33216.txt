@@ -1,0 +1,12 @@
+The launch of Meta VR Glasses next year will mark the first time any of the company’s standalone headsets has featured expandable storage. Now, Meta and Sandisk have partnered to offer official ‘Made for Meta’ microSD and USB-C flash drive storage options.
+The News
+Sandisk is set to be the exclusive provider of flash storage solutions for Meta VR Glasses, which are slated to launch in Spring 2027, priced at $1,300.
+Meta VR Glasses (128GB internal storage) are said to support microSD cards up to 1TB, although there’s still no word on what the recommended speed class should be for expandable storage.
+As an official ‘Made for Meta’ accessory though, both the Sandisk microSD Express memory cards and USB-C flash drives have been tested and certified to work with Meta VR Glasses, so you can bet we’ll learn more about storage standards closer to launch next year.
+And while there’s still no word on pricing, or what range of storage options will be available, official imagery shows the microSD in 1TB. An equivalent storage and speed option (without Meta branding) is priced at $360 direct from Sandisk.
+Provided the USB-C flash drive is similar to (if not a reskinned version of) Sandisk Extreme Fit USB-C, it would include USB 3.2 Gen 1 and up to 300MB/s read performance, and range in storage options from 64GB to 1TB.
+My Take
+Fitting VR Glasses with expandable storage is a shrewd maneuver by Meta. If we weren’t in a RAMpocalypse, and NAND flash memory weren’t so expensive, the company may have even offered its usual storage ladder, although it makes sense why it hasn’t.
+Nowadays, flash storage is likely a much larger component in the device’s bill of materials than in headsets past, which may have left Meta reticent to offer additional storage options beyond 128GB; outfitting with anything higher could have made the price of the headset significantly more expensive, and possibly even invite comparison to its biggest competitors.
+Expandable storage, meanwhile, lets Meta keep the entry price at $1,300 while leaving consumers to pay for additional capacity only if they need it. And with an emphasis on casual content consumption, multi-monitor screen mirroring for productivity and casual VR games, many may simply not need it anyway.
+The post Sandisk is Releasing Official ‘Made for Meta’ Expandable Storage for VR Glasses appeared first on Road to VR.

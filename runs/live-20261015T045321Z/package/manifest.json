@@ -1,0 +1,41 @@
+{
+  "run_id": "live-20261015T045321Z",
+  "as_of_date": "2026-10-15",
+  "review_id": "7404781cfb15766805f9eb44a548e39bddd66f8c795fcc59529ad22aeddc4b31",
+  "approved_by": "Omar Contreras",
+  "approved_at": "2026-10-16T00:25:47Z",
+  "packaged_at": "2026-10-16T00:54:42Z",
+  "pieces": [
+    {
+      "piece_id": "01",
+      "title": "The agent became the front door; the hardware is still auditioning",
+      "article": "runs/live-20261015T045321Z/package/articles/01.md",
+      "video_script": "runs/live-20261015T045321Z/package/video_scripts/01.md",
+      "youtube_description": "runs/live-20261015T045321Z/package/youtube/01_description.txt",
+      "source_notes": "runs/live-20261015T045321Z/package/sources/01.md"
+    },
+    {
+      "piece_id": "02",
+      "title": "A confirmation step is not verification",
+      "article": "runs/live-20261015T045321Z/package/articles/02.md",
+      "video_script": "runs/live-20261015T045321Z/package/video_scripts/02.md",
+      "youtube_description": "runs/live-20261015T045321Z/package/youtube/02_description.txt",
+      "source_notes": "runs/live-20261015T045321Z/package/sources/02.md"
+    },
+    {
+      "piece_id": "03",
+      "title": "Talk to delegate, look to check: what the '2001' question looks like in practice",
+      "article": "runs/live-20261015T045321Z/package/articles/03.md",
+      "video_script": "runs/live-20261015T045321Z/package/video_scripts/03.md",
+      "youtube_description": "runs/live-20261015T045321Z/package/youtube/03_description.txt",
+      "source_notes": "runs/live-20261015T045321Z/package/sources/03.md"
+    }
+  ],
+  "publication_links": "runs/live-20261015T045321Z/package/publication_links.json",
+  "manual_steps": "runs/live-20261015T045321Z/package/MANUAL_STEPS.md",
+  "published": {
+    "01": false,
+    "02": false,
+    "03": false
+  }
+}

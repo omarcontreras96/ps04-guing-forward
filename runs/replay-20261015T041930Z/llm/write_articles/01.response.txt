@@ -1,0 +1,52 @@
+# The real change this month: assistants that hold your keys, not assistants that talk better
+
+*Agents acting on people's accounts are already in daily use. The OS assistants from Apple, Google and Microsoft are still betas, first-generation hardware, or promises.*
+
+*As of 2026-10-15 · Edition evidence window: 2026-09-16 to 2026-10-15*
+
+Ethan Mollick had an airline credit about to expire, and his agent noticed it before he did. He writes that Meta's Muse spotted the expiring credit and, when he asked, contacted American Airlines to request an extension [01-c1].
+
+That errand is the most important interface change of the past month. The assistant did not talk better. It started the conversation, and it acted through accounts it already had access to.
+
+Here is how we rank the month's developments. First come proactive personal agents with access to your accounts. Second come OS and device assistants built on personal context. Third comes the agent plumbing on the desktop and in the Gemini app. No single source makes this ranking. It comes from reading the sources against each other.
+
+## 1. Agents that message you first
+
+Muse's design is built around the agent speaking first. On How I AI, Meta's Muse design director Alex Cornell said that "just simple things like the fact that an agent can message you proactively changes the nature of" the product (How I AI, 03:08) [01-c2]. He described a status line that tells you only that the agent "is working". It shows more if you tap: an engineer can see exactly what it has done, while "a normal person" may only want to know whether it is doing something (How I AI, 07:12) [01-c2].
+
+Put together, the evidence suggests these agents rank above the platform assistants. Mollick says one of his personal agents contacted him because a permit email he sent to his town had the wrong project number. A Vergecast host jokes about charging his Muse $250 each time it proactively reads his email, and says it is "only connected to my spam Gmail" (The Vergecast, 22:12). Another host praised Meta's approach of giving you "a little tiny Linux computer in the cloud" (The Vergecast, 57:22). Microsoft's equivalent, meanwhile, is still described as coming "in the coming months" [01-c8].
+
+The second half of that picture matters as much as the first. The new behaviour is handing over standing access to your accounts, and early users are already limiting how much they hand over.
+
+## 2. OS assistants: the useful part is search
+
+Apple's Siri AI began rolling out in beta, in English, on September 14. In Nielsen Norman Group's hands-on test, it found restaurant recommendations the author's brother had texted. ChatGPT searched the author's connected work accounts and found nothing [01-c5]. On The Vergecast, a host who is unimpressed overall said Siri AI "can search your text messages and email, like never before" and "it does work", while the "make sense of the world around me stuff" is missing (The Vergecast, 33:05) [01-c5].
+
+Two independent sources landed in the same place. The newly useful part of the OS assistant is retrieval from your own data, not conversation.
+
+New devices are moving toward personal context too, with caveats. Apple's $300 HomeView switches between up to six users by recognising faces. It uses a single camera with no depth or infrared sensing, plus a check that your iPhone or Watch is nearby and was recently unlocked (MKBHD, 05:15) [01-c6]. It has no voice recognition, so personal answers depend on it seeing you, "not if you're around the corner or on the couch" (MKBHD, 05:55) [01-c6]. Anyone it doesn't recognise becomes a new "unrecognized user" with limited capabilities (The Vergecast, 28:48) [01-c6].
+
+On Googlebook, Google headlines Magic Pointer. MKBHD found it is off by default. His favourite feature was semantic file search, which finds a file from a description when you've forgotten its name (MKBHD, 03:25). He also reports that most Play Store apps "are not built for Googlebook OS" yet (MKBHD, 06:47) [01-c7]. Again, the useful part is search over your own data. And the app ecosystem isn't there.
+
+## 3. Plumbing: shipped, but not yet what you'd use
+
+Microsoft made its agent sandbox, Microsoft Execution Containers (MXC), generally available on Windows 11 on October 7. It lets organisations set which files and networks agents can reach. The Copilot features that use local context and take actions are only "expected to begin rolling out on Copilot+ PCs in the coming months" [01-c4]. The containment shipped. The agent you would actually use has not.
+
+Google says paying Google AI Pro and Ultra subscribers can now switch the Gemini app from chat to a tasks mode that keeps working while they're away from the computer [01-c3]. That is a vendor description. We have no independent test of it.
+
+## What this ranking can't tell you
+
+The case for Muse leans on interested parties. One is Meta's own design director. Another is Mollick, who is promoting a book. The HomeView impressions come from about a day of use, and the Googlebook review from a week. Nobody has independently tested Gemini's tasks mode or Copilot's local actions, and the latter hasn't shipped. We found no usable evidence on smart glasses or wearables, so this ranking says nothing about them. Most of the evidence comes from US tech professionals.
+
+Three signals would change the order. Watch whether early users widen the access they give agents like Muse beyond accounts they treat as disposable. Watch whether Copilot's actions arrive on schedule and get tested by someone other than Microsoft. And watch whether Siri AI moves past retrieval when it leaves beta.
+
+## References
+
+- **[01-c1]** One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01. https://www.oneusefulthing.org/p/the-dot-and-the-swarm
+- **[01-c2]** How I AI (Claire Vo), "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)," podcast, 2026-10-12, 03:08–04:00 and 07:12–08:01. https://podcasters.spotify.com/pod/show/pen-name/episodes/How-Meta-designed-Muse-an-AI-agent-people-actually-want-to-talk-to--Alex-Cornell-Design-Director-e3q4g9k
+- **[01-c3]** Google Keyword, "Gemini 4 Argon comes to the Gemini app.," 2026-10-13. https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/
+- **[01-c4]** Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07. https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
+- **[01-c5]** Nielsen Norman Group, "The New Siri's Biggest Strength Is Not Intelligence," 2026-10-09. https://www.nngroup.com/articles/ai-assistant-context/ · The Vergecast, "The AI is in the computer," podcast, 2026-10-09, 33:05–33:54. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8833126862.mp3
+- **[01-c6]** Marques Brownlee (MKBHD), "Apple Homeview Impressions: Not Convinced!," YouTube, 2026-10-13, 05:15–05:55 and 05:55–06:27. https://www.youtube.com/watch?v=QVv3mQzlrN0&t=315s · The Vergecast, "HomeView: Apple just got serious about the smart home | Livestream," podcast, 2026-10-13, 28:48–29:36. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP9945514624.mp3
+- **[01-c7]** Google Keyword, "The latest AI news we announced in September 2026," 2026-10-02. https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/ · Marques Brownlee (MKBHD), "WTF is a Googlebook?," YouTube, 2026-10-08, 03:25–03:56 and 06:47–07:19. https://www.youtube.com/watch?v=_0G4OG39XjI&t=205s
+- **[01-c8]** The Vergecast, "The AI is in the computer," podcast, 2026-10-09, 22:12–22:58 and 57:22–58:11. https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8833126862.mp3 · One Useful Thing (Ethan Mollick), "The Dot and the Swarm," 2026-10-01. https://www.oneusefulthing.org/p/the-dot-and-the-swarm · Windows Blog (Microsoft), "Building Windows for hybrid intelligence," 2026-10-07. https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/
